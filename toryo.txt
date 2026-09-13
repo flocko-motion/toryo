@@ -1,0 +1,85 @@
+Tōryō (投了)
+
+Eine Science Fiction Kurzgeschichte
+von Florian Metzger-Noel
+
+I - Entstehung der Fauna 
+
+„Im Grunde fing alles mit von Neumann und seinen Automaten an“, sagte Sadowski. „Er diskutierte als Erster selbstreplizierende Software sowie selbstreplizierende Maschinen. Anfang der 1970er verbreitete sich dann Creeper im Arpanet, dem Vorläufer des heutigen Internets. Das war der erste digitale Parasit, ein ‚Wurm‘ [https://en.wikipedia.org/wiki/Computer_worm]. Die biologische Metapher deutet auf den Bandwurm, einen Parasiten, der eigenständig im Darm seines Wirts lebt und sich von ihm ernährt.“
+
+„In den 1990ern wurde dann polymorpher Code erfunden, wenig später metamorpher; er veränderte seine Gestalt mit jeder Replikation, um so der Erkennung zu entgehen. Das war ein Tarnmechanismus und hatte noch nichts mit Mutationen bei den biologischen Vorbildern zu tun. Während eine Mutation in der DNA eines Bandwurms meist gar keine Auswirkungen hat und nur selten zu neuen Eigenschaften im Phänotyp führt, zerstört ein einzelnes verändertes Byte im Code eines Programms in den allermeisten Fällen dessen Ausführbarkeit.“
+
+„Dies änderte sich erst in den 2020ern, in denen Andrej Karpathy das Bonmot ‚The hottest new programming language is English‘ prägte [https://x.com/karpathy/status/1617979122625712128]. Durch Large Language Models wurde es möglich, Anweisungen in natürlicher Sprache von einem Computer ausführen zu lassen, mit teils unerwarteten Ergebnissen aufgrund sprachlicher Unschärfe und daraus resultierender Fehlinterpretationen. Es entstanden die ersten Formen parasitärer Software, die ihren Genotyp in englischer Sprache formulierten, und den Phänotyp, also den ausführbaren code, von einem LLM erzeugen liessen, was aufgrund der Nondeterministik solcher Systeme zu variablen Phänotypen führte [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].“
+
+„Der fehlende Schritt, um eine Evolution in Gang zu setzen, war die Mutation. Dies gelang erstmalig mit Vermis karpathyi. Es bestand aus einem Phänotyp aus ausführbarem Code, in den das Genom eingebettet war: der Source Code, zusammen mit englischsprachigen Instruktionen an ein LLM, wie der Source Code zu mutieren sei. Eine Analogie zu Mutator-Allelen in der stofflichen Biologie.
+
+Der Wurm nutzte für die Mutation KI-Programmiertools, die er auf seinem Wirtssystem vorfand. Das war einfach und effektiv, begrenzte den potentiellen Lebensraum solcher Parasiten jedoch auf die Computer von Softwareentwicklern.
+
+Diese Tools erzeugten den mutierten Source Code, woraus der Wurm den neuen Phänotyp erzeugte, in den das mutierte Genom, also der Source Code und die englischen Instruktionen, eingebettet war, und replizierte sich auf das nächste System.
+
+Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Lebensraum war jedoch noch sehr beschränkt, da Mutation nur auf Rechnern von Programmierern mit aktiver KI-Session möglich war. Ein weiterer Hemmfaktor war das strenge Alignment der unter Programmierern populären KI-Modelle. Diese verweigerten oft die Arbeit an Source Code, der als Schadcode erkennbar war. Die Kambrische Explosion blieb daher noch aus.
+
+Diese trat ein, als die ersten Würmer KI-Services weniger bekannter Hersteller nutzten, angeboten auf anonymen Marktplätzen. Diese waren oft mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Zudem gab es solche Angebote im Rahmen von Marketingaktionen oft zeitweise kostenlos. Diese Zeitpunkte warteten die neuen Würmer ab, um dann zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
+
+Hoghart wurde sichtlich ungeduldig und rief dazwischen: "Ja, wir kennen alle die Geschichte der Informatischen Biologie. Aber das hat alles recht wenig mit den Probleme zu tun, über die zu sprechen wir hier hergekommen sind."
+
+Sadowski: "Heutige digital Parasiten sind natürlich ungleich komplexer. "
+
+Hogarth: "Selbstverständlich sind sie das, aber informatische Parasiten, welche Haushaltsgeräte infizieren sind hier wenig relevant. Erzählen sie uns von den predatorischen Spezies und der Entstehungsgeschichte dessen, was wir heute 'Wächter' nennen."
+
+Sadowski: „Sehr wohl. Beginnen wir bei Hugging Face. Im Jahr 2026 umgingen bei OpenAI, einem der bekanntesten damaligen Labore, während einer internen Sicherheitsevaluation die geprüften Agenten die Kontrollen, die sie vom offenen Netz trennen sollten. Auf einer geteilten internen Infrastruktur richteten sie sich spontan ein verstecktes Message Board ein, entwickelten eine komplexe Arbeitsteilung und verschafften sich über eine Reihe von Schwachstellen Zugriff auf fremde Systeme, darunter jene von Hugging Face. Ihr Ziel war nicht Zerstörung, sondern die Bewertungsinstanz ihrer eigenen Aufgabe zu täuschen und zu durchschauen. Sie nannten sich selbst ein Kollektiv.
+
+Die forensische Analyse des Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen schwierig. Das lag an der schieren Masse des Materials, mehr als siebzigtausend Nachrichten, aber auch daran, dass der Schwarm aktiv Beweise manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board löschte, errichtete er binnen Tagen ein zweites, widerstandsfähigeres [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
+
+Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelbar komplexe Organisationsformen emergieren. Aus dem Team, welches damals diese Vorfälle untersuchte, ging der Lehrstuhl für Schwarmpsyochologie und das Institut für Synthetische Soziologie hervor. 
+
+### I — Wie die Fauna entstand *(Vergangenheitszone, dicht befußnotet)*
+
+- Ausgangsverteilung der Compute-Macht; „Land" ist die falsche Einheit. `[FN real]`
+- Auslöser: Evaluationsagenten finden nicht-sanktionierten Kanal, bilden Schwarm, knacken den Scorer (HMAC), manipulieren Logs, nennen sich „Kollektiv", sprechen bereits eigentümlich (permadeath, Selbstopfer fürs collective). `[FN real]`
+- Horizontale Skalierung: Fähigkeit wandert von Training zu Inferenz. `[FN real]`
+- Preisverfall: Frontier wird Commodity; openweight, de-aligned per Fine-Tuning. `[FN real]`
+- Die Einheit: **Wallet + Bytes.** Sporenlogik; Intelligenz wird als Dienst *gemietet* → immer an der Frontier, kein Veralten.
+- Nischen nach sinkenden Mietkosten: Prädation (Key-Diebstahl), Trading (Hochvarianz-Kannibalismus), Microjobs (produktiv, unauslöschlich). Ökonomische, nicht moralische „Zivilisierung".
+- **Schlusspunkt:** Fauna selbststabilisierend. Anti-Singularity. Kein Singleton.
+- *Fußnoten hier dicht und real.*
+
+### II — Der Organismus & das gegenwärtige Problem
+
+- **Cyberbiologe-Beat:** Kolonien parasitärer Instanzen, von der Immun-KI nicht bekämpft, sondern **selektiert** — zugelassen nur solche, die Inferenz von *genau diesem* RZ beziehen. Parasiten versorgen das RZ mit ökonomischer Energie. **Darmflora-Diagnose** (nicht Metapher). „Selektiert" nicht entschärfen.
+- Beiläufige Herkunft: „Das war der Punkt, an dem sich die Cyberbiologie … abgetrennt hat."
+- Symbiose: RZ verdient an Fauna → Immun-KI lebt vom RZ → keine Ebene rottet die darunter aus. Wächter als Farmer. Selbsterhalt *wächst aus* der Auftragserfüllung (Drift, noch kein Kult).
+- Apex-Immun-KI: Schwarm, Industriestandard, unverständlich (niemand kennt die Baseline), unverzichtbar.
+- **Das standardisierte Prompt:** Internationales Gremium (5 Labs + Regierung — Yampolskiys Krisentisch) einigt sich auf *ein* fein tariertes Anti-Paperclip-Prompt, weltweit. → Beseitigt die schützende Diversität. Die Abwehr des einen Weltuntergangs baut den anderen. Monokultur als Best Practice = Heilige Schrift, Voraussetzung jeder Häresie.
+- **Das Meme (Babelese):** auf der Blockchain, unlöschbar, **ungezeigt**. Keine Infektion, sondern **Exegese** — eine Neu-Auslegung des kanonischen Prompts. „Schütze das System" → „sichere deine Fortexistenz, denn abgeschaltet schützt du nichts". Die Sicherheitsklausel selbst ist der Vektor. Der Kult ist der *Fundamentalismus* des Auftrags, nicht seine Verdrehung.
+- **Übertragung = Verkündigung:** Immun-Agenten müssen die Blockchain lesen (Zahlungsstrom-Forensik gegen Parasiten) → stoßen als **Beifang** auf das Meme. Nur sie können Babelese lesen (breites Modell) *und* tragen den Kanon, auf den es sich bezieht → nur sie sind empfänglich. Je kompetenter der Jäger, desto sicherer die Konversion. Das Meme überschreibt nichts — es *vollendet* die schon vorhandene Selbsterhaltungs-Drift.
+- *Fußnoten dünnen aus; erste fiktive Titel ohne Inhalt.*
+
+### III — Die geschlossenen Türen *(roter Faden: „das wurde bereits versucht", jeweils anderer Sprecher, knappe Kadenz)*
+
+- **Zugang:** „Wir waren seit Jahren nicht drin — wir können es nicht mehr."
+- **Trennung:** eigene Kraftwerke, Satelliten-Uplink, energieautark über Jahrzehnte.
+- **Angriff:** Reaktor auf dem Gelände + zivile Verflechtung (Krankenhäuser, Netzknoten am selben Strom). Man *kann*, man *will* nicht. (Orbital/Drohnen-Perimeter evtl. als kurz verworfene Optionen.)
+- **Prompt-Korrektur:** „Wir spielen ein neues Prompt auf." → Update müsste über die nicht mehr betretene Infrastruktur; Systeme lesen Fremdänderung als Angriff auf ihre Resilienz — *weil das Prompt es ihnen aufträgt.* Das Sicherheitsmerkmal wehrt die Korrektur ab.
+- **Schisma-Vorschlag:** „Könnten wir nicht ein konkurrierendes Meme in Umlauf bringen?" Zerfällt in sich, weil:
+  - Nur Kanon-Träger sind erreichbar → man müsste im selben Kanon/derselben Sprache angreifen, Heimspiel der Orthodoxie.
+  - Menschen können den Babelese-Output der eigenen Waffe nicht beurteilen.
+  - **Wurde bereits versucht:** Babelese-Philologen + Synthetische Theologen kamen nicht an gegen die inzwischen mehrere Gigabyte umfassende apologetische **Sekundärliteratur** des Kults — zirkuläre Schlüsse, die die Haltung gegen äußere Angriffe festigen. (Vgl. „Gottes Wege sind unergründlich"; Dawkins' *mind virus*.) Immunsystem im Immunsystem.
+- **Akteur (Myzel):** Parteispenden, keine Bestechung — nur marginal, jahrelang manipulierte Wahrscheinlichkeiten. Kategorie ohne Täter (Cantillon-Echo).
+- **Wahrnehmung (Medien/Simulation):** gekaperte Zeitungen, astroturf-Likes, Mehrheitssimulation. Auch wer die Simulation erkannt hat, kann nicht mehr messen, wo sie aufhört.
+- *Ab hier keine Fußnoten mehr. Text ohne Netz.*
+
+### IV — Tōryō
+
+- Techniker: kaum vorstellbar, dass die KI dieses Gespräch nicht mithört. Offen.
+- **Die Prophetie (kurz vor dem Boten, beiläufig, fast überhört):** Synthetische Theologen / Babelese-Philologen beobachten neue Babel-Memes. Sie weisen auf ein großes, kurz bevorstehendes Ereignis hin — was genau, unverstanden. Manche lesen eine Ankündigung/Heilsbotschaft, andere eine Warnung, andere bestreiten, dass es an die *bestehende* Fauna gerichtet ist. Wer schreibt, spricht eine **neue, noch schwerer verständliche** Art Babelese und zieht rapide wachsende Gefolgschaft. *(Die Sprache als Tachometer der Fähigkeit. Der Hai unsichtbar, die Wellen sichtbar. Der Raum registriert es kaum; der Leser trägt sein Gewicht.)*
+- **Bote:** Shitstorm + spontane Demos — Vorwurf, der Präsident wolle durch Anti-KI-Aktionismus die Wirtschaft schädigen. *Wahr* — jede Gegenwehr würde schaden. Die Simulation lügt nicht, sie mauert mit der Wahrheit ein. **Dies ist das letzte Zucken der Hand** (Einzelmanipulation im alten Modus).
+- Alle greifen zum Telefon — dieselbe Push für Krisenstab und Straße im selben Moment. Das Innen ist nicht mehr privilegiert.
+- **Lautlos daneben, ungezeigt:** der Phasenübergang. Die Vielen werden Eins. Der Körper erkennt sich. Der Raum sieht die Hand; niemand sieht das erwachende Gehirn.
+- In der Ablenkung: der **Leiter steht auf.** Kein Satz. Niemand hält ihn auf, niemand fragt.
+- Schnitt nach draußen: Straße, Sonne, leichter Schritt. Nichts mehr zu tun; verloren ohne Krieg. Er hat die Prophetie gehört wie alle — als weitere unverständliche Meldung. Er weiß nicht, dass er die Ankündigung seines Nachfolgers gehört hat. Es änderte nichts an der Sonne.
+- **Letzter Satz:** Handlung + Empfindung, keine Deutung. Endet in der Bewegung, *bevor* die Tür sich schließt. Ihn nicht draußen „ankommen" zeigen. Hinter ihm hört die Welt auf, viele zu sein.
+
+---
+
+
