@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{HEAD_TITLE}}</title>
+<style>
+  /* ---------- Palette: Washi-Papier & Sumi-Tinte ---------- */
+  :root {
+    --paper:      #f4f1e9;   /* warmes Washi */
+    --paper-edge: #efe9dc;
+    --ink:        #1c1a17;   /* Sumi, leicht warm */
+    --ink-soft:   #4a463f;
+    --ink-mute:   #8a8377;
+    --hairline:   #d9d2c2;
+    --shu:        #b7410e;   /* Vermillon / 朱 */
+    --shu-soft:   #c76a4a;
+    --measure:    42rem;     /* Satzbreite */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:      #16150f;
+      --paper-edge: #1d1b14;
+      --ink:        #e9e3d3;
+      --ink-soft:   #c4bea8;
+      --ink-mute:   #8c8674;
+      --hairline:   #33302a;
+      --shu:        #e06a43;
+      --shu-soft:   #c76a4a;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", "Hoefler Text", Georgia, "Times New Roman", serif;
+    font-size: clamp(1.02rem, 0.95rem + 0.4vw, 1.18rem);
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+  }
+
+  .page {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding-inline: max(1.4rem, 6vw);
+    padding-block: clamp(3rem, 12vh, 9rem);
+  }
+
+  /* ---------- Kopf: Schriftzeichen als Anker ---------- */
+  .masthead {
+    text-align: center;
+    margin-bottom: clamp(4rem, 16vh, 10rem);
+  }
+  .seal {
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP",
+                 "Songti SC", "SimSun", serif;
+    font-size: clamp(4.5rem, 26vw, 9rem);
+    line-height: 1;
+    color: var(--shu);
+    letter-spacing: 0.12em;
+    /* die beiden Zeichen atmen */
+    padding-left: 0.12em;
+    font-weight: 500;
+  }
+  .title {
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.2rem + 1.6vw, 2.1rem);
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;      /* letter-spacing optisch zentrieren */
+    text-transform: none;
+    margin: clamp(1.6rem, 5vh, 3rem) 0 0;
+    color: var(--ink);
+  }
+  .tagline {
+    margin-top: 2.2rem;
+    color: var(--ink-mute);
+  }
+  .subtitle {
+    font-style: italic;
+    letter-spacing: 0.02em;
+  }
+  .author {
+    margin-top: 0.35rem;
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+  }
+
+  /* ---------- Personen ---------- */
+  .dramatis {
+    margin: 0 auto clamp(4rem, 14vh, 8rem);
+    text-align: center;
+  }
+  .dramatis-label {
+    font-weight: 400;
+    font-size: 0.72rem;
+    letter-spacing: 0.4em;
+    text-indent: 0.4em;
+    text-transform: uppercase;
+    color: var(--shu);
+    margin: 0 0 1.6rem;
+  }
+  .cast {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+  }
+  .cast li {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+  .cast-name {
+    color: var(--ink);
+  }
+  .cast-role {
+    color: var(--ink-mute);
+    font-style: italic;
+  }
+  .cast-role::before {
+    content: ",\00a0";
+    font-style: normal;
+  }
+
+  /* ---------- Fliesstext ---------- */
+  .story p {
+    margin: 0 0 1.55em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  .story p::selection, .story ::selection {
+    background: rgba(183, 65, 14, 0.16);
+  }
+
+  /* Fussnoten-Marker */
+  .fn-ref {
+    font-size: 0.72em;
+    line-height: 0;
+    vertical-align: super;
+  }
+  .fn-ref a {
+    color: var(--shu);
+    text-decoration: none;
+    padding: 0 0.12em;
+  }
+  .fn-ref a:hover { text-decoration: underline; }
+
+  /* ---------- Ende-Marke ---------- */
+  .end {
+    text-align: center;
+    margin: clamp(3.5rem, 12vh, 7rem) 0 0;
+  }
+  .end span {
+    display: inline-block;
+    font-size: 0.72rem;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    position: relative;
+    padding-top: 2.4rem;
+  }
+  .end span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 1.4rem;
+    background: var(--hairline);
+  }
+
+  /* ---------- Anmerkungen / Endnoten ---------- */
+  .notes {
+    margin-top: clamp(4rem, 14vh, 8rem);
+    padding-top: 2.4rem;
+    border-top: 1px solid var(--hairline);
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  .notes-label {
+    font-weight: 400;
+    font-size: 0.68rem;
+    letter-spacing: 0.36em;
+    text-indent: 0.36em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 1.4rem;
+  }
+  .notes-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: note;
+  }
+  .notes-list li {
+    counter-increment: note;
+    position: relative;
+    padding-left: 2.1rem;
+    margin: 0.7rem 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    transition: color 0.4s ease;
+  }
+  .notes-list li::before {
+    content: counter(note);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.4rem;
+    text-align: right;
+    color: var(--shu);
+    font-variant-numeric: tabular-nums;
+  }
+  .notes-list li:target {
+    color: var(--ink);
+  }
+  .fn-link {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .fn-link:hover {
+    color: var(--shu);
+    border-bottom-color: var(--shu-soft);
+  }
+  .fn-back {
+    color: var(--ink-mute);
+    text-decoration: none;
+    margin-left: 0.3em;
+  }
+  .fn-back:hover { color: var(--shu); }
+
+  /* Ziel-Absatz beim Ruecksprung dezent markieren */
+  :target { scroll-margin-top: 20vh; }
+</style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="seal">{{TITLE_SEAL}}</div>
+      <h1 class="title">{{TITLE_MAIN}}</h1>
+      <div class="tagline">
+      {{TAGLINE}}
+      </div>
+    </header>
+
+    <section class="dramatis">
+      <h2 class="dramatis-label">Personen</h2>
+      <ul class="cast">
+        {{CAST}}
+      </ul>
+    </section>
+
+    <article class="story">
+      {{BODY}}
+    </article>
+
+    {{FOOTNOTES}}
+  </main>
+</body>
+</html>

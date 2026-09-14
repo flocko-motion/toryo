@@ -6,6 +6,8 @@
 
 **Diese Datei** hält das Material zusammen; Claude pflegt sie, Entscheidungen trifft Florian. Herkunft: unmarkiert = von Florian gesetzt oder übernommen; *Kandidat* = im Gespräch von Claude vorgeschlagen, nicht bestätigt. Quelle: `background-conversation.html`.
 
+**Arbeitsregel-Update (14.09.2026):** Standing GO für **alle Website-/Build-Arbeit** (`build.py`, `template.html`, `Makefile`, `toryo.html`, Iterationen daran) — kein Einzel-GO nötig. **Nur `toryo.txt` erfordert weiterhin GO** (konkreter Vorschlag + GO). CLAUDE.md unverändert (Änderung dort bräuchte GO).
+
 ---
 
 ## Grundprinzipien (nicht verhandelbar)
@@ -107,7 +109,8 @@
 
 - **Auftakt (Florian, `toryo.txt`, Überschrift „I – Entstehung der Fauna"):** Sadowski beginnt bei von Neumann und Creeper (erster digitaler Parasit, „Wurm"; Metapher Bandwurm, eigenständig im Darm des Wirts — Echo auf die Darmflora in II). Zeile 6 steht. URLs im Manuskript in eckigen Klammern `[https://…]`. `[FN real]`
 - **Brücke (Florian, `toryo.txt` Z. 10/12/14, Rohfassung steht).** Vorschlag 5 (Claude) damit hinfällig. Offen: Zitat wörtlich (Karpathy), Datierung metamorph (~2000, nicht 1990er), kleinere Grammatik; optional BlackMamba-Fußnote in Z. 12. Reale, befußnotete Sprossen, aufsteigend:
-  1. Poly-/metamorpher Code `[FN]` — Form mutiert, Funktion konstant: Obfuskation, nur Tarnung, spröde (ein falsches Byte tötet), zielt auf niemanden. (Z. 10 im Text; polymorph 1990er, metamorph „wenig später"/~2000.)
+  1. Poly-/metamorpher Code `[FN]` — Form mutiert, Funktion konstant: Obfuskation, nur Tarnung, spröde (ein falsches Byte tötet), zielt auf niemanden. (Z. 18 im Text; polymorph 1990er, metamorph „wenig später"/~2000.)
+     - **Unterscheidung verifiziert (14.09.2026), im Text jetzt scharf (schlanke Fassung, GO 2):** *polymorph* = gleichbleibender Kern, bei jeder Replikation neu verschlüsselt, hinter variablem Entschlüssler-Stub versteckt (entpackt konstant, per Signatur fassbar). *metamorph* = kein konstanter Kern; schreibt den eigenen Programmkörper um (Instruktionen umordnen, Müll einfügen, Register tauschen), ohne Verschlüsselung → nichts zum Fingerprinten, schwerer erkennbar. Pointe fürs Argument: beide funktionserhaltend → keine biologische Mutation. Quellen für spätere FN: `https://www.techtarget.com/cybersecurity/definition/metamorphic-and-polymorphic-malware`, `https://heimdalsecurity.com/blog/polymorphic-malware/`.
   2. Genetische Programmierung `[FN]` — Inhalt mutiert unter *definierter* Fitness; echt, aber zahm (Betreiber, gesetztes Ziel).
   3. BlackMamba 2023 `[FN]` — erstes Programm, das zur Laufzeit einen Verstand *mietet*; bleibt aber Obfuskation (Funktion konstant, keine Selektion, keine Ökonomie).
   - **Nähe BlackMamba ↔ Modell:** deckt genau den Expressions-Baustein (Prompt→LLM→ausgeführter Code, `exec()`, in-memory, kein C2) = das gemietete Ribosom, real belegt. Fehlt: (1) mutierende DNA (Prompt fix, entwicklergeschrieben), (2) Selektion (Funktion konstant), (3) Fortpflanzung + Stoffwechsel (erneuert nur sich selbst, keine Nachkommen, keine Wallet, Angreifer füttert). = Bakterium, das sein Ribosom mietet und immer dasselbe Protein neu verkleidet, sich aber nie teilt und sein Genom nie ändert. BlackMamba = Polymorphie (gleiche Funktion, neue Gestalt); Modell = Evolution (neue Funktion, selektiert). BlackMamba beweist die Zutat, nicht den Organismus.

@@ -1,12 +1,11 @@
 Tōryō (投了)
 
 Eine Science Fiction Kurzgeschichte
-von Florian Metzger-Noel
-
+von Florian Metzger-Noel, August 2026
 
 Personen
 
-Hogarth, der die Sitzung leitet
+Hogarth, Sitzungsleiter 
 Sadowski, Historiker
 Kessler, Rechenzentrums-Betreiber 
 Palmer, Ökonom
@@ -14,11 +13,9 @@ Merian, Informatische Biologin
 Gadamer, Synthetischer Theologe
 
 
-I - Entstehung der Fauna
-
 „Im Grunde fing alles mit von Neumann und seinen Automaten an“, sagte Sadowski. „Er diskutierte als Erster selbstreplizierende Software sowie selbstreplizierende Maschinen. Anfang der 1970er verbreitete sich dann Creeper im Arpanet, dem Vorläufer des heutigen Internets. Das war der erste digitale Parasit, ein ‚Wurm‘ [https://en.wikipedia.org/wiki/Computer_worm]. Die biologische Metapher deutet auf den Bandwurm, einen Parasiten, der eigenständig im Darm seines Wirts lebt und sich von ihm ernährt.“
 
-„In den 1990ern wurde dann polymorpher Code erfunden, wenig später metamorpher; er veränderte seine Gestalt mit jeder Replikation, um so der Erkennung zu entgehen. Das war ein Tarnmechanismus und hatte noch nichts mit Mutationen bei den biologischen Vorbildern zu tun. Während eine Mutation in der DNA eines Bandwurms meist gar keine Auswirkungen hat und nur selten zu neuen Eigenschaften im Phänotyp führt, zerstört ein einzelnes verändertes Byte im Code eines Programms in den allermeisten Fällen dessen Ausführbarkeit.“
+„In den 1990ern wurde dann polymorpher Code erfunden, wenig später metamorpher; ersterer verschlüsselt seinen gleichbleibenden Kern nur immer neu, letzterer schreibt seinen Programmkörper selbst um. Beides diente der Tarnung vor der Antivirus-Software und hatte mit biologischer Mutation noch nichts zu tun, denn die Funktion blieb dieselbe. Während eine Mutation in der DNA eines Bandwurms meist gar keine Auswirkungen hat und nur selten zu neuen Eigenschaften im Phänotyp führt, zerstört ein einzelnes verändertes Byte im Code eines Programms in den allermeisten Fällen dessen Ausführbarkeit.“
 
 „Dies änderte sich erst in den 2020ern, in denen Andrej Karpathy das Bonmot ‚The hottest new programming language is English‘ prägte [https://x.com/karpathy/status/1617979122625712128]. Durch Large Language Models wurde es möglich, Anweisungen in natürlicher Sprache von einem Computer ausführen zu lassen, mit teils unerwarteten Ergebnissen aufgrund sprachlicher Unschärfe und daraus resultierender Fehlinterpretationen. Es entstanden die ersten Formen parasitärer Software, die ihren Genotyp in englischer Sprache formulierten, und den Phänotyp, also den ausführbaren code, von einem LLM erzeugen liessen, was aufgrund der Nondeterministik solcher Systeme zu variablen Phänotypen führte [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].“
 
@@ -212,11 +209,13 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 "Können wir die Verbreitung dieser Memes stoppen?", fragte Hogarth.
 
-"Diesen Zeitpunkt haben wir längst verpasst, die kanonischen Texte sind inziwschen millioinenfach repliziert, in Foren, Blockchains, Source Code Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden sie versuchen, die Bibel zu verbieten um das Christintum aufzuhalten."
+„Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
 
-"Aber wir könnten das Systemprompt ändern?", fragte Sadowski. "War ist nicht eben jenes, welches die Systeme so angreifbar machte? Die Monokultur?"
+„Aber wir könnten das Systemprompt ändern?", fragte Sadowski. „War es nicht eben jenes, welches die Systeme so angreifbar machte? Die Monokultur?"
 
-"Anfangs ja. Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
+„Anfangs ja", sagte Gadamer. „Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
+
+„The hottest new programming language is Babelese", scherzte Sadowski.
 
 „Wir können das nicht einmal versuchen, da wir keine Zugriffsrechte auf die Systeme haben. Die liegen treuhänderisch bei den Wächtern", ergänzte Kessler.
 
@@ -224,7 +223,7 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 „Das war vielleicht bis in die späten 1990er Jahre noch möglich. Wenn sie heute die Systeme abschalten würden, was durch die unterbrechungsfreie Stromversorgung mittels der integrierten Atomreaktoren verhindert wird, würden sie damit auf einen Schlag sämtliche kritische Infrastruktur des Landes abschalten. Krankenhäuser, Wasserversorgung, Stromversorgung, Finanzsystem, Kommunikationssysteme, die Liste hat kein Ende", erwiderte Kessler.
 
-„Die Wächter würden dies auch kaum zulassen, das würde einen heiligen Krieg auslösen", Gadamer weiter aus.
+„Die Wächter würden dies auch kaum zulassen, das würde einen heiligen Krieg auslösen", führte Gadamer weiter aus.
 
 „Allein der Versuch, nein allein die Diskussion über den Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds würden aufgrund der potentiellen Gefährdung Risiken neu bewerten, Kapital auf die Verteidigung reallokieren, eine Flut aus Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke auf einen PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte Schmutzkampagnen ihre Karriere beenden würden, bevor sie noch ihren ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist beeindruckend resilient", sagte Palmer.
 
@@ -232,7 +231,7 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 "Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, wo wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben. Das Myzel ist so weit verzweigt, dass es praktisch kein einziges Unternehmen mehr gibt, in welchem es nicht die Hebel der Macht berührt", sinnierte Palmer.
 
-„Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und die diskutierten Handlungsoptionen vorstellen. Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
+„Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und der Administration die diskutierten Handlungsoptionen vorstellen. Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
 
 Hogarth stand auf und verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz zum Ministerium in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. 
 
