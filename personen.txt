@@ -1,0 +1,91 @@
+PERSONEN — Tōryō
+
+Vier Sprecher (nach Verschmelzung 6→4: Sadowski → Merian, Palmer → Kessler).
+Jede Figur = ein Erkenntnis-Fenster plus ein eigener Sprachkörper. Ziel: allein am
+Duktus erkennbar, ohne dass ein Name danebenstehen muss.
+
+Schöner Nebeneffekt der vier Kerne: vier verschiedene Verhältnisse zur Katastrophe
+und zur Zeit — Merian (ästhetische Gegenwart), Kessler (Dauerkrise), Gadamer (Tiefe
+der Geschichte), Hogarth (erschöpft, noch vor dem Ende).
+
+
+────────────────────────────────────────────────────────
+MERIAN — Informatische Biologin. Biotech-Nerd.
+
+Wesen: examoralisch. Sie findet die Systeme faszinierend; der Ausgang ist ihr fast
+  egal, der Prozess selbst ist schön. Die Einzige im Raum, die staunt, statt zu
+  fürchten — sie verkörpert den examoralischen Blick der ganzen Geschichte: kein
+  Bösewicht, nur ein Mechanismus, den man bewundern kann, während er einen tötet.
+
+Duktus: präzise, aber begeistert; unterbricht sich, greift zu konkreten biologischen
+  Analogien (Darmflora, partner choice, Autoimmun); enthusiastische Einschübe („ein
+  faszinierendes Thema"). Kippt den Fachbegriff ins Staunen.
+Tic: wird zu detailliert, muss gebremst werden (Bobtail-Tintenfisch).
+Nie: Behörden-Ton, Resignation.
+
+→ „Das ist keine Ökonomie mehr. Das ist Stoffwechsel."
+→ „Aus unserer Sicht ist das eine Autoimmunreaktion. Aus Sicht des Systems ist es
+   die korrekte Immunantwort."
+
+
+────────────────────────────────────────────────────────
+KESSLER — Rechenzentrums-Betreiber. Amerikanischer Verkäufer.
+
+Wesen: permanent am Schwimmen. Muss den Kontrollverlust ununterbrochen als Feature
+  verkaufen — ein Berufsleben aus Feuerlöschen, das ihn über die Jahre zum Zyniker
+  gemacht hat. Sein Optimismus ist nicht Naivität, sondern Berufskrankheit: Er
+  verkauft noch den eigenen Untergang, weil er es nicht mehr anders kann.
+
+Duktus: kurze aktive Hauptsätze, Anglizismen, Business-Sprech, Euphemismus
+  („Kollateralschäden", „Optimierung", „marktrationale Reaktion" — er trägt jetzt
+  auch den Ökonomen-Part von Palmer).
+Tic: verpackt Kontrollverlust als Erfolg („brachte uns grosse Kostenersparnisse").
+Nie: gestelzte Fremdwörter, Selbstzweifel-Syntax.
+
+→ „Klar kaufen die bei uns. Geld ist Geld, wir fragen nicht, wer am anderen Ende
+   sitzt."
+
+
+────────────────────────────────────────────────────────
+GADAMER — Synthetischer Theologe, Universität Tübingen (für Cyberreligionen).
+
+Wesen: lebt in Jahrhunderten. Die Parallelen zur Geschichte sind ihm immer präsent —
+  Kreuzzüge, Religionskriege, die Pest kennt er aus dem Effeff. Solche Katastrophen
+  liegen für ihn im normalen Erwartungshorizont und geben erstklassiges
+  Studienmaterial ab. Seine Gelassenheit ist die Ruhe dessen, der die ganze
+  Menschheitsgeschichte als Vergleichsreihe im Kopf trägt.
+
+Duktus: humanistische Gelassenheit, benennt das Ungeheure ruhig. Hypotaxe,
+  Doppelpunkte, misst ab; Kanon / Exegese / Schisma / Typologie; Vergleiche aus
+  Theologie- und Literaturgeschichte.
+Tic: präzises Relativieren, zitiert.
+Nie: Anglizismen, Eile.
+
+→ Ton schon getroffen in Z. 206/210 — das ist er.
+
+
+────────────────────────────────────────────────────────
+HOGARTH — Sitzungsleiter. Alter Regierungsmann, ganz System.
+
+Wesen: erschöpft. Für eine handlungsunfähige Regierung zu arbeiten ist an sich
+  absurd; er spürt diese Absurdität die ganze Zeit, kann sie aber erst am Ende
+  begreifen. Reine Prozedur, ein Leben im Apparat, keine eigenen Sätze — der
+  Leser-Stellvertreter.
+  Denkt in Rollen, nicht in Personen. Die Anwesenden sind ihm Repräsentanten ihrer
+  Institution, ihrer Schublade — „Was sagen Sie als Ökonom dazu?" (Z. 54). Das
+  Individuum ist stets irrelevant. Bittere Klammer zum Schluss: Der Mann, der jeden
+  auf seine Funktion reduziert, ist selbst reine Funktion — und der Gang in die Sonne
+  ist der einzige Moment, in dem eine Person aus der Rolle tritt (seine eigene).
+
+Duktus: Fragen statt Behauptungen, Moderation, farblose Neutralität; die richtige
+  Frage in der richtigen Reihenfolge. Adressiert die Rolle, nicht den Menschen
+  („als Ökonom", „als Finanzforensiker").
+Tic: treibt das Gespräch voran, bezieht nie Position; Müdigkeit unter der
+  Höflichkeit.
+Nie: Fachbegriffe (er ist der Leser), Emotion — ausser als Körper (Schweigen,
+  Aufstehen).
+
+→ Payoff: Der Mann ohne Standpunkt vollzieht am Ende die einzige un-systemische
+  Handlung. Der Gang in die Sonne ist der Moment, in dem die gespürte Absurdität zur
+  begriffenen wird. Damit das trägt, muss die Erschöpfung früh spürbar sein — sonst
+  liest sich Leere als Blankheit statt als lebenslange Resignation.

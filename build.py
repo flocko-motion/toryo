@@ -13,6 +13,8 @@ Konventionen im .txt (kein zusaetzliches Markup noetig):
   - Block "Personen"   = Figurenliste, je Zeile "Name, Rolle".
   - [https://...]      = wird zur nummerierten Endnote.
   - Zeile "Ende" allein = Schlussmarke.
+  - [name] allein auf einer Zeile = Navigations-Tag, wird beim Build entfernt
+    (z.B. [kessler] ueber dem Absatz, in dem Kessler spricht/handelt).
 """
 import html
 import re
@@ -22,6 +24,11 @@ from pathlib import Path
 # Optional ein einzelnes Leerzeichen vor der Klammer schlucken, damit die
 # hochgestellte Ziffer eng am Wort sitzt.
 FN_RE = re.compile(r"[ \t]?\[(https?://[^\]\s]+)\]")
+
+# Navigations-Tags: eine Zeile, die nur aus [wort] besteht (z.B. [kessler]).
+# Greift NICHT bei Fussnoten [https://...] (nicht die ganze Zeile, enthaelt :/.)
+# und nicht bei Ultraglot-Saetzen (ganzer Satz, nicht bloss ein Klammerwort).
+TAG_LINE_RE = re.compile(r"(?m)^[ \t]*\[[A-Za-zÀ-ÿ_-]+\][ \t]*\n?")
 
 
 def esc(s: str) -> str:
@@ -67,7 +74,9 @@ def main() -> int:
     tpl = Path(sys.argv[2] if len(sys.argv) > 2 else "template.html")
     out = Path(sys.argv[3] if len(sys.argv) > 3 else "toryo.html")
 
-    blocks = split_blocks(src.read_text(encoding="utf-8"))
+    raw = src.read_text(encoding="utf-8")
+    raw = TAG_LINE_RE.sub("", raw)   # Navigations-Tags entfernen
+    blocks = split_blocks(raw)
     if not blocks:
         print("build: leere Quelle", file=sys.stderr)
         return 1
