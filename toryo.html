@@ -242,6 +242,41 @@
 
   /* Ziel-Absatz beim Ruecksprung dezent markieren */
   :target { scroll-margin-top: 20vh; }
+
+  /* ---------- Druck / PDF ---------- */
+  @page {
+    margin: 22mm 20mm;
+  }
+  @media print {
+    :root {
+      --paper:    #ffffff;
+      --ink:      #1a1a1a;
+      --ink-soft: #333333;
+      --ink-mute: #666666;
+      --hairline: #bcbcbc;
+      --shu:      #8f3410;   /* dunkler fuer sicheren Toner-Kontrast */
+    }
+    html { font-size: 11pt; scroll-behavior: auto; }
+    body { background: #fff; }
+    .page {
+      max-width: none;
+      margin: 0;
+      padding-inline: 0;
+      padding-block: 0;   /* Rand kommt aus @page */
+    }
+    /* vh-Abstaende durch feste ersetzen, sonst kollabieren sie */
+    .masthead  { margin-bottom: 2.4rem; break-after: avoid; }
+    .dramatis  { margin-bottom: 2.4rem; break-after: avoid; }
+    .seal      { font-size: 60pt; }
+    .title     { font-size: 19pt; }
+    .story p   { orphans: 2; widows: 2; }
+    .end       { margin-top: 2.6rem; break-before: avoid; }
+    .notes     { margin-top: 2.6rem; }
+    .notes-list li { break-inside: avoid; }
+    /* Links im Druck als ruhiger Text; Marker bleibt farbig */
+    .fn-link   { border-bottom: none; color: var(--ink-soft); }
+    a          { text-decoration: none; }
+  }
 </style>
 </head>
 <body>
