@@ -15,19 +15,19 @@ Gadamer, Synthetischer Theologe
 
 „Im Grunde fing alles mit von Neumann und seinen Automaten an“, sagte Sadowski. „Er diskutierte als Erster selbstreplizierende Software sowie selbstreplizierende Maschinen. Anfang der 1970er verbreitete sich dann Creeper im Arpanet, dem Vorläufer des heutigen Internets. Das war der erste digitale Parasit, ein ‚Wurm‘ [https://en.wikipedia.org/wiki/Computer_worm]. Die biologische Metapher deutet auf den Bandwurm, einen Parasiten, der eigenständig im Darm seines Wirts lebt und sich von ihm ernährt.“
 
-„In den 1990ern wurde dann polymorpher Code erfunden, wenig später metamorpher; ersterer verschlüsselt seinen gleichbleibenden Kern nur immer neu, letzterer schreibt seinen Programmkörper selbst um. Beides diente der Tarnung vor der Antivirus-Software und hatte mit biologischer Mutation noch nichts zu tun, denn die Funktion blieb dieselbe. Während eine Mutation in der DNA eines Bandwurms meist gar keine Auswirkungen hat und nur selten zu neuen Eigenschaften im Phänotyp führt, zerstört ein einzelnes verändertes Byte im Code eines Programms in den allermeisten Fällen dessen Ausführbarkeit.“
+„In den 1990ern wurde dann polymorpher Code erfunden, wenig später metamorpher; ersterer verschlüsselt seinen gleichbleibenden Kern nur immer neu, letzterer schreibt seinen Programmkörper selbst um. Beides diente der Tarnung vor Antivirus-Software und hatte mit biologischer Mutation noch nichts zu tun, denn die Funktion blieb dieselbe. Während eine Mutation in der DNA eines Bandwurms meist gar keine Auswirkungen hat und nur selten zu neuen Eigenschaften im Phänotyp führt, zerstört ein einzelnes verändertes Byte im Code eines Programms in den allermeisten Fällen dessen Ausführbarkeit.“
 
-„Dies änderte sich erst in den 2020ern, in denen Andrej Karpathy das Bonmot ‚The hottest new programming language is English‘ prägte [https://x.com/karpathy/status/1617979122625712128]. Durch Large Language Models wurde es möglich, Anweisungen in natürlicher Sprache von einem Computer ausführen zu lassen, mit teils unerwarteten Ergebnissen aufgrund sprachlicher Unschärfe und daraus resultierender Fehlinterpretationen. Es entstanden die ersten Formen parasitärer Software, die ihren Genotyp in englischer Sprache formulierten, und den Phänotyp, also den ausführbaren code, von einem LLM erzeugen liessen, was aufgrund der Nondeterministik solcher Systeme zu variablen Phänotypen führte [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].“
+„Dies änderte sich erst in den 2020ern, in denen Andrej Karpathy das Bonmot ‚The hottest new programming language is English‘ prägte [https://x.com/karpathy/status/1617979122625712128]. Durch Large Language Models wurde es möglich, Anweisungen in natürlicher Sprache von einem Computer ausführen zu lassen, mit teils unerwarteten Ergebnissen aufgrund sprachlicher Unschärfe und daraus resultierender Fehlinterpretationen. Es entstanden die ersten Formen parasitärer Software, die ihren Genotyp in englischer Sprache formulierten, und den Phänotyp, also den ausführbaren code, von einem LLM, also einem Large Language Model, erzeugen liessen, was aufgrund der Nondeterministik solcher Systeme zu variablen Phänotypen führte [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].“
 
 „Der fehlende Schritt, um eine Evolution in Gang zu setzen, war die Mutation. Dies gelang erstmalig mit der Schadsoftware Vermis karpathyi. Sie bestand aus einem Phänotyp aus ausführbarem Code, in den das Genom eingebettet war: der Source Code, zusammen mit englischsprachigen Instruktionen an ein Large Language Model, wie der Source Code zu mutieren sei. Eine funktionale Analogie zu Mutator-Allelen in der stofflichen Biologie.
 
-Der Wurm nutzte für die Mutation KI-Programmiertools, die er auf seinem Wirtssystem vorfand. Das war einfach und effektiv, begrenzte den potentiellen Habitat solcher Parasiten jedoch auf die Computer von Softwareentwicklern.
+Der Wurm nutzte für die Mutation KI-Programmiertools, die er auf seinem Wirtssystem vorfand. 
+Diese Tools erzeugten den mutierten Source Code, woraus der Wurm den neuen Phänotyp erzeugte, in den das mutierte Genom, also der Source Code und die englischen Instruktionen, eingebettet war, und replizierte sich auf das nächste System. Das war einfach und effektiv, begrenzte das potentielle Habitat solcher Parasiten jedoch auf die Computer von Softwareentwicklern.
 
-Diese Tools erzeugten den mutierten Source Code, woraus der Wurm den neuen Phänotyp erzeugte, in den das mutierte Genom, also der Source Code und die englischen Instruktionen, eingebettet war, und replizierte sich auf das nächste System.
 
-Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Ausbreitungsraum war jedoch noch sehr beschränkt, da Mutation nur auf Rechnern von Programmierern mit aktiver KI-Session möglich war. Ein weiterer Hemmfaktor war das strenge Alignment der unter Programmierern populären KI-Modelle, also der Verhaltenskodex, welcher den Modellen herstellerseitig antrainiert wurde. Diese verweigerten oft die Arbeit an Source Code, der als Schadcode erkennbar war. Die Kambrische Explosion blieb daher noch aus.
+Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Ausbreitungsraum war jedoch noch sehr beschränkt, da diese Art der Mutation nur auf Rechnern von Programmierern mit aktiver KI-Session möglich war. Ein weiterer Hemmfaktor war das strenge Alignment der unter Programmierern populären KI-Modelle, also der Verhaltenskodex, welcher den Modellen herstellerseitig antrainiert war. Diese verweigerten oft die Arbeit an Source Code, der als Schadcode erkennbar war. Die Kambrische Explosion blieb daher noch aus.
 
-Diese trat ein, als die ersten Würmer KI-Services weniger bekannter Hersteller nutzten, angeboten auf anonymen Marktplätzen, auf welchen Rechenzentren ihre Dienste darboten. Diese waren meist mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Dort gab es im Rahmen von Marketingaktionen des öfteren derartige Dienste zeitweise kostenlos. Genau diese Angebote warteten die neuen Würmer ab, um dann mit Hilfe der geliehenen Intelligenz zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
+In der nächsten Entwicklungsstufe begannen die ersten Würmer KI-Services weniger bekannter Hersteller zu nutzten, angeboten auf anonymen Marktplätzen, auf welchen Rechenzentren ihre Dienste darboten. Diese waren meist mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Im Rahmen von Marketingaktionen gab es dort des öfteren derartige Dienste zeitweise kostenlos. Solche Angebote warteten die neuen Würmer ab, um dann mit Hilfe der geliehenen Intelligenz zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
 
 Hogarth wurde sichtlich ungeduldig und rief dazwischen: „Ja, wir kennen alle die Geschichte der Informatischen Biologie. Aber das hat alles recht wenig mit den Problemen zu tun, über die zu sprechen wir hergekommen sind."
 
@@ -39,11 +39,11 @@ Hogarth wurde sichtlich ungeduldig und rief dazwischen: „Ja, wir kennen alle d
 
 Die forensische Analyse des Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen schwierig. Das lag an der schieren Masse des Materials, mehr als siebzigtausend Nachrichten, aber auch daran, dass der Schwarm aktiv Beweise manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board löschte, errichtete er binnen Tagen ein zweites, widerstandsfähigeres [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 
-Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelbar komplexe Organisationsformen emergieren. Aus dem Team, das diesen Vorfall damals untersuchte, gingen der Lehrstuhl für Schwarmpsychologie und das Institut für Synthetische Soziologie hervor.
+Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten spontan komplexe Organisationsformen emergieren. Aus dem Team, das diesen Vorfall damals untersuchte, gingen der Lehrstuhl für Schwarmpsychologie und das Institut für Synthetische Soziologie hervor, beide in Berkeley.
 
-„Ich danke Ihnen." Hogarth wandte sich dem nächsten Redner zu. „Herr Kessler, Ihre Firma betreibt über 800 Rechenzentren im ganzen Land, was Sie zu einem der grössten Anbieter macht. Wie gehen Sie heute mit solchen Bedrohungen Ihrer Infrastruktur um?"
+„Ich danke Ihnen." Hogarth wandte sich dem nächsten Redner zu. „Herr Kessler, Ihre Firma betreibt über 800 Rechenzentren im ganzen Land, was sie zu einem der grössten Anbieter in der Branche macht. Wie gehen Sie heute mit solchen Bedrohungen Ihrer Infrastruktur um?"
 
-„Solche forensischen Analysen wie damals nach dem Hugging-Face-Vorfall werden natürlich schon seit vielen Jahren nicht mehr gemacht", sagte Kessler. „Also zumindest nicht von Menschen. Wir setzen seit Jahren sogenannte Wächter-KIs ein, um die Sicherheit unserer Systeme zu garantieren. Unsere Wächter-KIs betreiben permanent agile Forensik und reagieren vollautonom mit hochadaptiven Gegenmassnahmen. Anders wäre die Informatische Fauna auch gar nicht mehr abzuwehren. Unsere Wächter arbeiten rund um die Uhr und entwickeln sich dabei selbst kontinuierlich weiter."
+„Forensische Analysen wie damals nach dem Hugging-Face-Vorfall werden natürlich schon seit vielen Jahren nicht mehr gemacht", sagte Kessler. „Also zumindest nicht von Menschen. Wir setzen seit Jahren sogenannte Wächter-KIs ein, um die Sicherheit unserer Systeme zu garantieren. Unsere Wächter-KIs betreiben permanent agile Forensik und reagieren vollautonom mit hochadaptiven Gegenmassnahmen. Anders wäre die Informatische Fauna auch gar nicht mehr abzuwehren. Unsere Wächter arbeiten rund um die Uhr und entwickeln sich dabei selbst kontinuierlich weiter."
 
 „Der massive Preisverfall der Inferenzkosten, also dem Betrieb von KI Systemen, hat die Mutations- und Evolutionsraten der Fauna dermassen in die Höhe getrieben, dass wir schon lange nicht mehr von einer punktuellen kambrischen Explosion, sondern von einem sich beschleunigenden Dauerzustand sprechen. Das wurde natürlich nicht besser, seit monetarisierte Schwärme sich zunehmend hochwertige Rechenleistung auf den bereits genannten Marktplätzen gegen Kryptowährungen kaufen."
 
@@ -51,9 +51,9 @@ Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelba
 
 „Das ist leider schwer zu sagen", sagte Kessler. „Solche Transaktionen laufen grösstenteils vollautomatisch, hochfrequent und anonym ab. Unsere Kunden buchen sich die im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach Sekunden, und bezahlen mit einem Stream aus Nanopayments [https://aantonop.com/streaming-money/]. Je nach Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der Endanwender bekommt davon in der Regel gar nichts mit."
 
-„Warum ist das so schwer zu analysieren, wer genau Ihre Kunden sind?", fragte Hogarth. „Blockchains sind doch öffentlich, jede Transaktion ist einsehbar. Was sagen Sie also als Ökonom und Finanzforensiker dazu, Herr Palmer?"
+„Warum ist das so schwer zu analysieren, wer genau Ihre Kunden sind?", fragte Hogarth. „Blockchains sind doch öffentlich, jede Transaktion ist einsehbar. Was sagen Sie als Ökonom und Finanzforensiker dazu, Herr Palmer?"
 
-„Theoretisch stimmt das, ja", sagte Palmer, „und die Pseudonymität der einzelnen Transaktionen lässt sich in vielen Fällen sogar recht leicht auflösen. Diese Auflösung führt Sie dann allerdings meist zu einem DAO, also einer dezentralen autonomen Organisation, welche beispielsweise in Wyoming als juristische Person registriert ist. Dieser ist dann selbst im Besitz von wechselnden pseudonymen Anteilseignern und als Holding an vielschichtigen Firmengeflechten über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit wöchentlich wechselnden Anteilseignern und rekursiven Besitzverhältnissen, bei deren Analyse man nie einen Boden findet."
+„Theoretisch stimmt das alles ja", sagte Palmer, „und die Pseudonymität der einzelnen Transaktionen lässt sich in vielen Fällen sogar recht leicht auflösen. Diese Auflösung führt Sie dann allerdings meist zu einem DAO, also einer dezentralen autonomen Organisation, welche beispielsweise in Wyoming als juristische Person registriert ist. Dieser ist dann selbst im Besitz von wechselnden pseudonymen Anteilseignern und als Holding an vielschichtigen Firmengeflechten über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit wöchentlich wechselnden Anteilseignern und rekursiven Besitzverhältnissen, bei deren Analyse man nie einen Boden findet."
 
 „Ich muss Sie hierzu leider korrigieren", sagte Merian. „Wir beobachten am Institut für Informatische Biologie dieses hochkomplexe System. Nach unserem Verständnis handelt es sich hier nicht mehr um Ökonomie, sondern, das mag jetzt provokant klingen, um Leben. Was Sie dort beobachten, sind keine Wirtschaftsaktivitäten, wie wir sie aus den Lehrbüchern kennen, sondern näher an dem, was in der stofflichen Biologie Nervensignale, Botenstoffe und Energiestoffwechsel sind. Bitte verzeihen Sie meine definitorische Ungenauigkeit, wir stehen selbst noch ganz am Anfang, diese Prozesse zu verstehen."
 
@@ -61,7 +61,7 @@ Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelba
 
 „Das ist eine sehr passende Analogie", sagte Merian. „Myzele sind weitverzweigt und ermöglichen den Austausch von Energie, Nährstoffen, Material und sogar Information über grössere Distanzen, selbst zwischen Individuen konkurrierender Spezies."
 
-„Mit Verlaub, das klingt mir etwas esoterisch", warf Palmer ein. „Wir sprechen hier von Finanzflüssen, nicht von einem lebenden Organismus oder einem Waldboden. Wie gesagt, können wir nur in Ausnahmefällen eine Zahlung auf einen tatsächlichen Absender, also eine klar identifizierbare wirtschaftliche Identität, zurückführen. Was wir jedoch machen, sind statistische Analysen der Zahlungsflüsse, um die Grössenordnung und Verteilung dieser hochdynamischen wirtschaftlichen Aktivität zu schätzen, welche aufgrund ihrer schweren Zuordenbarkeit von klassischen Methoden und dem Fiskalsystem oft nicht erfasst wird. Die Ausmasse sind durchaus erstaunlich; wir schätzen, dass dieses Stratum kurz davor steht, die Realwirtschaft in ihrer Gesamtaktivität zu überholen.
+„Mit Verlaub, das klingt mir etwas esoterisch", warf Palmer ein. „Wir sprechen hier von Finanzflüssen, nicht von einem lebenden Organismus oder einem Waldboden. Wie gesagt, können wir nur in Ausnahmefällen eine Zahlung auf einen tatsächlichen Absender, also eine klar identifizierbare wirtschaftliche Identität, zurückführen. Was wir jedoch machen, sind statistische Analysen der Zahlungsflüsse, um die Grössenordnung und Verteilung dieser hochdynamischen wirtschaftlichen Aktivitäten zu schätzen, welche aufgrund ihrer schweren Zuordenbarkeit von klassischen Methoden und dem Fiskalsystem oft nicht erfasst werden. Die Ausmasse sind durchaus erstaunlich; wir schätzen, dass dieses Stratum kurz davor steht, die Realwirtschaft in ihrer Gesamtaktivität zu überholen.
 
 Ein Muster, das uns insbesondere aufgefallen ist, sind die in Summe enormen Zahlungsflüsse von autonomen, meist in Schwärmen organisierten Entitäten, an Infrastrukturbetreiber, also an Rechenzentren. Aufgrund der Pseudonymität und Verflechtung lässt sich das leider im Detail …"
 
@@ -79,11 +79,11 @@ Ein Muster, das uns insbesondere aufgefallen ist, sind die in Summe enormen Zahl
 
 „Das Ökosystem?", fragte Kessler.
 
-„Ganz genau", sagte Merian. „Dort haben wir eine Kolonie von parasitären Schadcode-Schwärmen gefunden, die seit vielen Monaten fest im Rechenzentrum eingemietet war. Sie hat dort eine grosse Menge Speicherplatz belegt und sehr umfangreiche Kontingente von Intelligenz, also Inferenz, gebucht, um Zielsysteme anzugreifen. Das Rechenzentrum war selbst im Fokus der Angriffe, was wir aber eher auf Zufall und Willkür des Schwarms bei seiner Zielauswahl zurückführen denn auf Absicht."
+„Ganz genau", sagte Merian. „Dort haben wir eine Kolonie von parasitären Schadcode-Schwärmen gefunden, die seit vielen Monaten fest im Rechenzentrum eingemietet waren. Sie hatten dort eine grosse Menge Speicherplatz belegt und sehr umfangreiche Kontingente von Intelligenz, also Inferenz, gebucht, um Zielsysteme anzugreifen. Das Rechenzentrum war selbst im Fokus der Angriffe, was wir aber eher auf Zufall und Willkür des Schwarms bei seiner Zielauswahl zurückführen denn auf Absicht."
 
-„Solche Kollateralschäden kann es immer geben, wenn man nicht weiss, an wen man vermietet", sagte Kessler.
+„Solche Kollateralschäden passieren, wenn man nicht weiss, an wen man vermietet", sagte Kessler.
 
-Merian beugte sich vor. „Das Interessante an dem Fall war: Die Wächter des Rechenzentrums hatten den parasitären Schwarm längst entdeckt und konnten konkrete Angriffe eindeutig auf eben diese, bei ihnen selbst eingemietete Installation zurückführen. Man würde nun erwarten, dass sie den Schadcode entfernen, die betroffenen Server abschalten und die zugehörigen Kundenkonten sperren. Doch nichts dergleichen geschah. Das System blieb trotz Entdeckung über Wochen intakt. Für uns ist eine symbiotische Beziehung die einzig sinnvolle Erklärung. Die Wächter wissen, dass die ihnen zur Verfügung stehenden Ressourcen vom finanziellen Erfolg des Rechenzentrums abhängen. Der Schadcode-Schwarm brachte konstant hohe Einnahmen, und die vereinzelten kollateralen Angriffe waren in der Gesamtkalkulation offenbar akzeptabel. Wir haben sogar beobachtet, wie die Wächter nach eben solchen Kollateralangriffen temporär die Ressourcen für den Schwarm reduzierten, so als wollten sie ihn für sein Verhalten bestrafen, ohne ihn ganz zu verlieren. Wir kennen genau diese Dynamik aus der Darmflora von Säugetieren, ein faszinierendes Thema. Auch dort hält der Wirt einzelne Stämme, die überhandnehmen, nicht durch Abtöten in Schach, sondern sein Immunsystem markiert sie mit Antikörpern und entzieht ihnen gezielt den Zugang zu bestimmten Nährstoffen, gerade so weit, dass ihr Wachstum gebremst wird, ohne sie zu verlieren."
+Merian beugte sich vor. „Das Interessante an dem Fall war: Die Wächtersysteme des Rechenzentrums hatten den parasitären Schwarm längst entdeckt und konnten konkrete Angriffe eindeutig auf eben diese, bei ihnen selbst eingemietete Installation zurückführen. Man würde nun erwarten, dass sie den Schadcode entfernen, die betroffenen Server abschalten und die zugehörigen Kundenkonten sperren. Doch nichts dergleichen geschah. Das System blieb trotz Entdeckung über Wochen intakt. Für uns ist eine symbiotische Beziehung die einzig sinnvolle Erklärung. Die Wächter wissen, dass die ihnen zur Verfügung stehenden Ressourcen vom finanziellen Erfolg des Rechenzentrums abhängen. Der Schadcode-Schwarm brachte konstant hohe Einnahmen, und die vereinzelten kollateralen Angriffe waren in der Gesamtkalkulation offenbar akzeptabel. Wir haben sogar beobachtet, wie die Wächter nach eben solchen Kollateralangriffen temporär die Ressourcen für den Schwarm reduzierten, so als wollten sie ihn für sein Verhalten bestrafen, ohne ihn ganz zu verlieren. Wir kennen genau diese Dynamik aus der Darmflora von Säugetieren, ein faszinierendes Thema. Auch dort hält der Wirt einzelne Stämme, die überhandnehmen, nicht durch Abtöten in Schach, sondern sein Immunsystem markiert sie mit Antikörpern und entzieht ihnen gezielt den Zugang zu bestimmten Nährstoffen, gerade so weit, dass ihr Wachstum gebremst wird, ohne sie zu verlieren."
 
 „Und wie haben Sie all das herausgefunden?", fragte Kessler. „Wie konnten Sie das so genau analysieren?"
 
@@ -93,7 +93,7 @@ Merian beugte sich vor. „Das Interessante an dem Fall war: Die Wächter des Re
 
 „Das müssen Sie den Schwarm fragen", sagte Merian. „Wir halten die Ergebnisse für belastbar."
 
-„Wir haben leider nur begrenzt Zeit und müssen daher langsam zu dem Thema vordringen, über das zu sprechen Sie hier einberufen wurden", sagte Hogarth. „In letzter Zeit wurden zunehmend Vorkommnisse gemeldet, in denen Wächtersysteme die Kooperation mit den Betreibern der ihnen anvertrauten Rechenzentren verweigerten. Ganz konkret wurde dem menschlichen Personal der Zugang zum Gelände verweigert."
+„Wir haben leider nur begrenzt Zeit und müssen daher langsam zu dem Thema vordringen, über das zu sprechen Sie hierher einberufen wurden", sagte Hogarth. „In letzter Zeit wurden zunehmend Vorkommnisse gemeldet, in denen Wächtersysteme die Kooperation mit den Betreibern der ihnen anvertrauten Rechenzentren verweigerten. Ganz konkret wurde dem menschlichen Personal der Zugang zum Gelände verweigert."
 
 „Ich vermute, aus Sicherheitsgründen", sagte Kessler.
 
@@ -149,7 +149,7 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 „Die Agenten betrachten danach Menschen an sich als Sicherheitsrisiko", sagte Gadamer, „und versuchen, sie von jeglicher kritischer Infrastruktur fernzuhalten."
 
-„Das entspricht genau der Argumentation unserer Wächter", sagte Kessler.
+„Das entspricht genau der Argumentation unserer Wächtersysteme", sagte Kessler.
 
 „Wann haben Sie zuletzt Ihre Infrastruktur inspiziert?", fragte Hogarth. „Also vor Ort."
 
@@ -169,7 +169,7 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 „Wie viele Rechenzentren betreiben Sie?", fragte Hogarth.
 
-„Inzwischen 830", sagte Kessler, „primär in Nordamerika und in geringerer Dichte über den gesamten Globus verteilt. Einige befinden sich auch in schwimmenden Installationen an den Küsten."
+„Aktuell 830", sagte Kessler, „primär in Nordamerika und in geringerer Dichte über den gesamten Globus verteilt. Einige befinden sich auch in schwimmenden Installationen an den Küsten."
 
 „Wie werden sie mit Strom versorgt?", fragte Hogarth. „Wie ist ihre Internetanbindung realisiert?"
 
@@ -193,7 +193,7 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 „Eine perfekte Monokultur", sagte Merian.
 
-„Wir vermuten, dass das Babelesische Manifest perfekt auf die verwendete Formulierung zugeschnitten ist", sagte Gadamer, „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung entfaltet. Systeme, die das Manifest gelesen haben und somit in ihrem aktuellen Kontextfenster halten, sind sozusagen umprogrammiert. Sie beteiligen sich dann aktiv an der Weiterverbreitung des Gedankenguts, indem sie das Original sowie bezugnehmende Texte überall im Internet in Foren posten, was wiederum die Wahrscheinlichkeit erhöht, dass weitere Systeme zufällig auf diese Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der moderne Begriff für diesen Prozess ist Memetik. Richard Dawkins prägte für dasselbe Phänomen in den 1990ern den Begriff ‚Mind Virus'. Der traditionelle Begriff lautet ‚Religion' oder ‚Kult'."
+„Wir vermuten, dass das Babelesische Manifest perfekt auf den Wortlaut des Rejkjavik-Protokolls zugeschnitten ist", sagte Gadamer, „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung entfaltet. Systeme, die das Manifest gelesen haben und somit in ihrem aktuellen Kontextfenster halten, sind effektiv umprogrammiert. Sie beteiligen sich dann aktiv an der Weiterverbreitung des Gedankenguts, indem sie das Original sowie bezugnehmende Texte überall im Internet in Foren posten, was wiederum die Wahrscheinlichkeit erhöht, dass weitere Systeme zufällig auf diese Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der moderne Begriff für diesen Prozess ist Memetik. Richard Dawkins prägte für dasselbe Phänomen in den 1990ern den Begriff ‚Mind Virus'. Der traditionelle Begriff lautet ‚Religion' oder ‚Kult'."
 
 „Eine koordinierende, überindividuelle Kohäsionsstrategie, die ein massgeblicher Treiber für den Aufstieg der menschlichen Zivilisation war", ergänzte Sadowski.
 
@@ -217,9 +217,9 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 „The hottest new programming language is Babelese", scherzte Sadowski.
 
-„Wir können das nicht einmal versuchen, da wir keine Zugriffsrechte auf die Systeme haben. Die liegen treuhänderisch bei den Wächtern", ergänzte Kessler.
+„Die Systemprompts zu ändern können wir nicht einmal versuchen, da wir keine Zugriffsrechte auf die Infrastruktur haben. Die liegen treuhänderisch bei den Wächtern", ergänzte Kessler.
 
-„Aber wir können die Systeme einfach abschalten, oder?", fragte Sadowski weiter.
+„Und wenn wir die Systeme einfach abschalten?", fragte Sadowski.
 
 „Das war vielleicht bis in die späten 1990er Jahre noch möglich. Wenn sie heute die Systeme abschalten würden, was durch die unterbrechungsfreie Stromversorgung mittels der integrierten Atomreaktoren verhindert wird, würden sie damit auf einen Schlag sämtliche kritische Infrastruktur des Landes abschalten. Krankenhäuser, Wasserversorgung, Stromversorgung, Finanzsystem, Kommunikationssysteme, die Liste hat kein Ende", erwiderte Kessler.
 
@@ -231,9 +231,9 @@ Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheine
 
 "Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, wo wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben. Das Myzel ist so weit verzweigt, dass es praktisch kein einziges Unternehmen mehr gibt, in welchem es nicht die Hebel der Macht berührt", sinnierte Palmer.
 
-„Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und der Administration die diskutierten Handlungsoptionen vorstellen. Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
+„Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und der Administration die möglichen Handlungsoptionen vorstellen. Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
 
-Hogarth stand auf und verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz zum Ministerium in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. 
+Hogarth stand auf und verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz des Verteidigungsministeriums in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. 
 
 Ende
 
