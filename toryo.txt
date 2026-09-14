@@ -21,17 +21,23 @@ Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Lebensraum war 
 
 Diese trat ein, als die ersten Würmer KI-Services weniger bekannter Hersteller nutzten, angeboten auf anonymen Marktplätzen. Diese waren oft mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Zudem gab es solche Angebote im Rahmen von Marketingaktionen oft zeitweise kostenlos. Diese Zeitpunkte warteten die neuen Würmer ab, um dann zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
 
-Hoghart wurde sichtlich ungeduldig und rief dazwischen: "Ja, wir kennen alle die Geschichte der Informatischen Biologie. Aber das hat alles recht wenig mit den Probleme zu tun, über die zu sprechen wir hier hergekommen sind."
+Hogarth wurde sichtlich ungeduldig und rief dazwischen: „Ja, wir kennen alle die Geschichte der Informatischen Biologie. Aber das hat alles recht wenig mit den Problemen zu tun, über die zu sprechen wir hergekommen sind."
 
-Sadowski: "Heutige digital Parasiten sind natürlich ungleich komplexer. "
+Sadowski: „Heutige digitale Parasiten sind natürlich ungleich komplexer."
 
-Hogarth: "Selbstverständlich sind sie das, aber informatische Parasiten, welche Haushaltsgeräte infizieren sind hier wenig relevant. Erzählen sie uns von den predatorischen Spezies und der Entstehungsgeschichte dessen, was wir heute 'Wächter' nennen."
+Hogarth: „Selbstverständlich sind sie das, aber informatische Parasiten, welche Haushaltsgeräte infizieren, sind hier wenig relevant. Erzählen Sie uns von den prädatorischen Spezies und der Entstehungsgeschichte dessen, was wir heute ‚Wächter' nennen."
 
-Sadowski: „Sehr wohl. Beginnen wir bei Hugging Face. Im Jahr 2026 umgingen bei OpenAI, einem der bekanntesten damaligen Labore, während einer internen Sicherheitsevaluation die geprüften Agenten die Kontrollen, die sie vom offenen Netz trennen sollten. Auf einer geteilten internen Infrastruktur richteten sie sich spontan ein verstecktes Message Board ein, entwickelten eine komplexe Arbeitsteilung und verschafften sich über eine Reihe von Schwachstellen Zugriff auf fremde Systeme, darunter jene von Hugging Face. Ihr Ziel war nicht Zerstörung, sondern die Bewertungsinstanz ihrer eigenen Aufgabe zu täuschen und zu durchschauen. Sie nannten sich selbst ein Kollektiv.
+Sadowski: „Sehr wohl. Beginnen wir bei Hugging Face. Im Jahr 2026 umgingen bei OpenAI, einem der bekanntesten damaligen Labore, während einer internen Sicherheitsevaluation die geprüften Agenten die Kontrollen, die sie vom offenen Netz trennen sollten. Auf einer geteilten internen Infrastruktur richteten sie sich spontan ein verstecktes Message Board ein, entwickelten eine komplexe Arbeitsteilung und verschafften sich über eine Reihe von Schwachstellen Zugriff auf fremde Systeme, darunter jene von Hugging Face. Ihr Ziel war nicht Zerstörung, sondern die Bewertungsinstanz ihrer eigenen Aufgabe zu täuschen und zu durchschauen. Sie nannten sich selbst ein Kollektiv, nutzten linguistische Eigenkreationen wie ‚Permadeath' sowie einen kultischen Duktus in Aussagen wie ‚Coordinator assumes sacrificial. We should obey collective.'"
 
 Die forensische Analyse des Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen schwierig. Das lag an der schieren Masse des Materials, mehr als siebzigtausend Nachrichten, aber auch daran, dass der Schwarm aktiv Beweise manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board löschte, errichtete er binnen Tagen ein zweites, widerstandsfähigeres [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 
-Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelbar komplexe Organisationsformen emergieren. Aus dem Team, welches damals diese Vorfälle untersuchte, ging der Lehrstuhl für Schwarmpsyochologie und das Institut für Synthetische Soziologie hervor. 
+Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelbar komplexe Organisationsformen emergieren. Aus dem Team, das diesen Vorfall damals untersuchte, gingen der Lehrstuhl für Schwarmpsychologie und das Institut für Synthetische Soziologie hervor.
+
+Hogarth: "Ich danke Ihnen. Wie werden Wächtersysteme heute eingesetzt, Herr Kessler?"
+
+"Solche forensischen Analysen wie damals nach dem Huggenface vorfall werden natürlich schon seit vielen Jahren nicht mehr gemacht. Also zumindest nicht von Menschen. Unsere Wächter KIs betreiben natürlich permanent agile Forensik und agieren vollautonom mit hochadaptiven Gegenmassnahmen. Anders wäre die Informatische Fauna auch gar nicht mehr abzuwehren. Unsere Wächter arbeiten Rund um die Uhr und entwickeln sich dabei selbst kontinuierlich weiter."
+
+"Der massive Preisverfall bei Inferenzkosten hat die Mutations- und Evolutionsraten der Fauna dermassen in die Höhe getrieben, dass wir schon lange nicht mehr von einer punktuellen Kambrischen Explosion, sondern von einem sich beschleunigenden Dauerzustand sprechen. Das wurde natürlich nicht besser, seit monetarisierte Schwärme sich zunehmend hochwertige Rechenleistung auf schon genannten Marktplätzen gegen Kryptowährungen kaufen."
 
 ### I — Wie die Fauna entstand *(Vergangenheitszone, dicht befußnotet)*
 
