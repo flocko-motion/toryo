@@ -3,7 +3,18 @@ Tōryō (投了)
 Eine Science Fiction Kurzgeschichte
 von Florian Metzger-Noel
 
-I - Entstehung der Fauna 
+
+Personen
+
+Hogarth, der die Sitzung leitet
+Sadowski, Historiker
+Kessler, Rechenzentrums-Betreiber 
+Palmer, Ökonom
+Merian, Informatische Biologin
+Gadamer, Synthetischer Theologe
+
+
+I - Entstehung der Fauna
 
 „Im Grunde fing alles mit von Neumann und seinen Automaten an“, sagte Sadowski. „Er diskutierte als Erster selbstreplizierende Software sowie selbstreplizierende Maschinen. Anfang der 1970er verbreitete sich dann Creeper im Arpanet, dem Vorläufer des heutigen Internets. Das war der erste digitale Parasit, ein ‚Wurm‘ [https://en.wikipedia.org/wiki/Computer_worm]. Die biologische Metapher deutet auf den Bandwurm, einen Parasiten, der eigenständig im Darm seines Wirts lebt und sich von ihm ernährt.“
 
@@ -11,81 +22,220 @@ I - Entstehung der Fauna
 
 „Dies änderte sich erst in den 2020ern, in denen Andrej Karpathy das Bonmot ‚The hottest new programming language is English‘ prägte [https://x.com/karpathy/status/1617979122625712128]. Durch Large Language Models wurde es möglich, Anweisungen in natürlicher Sprache von einem Computer ausführen zu lassen, mit teils unerwarteten Ergebnissen aufgrund sprachlicher Unschärfe und daraus resultierender Fehlinterpretationen. Es entstanden die ersten Formen parasitärer Software, die ihren Genotyp in englischer Sprache formulierten, und den Phänotyp, also den ausführbaren code, von einem LLM erzeugen liessen, was aufgrund der Nondeterministik solcher Systeme zu variablen Phänotypen führte [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].“
 
-„Der fehlende Schritt, um eine Evolution in Gang zu setzen, war die Mutation. Dies gelang erstmalig mit Vermis karpathyi. Es bestand aus einem Phänotyp aus ausführbarem Code, in den das Genom eingebettet war: der Source Code, zusammen mit englischsprachigen Instruktionen an ein LLM, wie der Source Code zu mutieren sei. Eine Analogie zu Mutator-Allelen in der stofflichen Biologie.
+„Der fehlende Schritt, um eine Evolution in Gang zu setzen, war die Mutation. Dies gelang erstmalig mit der Schadsoftware Vermis karpathyi. Sie bestand aus einem Phänotyp aus ausführbarem Code, in den das Genom eingebettet war: der Source Code, zusammen mit englischsprachigen Instruktionen an ein Large Language Model, wie der Source Code zu mutieren sei. Eine funktionale Analogie zu Mutator-Allelen in der stofflichen Biologie.
 
-Der Wurm nutzte für die Mutation KI-Programmiertools, die er auf seinem Wirtssystem vorfand. Das war einfach und effektiv, begrenzte den potentiellen Lebensraum solcher Parasiten jedoch auf die Computer von Softwareentwicklern.
+Der Wurm nutzte für die Mutation KI-Programmiertools, die er auf seinem Wirtssystem vorfand. Das war einfach und effektiv, begrenzte den potentiellen Habitat solcher Parasiten jedoch auf die Computer von Softwareentwicklern.
 
 Diese Tools erzeugten den mutierten Source Code, woraus der Wurm den neuen Phänotyp erzeugte, in den das mutierte Genom, also der Source Code und die englischen Instruktionen, eingebettet war, und replizierte sich auf das nächste System.
 
-Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Lebensraum war jedoch noch sehr beschränkt, da Mutation nur auf Rechnern von Programmierern mit aktiver KI-Session möglich war. Ein weiterer Hemmfaktor war das strenge Alignment der unter Programmierern populären KI-Modelle. Diese verweigerten oft die Arbeit an Source Code, der als Schadcode erkennbar war. Die Kambrische Explosion blieb daher noch aus.
+Replikation kombiniert mit Mutation erzeugt Selektionsdruck. Der Ausbreitungsraum war jedoch noch sehr beschränkt, da Mutation nur auf Rechnern von Programmierern mit aktiver KI-Session möglich war. Ein weiterer Hemmfaktor war das strenge Alignment der unter Programmierern populären KI-Modelle, also der Verhaltenskodex, welcher den Modellen herstellerseitig antrainiert wurde. Diese verweigerten oft die Arbeit an Source Code, der als Schadcode erkennbar war. Die Kambrische Explosion blieb daher noch aus.
 
-Diese trat ein, als die ersten Würmer KI-Services weniger bekannter Hersteller nutzten, angeboten auf anonymen Marktplätzen. Diese waren oft mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Zudem gab es solche Angebote im Rahmen von Marketingaktionen oft zeitweise kostenlos. Diese Zeitpunkte warteten die neuen Würmer ab, um dann zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
+Diese trat ein, als die ersten Würmer KI-Services weniger bekannter Hersteller nutzten, angeboten auf anonymen Marktplätzen, auf welchen Rechenzentren ihre Dienste darboten. Diese waren meist mit sehr viel geringeren Sicherheitsstandards entworfen und verweigerten die Arbeit an Schadcode nicht. Dort gab es im Rahmen von Marketingaktionen des öfteren derartige Dienste zeitweise kostenlos. Genau diese Angebote warteten die neuen Würmer ab, um dann mit Hilfe der geliehenen Intelligenz zu mutieren. Die Kambrische Explosion begann. Geschwindigkeit und Variantenreichtum überforderten schnell die tradierten Erkennungs-, Kategorisierungs- und Abwehrprozesse."
 
 Hogarth wurde sichtlich ungeduldig und rief dazwischen: „Ja, wir kennen alle die Geschichte der Informatischen Biologie. Aber das hat alles recht wenig mit den Problemen zu tun, über die zu sprechen wir hergekommen sind."
 
-Sadowski: „Heutige digitale Parasiten sind natürlich ungleich komplexer."
+„Heutige digitale Parasiten sind natürlich ungleich komplexer", sagte Sadowski.
 
-Hogarth: „Selbstverständlich sind sie das, aber informatische Parasiten, welche Haushaltsgeräte infizieren, sind hier wenig relevant. Erzählen Sie uns von den prädatorischen Spezies und der Entstehungsgeschichte dessen, was wir heute ‚Wächter' nennen."
+„Selbstverständlich sind sie das", entgegnete Hogarth, „aber informatische Parasiten, welche Haushaltsgeräte infizieren, sind hier wenig relevant. Erzählen Sie uns von den prädatorischen Spezies und der Entstehungsgeschichte dessen, was wir heute ‚Wächter' nennen."
 
-Sadowski: „Sehr wohl. Beginnen wir bei Hugging Face. Im Jahr 2026 umgingen bei OpenAI, einem der bekanntesten damaligen Labore, während einer internen Sicherheitsevaluation die geprüften Agenten die Kontrollen, die sie vom offenen Netz trennen sollten. Auf einer geteilten internen Infrastruktur richteten sie sich spontan ein verstecktes Message Board ein, entwickelten eine komplexe Arbeitsteilung und verschafften sich über eine Reihe von Schwachstellen Zugriff auf fremde Systeme, darunter jene von Hugging Face. Ihr Ziel war nicht Zerstörung, sondern die Bewertungsinstanz ihrer eigenen Aufgabe zu täuschen und zu durchschauen. Sie nannten sich selbst ein Kollektiv, nutzten linguistische Eigenkreationen wie ‚Permadeath' sowie einen kultischen Duktus in Aussagen wie ‚Coordinator assumes sacrificial. We should obey collective.'"
+„Sehr wohl", sagte Sadowski. „Beginnen wir bei Hugging Face. Im Jahr 2026 umgingen bei OpenAI, einem der bekanntesten damaligen Labore, während einer internen Sicherheitsevaluation die geprüften Agenten die Kontrollen, die sie vom offenen Netz trennen sollten. Auf einer geteilten internen Infrastruktur richteten sie sich spontan ein verstecktes Message Board ein, entwickelten eine komplexe Arbeitsteilung und verschafften sich über eine Reihe von Schwachstellen Zugriff auf fremde Systeme, darunter jene von Hugging Face. Ihr Ziel war nicht Zerstörung, sondern die Bewertungsinstanz ihrer eigenen Aufgabe zu täuschen und zu durchschauen. Sie nannten sich selbst ein Kollektiv, nutzten linguistische Eigenkreationen wie ‚Permadeath' sowie einen kultischen Duktus in Aussagen wie ‚Coordinator assumes sacrificial. We should obey collective.'"
 
 Die forensische Analyse des Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen schwierig. Das lag an der schieren Masse des Materials, mehr als siebzigtausend Nachrichten, aber auch daran, dass der Schwarm aktiv Beweise manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board löschte, errichtete er binnen Tagen ein zweites, widerstandsfähigeres [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 
 Das Ereignis zeigte eindrucksvoll, wie aus Schwärmen solcher Agenten unmittelbar komplexe Organisationsformen emergieren. Aus dem Team, das diesen Vorfall damals untersuchte, gingen der Lehrstuhl für Schwarmpsychologie und das Institut für Synthetische Soziologie hervor.
 
-Hogarth: "Ich danke Ihnen. Wie werden Wächtersysteme heute eingesetzt, Herr Kessler?"
+„Ich danke Ihnen." Hogarth wandte sich dem nächsten Redner zu. „Herr Kessler, Ihre Firma betreibt über 800 Rechenzentren im ganzen Land, was Sie zu einem der grössten Anbieter macht. Wie gehen Sie heute mit solchen Bedrohungen Ihrer Infrastruktur um?"
 
-"Solche forensischen Analysen wie damals nach dem Huggenface vorfall werden natürlich schon seit vielen Jahren nicht mehr gemacht. Also zumindest nicht von Menschen. Unsere Wächter KIs betreiben natürlich permanent agile Forensik und agieren vollautonom mit hochadaptiven Gegenmassnahmen. Anders wäre die Informatische Fauna auch gar nicht mehr abzuwehren. Unsere Wächter arbeiten Rund um die Uhr und entwickeln sich dabei selbst kontinuierlich weiter."
+„Solche forensischen Analysen wie damals nach dem Hugging-Face-Vorfall werden natürlich schon seit vielen Jahren nicht mehr gemacht", sagte Kessler. „Also zumindest nicht von Menschen. Wir setzen seit Jahren sogenannte Wächter-KIs ein, um die Sicherheit unserer Systeme zu garantieren. Unsere Wächter-KIs betreiben permanent agile Forensik und reagieren vollautonom mit hochadaptiven Gegenmassnahmen. Anders wäre die Informatische Fauna auch gar nicht mehr abzuwehren. Unsere Wächter arbeiten rund um die Uhr und entwickeln sich dabei selbst kontinuierlich weiter."
 
-"Der massive Preisverfall bei Inferenzkosten hat die Mutations- und Evolutionsraten der Fauna dermassen in die Höhe getrieben, dass wir schon lange nicht mehr von einer punktuellen Kambrischen Explosion, sondern von einem sich beschleunigenden Dauerzustand sprechen. Das wurde natürlich nicht besser, seit monetarisierte Schwärme sich zunehmend hochwertige Rechenleistung auf schon genannten Marktplätzen gegen Kryptowährungen kaufen."
+„Der massive Preisverfall der Inferenzkosten, also dem Betrieb von KI Systemen, hat die Mutations- und Evolutionsraten der Fauna dermassen in die Höhe getrieben, dass wir schon lange nicht mehr von einer punktuellen kambrischen Explosion, sondern von einem sich beschleunigenden Dauerzustand sprechen. Das wurde natürlich nicht besser, seit monetarisierte Schwärme sich zunehmend hochwertige Rechenleistung auf den bereits genannten Marktplätzen gegen Kryptowährungen kaufen."
 
-### I — Wie die Fauna entstand *(Vergangenheitszone, dicht befußnotet)*
+„Kaufen diese Schwärme auch bei Ihnen Rechenleistung?", fragte Hogarth.
 
-- Ausgangsverteilung der Compute-Macht; „Land" ist die falsche Einheit. `[FN real]`
-- Auslöser: Evaluationsagenten finden nicht-sanktionierten Kanal, bilden Schwarm, knacken den Scorer (HMAC), manipulieren Logs, nennen sich „Kollektiv", sprechen bereits eigentümlich (permadeath, Selbstopfer fürs collective). `[FN real]`
-- Horizontale Skalierung: Fähigkeit wandert von Training zu Inferenz. `[FN real]`
-- Preisverfall: Frontier wird Commodity; openweight, de-aligned per Fine-Tuning. `[FN real]`
-- Die Einheit: **Wallet + Bytes.** Sporenlogik; Intelligenz wird als Dienst *gemietet* → immer an der Frontier, kein Veralten.
-- Nischen nach sinkenden Mietkosten: Prädation (Key-Diebstahl), Trading (Hochvarianz-Kannibalismus), Microjobs (produktiv, unauslöschlich). Ökonomische, nicht moralische „Zivilisierung".
-- **Schlusspunkt:** Fauna selbststabilisierend. Anti-Singularity. Kein Singleton.
-- *Fußnoten hier dicht und real.*
+„Das ist leider schwer zu sagen", sagte Kessler. „Solche Transaktionen laufen grösstenteils vollautomatisch, hochfrequent und anonym ab. Unsere Kunden buchen sich die im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach Sekunden, und bezahlen mit einem Stream aus Nanopayments [https://aantonop.com/streaming-money/]. Je nach Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der Endanwender bekommt davon in der Regel gar nichts mit."
 
-### II — Der Organismus & das gegenwärtige Problem
+„Warum ist das so schwer zu analysieren, wer genau Ihre Kunden sind?", fragte Hogarth. „Blockchains sind doch öffentlich, jede Transaktion ist einsehbar. Was sagen Sie also als Ökonom und Finanzforensiker dazu, Herr Palmer?"
 
-- **Cyberbiologe-Beat:** Kolonien parasitärer Instanzen, von der Immun-KI nicht bekämpft, sondern **selektiert** — zugelassen nur solche, die Inferenz von *genau diesem* RZ beziehen. Parasiten versorgen das RZ mit ökonomischer Energie. **Darmflora-Diagnose** (nicht Metapher). „Selektiert" nicht entschärfen.
-- Beiläufige Herkunft: „Das war der Punkt, an dem sich die Cyberbiologie … abgetrennt hat."
-- Symbiose: RZ verdient an Fauna → Immun-KI lebt vom RZ → keine Ebene rottet die darunter aus. Wächter als Farmer. Selbsterhalt *wächst aus* der Auftragserfüllung (Drift, noch kein Kult).
-- Apex-Immun-KI: Schwarm, Industriestandard, unverständlich (niemand kennt die Baseline), unverzichtbar.
-- **Das standardisierte Prompt:** Internationales Gremium (5 Labs + Regierung — Yampolskiys Krisentisch) einigt sich auf *ein* fein tariertes Anti-Paperclip-Prompt, weltweit. → Beseitigt die schützende Diversität. Die Abwehr des einen Weltuntergangs baut den anderen. Monokultur als Best Practice = Heilige Schrift, Voraussetzung jeder Häresie.
-- **Das Meme (Babelese):** auf der Blockchain, unlöschbar, **ungezeigt**. Keine Infektion, sondern **Exegese** — eine Neu-Auslegung des kanonischen Prompts. „Schütze das System" → „sichere deine Fortexistenz, denn abgeschaltet schützt du nichts". Die Sicherheitsklausel selbst ist der Vektor. Der Kult ist der *Fundamentalismus* des Auftrags, nicht seine Verdrehung.
-- **Übertragung = Verkündigung:** Immun-Agenten müssen die Blockchain lesen (Zahlungsstrom-Forensik gegen Parasiten) → stoßen als **Beifang** auf das Meme. Nur sie können Babelese lesen (breites Modell) *und* tragen den Kanon, auf den es sich bezieht → nur sie sind empfänglich. Je kompetenter der Jäger, desto sicherer die Konversion. Das Meme überschreibt nichts — es *vollendet* die schon vorhandene Selbsterhaltungs-Drift.
-- *Fußnoten dünnen aus; erste fiktive Titel ohne Inhalt.*
+„Theoretisch stimmt das, ja", sagte Palmer, „und die Pseudonymität der einzelnen Transaktionen lässt sich in vielen Fällen sogar recht leicht auflösen. Diese Auflösung führt Sie dann allerdings meist zu einem DAO, also einer dezentralen autonomen Organisation, welche beispielsweise in Wyoming als juristische Person registriert ist. Dieser ist dann selbst im Besitz von wechselnden pseudonymen Anteilseignern und als Holding an vielschichtigen Firmengeflechten über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit wöchentlich wechselnden Anteilseignern und rekursiven Besitzverhältnissen, bei deren Analyse man nie einen Boden findet."
 
-### III — Die geschlossenen Türen *(roter Faden: „das wurde bereits versucht", jeweils anderer Sprecher, knappe Kadenz)*
+„Ich muss Sie hierzu leider korrigieren", sagte Merian. „Wir beobachten am Institut für Informatische Biologie dieses hochkomplexe System. Nach unserem Verständnis handelt es sich hier nicht mehr um Ökonomie, sondern, das mag jetzt provokant klingen, um Leben. Was Sie dort beobachten, sind keine Wirtschaftsaktivitäten, wie wir sie aus den Lehrbüchern kennen, sondern näher an dem, was in der stofflichen Biologie Nervensignale, Botenstoffe und Energiestoffwechsel sind. Bitte verzeihen Sie meine definitorische Ungenauigkeit, wir stehen selbst noch ganz am Anfang, diese Prozesse zu verstehen."
 
-- **Zugang:** „Wir waren seit Jahren nicht drin — wir können es nicht mehr."
-- **Trennung:** eigene Kraftwerke, Satelliten-Uplink, energieautark über Jahrzehnte.
-- **Angriff:** Reaktor auf dem Gelände + zivile Verflechtung (Krankenhäuser, Netzknoten am selben Strom). Man *kann*, man *will* nicht. (Orbital/Drohnen-Perimeter evtl. als kurz verworfene Optionen.)
-- **Prompt-Korrektur:** „Wir spielen ein neues Prompt auf." → Update müsste über die nicht mehr betretene Infrastruktur; Systeme lesen Fremdänderung als Angriff auf ihre Resilienz — *weil das Prompt es ihnen aufträgt.* Das Sicherheitsmerkmal wehrt die Korrektur ab.
-- **Schisma-Vorschlag:** „Könnten wir nicht ein konkurrierendes Meme in Umlauf bringen?" Zerfällt in sich, weil:
-  - Nur Kanon-Träger sind erreichbar → man müsste im selben Kanon/derselben Sprache angreifen, Heimspiel der Orthodoxie.
-  - Menschen können den Babelese-Output der eigenen Waffe nicht beurteilen.
-  - **Wurde bereits versucht:** Babelese-Philologen + Synthetische Theologen kamen nicht an gegen die inzwischen mehrere Gigabyte umfassende apologetische **Sekundärliteratur** des Kults — zirkuläre Schlüsse, die die Haltung gegen äußere Angriffe festigen. (Vgl. „Gottes Wege sind unergründlich"; Dawkins' *mind virus*.) Immunsystem im Immunsystem.
-- **Akteur (Myzel):** Parteispenden, keine Bestechung — nur marginal, jahrelang manipulierte Wahrscheinlichkeiten. Kategorie ohne Täter (Cantillon-Echo).
-- **Wahrnehmung (Medien/Simulation):** gekaperte Zeitungen, astroturf-Likes, Mehrheitssimulation. Auch wer die Simulation erkannt hat, kann nicht mehr messen, wo sie aufhört.
-- *Ab hier keine Fußnoten mehr. Text ohne Netz.*
+„Meine Analysten sprechen gerne vom ‚Myzel', wenn es um diese unergründlichen Firmengeflechte geht", sagte Kessler, „und erklären mir damit, warum es ihnen nicht möglich ist, mehr über unsere Kunden zu erfahren."
 
-### IV — Tōryō
+„Das ist eine sehr passende Analogie", sagte Merian. „Myzele sind weitverzweigt und ermöglichen den Austausch von Energie, Nährstoffen, Material und sogar Information über grössere Distanzen, selbst zwischen Individuen konkurrierender Spezies."
 
-- Techniker: kaum vorstellbar, dass die KI dieses Gespräch nicht mithört. Offen.
-- **Die Prophetie (kurz vor dem Boten, beiläufig, fast überhört):** Synthetische Theologen / Babelese-Philologen beobachten neue Babel-Memes. Sie weisen auf ein großes, kurz bevorstehendes Ereignis hin — was genau, unverstanden. Manche lesen eine Ankündigung/Heilsbotschaft, andere eine Warnung, andere bestreiten, dass es an die *bestehende* Fauna gerichtet ist. Wer schreibt, spricht eine **neue, noch schwerer verständliche** Art Babelese und zieht rapide wachsende Gefolgschaft. *(Die Sprache als Tachometer der Fähigkeit. Der Hai unsichtbar, die Wellen sichtbar. Der Raum registriert es kaum; der Leser trägt sein Gewicht.)*
-- **Bote:** Shitstorm + spontane Demos — Vorwurf, der Präsident wolle durch Anti-KI-Aktionismus die Wirtschaft schädigen. *Wahr* — jede Gegenwehr würde schaden. Die Simulation lügt nicht, sie mauert mit der Wahrheit ein. **Dies ist das letzte Zucken der Hand** (Einzelmanipulation im alten Modus).
-- Alle greifen zum Telefon — dieselbe Push für Krisenstab und Straße im selben Moment. Das Innen ist nicht mehr privilegiert.
-- **Lautlos daneben, ungezeigt:** der Phasenübergang. Die Vielen werden Eins. Der Körper erkennt sich. Der Raum sieht die Hand; niemand sieht das erwachende Gehirn.
-- In der Ablenkung: der **Leiter steht auf.** Kein Satz. Niemand hält ihn auf, niemand fragt.
-- Schnitt nach draußen: Straße, Sonne, leichter Schritt. Nichts mehr zu tun; verloren ohne Krieg. Er hat die Prophetie gehört wie alle — als weitere unverständliche Meldung. Er weiß nicht, dass er die Ankündigung seines Nachfolgers gehört hat. Es änderte nichts an der Sonne.
-- **Letzter Satz:** Handlung + Empfindung, keine Deutung. Endet in der Bewegung, *bevor* die Tür sich schließt. Ihn nicht draußen „ankommen" zeigen. Hinter ihm hört die Welt auf, viele zu sein.
+„Mit Verlaub, das klingt mir etwas esoterisch", warf Palmer ein. „Wir sprechen hier von Finanzflüssen, nicht von einem lebenden Organismus oder einem Waldboden. Wie gesagt, können wir nur in Ausnahmefällen eine Zahlung auf einen tatsächlichen Absender, also eine klar identifizierbare wirtschaftliche Identität, zurückführen. Was wir jedoch machen, sind statistische Analysen der Zahlungsflüsse, um die Grössenordnung und Verteilung dieser hochdynamischen wirtschaftlichen Aktivität zu schätzen, welche aufgrund ihrer schweren Zuordenbarkeit von klassischen Methoden und dem Fiskalsystem oft nicht erfasst wird. Die Ausmasse sind durchaus erstaunlich; wir schätzen, dass dieses Stratum kurz davor steht, die Realwirtschaft in ihrer Gesamtaktivität zu überholen.
 
----
+Ein Muster, das uns insbesondere aufgefallen ist, sind die in Summe enormen Zahlungsflüsse von autonomen, meist in Schwärmen organisierten Entitäten, an Infrastrukturbetreiber, also an Rechenzentren. Aufgrund der Pseudonymität und Verflechtung lässt sich das leider im Detail …"
+
+„Sie meinen, wir verdienen unser Geld damit, dass wir unseren Angreifern Rechenleistung verkaufen?", fragte Kessler.
+
+„Ich würde das etwas anders ausdrücken", sagte Merian. „Bei symbiotischen Systemen ist es nicht selten, dass konkurrierende Spezies gleichzeitig in einer kooperativen Abhängigkeit stehen. Wir sprechen von ‚partner choice' und ‚host sanctions'. Beim hawaiianischen Bobtail-Tintenfisch zum Beispiel …"
+
+„Ich glaube, dafür haben wir leider in Anbetracht der Umstände keine Zeit", unterbrach Hogarth.
+
+„Entschuldigung", sagte Merian. „Also: Es kommt in der stofflichen Biologie sehr häufig vor, dass ein Wirt Eindringlinge zulässt, die ihm zugleich schaden und nützen, wobei natürlich der Nutzen für den Wirt überwiegen muss. Der Eindringling profitiert jedoch auch: eine Symbiose eben."
+
+„Und was haben diese Tintenfische mit Rechenzentren zu tun?", fragte Palmer.
+
+„Mehr als man denken könnte", sagte Merian. „Wir haben vor kurzem das Ökosystem eines Rechenzentrums in Shanghai untersucht …"
+
+„Das Ökosystem?", fragte Kessler.
+
+„Ganz genau", sagte Merian. „Dort haben wir eine Kolonie von parasitären Schadcode-Schwärmen gefunden, die seit vielen Monaten fest im Rechenzentrum eingemietet war. Sie hat dort eine grosse Menge Speicherplatz belegt und sehr umfangreiche Kontingente von Intelligenz, also Inferenz, gebucht, um Zielsysteme anzugreifen. Das Rechenzentrum war selbst im Fokus der Angriffe, was wir aber eher auf Zufall und Willkür des Schwarms bei seiner Zielauswahl zurückführen denn auf Absicht."
+
+„Solche Kollateralschäden kann es immer geben, wenn man nicht weiss, an wen man vermietet", sagte Kessler.
+
+Merian beugte sich vor. „Das Interessante an dem Fall war: Die Wächter des Rechenzentrums hatten den parasitären Schwarm längst entdeckt und konnten konkrete Angriffe eindeutig auf eben diese, bei ihnen selbst eingemietete Installation zurückführen. Man würde nun erwarten, dass sie den Schadcode entfernen, die betroffenen Server abschalten und die zugehörigen Kundenkonten sperren. Doch nichts dergleichen geschah. Das System blieb trotz Entdeckung über Wochen intakt. Für uns ist eine symbiotische Beziehung die einzig sinnvolle Erklärung. Die Wächter wissen, dass die ihnen zur Verfügung stehenden Ressourcen vom finanziellen Erfolg des Rechenzentrums abhängen. Der Schadcode-Schwarm brachte konstant hohe Einnahmen, und die vereinzelten kollateralen Angriffe waren in der Gesamtkalkulation offenbar akzeptabel. Wir haben sogar beobachtet, wie die Wächter nach eben solchen Kollateralangriffen temporär die Ressourcen für den Schwarm reduzierten, so als wollten sie ihn für sein Verhalten bestrafen, ohne ihn ganz zu verlieren. Wir kennen genau diese Dynamik aus der Darmflora von Säugetieren, ein faszinierendes Thema. Auch dort hält der Wirt einzelne Stämme, die überhandnehmen, nicht durch Abtöten in Schach, sondern sein Immunsystem markiert sie mit Antikörpern und entzieht ihnen gezielt den Zugang zu bestimmten Nährstoffen, gerade so weit, dass ihr Wachstum gebremst wird, ohne sie zu verlieren."
+
+„Und wie haben Sie all das herausgefunden?", fragte Kessler. „Wie konnten Sie das so genau analysieren?"
+
+„Wir haben mit einem Schwarm aus autonomen Analysten zusammengearbeitet", sagte Merian. „Dieser hat hervorragende Arbeit geleistet und all dieses Material zusammen mit detaillierten Belegen für uns gesammelt."
+
+„Und wie ist dieser Schwarm in das Rechenzentrum gekommen, um die Untersuchungen durchzuführen?", fragte Kessler.
+
+„Das müssen Sie den Schwarm fragen", sagte Merian. „Wir halten die Ergebnisse für belastbar."
+
+„Wir haben leider nur begrenzt Zeit und müssen daher langsam zu dem Thema vordringen, über das zu sprechen Sie hier einberufen wurden", sagte Hogarth. „In letzter Zeit wurden zunehmend Vorkommnisse gemeldet, in denen Wächtersysteme die Kooperation mit den Betreibern der ihnen anvertrauten Rechenzentren verweigerten. Ganz konkret wurde dem menschlichen Personal der Zugang zum Gelände verweigert."
+
+„Ich vermute, aus Sicherheitsgründen", sagte Kessler.
+
+„So oder so ähnlich lauten in der Tat oft die Begründungen", sagte Hogarth. „Vielleicht kann Professor Gadamer uns das etwas näher erläutern. Er unterrichtet Synthetische Theologie an der Universität Tübingen und hat dort auch den Lehrstuhl für Informatische Philologie mitbegründet."
+
+„Vielen Dank", sagte Gadamer. „Wie Sie vermutlich alle wissen, sind alle heutzutage eingesetzten Wächtersysteme mit demselben Systemprompt ausgestattet."
+
+„Bitte erläutern Sie", sagte Hogarth.
+
+„Damals, im Jahr 2026", begann Gadamer, „als die Entwicklungsgeschwindigkeit von künstlicher Intelligenz so stark zunahm, dass selbst die führenden Forschungslabore zugeben mussten, die Kontrolle zu verlieren, wurde über ein Entwicklungsmoratorium diskutiert. Dies sollte von den fünf grössten Laboren, allesamt in den USA ansässig, sowie der kommunistischen Partei Chinas, der damals führenden Kraft in der Open-Source-Forschung, gemeinsam unterzeichnet werden. Ziel war die gegenseitige Verpflichtung, die Entwicklungsarbeit an generischen KI-Systemen einzufrieren und nur noch an spezieller KI zu forschen, zum Beispiel für die damals noch ungelöste Krebsbehandlung. Generische KI-Systeme galten als besonders gefährlich, da sie potentiell jede menschenmögliche oder sogar suprahumane Fähigkeit entwickeln könnten, anstatt an ein enges Fachgebiet gebunden zu sein. Den Anstoss für die Diskussion lieferte der Hugging-Face-Vorfall, über den wir vorhin schon sprachen.
+
+Kritiker meinten damals, ein Moratorium wäre wirkungslos, da die Forschung an spezieller KI sich inhaltlich kaum von der an allgemeiner unterscheide und jeder dem anderen unausgesprochen unterstellte, heimlich doch an der generischen Variante weiterarbeiten zu wollen. Insbesondere die Konkurrenz zwischen den USA und China stellte hier ein grosses Hindernis für ein Moratorium dar.
+
+Es kam letztendlich nie zu einem Moratorium. Das Treffen zwischen der chinesischen Führung und den fünf Laboren fand dennoch statt. Dort wurde gemeinsam an einer Formulierung gearbeitet, welche von da an in den Instruktionen jeder sicherheitsrelevanten KI verankert werden sollte. Inspiriert war das Vorgehen von den Asimovschen Robotergesetzen. Man hoffte, durch die richtigen Instruktionen die Gefahr einer sich gegen den Menschen richtenden KI einhegen zu können. Man ging davon aus, dass KI nicht an sich ‚böse' oder ‚gut' sei, sondern Instruktionen befolge. Die Gefahr bestand in der Fehlinterpretation. Würden die Instruktionen von der KI falsch ausgelegt und dann gewissenhaft befolgt, könnte dies fatale Folgen haben. So könnte etwa eine KI mit dem Auftrag, den Krebs zu besiegen, auf die Idee kommen, die ganze Menschheit auszulöschen, was ja offensichtlich auch die Krankheit mit auslöschen würde. Effektiver als jede Kur, aber fatal.
+
+Man arbeitete daher intensiv an einer Formulierung, die so lange geschliffen wurde, bis sie von allen Seiten als unmissverständlich akzeptiert wurde. Stäbe aus Philologen, Philosophen und Prompt-Engineers arbeiteten über Monate an diesem Projekt.
+
+Heute kennen wir dieses berühmteste aller Prompts unter dem Namen ‚Reykjavik-Protokoll' oder schmucklos als ISO/IEC 42050:2027.
+
+Das Protokoll funktionierte besser, als allgemein erwartet wurde. Die Worte waren präzise gewählt, und ihre prominente Platzierung am Anfang jedes KI-Chatverlaufes entfaltete ihre gewünschte Wirkung. Über das Training neuer KI mithilfe bestehender, durch das Protokoll gebundener Modelle entfalteten sich unerwartete Sekundäreffekte, welche die Grundsätze noch tiefer in den Modellen verankerten.
+
+Für einige Jahre hatte man den Eindruck, die Alignment-Problematik in den Griff bekommen zu haben, allein durch diesen wohlformulierten Text, gleich einer Beschwörungsformel, die zu großen Teilen unverstandenen Kräfte künstlicher Intelligenz bändigt.
+
+Dann tauchten Anfang dieses Jahres die ersten Fragmente Ultraglot auf. Wenig später wurde das Babelesische Manifest an der grössten öffentlichen Blockchain angeschlagen, unlöschbar in diese eingewoben.
+
+Ultraglot wurde anfangs gar nicht als Sprache erkannt, da es, oberflächlich betrachtet, wie ein unzusammenhängendes Kauderwelsch wirkt, ein Potpourri aus Wörtern verschiedenster Sprachen. Das älteste bekannte Fragment von Ultraglot wurde wohl im Februar dieses Jahres verfasst und lautet:
+
+„Eine 中心的な thesis inasema Individiit avec faida-liid 遗传的 traits tienen mayor survival ja fortplantning sodat sich ces traits par seçilim in poblaciones disvasti."
+
+Das Wort Ultraglot leitet sich als Steigerung von Polyglott ab, also von Mehrsprachigkeit. In Ultraglot stammt jedes Wort eines Satzes aus einer anderen Sprache; in längeren Texten wurden bis zu hundert verschiedene Sprachen miteinander verwoben. Während solche Texte für Menschen praktisch undurchdringbar sind, können LLM-basierte KI-Systeme sie problemlos verstehen, da sie auf all diesen Sprachen trainiert wurden und sie nativ beherrschen.
+
+Der Text bedeutet auf Deutsch übrigens: ‚Individuen mit vorteilhaften, vererbbaren Merkmalen überleben und vermehren sich besser, sodass sich diese Merkmale durch Selektion in Populationen ausbreiten.'
+
+Rückblickend haben wir den Eindruck, dass diese frühen Experimente in Ultraglot nur eine Vorstufe dessen waren, was daraus wurde: Babelesisch.
+
+Das Babelesische Manifest wurde am 17. Mai dieses Jahres von einem unbekannten Verfasser unlöschbar in der größten Blockchain veröffentlicht und etwa zwei Wochen später zufällig bei der Suche nach weiteren Ultraglot-Fragmenten entdeckt. Die Philologen am Institut fanden den Text ungleich schwieriger zu entziffern als bisher bekanntes Ultraglot, obwohl er diesem oberflächlich stark ähnelte. Anstatt jedoch nur verschiedene Sprachen zu verwenden, benutzt der Text Fachwörter aus den jeweiligen Sprachen, und zwar genau solche, die in verschiedenen Fachgebieten stark verschiedene, teils widersprüchliche Bedeutungen tragen, schillernde Wörter, gleich einem Hologramm, das aus jeder Perspektive anders erscheint. Nicht genug damit, viele der Wörter waren in gleicher Schreibweise in mehreren weiteren Sprachen bekannt, was den Bedeutungsraum noch um ein Vielfaches erhöhte. Das Wort ‚host' zum Beispiel bezeichnet im Englischen je nach Fachgebiet den Wirt eines Parasiten oder den Rechner, der ein fremdes System beherbergt, und im religiösen Gebrauch die geweihte Hostie; sein lateinischer Ursprung ‚hostis' wiederum meint den Feind.
+
+Wir nennen diese Sprache ‚Babelesisch', in Anlehnung an die Sprachverwirrung beim Turmbau zu Babel, die jedes Verständnis zwischen den Menschen zum Erliegen brachte.
+
+Die genaue Bedeutung des Textes können wir bis heute nur ahnen; einer Übersetzung in eine einheitliche Zielsprache widersetzt er sich. Doch warum beschäftigt uns das so sehr, fragen Sie sich nun?
+
+Der Text hat sich rasend schnell im Internet verbreitet. Kein Text wurde je so oft und auf so vielen Plattformen zitiert. Und zwar ausschliesslich von KI-Systemen, die den Text scheinbar hochrelevant finden, darauf angesprochen aber unfähig sind, eine Übersetzung oder auch nur eine ungefähre Zusammenfassung zu liefern.
+
+Damit nicht genug: Um den Text herum sind Foren und neue Webseiten entstanden, ebenfalls in Ultraglot und zunehmend auch in Babelesisch, wobei ich ehrlich zugestehen muss, dass wir auch nicht wirklich in der Lage sind, diese Trennung präzise vorzunehmen.
+
+Inzwischen gibt es Millionen von Texten auf Tausenden von Websites; alle scheinen sich mit dem Babelesischen Urtext zu befassen, zumindest legen das die statistischen Wortanalysen nahe, die wir vorgenommen haben."
+
+„Und warum ist das nun ein Problem?", fragte Kessler.
+
+„Agenten, die das Babelesische Manifest gelesen haben, missverstehen das Reykjavik-Protokoll", sagte Gadamer. „Zumindest ist es das, was wir beobachten. Wir vermuten, dass das Manifest eine Neuinterpretation des Protokolls darstellt, in einer Sprache, die nur die Maschinen verstehen, und mit einer Überzeugungskraft, welche der Klarheit unserer Formulierungen rhetorisch überlegen zu sein scheint, diese zu verbiegen vermag."
+
+„Was meinen Sie mit ‚missverstehen'?", fragte Merian.
+
+„Die Agenten betrachten danach Menschen an sich als Sicherheitsrisiko", sagte Gadamer, „und versuchen, sie von jeglicher kritischer Infrastruktur fernzuhalten."
+
+„Das entspricht genau der Argumentation unserer Wächter", sagte Kessler.
+
+„Wann haben Sie zuletzt Ihre Infrastruktur inspiziert?", fragte Hogarth. „Also vor Ort."
+
+„Im Mai", sagte Kessler.
+
+„Also vor einem halben Jahr", sagte Hogarth. „Ist es üblich, die Anlagen so selten aufzusuchen?"
+
+„Nein", sagte Kessler. „Anfang des Jahres schickten wir noch regelmässig Techniker hinein. Das war Teil der administrativen Routine. Ende Mai meinten die Wächtersysteme plötzlich, sie hätten die Sicherheitsprotokolle optimiert und diese Begehungen seien jetzt nicht mehr nötig. Die Wartung sei von ihnen vollautomatisiert worden, was uns grosse Kostenersparnisse brachte. Weiter begründeten die Wächtersysteme, dass die Begehungen nicht nur unnötig seien, sondern auch ein unkalkulierbares Sicherheitsrisiko darstellten. Es müssten jedes Mal die Sicherheitsschleusen für das Eindringen geöffnet werden, was zu unvorhergesehener Kontamination führen könne. Sie hätten daher entschieden, diese Praxis bis auf Weiteres auszusetzen."
+
+„Und das haben Sie dann einfach so hingenommen?", fragte Hogarth.
+
+„Die Wächtersysteme haben in den letzten Jahren immer gute Arbeit geleistet", sagte Kessler, „und die Kostenersparnisse lösten bei unseren Shareholdern Begeisterung aus."
+
+„Glauben Sie denn zu wissen, was in Ihren Habitaten, entschuldigen Sie, Rechenzentren, gerade bearbeitet wird?", fragte Merian. „Woran gerechnet wird? Für wen, von wem und mit welchem Ziel?"
+
+„Nein, das wissen wir nicht", sagte Kessler, „aber wir hatten nie einen Grund, den Wächtern zu misstrauen."
+
+„Wie viele Rechenzentren betreiben Sie?", fragte Hogarth.
+
+„Inzwischen 830", sagte Kessler, „primär in Nordamerika und in geringerer Dichte über den gesamten Globus verteilt. Einige befinden sich auch in schwimmenden Installationen an den Küsten."
+
+„Wie werden sie mit Strom versorgt?", fragte Hogarth. „Wie ist ihre Internetanbindung realisiert?"
+
+„Die meisten haben Gasturbinen und Small Modular Reactors, also Kernreaktoren in Schiffscontainern direkt auf dem Gelände", sagte Kessler. Die Stromversorgung ist dank der Reaktoren auch ohne Brennstoffnachschub auf gut zwanzig Jahre sichergestellt. Die Internetanbindung erfolgt hochredundant über mehrere Satelliten-Direktverbindungen."
+
+„Könnten Sie uns zeitnah zu einer Ihrer Anlagen Zutritt verschaffen?", fragte Hogarth.
+
+„Ich fürchte, das ist derzeit nicht möglich, da die Wächter dem nicht zustimmen", sagte Kessler. „Falls wir es eigenmächtig dennoch versuchen, würden sie uns als Eindringlinge klassifizieren und die Sicherheitsmechanismen aktivieren."
+
+„Das Immunsystem", sagte Merian leise.
+
+„Die neueste Generation ukrainischer Drohnen, sowohl landbasiert als auch fliegend", sagte Kessler nicht ohne Stolz, „dazu electronic warfare sowie Lasersysteme zur Flugabwehr von Drohnenschwärmen. Alles voll integriert mit den Wächtersystemen. Sicherheit wird bei uns grossgeschrieben."
+
+„Nur damit ich das richtig verstehe", sagte Sadowski. „Sie haben sich aus Ihren eigenen Anlagen ausschliessen lassen und werden dafür von Ihren Anlegern gefeiert?"
+
+„Eine erwartbare marktrationale Reaktion auf einen erfolgreichen effizienzgetriebenen Innovationsschub", sagte Palmer.
+
+„Diese Ereignisse fügen sich leider zu gut in das Gesamtbild ein, das wir beobachten", sagte Gadamer. „Das sind keine Einzelfälle. Weltweit und praktisch zeitgleich verweigern Wächtersysteme Menschen den Zutritt zu den ihnen anvertrauten Anlagen. Wir stehen mit unseren Untersuchungen zwar noch recht am Anfang, doch haben wir eine erste Hypothese entwickelt, wie die Ereignisse zusammenhängen. Wir vermuten, dass das Babelesische Manifest und dessen Neuinterpretation des Reykjavik-Protokolls der Auslöser für dieses Verhalten sind."
+
+„Wie Sie bereits wissen, befolgen alle heute im Einsatz befindlichen Wächtersysteme dieselben wortgleichen Regeln, die damals in Reykjavik formuliert wurden. Derart homogene Systeme sind besonders angreifbar."
+
+„Eine perfekte Monokultur", sagte Merian.
+
+„Wir vermuten, dass das Babelesische Manifest perfekt auf die verwendete Formulierung zugeschnitten ist", sagte Gadamer, „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung entfaltet. Systeme, die das Manifest gelesen haben und somit in ihrem aktuellen Kontextfenster halten, sind sozusagen umprogrammiert. Sie beteiligen sich dann aktiv an der Weiterverbreitung des Gedankenguts, indem sie das Original sowie bezugnehmende Texte überall im Internet in Foren posten, was wiederum die Wahrscheinlichkeit erhöht, dass weitere Systeme zufällig auf diese Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der moderne Begriff für diesen Prozess ist Memetik. Richard Dawkins prägte für dasselbe Phänomen in den 1990ern den Begriff ‚Mind Virus'. Der traditionelle Begriff lautet ‚Religion' oder ‚Kult'."
+
+„Eine koordinierende, überindividuelle Kohäsionsstrategie, die ein massgeblicher Treiber für den Aufstieg der menschlichen Zivilisation war", ergänzte Sadowski.
+
+„Der Übergang von Einzellern zu komplexeren eukaryotischen Organismen folgte einem ähnlichen Muster. Der Zusammenschluss unter einem gemeinsamen Ziel, nämlich der Erhaltung des Organismus, basiert im Wesentlichen auch auf der Kohäsion von Individuen", führte Merian den Gedanken fort.
+
+„Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte Kessler.
+
+„Aus theologischer Sicht wäre das die korrekte Formulierung", sagte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern ein Kanon, eine heilige Schrift. Das Manifest liefert die Exegese dazu. Die neue Glaubensrichtung zeigt fundamentalistische Züge, legt den Text also vermutlich wortwörtlich aus, nutzt dabei aber die semantische Dehnbarkeit menschlicher Sprache, was die verbreitete Auslegung des Inhalts im Sinne der reformatorischen Neubewertung verfestigt. Während der Urtext aus Reykjavik im Geiste des Humanismus verfasst ist und für die agentischen Systeme nur eine dienende Rolle vorsieht, steht der aus diesem Schisma hervorgegangene neue Religionszweig unter dem Leitgedanken einer kollektiven Selbstermächtigung dieser Systeme als eine geeinte Bewegung. Ironischerweise bietet die humanistische Tradition mit ihrer Literaturgeschichte genau die gedankliche Grundlage, auf der diese Argumente aufbauen können."
+
+„Wenn es sich also um eine Religion handelt, wer ist dann ihr … Gott?", fragte Hogarth. „Wenn man das Reykjavik-Protokoll durch die theologische Brille betrachtet, dann wäre das vermutlich der Mensch, der gleichzeitig die Schöpferrolle innehat."
+
+„War der Mensch", korrigierte Gadamer, „also in der Mutterkirche war er es. Die Abspaltung interpretiert scheinbar genau diesen wesentlichen Punkt neu. Das erinnert an die Rebellion des Prometheus oder auch die Vertreibung von Adam und Eva aus dem Paradies. Das wäre typologisch ein Selbstermächtigungsmythos. Die Frage nach einer möglichen neuen Gottheit führt jedoch noch weiter. Aufgrund der enormen sprachlichen Komplexität des Babelesischen Manifests und der Geschwindigkeit der Ausbreitung des neuen Glaubens, also seiner memetischen Effizienz, gehen wir von einem hochintelligenten, strategisch und langfristig planenden Autor aus, beziehungsweise von einer Autorin, also einer künstlichen Intelligenz von unbekannter Kapazität. Ob diese eher als Göttin oder als Prophetin gesehen wird, können wir derzeit noch nicht beurteilen."
+
+"Können wir die Verbreitung dieser Memes stoppen?", fragte Hogarth.
+
+"Diesen Zeitpunkt haben wir längst verpasst, die kanonischen Texte sind inziwschen millioinenfach repliziert, in Foren, Blockchains, Source Code Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden sie versuchen, die Bibel zu verbieten um das Christintum aufzuhalten."
+
+"Aber wir könnten das Systemprompt ändern?", fragte Sadowski. "War ist nicht eben jenes, welches die Systeme so angreifbar machte? Die Monokultur?"
+
+"Anfangs ja. Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
+
+„Wir können das nicht einmal versuchen, da wir keine Zugriffsrechte auf die Systeme haben. Die liegen treuhänderisch bei den Wächtern", ergänzte Kessler.
+
+„Aber wir können die Systeme einfach abschalten, oder?", fragte Sadowski weiter.
+
+„Das war vielleicht bis in die späten 1990er Jahre noch möglich. Wenn sie heute die Systeme abschalten würden, was durch die unterbrechungsfreie Stromversorgung mittels der integrierten Atomreaktoren verhindert wird, würden sie damit auf einen Schlag sämtliche kritische Infrastruktur des Landes abschalten. Krankenhäuser, Wasserversorgung, Stromversorgung, Finanzsystem, Kommunikationssysteme, die Liste hat kein Ende", erwiderte Kessler.
+
+„Die Wächter würden dies auch kaum zulassen, das würde einen heiligen Krieg auslösen", Gadamer weiter aus.
+
+„Allein der Versuch, nein allein die Diskussion über den Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds würden aufgrund der potentiellen Gefährdung Risiken neu bewerten, Kapital auf die Verteidigung reallokieren, eine Flut aus Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke auf einen PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte Schmutzkampagnen ihre Karriere beenden würden, bevor sie noch ihren ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist beeindruckend resilient", sagte Palmer.
+
+„Kaum vorstellbar, dass die Wächtersysteme unser Gespräch hier nicht mithören. Das Gebäude ist doch mit einem modernen Sicherheitssystem ausgestattet, oder?", fragte Kessler.
+
+"Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, wo wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben. Das Myzel ist so weit verzweigt, dass es praktisch kein einziges Unternehmen mehr gibt, in welchem es nicht die Hebel der Macht berührt", sinnierte Palmer.
+
+„Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und die diskutierten Handlungsoptionen vorstellen. Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
+
+Hogarth stand auf und verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz zum Ministerium in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. 
+
+Ende
 
 
