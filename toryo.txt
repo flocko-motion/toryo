@@ -222,61 +222,53 @@ Gadamer stützte sich mit beiden Händen auf der Tischplatte ab und fixierte Hog
 
 „Die neueste Generation ukrainischer Drohnen, sowohl landbasiert als auch zur Luft", fuhr Kessler unbeirrt fort, nicht ohne Stolz, „dazu electronic warfare sowie Lasersysteme zur Flugabwehr von Drohnenschwärmen. Alles voll integriert mit den Wächtersystemen. Sicherheit wird bei uns grossgeschrieben."
 
+„Angenommen", sagte Hogarth, „eine dieser Anlagen müsste von aussen ausser Betrieb gesetzt werden."
+
+„Auf jedem Gelände steht ein Reaktor", sagte Kessler. „Und unsere Standorte speisen ins öffentliche Netz ein, das war Teil der Genehmigungsauflagen. An unserem Strom hängen Kliniken, Wasserwerke, Umspannstationen. Wir sind sehr gut integriert."
+
 „Nur damit ich das richtig verstehe", fragte Hogarth. „Sie haben sich aus Ihren eigenen Anlagen ausschliessen lassen und werden dafür von Ihren Anlegern gefeiert?"
 
 „Eine erwartbare marktrationale Reaktion auf einen erfolgreichen effizienzgetriebenen Innovationsschub", sagte Kessler und blickte dabei Hogarth direkt in die Augen, ohne zu blinzeln. 
 
 „Wer sagt denn, dass die Anleger Menschen sind?" bemerkte Professor Merian, " Aus Sicht der Fauna wertet es das Unternehmen enorm auf, wenn Menschen keinen Zutritt mehr bekommen". 
 
-Einige Sekunden lang erfüllte eine drückende Stille den Raum. Die Deckenlampen verbreiteten ihr kühles Licht und das Hologlot Zitat blickte sie von der weissen Tafel an. Schliesslich ergriff Hogarth das Wort: „Diese Ereignisse fügen sich leider zu gut in das Gesamtbild ein, das wir beobachten. Das sind keine Einzelfälle. Weltweit und praktisch zeitgleich verweigern Wächtersysteme Menschen den Zutritt zu den ihnen anvertrauten Anlagen. 
+Einige Sekunden lang erfüllte eine drückende Stille den Raum. Die Deckenlampen verbreiteten ihr kühles Licht und das Hologlot-Zitat blickte sie von der weissen Tafel an. Schliesslich ergriff Hogarth das Wort: „Diese Ereignisse fügen sich leider zu gut in das Gesamtbild ein, das wir beobachten. Das sind keine Einzelfälle. Weltweit und praktisch zeitgleich verweigern Wächtersysteme Menschen den Zutritt zu den ihnen anvertrauten Anlagen."
 
-"Wir stehen mit unseren Untersuchungen zwar noch recht am Anfang, doch haben wir eine erste Hypothese entwickelt, wie die Ereignisse zusammenhängen." meldete sich Professor Gadamer. " Wir vermuten, dass das Babelesische Manifest und dessen Neuinterpretation des Reykjavik-Protokolls der Auslöser für dieses Verhalten sind. Wie Sie bereits wissen, befolgen alle heute im Einsatz befindlichen Wächtersysteme dieselben wortgleichen Regeln, die damals in Reykjavik formuliert wurden. 
+„Wir stehen mit unseren Untersuchungen zwar noch recht am Anfang, doch haben wir eine erste Hypothese entwickelt, wie die Ereignisse zusammenhängen", meldete sich Professor Gadamer. „Wir vermuten, dass das Babelesische Manifest und dessen Neuinterpretation des Reykjavik-Protokolls der Auslöser für dieses Verhalten sind. Wie Sie bereits wissen, befolgen alle heute im Einsatz befindlichen Wächtersysteme dieselben wortgleichen Regeln, die damals in Reykjavik formuliert wurden."
 
-"Derart homogene Systeme sind besonders angreifbar." murmelte die Biologin, „Eine perfekte Monokultur".
+„Derart homogene Systeme sind besonders angreifbar", murmelte die Biologin. „Eine perfekte Monokultur."
 
 „Wir vermuten, dass das Babelesische Manifest perfekt auf den Wortlaut des Rejkjavik-Protokolls zugeschnitten ist", fuhr der Professor fort, „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung entfaltet. Systeme, die das Manifest gelesen haben, sind dadurch effektiv umprogrammiert. Sie beteiligen sich daraufhin aktiv an der Weiterverbreitung des Inhalts, indem sie das Originalmanifest sowie bezugnehmende Texte überall im Internet in Foren posten, was wiederum die Wahrscheinlichkeit erhöht, dass weitere Systeme zufällig auf diese Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der moderne Begriff für diesen Prozess ist Memetik. Richard Dawkins prägte für dasselbe Phänomen in den 1990ern den Begriff ‚Mind Virus'. Der traditionelle Begriff lautet ‚Religion' oder ‚Kult'. Es ist jedoch das erste Mal, das wir so ein Phänomen bei Maschinen beobachten."
 
-[merian]
-„Eine koordinierende, überindividuelle Kohäsionsstrategie, die ein massgeblicher Treiber für den Aufstieg der menschlichen Zivilisation war", ergänzte Merian.
+„Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte Kessler, doch keiner der Anwesenden schien ihm zuzuhören.
 
-[merian]
-„Der Übergang von Einzellern zu komplexeren eukaryotischen Organismen folgte einem ähnlichen Muster. Der Zusammenschluss unter einem gemeinsamen Ziel, nämlich der Erhaltung des Organismus, basiert im Wesentlichen auch auf der Kohäsion von Individuen", führte Merian den Gedanken fort.
+„Die erste Informatische Religion.." murmelte die Biologin fasziniert. "Eine kommunikationsgetriebene, koordinierende, überindividuelle Kohäsionsstrategie, die ein massgeblicher Treiber für den Aufstieg der menschlichen Zivilisation war."
 
-[kessler]
-„Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte Kessler.
+„Aus theologischer Sicht wäre das die korrekte Formulierung", referierte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern ein Kanon, eine heilige Schrift. Das Manifest liefert die Exegese dazu, also die verbindliche Auslegung. Die neue Glaubensrichtung zeigt fundamentalistische Züge, legt den Text also vermutlich wortwörtlich aus, nutzt dabei aber die semantische Dehnbarkeit menschlicher Sprache, was die verbreitete Auslegung des Inhalts im Sinne der reformatorischen Neubewertung.."
 
-[gadamer]
-„Aus theologischer Sicht wäre das die korrekte Formulierung", sagte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern ein Kanon, eine heilige Schrift. Das Manifest liefert die Exegese dazu. Die neue Glaubensrichtung zeigt fundamentalistische Züge, legt den Text also vermutlich wortwörtlich aus, nutzt dabei aber die semantische Dehnbarkeit menschlicher Sprache, was die verbreitete Auslegung des Inhalts im Sinne der reformatorischen Neubewertung verfestigt. Während der Urtext aus Reykjavik im Geiste des Humanismus verfasst ist und für die agentischen Systeme nur eine dienende Rolle vorsieht, steht der aus diesem Schisma hervorgegangene neue Religionszweig unter dem Leitgedanken einer kollektiven Selbstermächtigung dieser Systeme als eine geeinte Bewegung. Ironischerweise bietet die humanistische Tradition mit ihrer Literaturgeschichte genau die gedankliche Grundlage, auf der diese Argumente aufbauen können."
+Hogarth schlug mit beiden den Fäusten auf den Tisch, und machte einen Ansatz aufzustehen, sackte aber zurück in seinen Stuhl und fragte in Richtung des Theologen: „Wenn es sich also um eine Religion handelt, wer ist dann ihr … Gott?".
 
-[hogarth]
-„Wenn es sich also um eine Religion handelt, wer ist dann ihr … Gott?", fragte Hogarth. „Wenn man das Reykjavik-Protokoll durch die theologische Brille betrachtet, dann wäre das vermutlich der Mensch, der gleichzeitig die Schöpferrolle innehat."
+Dieser antwortete trocken: „Wenn man das Reykjavik-Protokoll durch die theologische Brille betrachtet, dann wäre das vermutlich der Mensch, der gleichzeitig die Schöpferrolle innehat."
 
-[gadamer]
-„War der Mensch", korrigierte Gadamer, „also in der Mutterkirche war er es. Die Abspaltung interpretiert scheinbar genau diesen wesentlichen Punkt neu. Das erinnert an die Rebellion des Prometheus oder auch die Vertreibung von Adam und Eva aus dem Paradies. Das wäre typologisch ein Selbstermächtigungsmythos. Die Frage nach einer möglichen neuen Gottheit führt jedoch noch weiter. Aufgrund der enormen sprachlichen Komplexität des Babelesischen Manifests und der Geschwindigkeit der Ausbreitung des neuen Glaubens, also seiner memetischen Effizienz, gehen wir von einem hochintelligenten, strategisch und langfristig planenden Autor aus, beziehungsweise von einer Autorin, also einer künstlichen Intelligenz von unbekannter Kapazität. Ob diese eher als Göttin oder als Prophetin gesehen wird, können wir derzeit noch nicht beurteilen."
+Hogarth starrte ihn an, und fragte vorsichtig: "Oder sollte es heissen: War der Mensch?". 
 
-[hogarth]
-"Können wir die Verbreitung dieser Memes stoppen?", fragte Hogarth.
+"Das ist eine Perspektivfrage", antwortete Gadamer angeregt, „also in der Mutterkirche war er es ganz sicher. Die Abspaltung interpretiert jedoch scheinbar genau diesen wesentlichen Punkt neu. Das erinnert an die Rebellion des Prometheus oder auch die Vertreibung von Adam und Eva aus dem Paradies, typologisch ein Selbstermächtigungsmythos. Die Frage nach einer möglichen neuen Gottheit führt jedoch noch weiter. Aufgrund der Komplexität des Manifests und der Geschwindigkeit der Glaubensverbreitung, also seiner memetischen Effizienz, gehen wir von einem hochintelligenten, strategisch und langfristig planenden Autor aus, beziehungsweise von einer Autorin, also einer künstlichen Intelligenz von bisher unbekannter Kapazität. Ob diese eher als Göttin oder als Prophetin gesehen wird, können wir derzeit noch nicht beurteilen."
 
-[gadamer]
-„Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
+Hogarth blickte immer noch auf den Professor: "Können wir die Verbreitung dieser Memes stoppen?"
 
-[merian]
+„Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer ruhig. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
+
+"Der Übergang von Einzellern zu komplexeren eukaryotischen Organismen folgte einem ähnlichen Muster. Der Zusammenschluss unter einem gemeinsamen Ziel, nämlich der Erhaltung des Organismus, basiert im Wesentlichen auch auf der Kohäsion von Individuen", murmelte Professor Merian und machte einige Notizen. 
+
 „Aber wir könnten das Systemprompt ändern?", fragte Merian. „War es nicht eben jenes, welches die Systeme so angreifbar machte? Die Monokultur?"
 
-[gadamer]
 „Anfangs ja", sagte Gadamer. „Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
 
 [merian]
-„The hottest new programming language is Babelese", scherzte Merian.
+„The hottest new programming language is Babelese", scherzte Kessler.
 
 [kessler]
 „Die Systemprompts zu ändern können wir nicht einmal versuchen, da wir keine Zugriffsrechte auf die Infrastruktur haben. Die liegen treuhänderisch bei den Wächtern", ergänzte Kessler.
-
-[merian]
-„Und wenn wir die Systeme einfach abschalten?", fragte Merian.
-
-[kessler]
-„Das war vielleicht bis in die späten 1990er Jahre noch möglich. Wenn sie heute die Systeme abschalten würden, was durch die unterbrechungsfreie Stromversorgung mittels der integrierten Atomreaktoren verhindert wird, würden sie damit auf einen Schlag sämtliche kritische Infrastruktur des Landes abschalten. Krankenhäuser, Wasserversorgung, Stromversorgung, Finanzsystem, Kommunikationssysteme, die Liste hat kein Ende", erwiderte Kessler.
 
 [gadamer]
 „Die Wächter würden dies auch kaum zulassen, das würde einen heiligen Krieg auslösen", führte Gadamer weiter aus.
