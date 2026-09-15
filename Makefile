@@ -17,6 +17,7 @@ BUILD     := build.py
 SITE      := site
 
 INDEX     := $(SITE)/index.html
+FAVICON   := $(SITE)/favicon.svg
 PYTHON    ?= python3
 
 # Artefakte einer Sprache: $(call artefacts,<praefix>)
@@ -32,7 +33,7 @@ EN_OUT := $(if $(SRC_EN),$(call artefacts,toryo-en),)
 
 .PHONY: all clean open watch index de en
 
-all: $(INDEX) de en
+all: $(INDEX) $(FAVICON) de en
 
 de: $(DE_OUT)
 en: $(EN_OUT)
@@ -40,6 +41,9 @@ index: $(INDEX)
 
 $(SITE):
 	@mkdir -p $(SITE)
+
+$(FAVICON): favicon.svg | $(SITE)
+	cp $< $@
 
 # Die Startseite haengt auch an SRC_EN: taucht die Uebersetzung auf,
 # wird die Fassungsliste neu gerendert.
@@ -101,7 +105,7 @@ open: $(INDEX)
 
 clean:
 	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub \
-	      $(SITE)/*.png $(SITE)/*.txt
+	      $(SITE)/*.png $(SITE)/*.txt $(SITE)/*.svg
 
 watch:
 	@command -v fswatch >/dev/null 2>&1 || { echo "fswatch fehlt: brew install fswatch"; exit 1; }

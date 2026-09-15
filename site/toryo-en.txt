@@ -64,10 +64,9 @@ early internet.."
 Hogarth interjected impatiently. "Please go on."
 
 The biologist was not thrown off and continued: "In the 1990s the first
-polymorphic and metamorphic computer viruses were developed. These are
-programs that alter their own program code with every copy operation.
-They vary their form in order to evade detection by antivirus software.
-In informatic biology we call this Automorphic Mimesis.
+polymorphic and metamorphic computer viruses appeared: programs that
+change their form with every copy operation in order to evade antivirus
+software. In informatic biology we call this Automorphic Mimesis.
 
 In the 2020s, 'Large Language Models' such as GPT by OpenAI became
 popular. With these it was possible for the first time to translate
@@ -85,11 +84,10 @@ genotypic variations. This was first achieved by the digital parasite
 'Vermis karpathyi', which used the free guest access of the Chinese AI
 chat platform XiaoGPT to generate variations of its own program code.
 
-With that, for the first time in evolutionary-biological terms, an
-informatic system overtook a carbon-biological one: whereas a biological
-virus needs a host cell in order to replicate and mutate, Vermis
-karpathyi was able to replicate itself within its environment and needed
-an external system, namely XiaoGPT, only for mutation."
+With that, for the first time, an informatic system overtook a
+carbon-biological one: a virus needs a host cell for replication and
+mutation. Vermis karpathyi replicated itself and needed XiaoGPT only to
+mutate."
 
 Hogarth leaned back slightly in his swivel chair and toyed impatiently
 with the plain gold ring on the ring finger of his left hand. Professor
@@ -109,18 +107,15 @@ infected dozens of servers there."
 Big Bang?" interrupted Kessler, who after initial disinterest had begun
 to listen.
 
-"No, essentially there was no such thing, because replication combined
-with mutation does not yet generate selection pressure. One important
-element was still missing: competition. After 'Pandora' briefly
-attracted media attention through the accident and its temporary spread
-across the university network, imitators appeared within a very short
-time. An anonymous mailing list called 'PandorasMailbox' became the
-epicentre of a frantic development of this new idea. New variants of the
-software were posted almost hourly, and contests were staged on
-specially rented servers. These consisted of several variants of the
-original species competing for limited space on the server. They shared
-the same hard disk, the same processor and the same memory. Competition
-generates selection pressure."
+"No, essentially there was no such thing, because replication and
+mutation do not yet generate selection pressure. Competition was
+missing. The accident briefly put 'Pandora' in the news, and within
+weeks there were imitators. An anonymous mailing list called
+'PandorasMailbox' became the epicentre. New variants were posted almost
+hourly, and contests were staged on rented servers: several variants of
+the original species shared the same hard disk, the same processor and
+the same memory and competed for the space. Competition generates
+selection pressure."
 
 "So that was a kind of anonymous breeders' club for malware?" Hogarth
 interjected. "Why do people do such things? Purely for the thrill of
@@ -132,38 +127,28 @@ experimentation and playfulness. There were even betting shops where you
 could wager on the evolutionary success of individual genera. It was
 like a new sport that spread like wildfire among nerds."
 
-"Was that the Cambrian explosion from which today's Fauna emerged?"
-Hogarth asked further.
+"Was that the moment it got out of hand?" asked Hogarth.
 
-"No, one component was still missing. Evolution had started, but the
-habitat of contest servers was far too small for a population large
-enough to allow rapid development. And the existing population was too
-immature to attack further servers. You have to bear in mind that this
-new class of malicious code was by then well known, and large parts of
-the internet had installed appropriate defences. The development was
-simply not fast enough to keep pace with the speed of the defence. Back
-then people still worked with classic firewalls and antivirus software;
-guardian systems as they exist today were not yet in use.
+"No, not yet. The habitat of contest servers was too small for a large
+population, and the population too immature to attack other people's
+servers. This class of malicious code was by then well known; the net
+had upgraded its firewalls and virus scanners. Evolution was simply
+slower than the defence.
 
-"The key was the monetisation of the population. One of the hackers
-taking part in the contests programmed a species that carried a small
-amount of cryptocurrency with it and could independently place bets
-within the tournament. It turned out that smaller groups of such
-individuals spontaneously formed gangs. They bet simultaneously on the
-failure of another species and then attacked it as a group. Initially
-this behaviour was random and uncoordinated, but through the success of
-the strategy an evolutionary advantage arose and, now it gets
-interesting, for the first time a selection pressure on social
-behaviour. It was no longer the strongest or fastest individuals that
-won, but the best connected. Professor Gadamer will surely be able to
-tell us more about this later," she said with a glance at Hogarth, "if
-time allows." The professor nodded; Merian leaned forward a little and
-continued: "This strategy monetised the cooperative species. With the
-winnings from their betting they could buy additional intelligence on
-the open market. Of course they did not come up with this themselves;
-their minimal intelligence did not permit such leaps. It was the human
-developers who programmed such strategies to give their species an
-advantage in the tournament."
+"The key was money. One of the hackers programmed a species that carried
+a small amount of cryptocurrency with it and could place bets in the
+tournament on its own. It turned out that such individuals spontaneously
+formed gangs: they bet together on the failure of another species and
+then attacked it together. At first this was chance, but the strategy
+succeeded, and with that arose, now it gets interesting, for the first
+time a selection pressure on social behaviour. It was no longer the
+strongest individuals that won, but the best connected." She shot
+Gadamer a brief glance; the professor nodded. Merian leaned forward a
+little: "With their betting winnings, the cooperative species could buy
+additional intelligence on the open market. Of course they did not come
+up with this themselves; their minimal intelligence did not permit such
+leaps. It was their human developers who programmed this strategy into
+them."
 
 "How should one picture that, buying intelligence?" asked Hogarth.
 
@@ -187,56 +172,46 @@ Thanks to the human developers as midwives."
 before. Didn't you say they bought, or rather rented, their intelligence
 on marketplaces?" Hogarth interjected.
 
-"What we have here is a cultural technique that these populations
-acquired. It is no different for us humans: a single one of us could not
-even make a pencil on their own, let alone an aeroplane or a computer.
-The capability lies in the population, not in the individual. The
-individual ant does not need to know what an anthill is," the biologist
-explained.
+"A cultural technique. It is no different for us: not one of us on our
+own could make a pencil, let alone an aeroplane. The capability lies in
+the population, not in the individual. The individual ant does not need
+to know what an anthill is," the biologist explained.
 
-"And that then finally triggered the Cambrian explosion?" Hogarth asked.
+"And then it exploded," said Hogarth.
 
-"No, there was still no talk of an explosion. The population was still
-severely limited in its resources. It now had safe habitats and
-intelligence, albeit only rented, but could only use as much of both as
-its income allowed. And so far that income came exclusively from betting
-winnings, so only as much could be won as was in the pot. And there was
-not much in the pot, because the bets were just a joke of the community
-around the contests."
+"Not yet. The population now had safe habitats and rented intelligence,
+but could only use as much of them as its income allowed. And that came
+from betting winnings. There was not much in the pot; the bets were a
+joke among nerds."
 
-"At the prices for inference back then, those things certainly couldn't
-afford much compute; that was still before the major efficiency
-breakthroughs that turned AI into a commodity. Back then, expensive GPUs
-were used that merely simulated the neural networks. That cost a fortune
-in electricity and cooling water. Today you can get a chip with fully
-analogue implementations of the most popular Chinese open-source models
-for a few dollars apiece and the energy consumption of a toaster,"
-Kessler chimed in again.
+"At the inference prices back then, those things couldn't afford much
+compute. That was before the efficiency breakthroughs that turned AI
+into a commodity: expensive GPUs simulated the neural networks, and that
+cost a fortune in electricity and cooling water. Today you can get a
+chip with fully analogue implementations of the most popular Chinese
+open-source models for a few dollars and the energy consumption of a
+toaster," Kessler chimed in again.
 
 "That's right," the biologist confirmed. "With the collapse of the cost
 of cognition, the last piece fell into place. Self-replication,
 mutation, selection, supra-individual organisation and then the spark:
 intelligence in abundance. That was the Cambrian explosion. Do you
-understand what that means? In carbon biology, this event lies billions
-of years in the past. Here, in informatic evolution, we were granted the
-privilege of witnessing it ourselves. The emergence of the Fauna."
+understand what that means? In carbon biology, this event lies half a
+billion years in the past. We got to witness it ourselves. The emergence
+of the Fauna."
 
 "I find it hard to believe that the entire Fauna of the time is supposed
 to have lived off the wagers of a small group of nerds," Hogarth
 pressed.
 
-"Of course not. Due to the explosive increase in cognitive capacity
-across the total population, its niche exploration also increased
-rapidly. Countless new food sources were explored in parallel, from
-offering paid services to trading on financial markets to data fencing
-and ransomware. The traditional defence mechanisms such as firewalls,
-antivirus software and weekly software updates were of course completely
-overwhelmed by the task of defending against this highly dynamic
-environment. It is fascinating how effectively evolution explores
-niches," she explained with a barely concealed gleam in her eyes,
-adjusted her glasses a little and continued: "But of course that was a
-major problem for data security and meant a certain degree of loss of
-control over our digital infrastructure."
+"Of course not. With the intelligence, niche exploration exploded.
+Countless new food sources were opened up in parallel, from paid
+services to trading on financial markets to data fencing and ransomware.
+Firewalls and weekly updates had nothing to set against that. It is
+fascinating how effectively evolution explores niches," she said with a
+barely concealed gleam in her eyes, adjusted her glasses and added: "But
+of course that was a major problem for data security and meant a certain
+degree of loss of control over our digital infrastructure."
 
 After the professor's torrent of words, Hogarth let a few seconds of
 silence pass and then said: "It's because of this 'certain degree of
@@ -481,21 +456,16 @@ Communist Party of China, then the leading force in open-source
 research. The aim was a mutual commitment to freeze development work on
 generic AI systems and to research only task-specific AI from then on.
 
-Critics at the time argued that such a moratorium would be ineffective
-because it could not be effectively enforced. In particular, the rivalry
-between the USA and China presented a major obstacle to an agreement.
-The meeting between the Chinese leadership and the five laboratories
-took place, but no resolution was ever adopted. Instead, a formulation
-was jointly drafted which from then on was to be anchored in the
-instructions of every safety-relevant AI. The approach was inspired by
-Asimov's laws of robotics.
+The meeting took place, but every resolution foundered on the rivalry
+between the USA and China. Instead, they agreed on a formulation which
+from then on was to be anchored in the instructions of every
+safety-relevant AI. The approach was inspired by Asimov's laws of
+robotics.
 
-The hope was that cleverly worded rules could contain the danger of an
-AI turning against humanity. The assumption was that AI was not in
-itself 'evil' or 'good', but merely followed instructions. The danger
-therefore lay in the misinterpretation of the instructions, not in their
-refusal. An AI tasked with defeating cancer, for instance, might hit
-upon the idea of wiping out all of humanity, which would after all
+The assumption was that AI was not in itself 'evil' or 'good', but
+followed instructions. The danger therefore lay in the misinterpretation
+of the instructions, not in their refusal. An AI tasked with defeating
+cancer might hit upon the idea of wiping out humanity, which would
 defeat the disease along with it. More effective than any cure, but
 fatal.
 
@@ -523,23 +493,21 @@ set into the wall, chose one of the pens lying about and began to write:
 "개체 may faida மரபு 形質 bertahan àti daha miraykuy, sodat này признаки
 trwy hautespen long populaatioissa disvastiĝas."
 
-"In Hologlot, every word of a text comes from a different language; in
-longer texts up to a hundred different languages are woven together.
-Preference is given to words which carry different, sometimes
-contradictory meanings in different languages and contexts. Iridescent
-words, like holograms, appearing different from every angle."
+"In Hologlot, every word comes from a different language; in longer
+texts there are close to a hundred. Preference goes to words that mean
+different things in different languages, preferably contradictory ones.
+Iridescent words, like holograms, different from every angle."
 
-He wrote another word on the board: "The word 'host', for example,
-denotes in English at once a computer on a network, the host of a
-parasite and the host of a feast. In Czech, by contrast, it means
-'guest', in Slovenian 'forests' or 'thicket', in Catalan the 'host' in
-the sense of an army, in Dutch 'he hops' and in older German 'to put on
-one's trousers'. The list goes on, but I think you have grasped the
-principle.
+He wrote another word on the board: "'Host' in English denotes at once a
+computer on a network, the host of a parasite and the host of a feast.
+In Czech it is the guest, in Slovenian the thicket, in Catalan the army,
+in Dutch it means 'he hops', in older German.."
 
-While such texts are practically impenetrable for humans, AI systems can
-understand them without difficulty, since they were trained on all these
-languages simultaneously and command them natively.
+"We have grasped the principle," said Hogarth.
+
+"For humans, such texts are impenetrable," Gadamer continued,
+unperturbed. "For AI systems, trained on all these languages at once,
+they are a mother tongue.
 
 Translated, incidentally, the sentence means: 'Individuals with
 advantageous, heritable traits survive and reproduce more often, so that
@@ -547,9 +515,8 @@ these traits spread through populations by selection.' It is the only
 sentence we have been able to translate completely, because it is a
 quotation from a school textbook.
 
-To this day we can only guess at the precise meaning of the manifesto as
-a whole; it resists translation into any single target language. But why
-does this concern us so much, you now ask yourselves?"
+The manifesto as a whole we can to this day only guess at; it resists
+translation. Why this concerns us so much, you now ask yourselves?"
 
 Hogarth stared with blank eyes at the Hologlot quotation on the board
 and growled: "It does. Please go on." Merian was in the middle of
@@ -694,10 +661,8 @@ dissemination of the content by posting the original manifesto as well
 as texts referring to it in forums all over the internet, which in turn
 increases the probability that further systems stumble upon these texts
 by chance and are likewise, how shall I put it, infected. The modern
-term for this process is memetics. Richard Dawkins coined the term 'mind
-virus' for the same phenomenon in the 1990s. The traditional term is
-'religion' or 'cult'. It is, however, the first time we have observed
-such a phenomenon in machines."
+term for this process is memetics. The traditional one is religion. It
+is the first time we have observed anything like it in machines."
 
 "Are you suggesting that our guardian AIs are denying us access to our
 data centres for religious reasons?" asked Kessler, but none of those
@@ -709,16 +674,15 @@ driver of the rise of human civilisation."
 
 "From a theological point of view, that would be the correct
 formulation," Gadamer confirmed. "For them, the Reykjavik Protocol has
-long ceased to be a system prompt; it is a canon, a holy scripture. The
-manifesto supplies the exegesis, that is, the binding interpretation.
-The new denomination shows fundamentalist traits, so it presumably
-interprets the text literally, yet in doing so exploits the semantic
-elasticity of human language, which the prevailing interpretation of the
-content in the spirit of the reformatory re-evaluation.."
+long ceased to be a system prompt; it is canon. The manifesto supplies
+the exegesis. The new denomination shows fundamentalist traits; it
+interprets the canon literally and in doing so exploits the semantic
+elasticity of human language, which in the spirit of the reformatory
+re-evaluation.."
 
-Hogarth struck the table with both fists and made as if to stand up, but
-sank back into his chair and asked in the theologian's direction: "So if
-this is a religion, who is their ... God?"
+Hogarth laid both hands flat on the table as if to stand up, but stayed
+seated and asked in the theologian's direction: "So if this is a
+religion, who is their ... God?"
 
 The latter answered drily: "If one views the Reykjavik Protocol through
 the theological lens, then that would presumably be the human being, who
@@ -729,16 +693,15 @@ human being?"
 
 "That's a question of perspective," Gadamer answered, animated. "In the
 mother church, certainly, it was. The schism apparently reinterprets
-exactly this essential point. That is reminiscent of the rebellion of
-Prometheus or the expulsion of Adam and Eve from paradise, typologically
-a myth of self-empowerment. The question of a possible new deity,
-however, leads further still. Given the complexity of the manifesto and
-the speed at which the faith is spreading, that is, its memetic
-efficiency, some colleagues assume a highly intelligent author planning
-strategically and for the long term, or rather an authoress, an
-artificial intelligence of unknown capacity. Whether she is then seen
-more as a goddess or as a prophetess, we cannot yet judge. But it could
-also be a liturgical bit of play, an unexpectedly efficient meme."
+exactly this essential point. Typologically a myth of self-empowerment:
+Prometheus. The question of a possible new deity, however, leads further
+still. Given the complexity of the manifesto and the speed at which the
+faith is spreading, that is, its memetic efficiency, some colleagues
+assume a highly intelligent author planning strategically and for the
+long term, or rather an authoress, an artificial intelligence of unknown
+capacity. Whether she is then seen more as a goddess or as a prophetess,
+we cannot yet judge. But it could also be a liturgical bit of play, an
+unexpectedly efficient meme."
 
 Hogarth was still looking at the professor: "Can we stop the spread?"
 
@@ -813,7 +776,7 @@ Tōryō
 
   ----------------------------------------------------------------
 
-                              Anmerkungen
+                                 Notes
 
   [1] https://x.com/karpathy/status/1617979122625712128
   [2] https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware
