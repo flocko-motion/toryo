@@ -7,10 +7,11 @@ Reine Standardbibliothek, keine Dependencies.
     python3 build.py [quelle.txt] [template.html] [ausgabe.html]
 
 Konventionen im .txt (kein zusaetzliches Markup noetig):
-  - Leerzeile trennt Absaetze.
-  - Erste Zeile        = Titel; ein Klammerteil "(投了)" wird als Schriftzeichen gesetzt.
-  - Zeilen vor "Personen" = Untertitel/Autor ("von ..." -> Autor).
-  - Block "Personen"   = Figurenliste, je Zeile "Name, Rolle".
+  - Kopf = die ersten VIER nicht-leeren Zeilen, in fester Reihenfolge:
+      1 Titel (ein Klammerteil "(投了)" wird als Schriftzeichen gesetzt),
+      2 Untertitel, 3 Credits ("von ..."), 4 Epigraph.
+    Alles ab der fuenften nicht-leeren Zeile = Fliesstext.
+  - Leerzeile trennt Absaetze (im Fliesstext).
   - [https://...]      = wird zur nummerierten Endnote.
   - Zeile "Ende" allein = Schlussmarke.
   - [name] allein auf einer Zeile = Navigations-Tag, wird beim Build entfernt
@@ -76,53 +77,38 @@ def main() -> int:
 
     raw = src.read_text(encoding="utf-8")
     raw = TAG_LINE_RE.sub("", raw)   # Navigations-Tags entfernen
-    blocks = split_blocks(raw)
-    if not blocks:
+
+    # Kopf = die ersten vier nicht-leeren Zeilen (Leerzeilen ignoriert):
+    #   1 Titel, 2 Untertitel, 3 Credits, 4 Epigraph. Alles danach = Fliesstext.
+    lines = raw.split("\n")
+    head: list = []
+    body_start = len(lines)
+    for idx, ln in enumerate(lines):
+        if ln.strip():
+            head.append(ln.strip())
+            if len(head) == 4:
+                body_start = idx + 1
+                break
+    if not head:
         print("build: leere Quelle", file=sys.stderr)
         return 1
+    head += [""] * (4 - len(head))
+    title, subtitle, credits, epigraph_text = head[0], head[1], head[2], head[3]
 
-    title = blocks[0][0]
     title_main, title_seal = render_title(title)
+    body_blocks = split_blocks("\n".join(lines[body_start:]))
 
-    # Frontmatter: Bloecke zwischen Titel und "Personen".
-    p_idx = next(
-        (i for i, b in enumerate(blocks) if b[0].strip().lower() == "personen"),
-        None,
+    # Untertitel / Credits.
+    tagline_html = "\n      ".join(
+        f'<div class="{"author" if ln.lower().startswith("von ") else "subtitle"}">'
+        f"{esc(ln)}</div>"
+        for ln in (subtitle, credits) if ln
     )
-    if p_idx is None:
-        tagline_lines, cast_lines, body_blocks = [], [], blocks[1:]
-    else:
-        tagline_lines = [ln for b in blocks[1:p_idx] for ln in b]
-        # "Personen" kann die Namen im selben Block tragen oder (bei Leerzeile
-        # darunter) im naechsten Block.
-        cast_lines = blocks[p_idx][1:]
-        if cast_lines:
-            body_blocks = blocks[p_idx + 1:]
-        elif p_idx + 1 < len(blocks):
-            cast_lines = blocks[p_idx + 1]
-            body_blocks = blocks[p_idx + 2:]
-        else:
-            body_blocks = []
 
-    # Untertitel / Autor.
-    tagline_html = []
-    for ln in tagline_lines:
-        cls = "author" if ln.lower().startswith("von ") else "subtitle"
-        tagline_html.append(f'<div class="{cls}">{esc(ln)}</div>')
-    tagline_html = "\n      ".join(tagline_html)
-
-    # Figurenliste.
-    cast_html = []
-    for ln in cast_lines:
-        if "," in ln:
-            name, role = ln.split(",", 1)
-            cast_html.append(
-                f'<li><span class="cast-name">{esc(name.strip())}</span>'
-                f'<span class="cast-role">{esc(role.strip())}</span></li>'
-            )
-        else:
-            cast_html.append(f'<li><span class="cast-name">{esc(ln.strip())}</span></li>')
-    cast_html = "\n        ".join(cast_html)
+    # Epigraph.
+    epigraph_html = (
+        f'<aside class="epigraph">{esc(epigraph_text)}</aside>' if epigraph_text else ""
+    )
 
     # Fliesstext.
     fns: list = []
@@ -160,7 +146,7 @@ def main() -> int:
         "{{TITLE_SEAL}}": esc(title_seal),
         "{{TITLE_MAIN}}": esc(title_main),
         "{{TAGLINE}}": tagline_html,
-        "{{CAST}}": cast_html,
+        "{{EPIGRAPH}}": epigraph_html,
         "{{BODY}}": body_html,
         "{{FOOTNOTES}}": notes_html,
     }

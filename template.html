@@ -93,41 +93,18 @@
     letter-spacing: 0.08em;
   }
 
-  /* ---------- Personen ---------- */
-  .dramatis {
+  /* ---------- Epigraph (Go-Begriff unter dem Titel) ---------- */
+  .epigraph {
+    max-width: 30rem;
     margin: 0 auto clamp(4rem, 14vh, 8rem);
-    text-align: center;
-  }
-  .dramatis-label {
-    font-weight: 400;
-    font-size: 0.72rem;
-    letter-spacing: 0.4em;
-    text-indent: 0.4em;
-    text-transform: uppercase;
-    color: var(--shu);
-    margin: 0 0 1.6rem;
-  }
-  .cast {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    text-align: left;
-  }
-  .cast li {
-    margin: 0.5rem 0;
-    line-height: 1.5;
-  }
-  .cast-name {
-    color: var(--ink);
-  }
-  .cast-role {
-    color: var(--ink-mute);
+    padding-top: 2.4rem;
+    border-top: 1px solid var(--hairline);
+    font-size: 0.9rem;
     font-style: italic;
-  }
-  .cast-role::before {
-    content: ",\00a0";
-    font-style: normal;
+    line-height: 1.7;
+    text-align: center;
+    color: var(--ink-mute);
+    text-wrap: balance;
   }
 
   /* ---------- Fliesstext ---------- */
@@ -289,12 +266,7 @@
       </div>
     </header>
 
-    <section class="dramatis">
-      <h2 class="dramatis-label">Personen</h2>
-      <ul class="cast">
-        {{CAST}}
-      </ul>
-    </section>
+    {{EPIGRAPH}}
 
     <article class="story">
       {{BODY}}
