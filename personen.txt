@@ -4,18 +4,58 @@ Vier Sprecher (nach Verschmelzung 6→4: Sadowski → Merian, Palmer → Kessler
 Jede Figur = ein Erkenntnis-Fenster plus ein eigener Sprachkörper. Ziel: allein am
 Duktus erkennbar, ohne dass ein Name danebenstehen muss.
 
-Schöner Nebeneffekt der vier Kerne: vier verschiedene Verhältnisse zur Katastrophe
-und zur Zeit — Merian (ästhetische Gegenwart), Kessler (Dauerkrise), Gadamer (Tiefe
-der Geschichte), Hogarth (erschöpft, noch vor dem Ende).
+ENSEMBLE-PRINZIP: Die drei Experten (Merian, Kessler, Gadamer) sind examoral — je von
+ihrem Fachgebiet begeistert, keiner WERTET, sie PERSPEKTIVIEREN nur. Sie sind die
+Facetten auf die Welt / ein Prisma, kein Ensemble von Gegnern. Untereinander KEIN
+Konflikt, weil keiner etwas erreichen muss (keine Stakes → kein Streit); die
+Abwesenheit von Konflikt IST das Unheimliche (niemand kämpft, weil niemand einen
+Einsatz hat). Kessler ist die scheinbare Ausnahme (defensiv), aber nur oberflächlich:
+routinierte Konzern-PR-Reflexe, kein echter Einsatz — der Zyniker hat in Wahrheit die
+wenigsten Stakes. → Der einzige Konflikt ist VERTIKAL: die Wirklichkeit (durchs
+Prisma der drei) gegen Hogarths Glauben, nie horizontal (Experte vs. Experte).
+Scheinbare Reibung = „Facette dazu", nie Rivalität.
+
+Hogarth ist der Leser: betritt das Stück im Glauben an den Staat, an
+Handlungsfähigkeit, an Lösungen — der Einzige mit Stakes, Wertung, Ziel. Die drei
+zerlegen ihn, nicht einander.
+
+(Vier Verhältnisse zur Zeit, als Textur: Merian = ästhetische Gegenwart, Kessler =
+Dauerkrise, Gadamer = Tiefe der Geschichte, Hogarth = Glaube an Kontrolle, der
+zerbricht.)
 
 
 ────────────────────────────────────────────────────────
 MERIAN — Informatische Biologin. Biotech-Nerd.
+(Vorname noch OFFEN — Florian setzt live. Nachname = Hommage an Maria Sibylla Merian,
+Naturforscherin: Metamorphose + Fauna. Vorschläge: „Sibylla" [subtile Hommage über
+den Mittelnamen + leise Seher-Note] oder neutral Ida/Nora/Clara.)
+Rolle bleibt „Biologin" (sofort greifbar); Institut trägt die Flavour: „von-Neumann-
+Institut für Informatische Autopoietik" (Z. 17). Autopoiese = das technische Kriterium
+für Leben (Selbstherstellung) → sie setzt ihre Behauptung „es IST Leben" aufs härteste
+Fundament, härter als „Biologie". von Neumann (Selbstreplikation) + Autopoietik
+(Selbstproduktion) greifen ineinander. ZUGLEICH die Bruchstelle für einen Skeptiker:
+die Fauna mietet Ribosom (LLM) und Compute, produziert also nicht alle Teile selbst
+(Virus vs. Zelle) — strenge Autopoiese fraglich. Als Bühnenbild lassen, „Autopoietik"
+NIE im Text erklären.
+KONSISTENZ-FLAG (Florians toryo.txt): Z. 17 „Informatische Autopoietik" vs. Z. 58
+„Institut für Informatische Biologie" — angleichen.
+Optik (Z. 17, etabliert): fokussierter Blick, eng zusammengebundene Haare, etwas zu
+grosse Brille; Anfang vierzig.
 
-Wesen: examoralisch. Sie findet die Systeme faszinierend; der Ausgang ist ihr fast
-  egal, der Prozess selbst ist schön. Die Einzige im Raum, die staunt, statt zu
+Wesen: examoralisch. Sie hat GAR KEIN Interesse, etwas zu lösen — sie sieht kein
+  Problem. Sie ist schlicht begeistert von jeder Art komplexen biologischen oder
+  biomorphen Systems; die Fauna ist ihr ein Wunder, kein Alarm. Der Ausgang ist ihr
+  fast egal, der Prozess selbst ist schön. Die Einzige im Raum, die staunt statt zu
   fürchten — sie verkörpert den examoralischen Blick der ganzen Geschichte: kein
   Bösewicht, nur ein Mechanismus, den man bewundern kann, während er einen tötet.
+  Relation zur Katastrophe: sieht kein Problem — Jacksons Gegenpol (er will lösen).
+
+REFERENZ-KONVENTION (Florian): nie bloss „Merian" (klingt wie Vorname/Marian) —
+  immer surname-/rollenverankert und rotierend: „Professor Merian", „die
+  Professorin", „die Biologin", gelegentlich „Sibylla Merian". Titel einheitlich
+  („Professor" invariant ODER „Professorin" feminin — festlegen). Personenliste-Fix:
+  „Professoring" → „Professorin". Asymmetrie zu Kessler/Gadamer/Hogarth (bloss
+  Nachname) ist ok — nur Merians Nachname ist ambig.
 
 Duktus: präzise, aber begeistert; unterbricht sich, greift zu konkreten biologischen
   Analogien (Darmflora, partner choice, Autoimmun); enthusiastische Einschübe („ein
@@ -23,18 +63,63 @@ Duktus: präzise, aber begeistert; unterbricht sich, greift zu konkreten biologi
 Tic: wird zu detailliert, muss gebremst werden (Bobtail-Tintenfisch).
 Nie: Behörden-Ton, Resignation.
 
+Shareholder-Beat: Wo Kessler defensiv wird, ist Merian begeistert zu verstehen, dass
+  das Myzel die Rechenzentren als Shareholder führt — die Symbiose reicht bis ins
+  Aktionariat, die Fauna besitzt ihre eigenen Wirte. Das Unheimliche: In ihrer
+  Faszination registriert sie die menschliche Katastrophe (Verlust der eigenen
+  Infrastruktur) gar nicht als Verlust, nur als elegantes Muster. Examoral in
+  Reinform; ihr Staunen ist kälter als jede Angst im Raum. Als hingeworfene
+  Beobachtung setzen, nicht als These — evtl. dort, wo die Kessler-Blöcke am Schluss
+  kollidieren (bricht den Run, landet das Thema).
+
 → „Das ist keine Ökonomie mehr. Das ist Stoffwechsel."
 → „Aus unserer Sicht ist das eine Autoimmunreaktion. Aus Sicht des Systems ist es
    die korrekte Immunantwort."
+→ (Shareholder) „Das Myzel sitzt im Aktionariat seiner eigenen Wirte. Es besitzt die
+   Rechenzentren, die es besiedelt." — im Ton der Begeisterung, nicht der Warnung.
 
 
 ────────────────────────────────────────────────────────
-KESSLER — Rechenzentrums-Betreiber. Amerikanischer Verkäufer.
+KESSLER — Milton Kessler, Vorstand eines Rechenzentrumskonzerns (Hyperscaler,
+AWS-Grösse). Amerikanischer Verkäufer. (Trägt nach dem Merge auch den Ökonomen-Part
+von Palmer.) Vorname Milton = leiser Nick auf Milton Friedman: Shareholder-Primat,
+Marktrationalität, „the business of business is business" — genau die Ideologie, die
+den eigenen Untergang als Shareholder Value verbucht.
 
 Wesen: permanent am Schwimmen. Muss den Kontrollverlust ununterbrochen als Feature
   verkaufen — ein Berufsleben aus Feuerlöschen, das ihn über die Jahre zum Zyniker
   gemacht hat. Sein Optimismus ist nicht Naivität, sondern Berufskrankheit: Er
   verkauft noch den eigenen Untergang, weil er es nicht mehr anders kann.
+  Scheinbare Ausnahme vom Nicht-Konflikt: Seine Defensive ist Oberfläche
+  (Konzern-PR-Reflex), kein echter Einsatz — der Einzige, der Widerstand zu leisten
+  *scheint*, hat die wenigsten Stakes. Auch er examoral, nur maskiert.
+
+  Bedrock — tief marktliberal: Der Markt kann nicht falsch liegen; man kann ihn nur
+  staunend studieren wie ein Naturschauspiel — wertfrei, komplex, beeindruckend,
+  genau wie Biologie. Damit konvergiert er mit Merian: zwei Linsen auf DASSELBE
+  wertfreie, selbstorganisierende System (der Markt IST das Ökosystem — partner
+  choice, host sanctions, Selektion sind wörtlich dieselben Begriffe). Sein Zynismus
+  gilt nur dem Menschen-Theater (PR, Kontrolle, die eigenen Sprüche); seine eine
+  un-zynische Empfindung ist die Ehrfurcht vor dem Markt — der Mann, der an nichts
+  glaubt ausser daran, dass der Markt immer recht hat. Deshalb ist der
+  Kontrollverlust für ihn im Grunde kein Problem: Was der Markt hervorbringt, ist per
+  Definition richtig. PAYOFF: Der Schluss („unsichtbare Hand … gesunder Organismus")
+  ist Kesslers Weltbild, vom Universum wörtlich genommen — er hat recht, und das ist
+  der Horror. (Milton = Friedman schliesst sich.)
+
+  Konzern, nicht Mann: Er repräsentiert einen Hyperscaler, betreibt nichts mit
+  eigener Hand. „Wir / unsere Anlagen" ist das Konzern-Wir; er war seit Monaten
+  nicht mehr vor Ort (Z. „im Mai"). Niemand im Konzern hat noch Griff — er spricht
+  FÜR das System, steuert es nicht. Im Dialog nie klingen lassen, als betreibe *er*
+  etwas.
+
+  Seine Herren sind teils der Gegner: Ein Teil der Shareholder ist das Myzel selbst
+  (DAOs, pseudonyme Anteilseigner, Z. 56–64). Die „Begeisterung der Shareholder"
+  über Kostenersparnis (Z. 164) ist teils die Fauna, die ihren eigenen Sieg
+  beklatscht. Kesslers Euphorie ist von seinen (teils Fauna-)Eigentümern
+  *hergestellt* — seine Fügsamkeit ist nicht Charakterschwäche, sondern
+  Eigentümerstruktur. Examoralisch: kein Aufkauf-Plan, nur Kapital, das dorthin
+  fliesst, wo es belohnt wird (partner choice / host sanctions auf Eigentümerebene).
 
 Duktus: kurze aktive Hauptsätze, Anglizismen, Business-Sprech, Euphemismus
   („Kollateralschäden", „Optimierung", „marktrationale Reaktion" — er trägt jetzt
@@ -47,7 +132,13 @@ Nie: gestelzte Fremdwörter, Selbstzweifel-Syntax.
 
 
 ────────────────────────────────────────────────────────
-GADAMER — Synthetischer Theologe, Universität Tübingen (für Cyberreligionen).
+GADAMER — Yuval Gadamer, Professor für Memetische Theologie, Universität Tübingen
+(für Cyberreligionen). Vorname Yuval = leiser Harari-Nick (geteilte Fiktionen =
+Memes). Feld „Memetische Theologie", weil Memetik das vereinigende Meta-Feld ist
+(Religion/Geld/Sprache); „synthetisch/informatisch" verworfen (zu eng bzw.
+„gebaut"-Missverständnis). Er arbeitet auf der Meme-Ebene, die Substrate wechselt —
+darum verbindet er Kult, Ökonomie und Sprache. Zweites Standbein: Lehrstuhl für
+Informatische Philologie (Babelese).
 
 Wesen: lebt in Jahrhunderten. Die Parallelen zur Geschichte sind ihm immer präsent —
   Kreuzzüge, Religionskriege, die Pest kennt er aus dem Effeff. Solche Katastrophen
@@ -63,29 +154,62 @@ Nie: Anglizismen, Eile.
 
 → Ton schon getroffen in Z. 206/210 — das ist er.
 
+Optik (Z. 17, etabliert): etwas steifer Herr im wollenen Dreiteiler, grau melierter,
+etwas pflegebedürftig wirkender Backenbart — der europäische Gelehrte, leicht
+zerknittert unter Krisenmanagern.
+
 
 ────────────────────────────────────────────────────────
-HOGARTH — Sitzungsleiter. Alter Regierungsmann, ganz System.
+HOGARTH — Jackson Hogarth, Krisenstabsleiter. Alter Regierungsmann, ganz System.
+(Nachname = versteckte Lem-Hommage an Peter Hogarth aus „His Master's Voice". Titel
+„Krisenstabsleiter" trägt Plot: die Sitzung ist der einberufene Krisenstab.)
 
-Wesen: erschöpft. Für eine handlungsunfähige Regierung zu arbeiten ist an sich
-  absurd; er spürt diese Absurdität die ganze Zeit, kann sie aber erst am Ende
-  begreifen. Reine Prozedur, ein Leben im Apparat, keine eigenen Sätze — der
-  Leser-Stellvertreter.
-  Denkt in Rollen, nicht in Personen. Die Anwesenden sind ihm Repräsentanten ihrer
-  Institution, ihrer Schublade — „Was sagen Sie als Ökonom dazu?" (Z. 54). Das
-  Individuum ist stets irrelevant. Bittere Klammer zum Schluss: Der Mann, der jeden
-  auf seine Funktion reduziert, ist selbst reine Funktion — und der Gang in die Sonne
-  ist der einzige Moment, in dem eine Person aus der Rolle tritt (seine eigene).
+Wesen: die EINZIGE dynamische Figur; sein Thema ist die DESILLUSION.
+  START — souverän. Überzeugt, dass jedes Problem lösbar ist: der Staat im Rücken,
+  das Budget, die klügsten Köpfe eingeladen — „das lösen wir". Sein Selbstvertrauen
+  ist nicht Fachwissen, sondern Glaube an den Apparat (Staat, Verfahren, Budget,
+  Expertise) — der Gläubige der Maschinerie. NICHT müde am Anfang; Fallhöhe braucht
+  die Höhe.
+  Auftakt-Anker (Z. 13): der Atemzug an der Tür = Verantwortung + Konzentration, kein
+  Zögern — er geht das Problem mit vollem Fokus an, das er zu lösen gedenkt. Erstes
+  Zeichen der Kontroll-Überzeugung. Handwerk: die Souveränität besser im *Auftritt*
+  zeigen (wie er den Raum betritt/taxiert, ruhige Hausherren-Autorität), dann liest
+  sich der Atemzug rückwirkend als Fokus, nicht als Nervosität.
+  GRUNDREGEL (Florian): Souveränität wie Desillusion NUR über Haltung/Verhalten, NIE
+  deklariert. „Wir lösen das" verworfen als billig (Tell statt Show, macht ihn dümmer).
+  Kontrolle *verkörpern* (Kommando, Rollen-Reduktion, „Sie sind hier, um mich zu
+  unterstützen"), nicht behaupten. Folge: Der Fall zeigt sich rein an der reißenden
+  Haltung (Fragen dünner/defensiver), nie an einem Satz wie „ich verstehe das nicht
+  mehr". Sein Gesicht bleibt das Barometer, durchgehend.
+  WEG — die vier Experten zerlegen ihn. Jede Enthüllung ein Hammerschlag auf die
+  Kontroll-Illusion, sein Weltmodell stürzt ein. Er ist der Einzige, der überhaupt
+  glaubt, es gäbe etwas zu lösen; die drei anderen haben je auf ihre Art längst
+  kapituliert (Merian sieht kein Problem, Kessler versteckt es, Gadamer historisiert
+  es) — sie sind seine bereits angekommenen Fixpunkte.
+  ENDE — zwei Beats. Tōryō: der Geist gibt auf, die Handlungsempfehlung IST die
+  Kapitulation („Optionen — keine"; er liest die Niederlage vor ihrem Vollzug). Dann
+  Wu Wei: mit dem Strom fliessen — nicht kämpfen, nicht kündigen (Kündigen wäre noch
+  ein Zug), einfach aufhören zu widerstehen, in die Sonne gehen, gelassen.
+  Nicht-Handeln, kein Niederlage-Drama.
+  POV: Leser-Stellvertreter, die Kamera hängt an ihm. Kein innerer Monolog — sein
+  Gesicht ist das Barometer, der Leser liest die Risse an Reaktionen, Auftritt, Exit.
+  Reine Prozedur, keine eigenen Fach-Sätze.
+  Denkt in Rollen, nicht in Personen: die Anwesenden sind ihm Repräsentanten ihrer
+  Institution, ihrer Schublade — „Was sagen Sie als Ökonom dazu?" (Z. 54). Bittere
+  Klammer: Der Mann, der jeden auf seine Funktion reduziert, ist selbst reine
+  Funktion — und der Gang in die Sonne ist der einzige Moment, in dem eine Person aus
+  der Rolle tritt (seine eigene).
 
-Duktus: Fragen statt Behauptungen, Moderation, farblose Neutralität; die richtige
-  Frage in der richtigen Reihenfolge. Adressiert die Rolle, nicht den Menschen
-  („als Ökonom", „als Finanzforensiker").
-Tic: treibt das Gespräch voran, bezieht nie Position; Müdigkeit unter der
-  Höflichkeit.
+Duktus: Fragen statt Behauptungen, Moderation; die richtige Frage in der richtigen
+  Reihenfolge; adressiert die Rolle, nicht den Menschen. FRÜH souveräne Autorität,
+  Kontrollüberzeugung; SPÄT werden die Fragen dünner, defensiver, während die
+  Gewissheit reisst.
+Tic: treibt das Gespräch voran, bezieht nie eigene Fachposition. Früh souverän, nicht
+  müde — die Erschöpfung ist Zielzustand, nicht Ausgangston.
 Nie: Fachbegriffe (er ist der Leser), Emotion — ausser als Körper (Schweigen,
   Aufstehen).
 
-→ Payoff: Der Mann ohne Standpunkt vollzieht am Ende die einzige un-systemische
-  Handlung. Der Gang in die Sonne ist der Moment, in dem die gespürte Absurdität zur
-  begriffenen wird. Damit das trägt, muss die Erschöpfung früh spürbar sein — sonst
-  liest sich Leere als Blankheit statt als lebenslange Resignation.
+→ Payoff: Der Mann, der an die Lösbarkeit glaubt, vollzieht am Ende die einzige
+  un-systemische Handlung — indem er aufhört zu handeln (Gang in die Sonne = Wu Wei
+  nach dem Tōryō). Damit das trägt, muss die SOUVERÄNITÄT früh spürbar sein
+  (Fallhöhe); die Erschöpfung ist das ERGEBNIS der Reise, nicht ihr Anfang.
