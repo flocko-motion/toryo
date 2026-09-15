@@ -40,6 +40,10 @@ TAG_LINE_RE = re.compile(r"(?m)^[ \t]*\[[A-Za-zÀ-ÿ_-]+\][ \t]*\n?")
 HEAD_RE = re.compile(r"^([a-z_]+):[ \t]+(.*)$")
 HEAD_KEYS = ("title", "subtitle", "author", "epigraph", "license", "link", "lang")
 
+# Ein Absatz, der nur aus einem dieser Woerter besteht, wird als Schlussmarke
+# gesetzt (zentriert, gesperrt) statt als Fliesstext.
+END_WORDS = ("Ende", "End", "Tōryō")
+
 # Sprachabhaengige Beschriftungen. Die Sprache kommt aus dem Kopf ("lang: en"),
 # Vorgabe ist Deutsch.
 LABELS = {
@@ -226,8 +230,8 @@ def build_text(tpl, out, head, title, title_main, title_seal,
     parts = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined in ("Ende", "End"):
-            parts.append(centre(lab["end"]))
+        if joined in END_WORDS:
+            parts.append(centre(joined))
             break
         # [url] durch [n] ersetzen und die Quelle merken
         def _sub(m):
@@ -275,10 +279,10 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
     body_parts = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined in ("Ende", "End"):
+        if joined in END_WORDS:
             body_parts.append('#v(2em)\n#align(center)[#text(size: 7pt, '
                               'tracking: 3pt, fill: luma(110))'
-                              f'[{lab["end"].upper()}]]')
+                              f'[{esc_typ(joined.upper())}]]')
             break
         body_parts.append(render_para_typ(joined, fns))
     body_typ = "\n\n".join(body_parts)
@@ -391,10 +395,10 @@ def main() -> int:
     body_html = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined in ("Ende", "End"):
+        if joined in END_WORDS:
             body_html.append(
                 f'<div class="end" aria-label="{lab["end"]}">'
-                f'<span>{lab["end"]}</span></div>')
+                f'<span>{esc(joined)}</span></div>')
             break
         body_html.append(f"<p>{render_para(joined, fns)}</p>")
     body_html = "\n      ".join(body_html)

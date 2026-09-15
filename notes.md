@@ -440,6 +440,15 @@ Erzählerischer Ertrag:
 
 **ENTSCHEIDUNG (Florian): englische Übersetzung ist geplant, sobald der deutsche Text fertig ist.** — **Stand 16.09.2026: Rohübersetzung liegt in `toryo-en.txt`** (vollständig, gleiche Kopfzeilen, Fußnoten-URLs und Hologlot-Satz unverändert; noch nicht in `build.py` eingebunden, noch kein Stilpass). Bei Änderungen an `toryo.txt` nachziehen. Bei diesem Ziel ist sie **nicht der Nachtrag, sondern der Hauptkanal** — das deutschsprachige Publikum für 6.000 Wörter über Alignment-Drift ist klein, das englischsprachige um Größenordnungen größer und aktiv auf der Suche (LessWrong veröffentlicht regelmäßig Fiktion dieser Machart; dortige Leser erkennen die METR-Fußnote sofort).
 
+**TECHNISCHER STAND (16.09.2026): Website und alle Formate stehen, zweisprachig.**
+- **Quellen:** `toryo.txt` (de) und `toryo-en.txt` (en). Kopf jetzt als `schluessel: wert`-Zeilen bis zur ersten Leerzeile (title, subtitle, author, epigraph, license, link, lang); unbekannte Schluessel brechen den Build ab. Kein Positions-Parsing mehr, keine `[name]`-Tags mehr im Manuskript.
+- **`make`** baut nach `site/`: `index.html` (zweisprachige Landing Page), je Sprache HTML, PDF A5, PDF A4, EPUB (mit Cover), TXT, Cover-PNG. 17 Artefakte. `site/` ist versioniert (ausser `*.typ`), damit direkt daraus ausgeliefert werden kann.
+- **PDF** laeuft ueber Typst (`txt → typ → pdf`, kein LaTeX), zwei Papierformate aus einer Quelle via `--input paper=a4|a5`, Satzbreite in beiden ~65 Zeichen.
+- **Sprache** kommt aus `lang:` im Kopf und steuert Labels (Anmerkungen/Notes), `<html lang>`, Typst-Silbentrennung und EPUB-Metadaten.
+- **Schlussmarke:** `END_WORDS = ("Ende", "End", "Tōryō")` — beide Fassungen enden mit **„Tōryō"**, gesetzt als zentrierte, gesperrte Marke (Versalien), nicht als Fliesstext.
+- **Favicon** von fmnoel.de uebernommen (roter Kreis `#a8272c`), als lokale Kopie.
+- **Landing Page** zweisprachig in parallelen Spalten (Untertitel, Epigraph, Anriss, Kolophon); die englische Fassungszeile erscheint automatisch, sobald `toryo-en.txt` existiert. Anriss-Texte (de + en) stammen von Claude und stehen zu Florians Pruefung.
+
 **OFFENER PUNKT — Lizenz.** „Verschenken" passiert ohne Lizenzangabe rechtlich nicht: Ein Text, der bloss im Netz steht, ist voll geschützt; niemand darf ihn spiegeln, übersetzen, als Podcast einlesen oder sammeln. Unterschied zwischen „gratis lesbar" und „verschenkt". Empfehlung: **CC BY-SA** sichtbar in der Fußzeile (Weitergabe, Übersetzung und Bearbeitung erlaubt, Namensnennung, gleiche Bedingungen) — für einen Text über unkontrollierte Replikation von Inhalten nebenbei die passende Lizenz. Praktisch außerdem: EPUB und PDF zum Download danebenlegen, lange Texte werden offline gelesen.
 
 **Deutschsprachig:**
