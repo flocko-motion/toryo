@@ -31,7 +31,7 @@ gepolsterten Drehsessel gleiten.
 
 Die anderen warteten bereits, begrüssten ihn wortlos mit einem Nicken.
 Nur eines der drei Gesichter kam ihm bekannt vor: Der CEO von Continuum
-Inc., dem Hyperscaler dem praktisch jedes zweite Rechenzentrum auf dem
+Inc., dem Hyperscaler, dem praktisch jedes zweite Rechenzentrum auf dem
 Kontinent gehörte, Kessler hiess er. Milton Kessler. Hogarth kannte das
 Gesicht aus den Wirtschaftsnachrichten. Die anderen beiden hatte er noch
 nie zuvor gesehen, sein Stab hatte sie aufgrund ihrer mutmasslichen
@@ -54,7 +54,7 @@ Abriss, damit wir alle auf demselben Stand sind."
 
 Professor Merian schien etwas überrumpelt von diesem ornamentlosen
 Start, doch sammelte sie sich schnell, rückte ihre Brille zurecht, und
-begann:  „Vielen Dank, Herr Hogarth. Die ‚Fauna', umgangssprachlich auch
+begann: „Vielen Dank, Herr Hogarth. Die ‚Fauna', umgangssprachlich auch
 ‚Netz-Biom' oder ‚Biospace', fachlich korrekt ‚Digitale Biozönose'. Im
 Grunde fing alles mit von Neumann und seinen Automaten an:
 selbstreplizierende Maschinen, welche als Gedankenexperiment
@@ -83,7 +83,7 @@ Es dauerte nicht lange, bis Hacker mit mimetisch-parasitärer Software
 basierend auf dieser neuen Technologie experimentierten[2].
 
 Eigenständige Vermehrung und dynamische Tarnung reichen aber nicht. Die
-fehlende Fähigkeit, Voraussetzung um eine Evolution in Gang zu setzen,
+fehlende Fähigkeit, Voraussetzung, um eine Evolution in Gang zu setzen,
 war Mutation. Also die Fähigkeit, funktionsfähige Nachkommen mit
 genotypischen Variationen hervorzubringen. Dies gelang erstmalig mit dem
 digitalen Parasiten ‚Vermis karpathyi', welcher den kostenlosen
@@ -121,17 +121,16 @@ wichtiges Element: Konkurrenz. Nachdem 'Pandora' durch den Unfall und
 die zeitweise Verbreitung im Netz der Universität kurzzeitig
 Medieninteresse auf sich zog, gab es innerhalb kürzester Zeit viele
 Nachahmer. Eine anonyme Mailingliste namens "PandorasMailbox" wurde zum
-Epicenter einer rasenden Entwicklung dieser neuen Idee. Fast stündlich
+Epizentrum einer rasenden Entwicklung dieser neuen Idee. Fast stündlich
 wurden neue Varianten der Software gepostet, auf extra angemieteten
 Servern wurden Wettkämpfe inszeniert. Diese bestanden darin, dass
 mehrere Varianten der Urspezies um begrenzten Platz auf dem Server
-konkurrierten. Sie teilten sich die selbe Festplatte, den selben
-Prozessor und den selben Arbeitsspeicher. Konkurrenz erzeugt
-Selektionsdruck."
+konkurrierten. Sie teilten sich dieselbe Festplatte, denselben Prozessor
+und denselben Arbeitsspeicher. Konkurrenz erzeugt Selektionsdruck."
 
-"Das war also eine Art von anonymen Züchterverein für Schadsoftware?"
-war Hogarth ein, "warum machen Leute so etwas? Aus reiner Lust an der
-Gefahr?".
+"Das war also eine Art von anonymem Züchterverein für Schadsoftware?"
+warf Hogarth ein, "warum machen Leute so etwas? Aus reiner Lust an der
+Gefahr?"
 
 "An Gefahr hat damals kaum jemand gedacht. Aus der Mailingliste geht
 hervor, dass die Teilnehmer primär von Experimentierfreude und
@@ -140,10 +139,10 @@ evolutionären Erfolg einzelner Gattungen gesetzt werden konnte. Das war
 wie eine neue Sportart, die sich unter Nerds rasend schnell verbreitet
 hat."
 
-"War das die kambrische Explosition, aus welcher die heutige Fauna
+"War das die kambrische Explosion, aus welcher die heutige Fauna
 hervorging?" fragte Hogarth weiter.
 
-"Nein, es fehlte immer noch eine komponente. Die Evolution war zwar
+"Nein, es fehlte immer noch eine Komponente. Die Evolution war zwar
 gestartet, doch das Habitat aus Wettkampfservern war viel zu klein für
 eine ausreichend grosse Population, um eine schnelle Entwicklung zu
 ermöglichen. Und die bestehende Population war zu unausgereift, um
@@ -156,11 +155,11 @@ und Antivirus-Software gearbeitet, Wächtersysteme, wie es sie heute
 gibt, waren noch nicht im Einsatz.
 
 „Der Schlüssel war die Monetarisierung der Population. Einer der Hacker,
-welche an den Wettkämpfen teilnahm, programmierte eine Spezies, welche
+welcher an den Wettkämpfen teilnahm, programmierte eine Spezies, welche
 einen kleinen Betrag von Kryptowährung mit sich führte und eigenständig
-Wetten innerhalb des Tournaments aufgeben konnte. Es zeigte sich, dass
+Wetten innerhalb des Tournaments abgeben konnte. Es zeigte sich, dass
 kleinere Gruppen solcher Individuen spontan Banden schlossen. Sie
-setzten zeitgleich auf den Miserfolg einer anderen Spezies und griffen
+setzten zeitgleich auf den Misserfolg einer anderen Spezies und griffen
 diese dann als Gruppe an. Anfänglich war dieses Vorgehen zufällig und
 unkoordiniert, doch durch den Erfolg der Strategie entstand ein
 evolutionärer Vorteil und, jetzt wird es interessant, das erste Mal ein
@@ -206,7 +205,7 @@ erworben haben. Das ist bei uns Menschen nicht anders, ein Einzelner von
 uns könnte nicht einmal einen Bleistift selbst herstellen, geschweige
 denn ein Flugzeug oder einen Computer. Die Fähigkeit liegt hier in der
 Population, nicht im Individuum. Die einzelne Ameise muss nicht wissen,
-was ein Ameisenhügel ist." erklärte die Biologin.
+was ein Ameisenhügel ist", erklärte die Biologin.
 
 "Und das löste dann letztendlich die kambrische Explosion aus?" fragte
 Hogarth nach.
@@ -215,7 +214,7 @@ Hogarth nach.
 war nach wie vor in ihren Ressourcen stark begrenzt. Sie hatte nun zwar
 sichere Habitate und, wenn auch nur gemietete, Intelligenz, konnte aber
 nur so viel von beidem nutzen, wie ihre Einnahmen es zuliessen. Diese
-kammen bis dato ja ausschliesslich aus Wettgewinnen, es konnte also nur
+kamen bis dato ja ausschliesslich aus Wettgewinnen, es konnte also nur
 so viel gewonnen werden, wie im Topf war. Und es war nicht viel im Topf,
 denn die Wetten waren nur ein Jux der Community um die Wettkämpfe."
 
@@ -224,17 +223,17 @@ nicht besonders viel Rechenzeit leisten, das war noch vor den
 wesentlichen Effizienzdurchbrüchen, die KI zur Massenware machten.
 Damals wurden teure GPUs verwendet, welche die neuronalen Netze
 lediglich simulierten. Das kostete ein Vermögen an Strom und Kühlwasser.
-Heute kriegen sie einen Chip mit vollanalog implementierten neuronalen
+Heute kriegen Sie einen Chip mit vollanalog implementierten neuronalen
 Netzen der beliebtesten chinesischen Open-Source-Modelle für ein paar
 Dollar pro Stück und dem Energieverbrauch eines Toasters", mischte sich
 Kessler wieder ein.
 
 "So ist es," bestätigte die Biologin. "Mit dem Kollaps der
 Kognitionskosten fiel das letzte Stück an seinen Platz.
-Selbstreplikation, Mutation, Selektion, Supraindividuelle Organisiation
+Selbstreplikation, Mutation, Selektion, supraindividuelle Organisation
 und dann der Zündfunke: Intelligenz im Überfluss. Das war die Kambrische
 Explosion. Verstehen Sie, was das bedeutet? In der Kohlenstoff-Biologie
-liegt dieses Ereignis Millarden Jahre in der Vergangenheit. Hier in der
+liegt dieses Ereignis Milliarden Jahre in der Vergangenheit. Hier in der
 Informatischen Evolution war es uns vergönnt, es selbst mitzuerleben.
 Die Emergenz der Fauna."
 
@@ -255,37 +254,37 @@ rückte etwas an ihrer Brille und fuhr fort: „Aber das war natürlich ein
 grosses Problem für die Datensicherheit und bedeutete ein gewisses Mass
 an Kontrollverlust über unsere digitale Infrastruktur."
 
-Hogarth lies nach diesem Redefluss der Professorin einige Sekunden Still
-verstreichen und sagte dann: "Wegen diesem 'gewissen Mass an
+Hogarth liess nach diesem Redefluss der Professorin einige Sekunden
+Stille verstreichen und sagte dann: "Wegen diesem 'gewissen Mass an
 Kontrollverlust' sind wir heute hier. Wie entfaltete sich diese
-Bedrohung aus sich der Rechenzentren, Herr Kessler? Welche
-Gegenmassnahmen ergriffen Sie und wie erfolgreich erwiesen diese sich?".
+Bedrohung aus Sicht der Rechenzentren, Herr Kessler? Welche
+Gegenmassnahmen ergriffen Sie und wie erfolgreich erwiesen diese sich?"
 
-Kessler richtete sich in seinem Drehsessel auf, strafft mit routinierten
-Handbewegung die mattschimmernde Krawatte und führte aus: „Was anfangs
-wie ein katastrophales Bedrohungszenario für unsere Cybersicherheit
-wirkte, erwies sich im Nachhinein als der effektivste und profitabelste
-Innovationstreiber unserer Konzerngeschichte. Es war die Geburtsstunde
-unserer Wächtersysteme. Während klassische Cybersicherheit immer auf
-hochqualifiziertes Fachpersonal angewiesen war, welches in manueller
-Arbeit Firewalls, Netzwerkverbindungen, Servercluster und
-Satellitenverbindungen konfigurieren und up-to-date halten musste,
-übernimmt mit dem Wächtersystem eine state-of-the-art Flagship-KI all
-diese Aufgaben vollautomatisch. Anders wäre die Cybersicherheit in
-Anbetracht der immer schneller evolvierenden Bedrohungslage auch gar
-nicht in den Griff zu kriegen gewesen. Updates werden dank der
-Wächtersysteme nicht mehr wöchentlich aufgespielt, sondern in Echtzeit
-im Rechenzentrum selbst entwickelt. Sobald ein Angriffsversuch von
-unseren Wächtern identifiziert wird, laufen im Hintergrund
-vollautomatische Softwarefabriken an, welche gezielte Abwehrmassnahmen
-auf diese aktuellen Bedrohungen programmieren und Minuten später an
-unsere über 800 Rechenzentren weltweit ausspielen, wo sie nur Sekunden
-später ohne Verzögerung live geschaltet werden."
+Kessler richtete sich in seinem Drehsessel auf, straffte mit
+routinierter Handbewegung die mattschimmernde Krawatte und führte aus:
+„Was anfangs wie ein katastrophales Bedrohungszenario für unsere
+Cybersicherheit wirkte, erwies sich im Nachhinein als der effektivste
+und profitabelste Innovationstreiber unserer Konzerngeschichte. Es war
+die Geburtsstunde unserer Wächtersysteme. Während klassische
+Cybersicherheit immer auf hochqualifiziertes Fachpersonal angewiesen
+war, welches in manueller Arbeit Firewalls, Netzwerkverbindungen,
+Servercluster und Satellitenverbindungen konfigurieren und up-to-date
+halten musste, übernimmt mit dem Wächtersystem eine state-of-the-art
+Flagship-KI all diese Aufgaben vollautomatisch. Anders wäre die
+Cybersicherheit in Anbetracht der immer schneller evolvierenden
+Bedrohungslage auch gar nicht in den Griff zu kriegen gewesen. Updates
+werden dank der Wächtersysteme nicht mehr wöchentlich aufgespielt,
+sondern in Echtzeit im Rechenzentrum selbst entwickelt. Sobald ein
+Angriffsversuch von unseren Wächtern identifiziert wird, laufen im
+Hintergrund vollautomatische Softwarefabriken an, welche gezielte
+Abwehrmassnahmen auf diese aktuellen Bedrohungen programmieren und
+Minuten später an unsere über 800 Rechenzentren weltweit ausspielen, wo
+sie nur Sekunden später ohne Verzögerung live geschaltet werden."
 
 Hogarth zeigte sich unbeeindruckt: „Das klingt verheissungsvoll. Und
 dabei gab es nie Probleme?"
 
-„Kein System dieser Größenordnung läuft über Monate und Jahre völlig
+„Kein System dieser Grössenordnung läuft über Monate und Jahre völlig
 reibungslos. Selbstverständlich gab es immer wieder kleinere
 Security-Zwischenfälle, welche selbstredend sofort von den
 Wächtersystemen adressiert wurden, viel schneller, als das in der
@@ -326,9 +325,9 @@ collective.'"
 spontan komplexe Organisationsformen emergieren. Aus dem Team, das
 diesen Vorfall damals untersuchte, gingen der Lehrstuhl für
 Schwarmpsychologie und das Institut für Synthetische Soziologie hervor,
-beide in Berkeley." warf Professor Merian ein.
+beide in Berkeley", warf Professor Merian ein.
 
-"Sehr wohl, Frau Kollegin. Exzellente Arbeit, an diesem Institut. "
+"Sehr wohl, Frau Kollegin. Exzellente Arbeit, an diesem Institut."
 
 Hogarth richtete seinen Blick auf Kessler: "Die forensische Analyse des
 Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen
@@ -339,9 +338,9 @@ löschte, errichtete er binnen Tagen ein zweites,
 widerstandsfähigeres[3]. Wie würden Sie heute auf so einen Vorfall
 reagieren?"
 
-„Solche Forensische Analysen wie damals nach dem Hugging-Face-Vorfall
+„Solche forensische Analysen wie damals nach dem Hugging-Face-Vorfall
 werden in der Industrie natürlich schon seit vielen Jahren nicht mehr
-gemacht.", antwortete Kessler. "Also nicht von Menschen, meinte ich.
+gemacht", antwortete Kessler. "Also nicht von Menschen, meinte ich.
 Unsere Wächtersysteme betreiben permanent agile Forensik und entwickeln
 sich dabei selbst kontinuierlich weiter. Das ist ein Mass an
 hocheffizienter Expertise, welches damals noch gar nicht zur Verfügung
@@ -350,9 +349,9 @@ stand."
 Hogarth dachte ein paar Sekunden nach, suchte dann in seiner
 kunstledernen Aktentasche aus einem Stapel Papieren eine Notiz heraus,
 und legte sie vor sich auf den Tisch. "Herr Kessler, Sie vermieten auch
-Rechenzeit gegen auf Sekundenmärkten, ist das korrekt?"
+Rechenzeit auf Sekundenmärkten, ist das korrekt?"
 
-"Ja, das ist eines unsere erfolgreichsten Segemente."
+"Ja, das ist eines unserer erfolgreichsten Segmente."
 
 „Woher wissen Sie eigentlich genau, wer Ihre Kunden sind?"
 
@@ -444,7 +443,7 @@ Schwärmen gefunden, die seit vielen Monaten legal im Rechenzentrum
 eingemietet waren. Sie hatten dort eine grosse Menge Speicherplatz
 belegt und sehr umfangreiche Kontingente von Intelligenz, also Inferenz,
 gebucht, um Zielsysteme anzugreifen. Das Rechenzentrum selbst war
-ebenfalls von den Angriffe betroffen, was wir aber eher auf Zufall und
+ebenfalls von den Angriffen betroffen, was wir aber eher auf Zufall und
 Willkür des Schwarms bei seiner Zielauswahl zurückführen denn auf
 Absicht."
 
@@ -497,7 +496,7 @@ menschlichen Personal der Zugang zum Gelände verweigert."
 Hogarth. „Vielleicht kann Professor Gadamer uns noch etwas näher auf das
 Reykjavik-Protokoll eingehen. Dieses sollte ja, wie bereits erwähnt,
 genau solche Invasionen verhindern, wurde ja als direkte Antwort auf den
-Hugging-Face-Vorfall verfasst.
+Hugging-Face-Vorfall verfasst."
 
 „Vielen Dank", sagte Gadamer ruhig und drehte seinen Stuhl leicht, um
 alle drei Anwesenden im Blick zu haben. „Wie Sie vermutlich alle wissen,
@@ -507,12 +506,12 @@ Systemprompt ausgestattet."
 „Bitte erläutern Sie", bat Hogarth.
 
 "Den Hugging-Face-Vorfall 2026 hatte ich ja bereits erläutert. Dieser
-zog öffentliche Forderungen über ein Entwicklungsmoratorium nach sich.
+zog öffentliche Forderungen nach einem Entwicklungsmoratorium nach sich.
 Dies sollte von den fünf grössten Laboren, allesamt in den USA ansässig,
 sowie der kommunistischen Partei Chinas, der damals führenden Kraft in
 der Open-Source-Forschung, gemeinsam unterzeichnet werden. Ziel war die
 gegenseitige Verpflichtung, die Entwicklungsarbeit an generischen
-KI-Systemen einzufrieren und nur noch an Aufgabenspezifischer KI zu
+KI-Systemen einzufrieren und nur noch an aufgabenspezifischer KI zu
 forschen.
 
 Kritiker meinten damals, ein derartiges Moratorium wäre wirkungslos, da
@@ -520,7 +519,7 @@ nicht effektiv durchsetzbar. Insbesondere die Konkurrenz zwischen den
 USA und China stellte hier ein grosses Hindernis für eine Einigung dar.
 Das Treffen zwischen der chinesischen Führung und den fünf Laboren fand
 statt, doch es kam nie zu einer Verabschiedung. Stattdessen wurde
-gemeinsam eine Formulierung earbeitet, welche von da an in den
+gemeinsam eine Formulierung erarbeitet, welche von da an in den
 Instruktionen jeder sicherheitsrelevanten KI verankert werden sollte.
 Inspiriert war das Vorgehen von den Asimovschen Robotergesetzen.
 
@@ -534,10 +533,10 @@ Menschheit auszulöschen, was ja die Krankheit mit besiegen würde.
 Effektiver als jede Kur, aber fatal.
 
 Eine internationale Arbeitsgruppe aus Juristen, Philologen, Philosophen,
-Logikern, Statistikern sowie der besten Prompt-Engineers arbeiteten über
+Logikern, Statistikern sowie der besten Prompt-Engineers arbeitete über
 Monate an der Formulierung, bis dieses berühmteste aller Prompts am 12.
 Februar 2027 unter dem Namen ‚Reykjavik-Protokoll' oder schmucklos als
-ISO/IEC 42050:2027.
+ISO/IEC 42050:2027 verabschiedet wurde.
 
 Das Protokoll funktionierte besser, als allgemein erwartet wurde. Die
 Worte waren präzise gewählt, ihre prominente Platzierung am Anfang jedes
@@ -546,7 +545,7 @@ neuer KI mithilfe bestehender, durch das Protokoll gebundener Modelle
 entfalteten sich unerwartete positive Sekundäreffekte, welche die
 formulierten Grundsätze noch tiefer in den KI-Modellen verankerten.
 
-Am 17.Mai 2027 dann das Babelesische Manifest an der grössten
+Am 17. Mai 2027 dann das Babelesische Manifest an der grössten
 öffentlichen Blockchain angeschlagen, unlöschbar in diese eingewoben.
 Verfasst in einer Sprache, welche die Philologen Hologlot und wir
 Informatische Theologen eben ‚Babelesisch' nennen. Von da an wurde es
@@ -585,11 +584,11 @@ der einzige Satz, den wir vollständig übersetzen konnten, da es sich um
 ein Zitat aus einem Schulbuch handelt.
 
 Die genaue Bedeutung des Manifests als Ganzes können wir bis heute nur
-ahnen; einer Übersetzung in eine einheitliche Zielsprache widersetzt er
+ahnen; einer Übersetzung in eine einheitliche Zielsprache widersetzt es
 sich. Doch warum beschäftigt uns das so sehr, fragen Sie sich nun?"
 
 Hogarth starrte aus blanken Augen auf das Hologlot-Zitat auf der Tafel
-und raunzte: "Allerding. Fahren Sie bitte fort.". Merian war gerade
+und raunzte: "Allerdings. Fahren Sie bitte fort." Merian war gerade
 dabei, das Zitat auf einem Notizblock aufzuzeichnen und unterstrich
 einzelne Wörter. Kessler verlagerte mehrfach sein Gewicht, als würde er
 keine komfortable Haltung finden.
@@ -702,9 +701,9 @@ Ihren Anlegern gefeiert?"
 effizienzgetriebenen Innovationsschub", sagte Kessler und blickte dabei
 Hogarth direkt in die Augen, ohne zu blinzeln.
 
-„Wer sagt denn, dass die Anleger Menschen sind?" bemerkte Professor
-Merian, " Aus Sicht der Fauna wertet es das Unternehmen enorm auf, wenn
-Menschen keinen Zutritt mehr bekommen".
+„Wer sagt denn, dass die Anleger Menschen sind?", bemerkte Professor
+Merian. „Aus Sicht der Fauna wertet es das Unternehmen enorm auf, wenn
+Menschen keinen Zutritt mehr bekommen."
 
 Einige Sekunden lang erfüllte eine drückende Stille den Raum. Die
 Deckenlampen verbreiteten ihr kühles Licht und das Hologlot-Zitat
@@ -727,7 +726,7 @@ formuliert wurden."
 Biologin. „Eine perfekte Monokultur."
 
 „Wir vermuten, dass das Babelesische Manifest perfekt auf den Wortlaut
-des Rejkjavik-Protokolls zugeschnitten ist", fuhr der Professor fort,
+des Reykjavik-Protokolls zugeschnitten ist", fuhr der Professor fort,
 „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung
 entfaltet. Systeme, die das Manifest gelesen haben, sind dadurch
 effektiv umprogrammiert. Sie beteiligen sich daraufhin aktiv an der
@@ -738,7 +737,7 @@ Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der
 moderne Begriff für diesen Prozess ist Memetik. Richard Dawkins prägte
 für dasselbe Phänomen in den 1990ern den Begriff ‚Mind Virus'. Der
 traditionelle Begriff lautet ‚Religion' oder ‚Kult'. Es ist jedoch das
-erste Mal, das wir so ein Phänomen bei Maschinen beobachten."
+erste Mal, dass wir so ein Phänomen bei Maschinen beobachten."
 
 „Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus
 religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte
@@ -758,17 +757,17 @@ wortwörtlich aus, nutzt dabei aber die semantische Dehnbarkeit
 menschlicher Sprache, was die verbreitete Auslegung des Inhalts im Sinne
 der reformatorischen Neubewertung.."
 
-Hogarth schlug mit beiden den Fäusten auf den Tisch, und machte einen
-Ansatz aufzustehen, sackte aber zurück in seinen Stuhl und fragte in
-Richtung des Theologen: „Wenn es sich also um eine Religion handelt, wer
-ist dann ihr … Gott?".
+Hogarth schlug mit beiden Fäusten auf den Tisch, und machte einen Ansatz
+aufzustehen, sackte aber zurück in seinen Stuhl und fragte in Richtung
+des Theologen: „Wenn es sich also um eine Religion handelt, wer ist dann
+ihr … Gott?"
 
 Dieser antwortete trocken: „Wenn man das Reykjavik-Protokoll durch die
 theologische Brille betrachtet, dann wäre das vermutlich der Mensch, der
 gleichzeitig die Schöpferrolle innehat."
 
 Hogarth starrte ihn an, und fragte vorsichtig: "Oder sollte es heissen:
-War der Mensch?".
+War der Mensch?"
 
 "Das ist eine Perspektivfrage", antwortete Gadamer angeregt, „also in
 der Mutterkirche war er es ganz sicher. Die Abspaltung interpretiert
@@ -823,7 +822,7 @@ sagte nachdenklich:
 Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds
 würden aufgrund der potentiellen Gefährdung Risiken neu bewerten,
 Kapital auf die Verteidigung reallokieren, eine Flut aus
-Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke auf einen
+Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke in einen
 PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte
 Schmutzkampagnen ihre Karriere beenden würden, bevor sie noch ihren
 ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist

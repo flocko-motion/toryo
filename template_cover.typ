@@ -9,7 +9,7 @@
 #let serif = ("Iowan Old Style", "Palatino", "Georgia")
 
 #set page(width: 1600pt, height: 2560pt, margin: (x: 150pt, y: 190pt), fill: ink)
-#set text(lang: "de", fill: chalk)
+#set text(lang: "{{LANG}}", fill: chalk)
 #set par(leading: 0.6em)
 
 #align(center)[

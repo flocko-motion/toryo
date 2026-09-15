@@ -38,7 +38,40 @@ TAG_LINE_RE = re.compile(r"(?m)^[ \t]*\[[A-Za-zÀ-ÿ_-]+\][ \t]*\n?")
 
 # Kopfzeile "schluessel: wert". Der Wert darf weitere Doppelpunkte enthalten.
 HEAD_RE = re.compile(r"^([a-z_]+):[ \t]+(.*)$")
-HEAD_KEYS = ("title", "subtitle", "author", "epigraph", "license", "link")
+HEAD_KEYS = ("title", "subtitle", "author", "epigraph", "license", "link", "lang")
+
+# Sprachabhaengige Beschriftungen. Die Sprache kommt aus dem Kopf ("lang: en"),
+# Vorgabe ist Deutsch.
+LABELS = {
+    "de": {"notes": "Anmerkungen", "end": "Ende", "back": "zurueck"},
+    "en": {"notes": "Notes",       "end": "End",  "back": "back"},
+}
+
+
+def labels(head: dict) -> dict:
+    return LABELS.get(head.get("lang", "de"), LABELS["de"])
+
+
+def edition_en(current_lang: str) -> str:
+    """Zeile der englischen Fassung auf der Startseite.
+
+    Solange toryo-en.txt fehlt, steht dort ein Hinweis statt toter Links.
+    """
+    pending = ('<div class="edition"><div class="edition-name pending">'
+               "English &mdash; in Vorbereitung</div></div>")
+    if not Path("toryo-en.txt").exists():
+        return pending
+    return (
+        '<div class="edition">\n'
+        '        <div class="edition-name"><a href="toryo-en.html">English &mdash; read</a></div>\n'
+        '        <div class="formats">\n'
+        '          <a href="toryo-en-a5.pdf">PDF&nbsp;A5</a>\n'
+        '          <a href="toryo-en-a4.pdf">PDF&nbsp;A4</a>\n'
+        '          <a href="toryo-en.epub">EPUB</a>\n'
+        '          <a href="toryo-en.txt">TXT</a>\n'
+        "        </div>\n"
+        "      </div>"
+    )
 
 
 def esc(s: str) -> str:
@@ -177,12 +210,13 @@ def build_text(tpl, out, head, title, title_main, title_seal,
             break_long_words=False, break_on_hyphens=False,
         )
 
+    lab = labels(head)
     fns: list = []
     parts = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined == "Ende":
-            parts.append(centre("Ende"))
+        if joined in ("Ende", "End"):
+            parts.append(centre(lab["end"]))
             break
         # [url] durch [n] ersetzen und die Quelle merken
         def _sub(m):
@@ -193,7 +227,7 @@ def build_text(tpl, out, head, title, title_main, title_seal,
 
     notes_txt = ""
     if fns:
-        lines_ = [centre("Anmerkungen"), ""]
+        lines_ = [centre(lab["notes"]), ""]
         # URLs nicht umbrechen: sie sollen kopierbar auf einer Zeile stehen.
         for i, url in enumerate(fns, 1):
             lines_.append(f"  [{i}] {url}")
@@ -225,13 +259,15 @@ def build_text(tpl, out, head, title, title_main, title_seal,
 def build_typst(tpl, out, head, title, title_main, title_seal,
                 subtitle, credits, epigraph_text, body_blocks) -> int:
     """Typst-Quelle schreiben; typst compile macht daraus das PDF."""
+    lab = labels(head)
     fns: list = []
     body_parts = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined == "Ende":
+        if joined in ("Ende", "End"):
             body_parts.append('#v(2em)\n#align(center)[#text(size: 7pt, '
-                              'tracking: 3pt, fill: luma(110))[ENDE]]')
+                              'tracking: 3pt, fill: luma(110))'
+                              f'[{lab["end"].upper()}]]')
             break
         body_parts.append(render_para_typ(joined, fns))
     body_typ = "\n\n".join(body_parts)
@@ -242,7 +278,8 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
         )
         notes_typ = (
             "#pagebreak()\n"
-            "#text(size: 7pt, tracking: 2.5pt, fill: luma(110))[ANMERKUNGEN]\n"
+            f'#text(size: 7pt, tracking: 2.5pt, fill: luma(110))[{lab["notes"].upper()}]\n'
+
             "#v(0.8em)\n"
             "#set text(size: 7.5pt)\n"
             "#table(columns: (1.2em, 1fr), stroke: none, inset: 3pt,\n"
@@ -268,6 +305,7 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
 
     page = tpl.read_text(encoding="utf-8")
     for k, v in {
+        "{{LANG}}": head.get("lang", "de"),
         "{{DOC_TITLE}}": title.replace('"', "'"),
         "{{DOC_AUTHOR}}": credits.replace("von ", "").split(",")[0].replace('"', "'"),
         "{{TITLE_SEAL}}": esc_typ(title_seal),
@@ -337,12 +375,15 @@ def main() -> int:
     )
 
     # Fliesstext.
+    lab = labels(head)
     fns: list = []
     body_html = []
     for b in body_blocks:
         joined = " ".join(b).strip()
-        if joined == "Ende":
-            body_html.append('<div class="end" aria-label="Ende"><span>Ende</span></div>')
+        if joined in ("Ende", "End"):
+            body_html.append(
+                f'<div class="end" aria-label="{lab["end"]}">'
+                f'<span>{lab["end"]}</span></div>')
             break
         body_html.append(f"<p>{render_para(joined, fns)}</p>")
     body_html = "\n      ".join(body_html)
@@ -354,11 +395,11 @@ def main() -> int:
             items.append(
                 f'<li id="fn{i}"><a class="fn-link" href="{esc(url)}" '
                 f'target="_blank" rel="noopener noreferrer">{esc(url)}</a> '
-                f'<a class="fn-back" href="#fnref{i}" aria-label="zurueck">&#8617;</a></li>'
+                f'<a class="fn-back" href="#fnref{i}" aria-label="{lab["back"]}">&#8617;</a></li>'
             )
         notes_html = (
             '<footer class="notes">\n'
-            '      <h2 class="notes-label">Anmerkungen</h2>\n'
+            f'      <h2 class="notes-label">{lab["notes"]}</h2>\n'
             '      <ol class="notes-list">\n        '
             + "\n        ".join(items)
             + "\n      </ol>\n    </footer>"
@@ -373,6 +414,8 @@ def main() -> int:
         "{{TITLE_MAIN}}": esc(title_main),
         "{{TAGLINE}}": tagline_html,
         "{{LICENSE}}": license_html,
+        "{{LANG}}": head.get("lang", "de"),
+        "{{EDITION_EN}}": edition_en(head.get("lang", "de")),
         "{{EPIGRAPH}}": epigraph_html,
         "{{BODY}}": body_html,
         "{{FOOTNOTES}}": notes_html,

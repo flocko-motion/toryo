@@ -1,99 +1,111 @@
-# toryo.txt ist die Quelle; site/ enthaelt die fertige, verteilbare Website.
-# site/ wird versioniert, damit die Dateien direkt aus dem Repo heraus
-# ausgeliefert werden koennen.
-SRC      := toryo.txt
-TEMPLATE := template.html
-TPL_INDEX:= template_index.html
-TPL_TYP  := template.typ
-BUILD    := build.py
-SITE     := site
+# toryo.txt (und spaeter toryo-en.txt) sind die Quellen; site/ enthaelt die
+# fertige, verteilbare Website und wird versioniert.
+#
+# Die englische Fassung wird automatisch mitgebaut, sobald toryo-en.txt
+# existiert - vorher bleiben ihre Targets leer und die Startseite zeigt
+# statt toter Links den Hinweis "in Vorbereitung".
 
-INDEX    := $(SITE)/index.html
-HTML     := $(SITE)/toryo.html
-TYP      := $(SITE)/toryo.typ
-PDF_A5   := $(SITE)/toryo-a5.pdf
-PDF_A4   := $(SITE)/toryo-a4.pdf
-EPUB     := $(SITE)/toryo.epub
-COVER_TYP:= $(SITE)/cover.typ
-COVER    := $(SITE)/cover.png
-TXT      := $(SITE)/toryo.txt
-TPL_TXT  := template.txt
+SRC       := toryo.txt
+SRC_EN    := $(wildcard toryo-en.txt)
 
-# Englische Fassung wird gebaut, sobald toryo_en.txt existiert.
-EN_SRC   := $(wildcard toryo_en.txt)
-EN_HTML  := $(if $(EN_SRC),$(SITE)/toryo_en.html,)
+TEMPLATE  := template.html
+TPL_INDEX := template_index.html
+TPL_TYP   := template.typ
+TPL_TXT   := template.txt
+TPL_COVER := template_cover.typ
+BUILD     := build.py
+SITE      := site
 
-PYTHON   ?= python3
+INDEX     := $(SITE)/index.html
+PYTHON    ?= python3
 
-.PHONY: all clean open watch html pdf epub index cover txt
+# Artefakte einer Sprache: $(call artefacts,<praefix>)
+#   toryo    -> site/toryo.html, site/toryo-a5.pdf, ...
+#   toryo-en -> site/toryo-en.html, site/toryo-en-a5.pdf, ...
+define artefacts
+$(SITE)/$(1).html $(SITE)/$(1)-a5.pdf $(SITE)/$(1)-a4.pdf \
+$(SITE)/$(1).epub $(SITE)/$(1).txt $(SITE)/$(1)-cover.png
+endef
 
-all: $(INDEX) $(HTML) $(EN_HTML) $(PDF_A5) $(PDF_A4) $(EPUB) $(COVER) $(TXT)
+DE_OUT := $(call artefacts,toryo)
+EN_OUT := $(if $(SRC_EN),$(call artefacts,toryo-en),)
 
+.PHONY: all clean open watch index de en
+
+all: $(INDEX) de en
+
+de: $(DE_OUT)
+en: $(EN_OUT)
 index: $(INDEX)
-html:  $(HTML)
-pdf:   $(PDF_A5) $(PDF_A4)
-epub:  $(EPUB)
-cover: $(COVER)
-txt:   $(TXT)
 
 $(SITE):
 	@mkdir -p $(SITE)
 
-$(INDEX): $(SRC) $(TPL_INDEX) $(BUILD) | $(SITE)
+# Die Startseite haengt auch an SRC_EN: taucht die Uebersetzung auf,
+# wird die Fassungsliste neu gerendert.
+$(INDEX): $(SRC) $(SRC_EN) $(TPL_INDEX) $(BUILD) | $(SITE)
 	$(PYTHON) $(BUILD) $(SRC) $(TPL_INDEX) $(INDEX)
 
-$(HTML): $(SRC) $(TEMPLATE) $(BUILD) | $(SITE)
-	$(PYTHON) $(BUILD) $(SRC) $(TEMPLATE) $(HTML)
+# ---------------------------------------------------------------- Regeln
+# Eine Musterregel pro Format, gilt fuer beide Sprachen.
 
-$(SITE)/toryo_en.html: toryo_en.txt $(TEMPLATE) $(BUILD) | $(SITE)
-	$(PYTHON) $(BUILD) toryo_en.txt $(TEMPLATE) $@
+$(SITE)/%.html: %.txt $(TEMPLATE) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $< $(TEMPLATE) $@
 
-$(TYP): $(SRC) $(TPL_TYP) $(BUILD) | $(SITE)
-	$(PYTHON) $(BUILD) $(SRC) $(TPL_TYP) $(TYP)
+$(SITE)/%.txt: %.txt $(TPL_TXT) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $< $(TPL_TXT) $@
 
-# --- PDF: txt -> typst -> pdf, zwei Papierformate aus derselben Quelle ---
-$(PDF_A5): $(TYP)
+$(SITE)/%.typ: %.txt $(TPL_TYP) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $< $(TPL_TYP) $@
+
+$(SITE)/%-cover.typ: %.txt $(TPL_COVER) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $< $(TPL_COVER) $@
+
+$(SITE)/%-a5.pdf: $(SITE)/%.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
-	typst compile --input paper=a5 $(TYP) $(PDF_A5)
-	@echo "build: $(PDF_A5) geschrieben"
+	typst compile --input paper=a5 $< $@
+	@echo "build: $@ geschrieben"
 
-$(PDF_A4): $(TYP)
+$(SITE)/%-a4.pdf: $(SITE)/%.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
-	typst compile --input paper=a4 $(TYP) $(PDF_A4)
-	@echo "build: $(PDF_A4) geschrieben"
+	typst compile --input paper=a4 $< $@
+	@echo "build: $@ geschrieben"
 
-$(TXT): $(SRC) $(TPL_TXT) $(BUILD) | $(SITE)
-	$(PYTHON) $(BUILD) $(SRC) $(TPL_TXT) $(TXT)
-
-# --- Cover: txt -> typst -> png (1600x2560, EPUB-tauglich) ---
-$(COVER_TYP): $(SRC) template_cover.typ $(BUILD) | $(SITE)
-	$(PYTHON) $(BUILD) $(SRC) template_cover.typ $(COVER_TYP)
-
-$(COVER): $(COVER_TYP)
+$(SITE)/%-cover.png: $(SITE)/%-cover.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
-	typst compile --format png --ppi 72 $(COVER_TYP) $(COVER)
-	@echo "build: $(COVER) geschrieben"
+	typst compile --format png --ppi 72 $< $@
+	@echo "build: $@ geschrieben"
 
-# --- EPUB: ueber das fertige HTML, mit Cover ---
-$(EPUB): $(HTML) $(COVER)
+# EPUB braucht Sprache und Cover, darum je eine eigene Regel.
+$(SITE)/toryo.epub: $(SITE)/toryo.html $(SITE)/toryo-cover.png
 	@command -v pandoc >/dev/null 2>&1 || { echo "pandoc fehlt: brew install pandoc"; exit 1; }
-	pandoc $(HTML) -f html -t epub3 -o $(EPUB) \
-	  --metadata title="Tōryō" \
-	  --metadata author="Florian Metzger-Noel" \
-	  --metadata lang=de \
-	  --metadata rights="CC BY-SA 4.0" \
-	  --epub-cover-image=$(COVER)
-	@echo "build: $(EPUB) geschrieben"
+	pandoc $< -f html -t epub3 -o $@ \
+	  --metadata title="Tōryō" --metadata author="Florian Metzger-Noel" \
+	  --metadata lang=de --metadata rights="CC BY-SA 4.0" \
+	  --epub-cover-image=$(SITE)/toryo-cover.png
+	@echo "build: $@ geschrieben"
+
+$(SITE)/toryo-en.epub: $(SITE)/toryo-en.html $(SITE)/toryo-en-cover.png
+	@command -v pandoc >/dev/null 2>&1 || { echo "pandoc fehlt: brew install pandoc"; exit 1; }
+	pandoc $< -f html -t epub3 -o $@ \
+	  --metadata title="Tōryō" --metadata author="Florian Metzger-Noel" \
+	  --metadata lang=en --metadata rights="CC BY-SA 4.0" \
+	  --epub-cover-image=$(SITE)/toryo-en-cover.png
+	@echo "build: $@ geschrieben"
+
+# Zwischenstufen nicht loeschen (make raeumt implizite Ziele sonst weg).
+.PRECIOUS: $(SITE)/%.typ $(SITE)/%-cover.typ
 
 open: $(INDEX)
 	open $(INDEX)
 
 clean:
-	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub $(SITE)/*.png $(SITE)/*.txt
+	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub \
+	      $(SITE)/*.png $(SITE)/*.txt
 
-# Neu bauen, sobald sich eine Quelldatei aendert (benoetigt fswatch).
 watch:
 	@command -v fswatch >/dev/null 2>&1 || { echo "fswatch fehlt: brew install fswatch"; exit 1; }
-	@echo "Beobachte Quellen ... (Ctrl-C beendet)"
-	@fswatch -o $(SRC) $(TEMPLATE) $(TPL_INDEX) $(TPL_TYP) $(BUILD) \
+	@echo "Beobachte Quellen und Vorlagen ... (Ctrl-C beendet)"
+	@fswatch -o $(SRC) $(SRC_EN) $(TEMPLATE) $(TPL_INDEX) $(TPL_TYP) \
+	         $(TPL_TXT) $(TPL_COVER) $(BUILD) \
 	  | while read _; do $(MAKE) --no-print-directory all; done

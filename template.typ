@@ -23,7 +23,7 @@
 #set text(
   font: ("Iowan Old Style", "Palatino", "Georgia", "Times New Roman"),
   size: if a4 { 11.5pt } else { 10pt },
-  lang: "de",
+  lang: "{{LANG}}",
   fill: ink,
   hyphenate: true,
 )
