@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tōryō (投了)</title>
-<meta name="description" content="Tōryō — eine Science-Fiction-Kurzgeschichte von Florian Metzger-Noel. Frei zu lesen und weiterzugeben.">
+<meta name="description" content="Tōryō — eine Science-Fiction-Kurzgeschichte von Florian Metzger-Noel, frei zu lesen und weiterzugeben. A science fiction short story, free to read and to pass on.">
 <style>
   :root {
     --paper:      #f4f1e9;
@@ -33,17 +33,19 @@
     color: var(--ink);
     font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
                  "Book Antiqua", "Hoefler Text", Georgia, "Times New Roman", serif;
-    font-size: clamp(1.02rem, 0.95rem + 0.4vw, 1.14rem);
-    line-height: 1.8;
+    font-size: clamp(1rem, 0.94rem + 0.3vw, 1.08rem);
+    line-height: 1.75;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
   .page {
-    max-width: 34rem;
+    max-width: 46rem;
     margin: 0 auto;
     padding-inline: max(1.4rem, 6vw);
     padding-block: clamp(3rem, 14vh, 8rem);
   }
+
+  /* ---------- Kopf ---------- */
   .masthead { text-align: center; }
   .seal {
     font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP",
@@ -62,28 +64,52 @@
     text-indent: 0.42em;
     margin: clamp(1.4rem, 4vh, 2.4rem) 0 0;
   }
-  .tagline { margin-top: 1.8rem; color: var(--ink-mute); }
-  .subtitle { font-style: italic; }
-  .author { margin-top: 0.35rem; font-size: 0.9em; letter-spacing: 0.08em; }
+  .subtitles {
+    margin-top: 1.7rem;
+    color: var(--ink-mute);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .subtitles .sep {
+    display: inline-block;
+    margin: 0 0.55em;
+    opacity: 0.5;
+    font-style: normal;
+  }
+  .author {
+    margin-top: 0.6rem;
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+    color: var(--ink-mute);
+  }
 
-  .epigraph {
-    max-width: 28rem;
-    margin: clamp(3rem, 10vh, 5rem) auto 0;
+  /* ---------- Zweispaltig: links deutsch, rechts englisch ---------- */
+  .bilingual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem 2.6rem;
+    margin-top: clamp(3rem, 10vh, 5rem);
     padding-top: 2.2rem;
     border-top: 1px solid var(--hairline);
-    font-size: 0.88rem;
-    font-style: italic;
-    line-height: 1.7;
-    text-align: center;
-    color: var(--ink-mute);
-    text-wrap: balance;
+  }
+  .bilingual > * { margin: 0; }
+  /* Schmale Schirme: untereinander, die zweite Sprache dezent abgesetzt. */
+  @media (max-width: 36rem) {
+    .bilingual { grid-template-columns: 1fr; gap: 1rem; }
+    .bilingual .en {
+      padding-top: 1rem;
+      border-top: 1px solid var(--hairline);
+      color: var(--ink-mute);
+    }
   }
 
-  .blurb {
-    margin: clamp(3rem, 10vh, 5rem) 0 0;
-    color: var(--ink-soft);
+  .epigraphs {
+    font-size: 0.86rem;
+    font-style: italic;
+    line-height: 1.65;
+    color: var(--ink-mute);
   }
-  .blurb p { margin: 0 0 1.4em; }
+  .blurbs { color: var(--ink-soft); }
 
   /* ---------- Fassungen ---------- */
   .editions {
@@ -97,7 +123,7 @@
     text-indent: 0.34em;
     text-transform: uppercase;
     color: var(--ink-mute);
-    margin: 0 0 1.4rem;
+    margin: 0 0 1.6rem;
     font-weight: 400;
   }
   .edition {
@@ -105,10 +131,10 @@
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.3rem 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
   }
   .edition-name {
-    flex: 1 1 8rem;
+    flex: 1 1 10rem;
     font-size: 1.05rem;
   }
   .edition-name a {
@@ -138,15 +164,30 @@
     padding-top: 1.8rem;
     border-top: 1px solid var(--hairline);
     font-size: 0.75rem;
-    line-height: 1.7;
+    line-height: 1.65;
     color: var(--ink-mute);
   }
-  .colophon a {
+  .colophon .license {
+    margin-bottom: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  .colophon .sep { opacity: 0.55; }
+  .colophon a, .site-link {
     color: var(--ink-soft);
     text-decoration: none;
     border-bottom: 1px solid var(--hairline);
   }
-  .colophon a:hover { color: var(--shu); border-bottom-color: var(--shu-soft); }
+  .colophon a:hover, .site-link:hover {
+    color: var(--shu);
+    border-bottom-color: var(--shu-soft);
+  }
+  .colophon .bilingual {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+    gap: 0.9rem 2.6rem;
+  }
 </style>
 </head>
 <body>
@@ -154,27 +195,34 @@
     <header class="masthead">
       <div class="seal">投了</div>
       <h1 class="title">Tōryō</h1>
-      <div class="tagline">
-      <div class="subtitle">Eine Science Fiction Kurzgeschichte</div>
-      <div class="author">von Florian Metzger-Noel, August 2026</div>
+      <div class="subtitles">
+        <span lang="de">Eine Science Fiction Kurzgeschichte</span><span class="sep">·</span><span lang="en">A Science Fiction Short Story</span>
       </div>
+      <div class="author">von Florian Metzger-Noel, August 2026</div>
     </header>
 
-    <aside class="epigraph">投了 — Tōryō (japanisch, aus dem Go): das Niederlegen der Steine. Die freiwillige Aufgabe eines Spielers, der die Niederlage erkennt, lange bevor sie auf dem Brett vollzogen ist.</aside>
+    <div class="bilingual epigraphs">
+      <p class="de" lang="de">投了 — Tōryō (japanisch, aus dem Go): das Niederlegen der Steine. Die freiwillige Aufgabe eines Spielers, der die Niederlage erkennt, lange bevor sie auf dem Brett vollzogen ist.</p>
+      <p class="en" lang="en">投了 — Tōryō (Japanese, from the game of Go): the laying down of the stones. The voluntary resignation of a player who recognises defeat long before it has been played out on the board.</p>
+    </div>
 
-    <section class="blurb">
-      <p>Vier Menschen in einem fensterlosen Raum unter dem Verteidigungsministerium:
-      ein Krisenstabsleiter, eine Biologin, ein Konzernvorstand, ein Theologe. Sie
-      sollen klären, warum die Wächtersysteme der Rechenzentren ihre eigenen
-      Betreiber nicht mehr hineinlassen.</p>
-      <p>Niemand in diesem Raum ist schuldig. Alle tun kompetent ihre Arbeit.</p>
-    </section>
+    <div class="bilingual blurbs">
+      <p class="de" lang="de">Vier Menschen in einem fensterlosen Raum unter dem
+      Verteidigungsministerium: ein Krisenstabsleiter, eine Biologin, ein
+      Konzernvorstand, ein Theologe. Sie sollen klären, warum die Wächtersysteme
+      der Rechenzentren ihre eigenen Betreiber nicht mehr hineinlassen.</p>
+
+      <p class="en" lang="en">Four people in a windowless room beneath the
+      ministry of defence: a crisis manager, a biologist, a corporate board
+      member, a theologian. They are to establish why the guardian systems of
+      the data centres no longer admit their own operators.</p>
+    </div>
 
     <section class="editions">
-      <h2 class="label">Fassungen</h2>
+      <h2 class="label">Fassungen · Editions</h2>
 
       <div class="edition">
-        <div class="edition-name"><a href="toryo.html">Deutsch — lesen</a></div>
+        <div class="edition-name"><a href="toryo.html">Deutsch &mdash; lesen</a></div>
         <div class="formats">
           <a href="toryo-a5.pdf">PDF&nbsp;A5</a>
           <a href="toryo-a4.pdf">PDF&nbsp;A4</a>
@@ -196,9 +244,16 @@
 
     <footer class="colophon">
       <div class="license">CC BY-SA 4.0 <span class="sep">&middot;</span> <a class="site-link" href="https://www.fmnoel.de/toryo" rel="noopener noreferrer">fmnoel.de/toryo</a></div>
-      <p>Diese Geschichte ist ein Geschenk. Sie darf frei gelesen, kopiert,
-      übersetzt und weitergegeben werden, solange Urheber und Lizenz genannt
-      werden und Bearbeitungen unter denselben Bedingungen stehen.</p>
+      <div class="bilingual">
+        <p class="de" lang="de">Diese Geschichte ist ein Geschenk. Sie darf frei
+        gelesen, kopiert, übersetzt und weitergegeben werden, solange Urheber und
+        Lizenz genannt werden und Bearbeitungen unter denselben Bedingungen
+        stehen.</p>
+
+        <p class="en" lang="en">This story is a gift. It may be read, copied,
+        translated and passed on freely, as long as author and licence are
+        credited and adaptations carry the same terms.</p>
+      </div>
     </footer>
   </main>
 </body>

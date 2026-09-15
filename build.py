@@ -52,6 +52,17 @@ def labels(head: dict) -> dict:
     return LABELS.get(head.get("lang", "de"), LABELS["de"])
 
 
+def head_en() -> dict:
+    """Kopfdaten der Uebersetzung, fuer die zweisprachige Startseite."""
+    src = Path("toryo-en.txt")
+    if not src.exists():
+        return {}
+    try:
+        return parse_head(src.read_text(encoding="utf-8").split("\n"))[0]
+    except SystemExit:
+        return {}
+
+
 def edition_en(current_lang: str) -> str:
     """Zeile der englischen Fassung auf der Startseite.
 
@@ -416,6 +427,11 @@ def main() -> int:
         "{{LICENSE}}": license_html,
         "{{LANG}}": head.get("lang", "de"),
         "{{EDITION_EN}}": edition_en(head.get("lang", "de")),
+        "{{SUBTITLE}}": esc(subtitle),
+        "{{AUTHOR}}": esc(credits),
+        "{{EPIGRAPH_PLAIN}}": esc(epigraph_text),
+        "{{SUBTITLE_EN}}": esc(head_en().get("subtitle", "")),
+        "{{EPIGRAPH_EN}}": esc(head_en().get("epigraph", "")),
         "{{EPIGRAPH}}": epigraph_html,
         "{{BODY}}": body_html,
         "{{FOOTNOTES}}": notes_html,
