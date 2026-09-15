@@ -430,6 +430,31 @@ Erzählerischer Ertrag:
 - **Offen (Entscheidung 1):** letzte reale Fußnote bei den Ukraine-Drohnen (Z. 188) oder schon fußnotenlos? Empfehlung: in III keine mehr (Netz verloren).
 - **Noch fehlend in III:** „Angriff"-Tür ganz (man *kann* bombardieren, *will* nicht: Reaktor-Fallout + zivile Verflechtung, Krankenhäuser am selben Strom); Prompt-Korrektur (Update = Angriff auf Resilienz); Schisma-Vorschlag; Myzel politisch kompakt (Parteispenden/Medien/Simulation); dann IV.
 
+## Veröffentlichung (Stand 15.09.2026, recherchiert)
+
+**Umfang aktuell:** 6.028 Wörter / 45.009 Zeichen / 30 Normseiten. Für viele Anthologien zu lang (üblich 20.000–40.000 Zeichen).
+
+**ZIEL (Florian, 15.09.2026, maßgeblich): Es geht NICHT um Wert, Honorar oder Legitimation — die Geschichte soll verschenkt werden, damit sie gelesen werden kann.**
+
+**Folge: Verlagsweg fällt weg.** Magazine und Anthologien verlangen Exklusivität, dauern 1–2 Jahre und erreichen einige hundert bis wenige tausend Leser — sie schaden dem Ziel, statt ihm zu dienen. Die unten dokumentierten deutschsprachigen Kanäle sind nur noch Archiv. Die „Weggabelung Webveröffentlichung" ist damit keine: **online stellen, sobald der Text fertig ist.**
+
+**ENTSCHEIDUNG (Florian): englische Übersetzung ist geplant, sobald der deutsche Text fertig ist.** Bei diesem Ziel ist sie **nicht der Nachtrag, sondern der Hauptkanal** — das deutschsprachige Publikum für 6.000 Wörter über Alignment-Drift ist klein, das englischsprachige um Größenordnungen größer und aktiv auf der Suche (LessWrong veröffentlicht regelmäßig Fiktion dieser Machart; dortige Leser erkennen die METR-Fußnote sofort).
+
+**OFFENER PUNKT — Lizenz.** „Verschenken" passiert ohne Lizenzangabe rechtlich nicht: Ein Text, der bloss im Netz steht, ist voll geschützt; niemand darf ihn spiegeln, übersetzen, als Podcast einlesen oder sammeln. Unterschied zwischen „gratis lesbar" und „verschenkt". Empfehlung: **CC BY-SA** sichtbar in der Fußzeile (Weitergabe, Übersetzung und Bearbeitung erlaubt, Namensnennung, gleiche Bedingungen) — für einen Text über unkontrollierte Replikation von Inhalten nebenbei die passende Lizenz. Praktisch außerdem: EPUB und PDF zum Download danebenlegen, lange Texte werden offline gelesen.
+
+**Deutschsprachig:**
+- **EXODUS stellt ein** — nach 50 Jahren letzte Doppelausgabe Frühjahr 2026. Der wichtigste Kanal für deutsche SF-Kurzgeschichten fällt weg.
+- **NOVA – Magazin für spekulative Literatur** (p.machinery): das verbliebene ernsthafte Magazin; deutschsprachige SF, keine Fantasy/Horror, **nur unveröffentlicht (inkl. Internet)**. `https://www.pmachinery.de/imprints/nova-magazin-fuer-spekulative-literatur`
+- p.machinery / AndroSF-Reihe (SFCD) für Anthologien.
+- Ausschreibungen 2026 („Smartokratie" 31.03., VFR „Die Entdeckung" 31.07.) sind abgelaufen.
+
+**Englischsprachig (nach der Übersetzung):**
+- **Samovar** (Schwestermagazin von Strange Horizons) — existiert genau für übersetzte spekulative Fiktion, druckt **Original und Übersetzung nebeneinander**, zahlt Autor und Übersetzer getrennt. Strange Horizons selbst nimmt Übersetzungen nur vom Autor selbst und verweist sonst dorthin. `https://samovar.strangehorizons.com/submit/`
+- Clarkesworld nimmt Übersetzungen (Herkunft und Rechte-Einschränkungen müssen angegeben werden).
+- **Asterisk Magazine** publiziert nur Essays, keine Fiktion — aber sein Profil (3.000–5.000 Wörter, quellenbasiert, „chased every claim back to its source") beschreibt exakt die Zielgruppe dieser Geschichte.
+
+**Strategische Notiz:** Die reale Fußnoten-Fundierung (METR, Epoch AI, Karpathy, BlackMamba, Antonopoulos) ist ein Zielgruppen-Signal, kein Dekor — das Versiegen des Apparats wirkt nur bei Lesern, die die erste Hälfte als real erkennen. Dieses Publikum sitzt im AI-Safety-/Tech-Umfeld und ist überwiegend englischsprachig. **Halbwertszeit beachten:** Der Anthologie-/Magazinweg dauert 1–2 Jahre; in dieser Zeit wandern die Belege vom Aktuellen ins Historische und die Fußnoten-Dramaturgie verliert an Schärfe.
+
 ## Widersprüche (zu lösen)
 
 - **W1 Waffen-Fußnote ohne Beat.** Die Fußnote „Autonome Waffensysteme" gehört zum Drohnen-Perimeter, der in Sektion III nur noch als „evtl. kurz verworfene Option" vorkommt. → Perimeter als eigene Tür zurückholen oder Fußnote streichen.

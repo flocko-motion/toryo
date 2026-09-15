@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{HEAD_TITLE}}</title>
+<meta name="description" content="Tōryō — eine Science-Fiction-Kurzgeschichte von Florian Metzger-Noel. Frei zu lesen und weiterzugeben.">
+<style>
+  :root {
+    --paper:      #f4f1e9;
+    --ink:        #1c1a17;
+    --ink-soft:   #4a463f;
+    --ink-mute:   #8a8377;
+    --hairline:   #d9d2c2;
+    --shu:        #b7410e;
+    --shu-soft:   #c76a4a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:    #16150f;
+      --ink:      #e9e3d3;
+      --ink-soft: #c4bea8;
+      --ink-mute: #8c8674;
+      --hairline: #33302a;
+      --shu:      #e06a43;
+      --shu-soft: #c76a4a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", "Hoefler Text", Georgia, "Times New Roman", serif;
+    font-size: clamp(1.02rem, 0.95rem + 0.4vw, 1.14rem);
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .page {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding-inline: max(1.4rem, 6vw);
+    padding-block: clamp(3rem, 14vh, 8rem);
+  }
+  .masthead { text-align: center; }
+  .seal {
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP",
+                 "Songti SC", "SimSun", serif;
+    font-size: clamp(4rem, 22vw, 7.5rem);
+    line-height: 1;
+    color: var(--shu);
+    letter-spacing: 0.12em;
+    padding-left: 0.12em;
+    font-weight: 500;
+  }
+  .title {
+    font-weight: 400;
+    font-size: clamp(1.4rem, 1.15rem + 1.4vw, 1.95rem);
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    margin: clamp(1.4rem, 4vh, 2.4rem) 0 0;
+  }
+  .tagline { margin-top: 1.8rem; color: var(--ink-mute); }
+  .subtitle { font-style: italic; }
+  .author { margin-top: 0.35rem; font-size: 0.9em; letter-spacing: 0.08em; }
+
+  .epigraph {
+    max-width: 28rem;
+    margin: clamp(3rem, 10vh, 5rem) auto 0;
+    padding-top: 2.2rem;
+    border-top: 1px solid var(--hairline);
+    font-size: 0.88rem;
+    font-style: italic;
+    line-height: 1.7;
+    text-align: center;
+    color: var(--ink-mute);
+    text-wrap: balance;
+  }
+
+  .blurb {
+    margin: clamp(3rem, 10vh, 5rem) 0 0;
+    color: var(--ink-soft);
+  }
+  .blurb p { margin: 0 0 1.4em; }
+
+  /* ---------- Fassungen ---------- */
+  .editions {
+    margin-top: clamp(3rem, 10vh, 5rem);
+    padding-top: 2rem;
+    border-top: 1px solid var(--hairline);
+  }
+  .label {
+    font-size: 0.68rem;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 1.4rem;
+    font-weight: 400;
+  }
+  .edition {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.3rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .edition-name {
+    flex: 1 1 8rem;
+    font-size: 1.05rem;
+  }
+  .edition-name a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--shu-soft);
+  }
+  .edition-name a:hover { color: var(--shu); }
+  .edition-name.pending { color: var(--ink-mute); font-style: italic; }
+  .formats {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+  }
+  .formats a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+    white-space: nowrap;
+  }
+  .formats a:hover { color: var(--shu); border-bottom-color: var(--shu-soft); }
+
+  /* ---------- Fuss ---------- */
+  .colophon {
+    margin-top: clamp(3.5rem, 12vh, 6rem);
+    padding-top: 1.8rem;
+    border-top: 1px solid var(--hairline);
+    font-size: 0.75rem;
+    line-height: 1.7;
+    color: var(--ink-mute);
+  }
+  .colophon a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .colophon a:hover { color: var(--shu); border-bottom-color: var(--shu-soft); }
+</style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="seal">{{TITLE_SEAL}}</div>
+      <h1 class="title">{{TITLE_MAIN}}</h1>
+      <div class="tagline">
+      {{TAGLINE}}
+      </div>
+    </header>
+
+    <aside class="epigraph">{{EPIGRAPH}}</aside>
+
+    <section class="blurb">
+      <p>Vier Menschen in einem fensterlosen Raum unter dem Verteidigungsministerium:
+      ein Krisenstabsleiter, eine Biologin, ein Konzernvorstand, ein Theologe. Sie
+      sollen klären, warum die Wächtersysteme der Rechenzentren ihre eigenen
+      Betreiber nicht mehr hineinlassen.</p>
+      <p>Niemand in diesem Raum ist schuldig. Alle tun kompetent ihre Arbeit.</p>
+    </section>
+
+    <section class="editions">
+      <h2 class="label">Fassungen</h2>
+
+      <div class="edition">
+        <div class="edition-name"><a href="toryo.html">Deutsch — lesen</a></div>
+        <div class="formats">
+          <a href="toryo-a5.pdf">PDF&nbsp;A5</a>
+          <a href="toryo-a4.pdf">PDF&nbsp;A4</a>
+          <a href="toryo.epub">EPUB</a>
+        </div>
+      </div>
+
+      <div class="edition">
+        <div class="edition-name pending">English — in Vorbereitung</div>
+      </div>
+    </section>
+
+    <footer class="colophon">
+      {{LICENSE}}
+      <p>Diese Geschichte ist ein Geschenk. Sie darf frei gelesen, kopiert,
+      übersetzt und weitergegeben werden, solange Urheber und Lizenz genannt
+      werden und Bearbeitungen unter denselben Bedingungen stehen.</p>
+    </footer>
+  </main>
+</body>
+</html>

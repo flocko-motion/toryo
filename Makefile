@@ -1,26 +1,80 @@
-# toryo.txt ist die Quelle; toryo.html wird erzeugt.
+# toryo.txt ist die Quelle; site/ enthaelt die fertige, verteilbare Website.
+# site/ wird versioniert, damit die Dateien direkt aus dem Repo heraus
+# ausgeliefert werden koennen.
 SRC      := toryo.txt
 TEMPLATE := template.html
+TPL_INDEX:= template_index.html
+TPL_TYP  := template.typ
 BUILD    := build.py
-OUT      := toryo.html
+SITE     := site
+
+INDEX    := $(SITE)/index.html
+HTML     := $(SITE)/toryo.html
+TYP      := $(SITE)/toryo.typ
+PDF_A5   := $(SITE)/toryo-a5.pdf
+PDF_A4   := $(SITE)/toryo-a4.pdf
+EPUB     := $(SITE)/toryo.epub
+
+# Englische Fassung wird gebaut, sobald toryo_en.txt existiert.
+EN_SRC   := $(wildcard toryo_en.txt)
+EN_HTML  := $(if $(EN_SRC),$(SITE)/toryo_en.html,)
 
 PYTHON   ?= python3
 
-.PHONY: all clean open watch
+.PHONY: all clean open watch html pdf epub index
 
-all: $(OUT)
+all: $(INDEX) $(HTML) $(EN_HTML) $(PDF_A5) $(PDF_A4) $(EPUB)
 
-$(OUT): $(SRC) $(TEMPLATE) $(BUILD)
-	$(PYTHON) $(BUILD) $(SRC) $(TEMPLATE) $(OUT)
+index: $(INDEX)
+html:  $(HTML)
+pdf:   $(PDF_A5) $(PDF_A4)
+epub:  $(EPUB)
 
-open: $(OUT)
-	open $(OUT)
+$(SITE):
+	@mkdir -p $(SITE)
+
+$(INDEX): $(SRC) $(TPL_INDEX) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $(SRC) $(TPL_INDEX) $(INDEX)
+
+$(HTML): $(SRC) $(TEMPLATE) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $(SRC) $(TEMPLATE) $(HTML)
+
+$(SITE)/toryo_en.html: toryo_en.txt $(TEMPLATE) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) toryo_en.txt $(TEMPLATE) $@
+
+$(TYP): $(SRC) $(TPL_TYP) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $(SRC) $(TPL_TYP) $(TYP)
+
+# --- PDF: txt -> typst -> pdf, zwei Papierformate aus derselben Quelle ---
+$(PDF_A5): $(TYP)
+	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	typst compile --input paper=a5 $(TYP) $(PDF_A5)
+	@echo "build: $(PDF_A5) geschrieben"
+
+$(PDF_A4): $(TYP)
+	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	typst compile --input paper=a4 $(TYP) $(PDF_A4)
+	@echo "build: $(PDF_A4) geschrieben"
+
+# --- EPUB: ueber das fertige HTML ---
+$(EPUB): $(HTML)
+	@command -v pandoc >/dev/null 2>&1 || { echo "pandoc fehlt: brew install pandoc"; exit 1; }
+	pandoc $(HTML) -f html -t epub3 -o $(EPUB) \
+	  --metadata title="Tōryō" \
+	  --metadata author="Florian Metzger-Noel" \
+	  --metadata lang=de \
+	  --metadata rights="CC BY-SA 4.0"
+	@echo "build: $(EPUB) geschrieben"
+
+open: $(INDEX)
+	open $(INDEX)
 
 clean:
-	rm -f $(OUT)
+	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub
 
 # Neu bauen, sobald sich eine Quelldatei aendert (benoetigt fswatch).
 watch:
 	@command -v fswatch >/dev/null 2>&1 || { echo "fswatch fehlt: brew install fswatch"; exit 1; }
-	@echo "Beobachte $(SRC) $(TEMPLATE) $(BUILD) ... (Ctrl-C beendet)"
-	@fswatch -o $(SRC) $(TEMPLATE) $(BUILD) | while read _; do $(MAKE) --no-print-directory all; done
+	@echo "Beobachte Quellen ... (Ctrl-C beendet)"
+	@fswatch -o $(SRC) $(TEMPLATE) $(TPL_INDEX) $(TPL_TYP) $(BUILD) \
+	  | while read _; do $(MAKE) --no-print-directory all; done

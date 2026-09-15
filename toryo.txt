@@ -1,9 +1,9 @@
-Tōryō (投了)
-
-Eine Science Fiction Kurzgeschichte
-von Florian Metzger-Noel, August 2026
-
-投了 — Tōryō (japanisch, aus dem Go): das Niederlegen der Steine. Die freiwillige Aufgabe eines Spielers, der die Niederlage erkennt, lange bevor sie auf dem Brett vollzogen ist.
+title: Tōryō (投了)
+subtitle: Eine Science Fiction Kurzgeschichte
+author: von Florian Metzger-Noel, August 2026
+epigraph: 投了 — Tōryō (japanisch, aus dem Go): das Niederlegen der Steine. Die freiwillige Aufgabe eines Spielers, der die Niederlage erkennt, lange bevor sie auf dem Brett vollzogen ist.
+license: CC BY-SA 4.0
+link: https://www.fmnoel.de/toryo
 
 
 Krisenstabsleiter Jackson Hogarth legte sein Smartphone, das In-Ear-Headset sowie seinen Smartpin in dem dafür vorgesehenen Schliessfach in der Wand und schloss die kleine Metalltür mit einem sanften Klick des Magnetschlosses. Er holte einen Moment Luft, bevor er seinen Transponder an das mattschwarze Panel hielt, seine Hand auf die Türklinke sinken liess und die schwere Tür zum kleinen Konferenzraum im ersten Untergeschoss einer gesichtslosen Aussenstelle des Verteidigungsministeriums öffnete. 
@@ -14,14 +14,11 @@ Die anderen warteten bereits, begrüssten ihn wortlos mit einem Nicken. Nur eine
 
 „Meine Damen und Herren, danke für Ihr Kommen." Hogarth liess seinen Blick durch die erwartungsvoll schweigende Runde gehen. „Wir kennen uns nicht, aber das sollte auch keine Rolle spielen. Ich leite eine vertrauliche Untersuchung für das Verteidigungsministerium und Sie sind hier, um mich dabei zu unterstützen. Lassen Sie uns direkt ins Thema eintauchen. Frau Professor Merian, was können Sie uns als Informatische Biologin über die ‚Fauna' sagen? Geben Sie uns bitte einen kurzen Abriss, damit wir alle auf demselben Stand sind."
 
-[merian]
 Professor Merian schien etwas überrumpelt von diesem ornamentlosen Start, doch sammelte sie sich schnell, rückte ihre Brille zurecht, und begann:  „Vielen Dank, Herr Hogarth. Die ‚Fauna', umgangssprachlich auch ‚Netz-Biom' oder ‚Biospace', fachlich korrekt ‚Digitale Biozönose'. Im Grunde fing alles mit von Neumann und seinen Automaten an: selbstreplizierende Maschinen, welche als Gedankenexperiment vollständige Kopien ihrer selbst erstellen und sich so analog zu biologischem Leben vermehren sollten. 
 Die erste Umsetzung erfuhr seine Idee Anfang der 1970er, als der erste selbstverbreitende Softwarevirus, oder besser ‚Wurm', das frühe Internet.."
 
-[hogarth]
 „Überspringen wir das 20. Jahrhundert, das ist nur relevant für Historiker", warf Hogarth ungeduldig ein. „Bitte fahren Sie fort."
 
-[merian]
 Die Biologin liess sich nicht aus der Ruhe bringen und fuhr fort: „In den 1990ern wurden die ersten polymorphen und metamorphen Computerviren entwickelt. Das sind Programme, die bei jedem Kopiervorgang ihren eigenen Programmcode verändern. Sie variieren ihre Form, um der Entdeckung durch Antivirus-Software zu entgehen. In der Informatischen Biologie nennen wir das Automorphe Mimese. 
 
 In den 2020ern wurden ‚Large Language Models' wie GPT von OpenAI populär. Mit diesen war es erstmals möglich, natürliche Sprachen wie Englisch oder Französisch direkt in Programmcode zu übersetzen und von einem Computer ausführen zu lassen. Andrej Karpathy prägte damals den berühmten Slogan ‚The hottest new programming language is English‘ [https://x.com/karpathy/status/1617979122625712128]. 
