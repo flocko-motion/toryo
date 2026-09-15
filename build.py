@@ -151,6 +151,77 @@ def render_title(title: str):
     return title.strip(), ""
 
 
+TXT_WIDTH = 72
+
+
+def build_text(tpl, out, head, title, title_main, title_seal,
+               subtitle, credits, epigraph_text, body_blocks) -> int:
+    """Lesbare Plaintext-Fassung; Quellen werden zu [1] plus Liste am Schluss."""
+    import textwrap
+    import unicodedata
+
+    def cols(s: str) -> int:
+        """Darstellungsbreite: CJK-Zeichen belegen zwei Spalten."""
+        return sum(2 if unicodedata.east_asian_width(c) in "WF" else 1 for c in s)
+
+    def centre(s: str) -> str:
+        out_ = []
+        for ln in s.split("\n"):
+            pad = max(0, (TXT_WIDTH - cols(ln)) // 2)
+            out_.append((" " * pad + ln).rstrip())
+        return "\n".join(out_)
+
+    def wrap(s: str, indent: str = "") -> str:
+        return textwrap.fill(
+            s, width=TXT_WIDTH, initial_indent=indent, subsequent_indent=indent,
+            break_long_words=False, break_on_hyphens=False,
+        )
+
+    fns: list = []
+    parts = []
+    for b in body_blocks:
+        joined = " ".join(b).strip()
+        if joined == "Ende":
+            parts.append(centre("Ende"))
+            break
+        # [url] durch [n] ersetzen und die Quelle merken
+        def _sub(m):
+            fns.append(m.group(1))
+            return f"[{len(fns)}]"
+        parts.append(wrap(FN_RE.sub(_sub, joined)))
+    body_txt = "\n\n".join(parts)
+
+    notes_txt = ""
+    if fns:
+        lines_ = [centre("Anmerkungen"), ""]
+        # URLs nicht umbrechen: sie sollen kopierbar auf einer Zeile stehen.
+        for i, url in enumerate(fns, 1):
+            lines_.append(f"  [{i}] {url}")
+        notes_txt = "\n".join(lines_)
+
+    tagline = "\n".join(centre(x) for x in (subtitle, credits) if x)
+    lic = " · ".join(x for x in (
+        head.get("license", ""),
+        link_label(head["link"]) if head.get("link") else "",
+    ) if x)
+
+    page = tpl.read_text(encoding="utf-8")
+    for k, v in {
+        "{{TITLE_SEAL}}": centre(title_seal),
+        "{{TITLE_MAIN}}": centre(title_main.upper()),
+        "{{TAGLINE}}": tagline,
+        "{{LICENSE}}": centre(lic),
+        "{{EPIGRAPH}}": wrap(epigraph_text, indent="  "),
+        "{{BODY}}": body_txt,
+        "{{FOOTNOTES}}": notes_txt,
+    }.items():
+        page = page.replace(k, v)
+
+    out.write_text(page, encoding="utf-8")
+    print(f"build: {out} geschrieben ({len(fns)} Anmerkungen, {len(body_blocks)} Bloecke)")
+    return 0
+
+
 def build_typst(tpl, out, head, title, title_main, title_seal,
                 subtitle, credits, epigraph_text, body_blocks) -> int:
     """Typst-Quelle schreiben; typst compile macht daraus das PDF."""
@@ -204,6 +275,8 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
         "{{TAGLINE}}": "\n".join(tagline),
         "{{LICENSE}}": license_typ,
         "{{EPIGRAPH}}": esc_typ(epigraph_text),
+        "{{COVER_SUBTITLE}}": esc_typ(subtitle),
+        "{{COVER_AUTHOR}}": esc_typ(re.sub(r",.*$", "", credits).strip()),
         "{{BODY}}": body_typ,
         "{{FOOTNOTES}}": notes_typ,
     }.items():
@@ -236,6 +309,12 @@ def main() -> int:
     title_main, title_seal = render_title(title)
     body_blocks = split_blocks("\n".join(lines[body_start:]))
     is_typ = out.suffix == ".typ"
+
+    if out.suffix == ".txt":
+        return build_text(
+            tpl, out, head, title, title_main, title_seal,
+            subtitle, credits, epigraph_text, body_blocks,
+        )
 
     if is_typ:
         return build_typst(

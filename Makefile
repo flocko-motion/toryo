@@ -14,6 +14,10 @@ TYP      := $(SITE)/toryo.typ
 PDF_A5   := $(SITE)/toryo-a5.pdf
 PDF_A4   := $(SITE)/toryo-a4.pdf
 EPUB     := $(SITE)/toryo.epub
+COVER_TYP:= $(SITE)/cover.typ
+COVER    := $(SITE)/cover.png
+TXT      := $(SITE)/toryo.txt
+TPL_TXT  := template.txt
 
 # Englische Fassung wird gebaut, sobald toryo_en.txt existiert.
 EN_SRC   := $(wildcard toryo_en.txt)
@@ -21,14 +25,16 @@ EN_HTML  := $(if $(EN_SRC),$(SITE)/toryo_en.html,)
 
 PYTHON   ?= python3
 
-.PHONY: all clean open watch html pdf epub index
+.PHONY: all clean open watch html pdf epub index cover txt
 
-all: $(INDEX) $(HTML) $(EN_HTML) $(PDF_A5) $(PDF_A4) $(EPUB)
+all: $(INDEX) $(HTML) $(EN_HTML) $(PDF_A5) $(PDF_A4) $(EPUB) $(COVER) $(TXT)
 
 index: $(INDEX)
 html:  $(HTML)
 pdf:   $(PDF_A5) $(PDF_A4)
 epub:  $(EPUB)
+cover: $(COVER)
+txt:   $(TXT)
 
 $(SITE):
 	@mkdir -p $(SITE)
@@ -56,21 +62,34 @@ $(PDF_A4): $(TYP)
 	typst compile --input paper=a4 $(TYP) $(PDF_A4)
 	@echo "build: $(PDF_A4) geschrieben"
 
-# --- EPUB: ueber das fertige HTML ---
-$(EPUB): $(HTML)
+$(TXT): $(SRC) $(TPL_TXT) $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $(SRC) $(TPL_TXT) $(TXT)
+
+# --- Cover: txt -> typst -> png (1600x2560, EPUB-tauglich) ---
+$(COVER_TYP): $(SRC) template_cover.typ $(BUILD) | $(SITE)
+	$(PYTHON) $(BUILD) $(SRC) template_cover.typ $(COVER_TYP)
+
+$(COVER): $(COVER_TYP)
+	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	typst compile --format png --ppi 72 $(COVER_TYP) $(COVER)
+	@echo "build: $(COVER) geschrieben"
+
+# --- EPUB: ueber das fertige HTML, mit Cover ---
+$(EPUB): $(HTML) $(COVER)
 	@command -v pandoc >/dev/null 2>&1 || { echo "pandoc fehlt: brew install pandoc"; exit 1; }
 	pandoc $(HTML) -f html -t epub3 -o $(EPUB) \
 	  --metadata title="Tōryō" \
 	  --metadata author="Florian Metzger-Noel" \
 	  --metadata lang=de \
-	  --metadata rights="CC BY-SA 4.0"
+	  --metadata rights="CC BY-SA 4.0" \
+	  --epub-cover-image=$(COVER)
 	@echo "build: $(EPUB) geschrieben"
 
 open: $(INDEX)
 	open $(INDEX)
 
 clean:
-	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub
+	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub $(SITE)/*.png $(SITE)/*.txt
 
 # Neu bauen, sobald sich eine Quelldatei aendert (benoetigt fswatch).
 watch:
