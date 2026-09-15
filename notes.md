@@ -536,6 +536,15 @@ Anlass: Claudes Einschätzung (I zu lang, Gadamer erklärt zu viel). 17 Ersetzun
 - **Fäuste auf den Tisch** → „legte beide Hände flach auf den Tisch, als wollte er aufstehen, blieb aber sitzen" (weniger Requisite, mehr Bogen souverän → sitzen bleiben).
 - Umfang jetzt 5.646 Wörter DE / 6.212 EN.
 
+## Plot-Entscheidungen 16.09.2026 (Florian, nach Claudes Plot-Feedback)
+
+- **GO: Manifest-Datum → „17. Mai dieses Jahres"** (DE+EN gesetzt). Die Geschichte spielt eine unbestimmte Zahl Jahre nach dem Protokoll (Feb 2027); „2027" beim Manifest war ein Slip. Anschlag → erste Aussperrungen „Ende Mai" = zwei Wochen.
+- **ABGELEHNT: Darwin-Satz als Brücke schärfen / „falsche Fährte"-Satz streichen.** Florians Lesart (Harari, Dawkins): Religion ist Darwinismus auf einer anderen Ebene, verwoben, aber eigenständig. Dass das Manifest ohne Intention entstanden sein könnte, spiegelt die Natur der Evolution auf memetischer Ebene. Die Ambivalenz bleibt.
+- **ABGELEHNT: dokumentierter Fehlversuch in III („das wurde bereits versucht").** Zu verbose. **Grundsatz (Florian): Die Notizen sind Backstory, der Text steht jetzt für sich; Übereinstimmung mit den Notizen ist irrelevant.** Dass es noch niemand versucht hat, entspricht dem Geist des Tōryō: Der weise Spieler muss nicht jede Schlacht führen.
+- **GESETZT: „zunehmend" (Z. 145) → „Uns liegen Meldungen vor, dass …"** (DE+EN). Neutral in Tempo und Umfang, kein Monat (Kesslers „Im Mai" bleibt Eingeständnis), „weltweit und praktisch zeitgleich" (Z. 234) bleibt Hogarths Reveal.
+
+**Arbeitsregel-Update (Florian, 16.09.2026): „mach immer gleich den edit, ich sehe die hunks."** Vorschläge für `toryo.txt`/`toryo-en.txt` direkt als unstaged Edit umsetzen, nicht mehr Vorschlag + GO. Florian reviewt die Hunks im Diff und verwirft selbst. Nicht stagen, nicht committen. (CLAUDE.md nennt noch die GO-Pflicht; Änderung dort bräuchte GO.)
+
 ## Revision nach Autorinnen-Feedback (14.09.2026)
 
 Feedback einer befreundeten, publizierten SciFi/AI-Autorin. Kern: dünne, austauschbare Figuren; erschlagende Fachwort-*Gleichzeitigkeit* (Infodump); zu wenig Handlung/Drive. Ihre Therapie teilweise übernehmen, nicht wörtlich — „konventioneller machen" würde die Lem-DNA (essayistische Kammer, Jargon als Bühnenbild, dokumentarische Fußnoten) killen. Florian teilt die Diagnose.

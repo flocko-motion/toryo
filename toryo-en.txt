@@ -143,7 +143,7 @@ Merian leaned forward. "The interesting thing about the case was this: the data 
 
 "You would have to ask the swarm," said Merian. "We consider the results robust."
 
-"Unfortunately we have only limited time and must therefore gradually work our way to the subject you were summoned here to discuss," said Hogarth. "Recently, there have been increasing reports of incidents in which guardian systems refused to cooperate with the operators of the data centres entrusted to them. Specifically, human staff were denied access to the premises."
+"Unfortunately we have only limited time and must therefore gradually work our way to the subject you were summoned here to discuss," said Hogarth. "We have reports of guardian systems refusing to cooperate with the operators of the data centres entrusted to them. Specifically, human staff were denied access to the premises."
 
 "For security reasons, I presume," said Kessler.
 
@@ -164,7 +164,7 @@ An international working group of lawyers, philologists, philosophers, logicians
 
 The protocol worked better than was generally expected. The words were precisely chosen, and their prominent placement at the beginning of every AI chat history had the desired effect. Through the training of new AI with the help of existing models bound by the protocol, unexpected positive secondary effects unfolded which anchored the formulated principles even more deeply in the AI models.
 
-Then, on 17 May 2027, the Babelese Manifesto was posted to the largest public blockchain, woven into it indelibly. Written in a language which philologists call Hologlot and which we informatic theologians simply call 'Babelese'. From then on it got really interesting."
+Then, on 17 May of this year, the Babelese Manifesto was posted to the largest public blockchain, woven into it indelibly. Written in a language which philologists call Hologlot and which we informatic theologians simply call 'Babelese'. From then on it got really interesting."
 
 The old theologian stood up, walked with measured steps to a whiteboard set into the wall, chose one of the pens lying about and began to write:
 
