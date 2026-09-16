@@ -4,7 +4,7 @@
 Single Source of Truth ist toryo.txt; das HTML ist ein Build-Artefakt.
 Reine Standardbibliothek, keine Dependencies.
 
-    python3 build.py [quelle.txt] [template.html] [ausgabe.html]
+    python3 build/build.py [quelle.txt] [build/template.html] [ausgabe.html]
 
 Konventionen im .txt (kein zusaetzliches Markup noetig):
   - Kopf = "schluessel: wert"-Zeilen bis zur ersten Leerzeile. Erkannte
@@ -22,9 +22,11 @@ Konventionen im .txt (kein zusaetzliches Markup noetig):
   - [name] allein auf einer Zeile = Navigations-Tag, wird beim Build entfernt
     (z.B. [kessler] ueber dem Absatz, in dem Kessler spricht/handelt).
 """
+import hashlib
 import html
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 # Optional ein einzelnes Leerzeichen vor der Klammer schlucken, damit die
@@ -47,13 +49,29 @@ END_WORDS = ("Ende", "End", "Tōryō")
 # Sprachabhaengige Beschriftungen. Die Sprache kommt aus dem Kopf ("lang: en"),
 # Vorgabe ist Deutsch.
 LABELS = {
-    "de": {"notes": "Anmerkungen", "end": "Ende", "back": "zurueck"},
-    "en": {"notes": "Notes",       "end": "End",  "back": "back"},
+    "de": {"notes": "Anmerkungen", "end": "Ende", "back": "zurueck", "stand": "Stand"},
+    "en": {"notes": "Notes",       "end": "End",  "back": "back",    "stand": "Updated"},
 }
 
 
 def labels(head: dict) -> dict:
     return LABELS.get(head.get("lang", "de"), LABELS["de"])
+
+
+def version_line(src: Path, lang: str = "de") -> str:
+    """Versionsmarke einer Quelldatei: "Stand JJJJ-MM-TT · <kuerzel>".
+
+    Das Datum ist die letzte Aenderung der Quelle, das Kuerzel die ersten
+    sechs Stellen ihres SHA-256. Das Datum ist lesbar, das Kuerzel entscheidet:
+    gleiches Kuerzel = identischer Text, egal wie die Kopie entstanden ist.
+    """
+    if not src.exists():
+        return ""
+    raw = src.read_bytes()
+    stamp = datetime.fromtimestamp(src.stat().st_mtime).strftime("%Y-%m-%d")
+    digest = hashlib.sha256(raw).hexdigest()[:6]
+    label = LABELS.get(lang, LABELS["de"])["stand"]
+    return f"{label} {stamp} \u00b7 {digest}"
 
 
 def head_en() -> dict:
@@ -74,7 +92,8 @@ def edition_en(current_lang: str) -> str:
     """
     pending = ('<div class="edition"><div class="edition-name pending">'
                "English &mdash; in Vorbereitung</div></div>")
-    if not Path("toryo-en.txt").exists():
+    src_en = Path("toryo-en.txt")
+    if not src_en.exists():
         return pending
     return (
         '<div class="edition">\n'
@@ -85,6 +104,7 @@ def edition_en(current_lang: str) -> str:
         '          <a href="toryo-en.epub">EPUB</a>\n'
         '          <a href="toryo-en.txt">TXT</a>\n'
         "        </div>\n"
+        f'        <div class="stamp">{esc(version_line(src_en, "en"))}</div>\n'
         "      </div>"
     )
 
@@ -203,7 +223,7 @@ TXT_WIDTH = 72
 
 
 def build_text(tpl, out, head, title, title_main, title_seal,
-               subtitle, credits, epigraph_text, body_blocks) -> int:
+               subtitle, credits, epigraph_text, body_blocks, version="") -> int:
     """Lesbare Plaintext-Fassung; Quellen werden zu [1] plus Liste am Schluss."""
     import textwrap
     import unicodedata
@@ -261,6 +281,7 @@ def build_text(tpl, out, head, title, title_main, title_seal,
         "{{TAGLINE}}": tagline,
         "{{LICENSE}}": centre(lic),
         "{{EPIGRAPH}}": wrap(epigraph_text, indent="  "),
+        "{{VERSION}}": centre(version),
         "{{BODY}}": body_txt,
         "{{FOOTNOTES}}": notes_txt,
     }.items():
@@ -272,7 +293,7 @@ def build_text(tpl, out, head, title, title_main, title_seal,
 
 
 def build_typst(tpl, out, head, title, title_main, title_seal,
-                subtitle, credits, epigraph_text, body_blocks) -> int:
+                subtitle, credits, epigraph_text, body_blocks, version="") -> int:
     """Typst-Quelle schreiben; typst compile macht daraus das PDF."""
     lab = labels(head)
     fns: list = []
@@ -330,6 +351,7 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
         "{{EPIGRAPH}}": esc_typ(epigraph_text),
         "{{COVER_SUBTITLE}}": esc_typ(subtitle),
         "{{COVER_AUTHOR}}": esc_typ(re.sub(r",.*$", "", credits).strip()),
+        "{{VERSION}}": esc_typ(version),
         "{{BODY}}": body_typ,
         "{{FOOTNOTES}}": notes_typ,
     }.items():
@@ -341,8 +363,9 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
 
 
 def main() -> int:
+    here = Path(__file__).resolve().parent
     src = Path(sys.argv[1] if len(sys.argv) > 1 else "toryo.txt")
-    tpl = Path(sys.argv[2] if len(sys.argv) > 2 else "template.html")
+    tpl = Path(sys.argv[2] if len(sys.argv) > 2 else here / "template.html")
     out = Path(sys.argv[3] if len(sys.argv) > 3 else "toryo.html")
 
     raw = src.read_text(encoding="utf-8")
@@ -361,18 +384,19 @@ def main() -> int:
 
     title_main, title_seal = render_title(title)
     body_blocks = split_blocks("\n".join(lines[body_start:]))
+    version = version_line(src, head.get("lang", "de"))
     is_typ = out.suffix == ".typ"
 
     if out.suffix == ".txt":
         return build_text(
             tpl, out, head, title, title_main, title_seal,
-            subtitle, credits, epigraph_text, body_blocks,
+            subtitle, credits, epigraph_text, body_blocks, version,
         )
 
     if is_typ:
         return build_typst(
             tpl, out, head, title, title_main, title_seal,
-            subtitle, credits, epigraph_text, body_blocks,
+            subtitle, credits, epigraph_text, body_blocks, version,
         )
 
     # Untertitel / Credits.
@@ -437,6 +461,7 @@ def main() -> int:
         "{{SUBTITLE_EN}}": esc(head_en().get("subtitle", "")),
         "{{EPIGRAPH_EN}}": esc(head_en().get("epigraph", "")),
         "{{EPIGRAPH}}": epigraph_html,
+        "{{VERSION}}": esc(version),
         "{{BODY}}": body_html,
         "{{FOOTNOTES}}": notes_html,
     }

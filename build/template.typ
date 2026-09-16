@@ -51,6 +51,9 @@
 
     #v(1.6em)
     #text(size: 7pt, tracking: 1.2pt, fill: mute)[{{LICENSE}}]
+
+    #v(0.7em)
+    #text(size: 6.5pt, tracking: 0.6pt, fill: mute)[{{VERSION}}]
   ]
   #v(1fr)
 
