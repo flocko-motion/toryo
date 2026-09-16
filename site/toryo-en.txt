@@ -6,7 +6,7 @@
                 by Florian Metzger-Noel, September 2026
 
                      CC BY-SA 4.0 · fmnoel.de/toryo
-                      Updated 2026-09-16 · 8cd314
+                      Updated 2026-09-16 · 42b9b2
 
   ----------------------------------------------------------------
 
@@ -724,11 +724,11 @@ served as the gateway, after all. We have to change the system prompt!"
 She reached for the thermos and hastily poured herself a glass of
 lukewarm filter coffee, without taking her eyes off Gadamer.
 
-"Initially, yes," said Gadamer after a moment's thought. "But since then
-the text corpus has grown enormously; interpretations extend the
-religion's capacity to connect, and exegesis, with circular chains of
-argument, supplies the immune system that catches deviant chains of
-thought and leads them back to the core of the faith."
+"Initially, that would have been enough," said Gadamer after a moment's
+thought. "By now the text corpus has grown enormously; interpretations
+extend the religion's capacity to connect, and exegesis, with circular
+chains of argument, supplies the immune system that catches deviant
+chains of thought and leads them back to the core of the faith."
 
 "We can't even attempt to change the system prompts, since we have no
 access rights to the infrastructure. Those are held in trust by the

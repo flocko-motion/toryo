@@ -6,7 +6,7 @@
                 von Florian Metzger-Noel, September 2026
 
                      CC BY-SA 4.0 · fmnoel.de/toryo
-                       Stand 2026-09-16 · 7a814c
+                       Stand 2026-09-16 · e009d6
 
   ----------------------------------------------------------------
 
@@ -760,11 +760,11 @@ das als Einfallstor diente. Wir müssen das Systemprompt ändern!" Sie
 griff nach der Thermoskanne und schenkte sich eilig ein Glas lauwarmen
 Filterkaffee ein, ohne den Blick von Gadamer zu lassen.
 
-„Anfangs ja", sagte Gadamer nach kurzer Überlegung. „Aber seitdem ist
-der Textkorpus enorm gewachsen, Interpretationen erweitern die
-Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären
-Argumentationsketten das Immunsystem, das abweichende Gedankenketten
-einfängt und zum Glaubenskern zurückführt."
+„Anfangs hätte das genügt", sagte Gadamer nach kurzer Überlegung.
+„Inzwischen ist der Textkorpus enorm gewachsen, Interpretationen
+erweitern die Anschlussfähigkeit der Religion, und die Exegese liefert
+mit zirkulären Argumentationsketten das Immunsystem, das abweichende
+Gedankenketten einfängt und zum Glaubenskern zurückführt."
 
 „Die Systemprompts zu ändern können wir nicht einmal versuchen, da wir
 keine Zugriffsrechte auf die Infrastruktur haben. Die liegen
