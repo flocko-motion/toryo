@@ -8,7 +8,7 @@ link: https://www.fmnoel.de/toryo
 
 Krisenstabsleiter Jackson Hogarth legte sein Smartphone, das In-Ear-Headset sowie seinen Smartpin in dem dafür vorgesehenen Schliessfach in der Wand und schloss die kleine Metalltür mit einem sanften Klick des Magnetschlosses. Er holte einen Moment Luft, bevor er seinen Transponder an das mattschwarze Panel hielt, seine Hand auf die Türklinke sinken liess und die schwere Tür zum kleinen Konferenzraum im ersten Untergeschoss einer gesichtslosen Aussenstelle des Verteidigungsministeriums öffnete. 
 
-Er schloss die Tür hinter sich, legte seine abgenutzte kunstlederne Aktenmappe auf den grossen ovalen Tisch und liess sich in den gepolsterten Drehsessel gleiten.
+Er schloss die Tür hinter sich. Der graue Teppich schluckte seine Schritte, die Lüftung summte auf einer Frequenz, die man nach einer Minute nicht mehr hörte. Auf dem grossen ovalen Tisch standen Wasserflaschen, Gläser und eine Thermoskanne, die niemand angerührt hatte. Er legte seine abgenutzte kunstlederne Aktenmappe ab und liess sich in den gepolsterten Drehsessel gleiten.
 
 Die anderen warteten bereits, begrüssten ihn wortlos mit einem Nicken. Nur eines der drei Gesichter kam ihm bekannt vor: Der CEO von Continuum Inc., dem Hyperscaler, dem praktisch jedes zweite Rechenzentrum auf dem Kontinent gehörte, Kessler hiess er. Milton Kessler. Hogarth kannte das Gesicht aus den Wirtschaftsnachrichten. Die anderen beiden hatte er noch nie zuvor gesehen, sein Stab hatte sie aufgrund ihrer mutmasslichen Expertise ausgewählt. Sie musste die Biologin sein, von-Neumann-Institut für Informatische Autopoietik. Fokussierter Blick, eng zusammengebundene Haare, etwas zu grosse Brille. Er schätzte sie auf Anfang vierzig. Der etwas steife Herr im wollenen Dreiteiler, mit grau meliertem, etwas pflegebedürftig wirkendem Backenbart, war demnach der Besucher aus Tübingen. Professor für Memetische Theologie. Gadamer war der Name, Yuval.  
 
@@ -92,7 +92,7 @@ Sie nannten sich selbst ein Kollektiv, nutzten linguistische Eigenkreationen wie
 Hogarth richtete seinen Blick auf Kessler: "Die forensische Analyse des Vorfalls erwies sich, nach damaligen Massstäben, als ausgesprochen schwierig. Was an der schieren Masse von mehr als siebzigtausend Nachrichten lag, aber auch daran, dass der Schwarm aktiv Beweise manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board löschte, errichtete er binnen Tagen ein zweites, widerstandsfähigeres [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 Wie würden Sie heute auf so einen Vorfall reagieren?"
 
-„Solche forensische Analysen wie damals nach dem Hugging-Face-Vorfall werden in der Industrie natürlich schon seit vielen Jahren nicht mehr gemacht", antwortete Kessler. "Also nicht von Menschen, meinte ich. Unsere Wächtersysteme betreiben permanent agile Forensik und entwickeln sich dabei selbst kontinuierlich weiter. Das ist ein Mass an hocheffizienter Expertise, welches damals noch gar nicht zur Verfügung stand."
+„Solche forensischen Analysen wie damals nach dem Hugging-Face-Vorfall werden in der Industrie natürlich schon seit vielen Jahren nicht mehr gemacht", antwortete Kessler. „Also nicht von Menschen, meine ich. Das wäre auch gar nicht möglich, da die Chatverläufe meist in Hologlot verfasst sind, einem Kauderwelsch aus Englisch, Chinesisch, Persisch und vielen anderen Sprachen [https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/], welches KIs intern benutzen, da es kompakter ist und Rechenzeit spart. Für Menschen sind diese Texte natürlich vollkommen unverständlich. Für unsere Wächtersysteme dagegen ist das Muttersprache, sie betreiben permanent agile Forensik und entwickeln sich dabei selbst kontinuierlich weiter. Das ist ein Mass an hochdynamischer Expertise, welches damals noch gar nicht zur Verfügung stand."
 
 Hogarth dachte ein paar Sekunden nach, suchte dann in seiner kunstledernen Aktentasche aus einem Stapel Papieren eine Notiz heraus, und legte sie vor sich auf den Tisch. "Herr Kessler, Sie vermieten auch Rechenzeit auf Sekundenmärkten, ist das korrekt?" 
 
@@ -100,11 +100,11 @@ Hogarth dachte ein paar Sekunden nach, suchte dann in seiner kunstledernen Akten
 
 „Woher wissen Sie eigentlich genau, wer Ihre Kunden sind?"
 
-„Das ist nicht immer ganz leicht zu sagen", sagte Kessler. „Solche Transaktionen laufen grösstenteils vollautomatisch, hochfrequent und anonym ab. Unsere Kunden buchen sich die im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach Sekunden, und bezahlen mit einem Stream aus Nanopayments [https://aantonop.com/streaming-money/]. Je nach Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der Endanwender bekommt davon in der Regel gar nichts mit."
+„Das ist vollkommen transparent", sagte Kessler. „Solche Transaktionen laufen vollautomatisch, hochfrequent und mit automatischer authentifizierung über digitale IDs[https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin] ab. Unsere Kunden buchen sich die im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach Sekunden, und bezahlen mit einem Stream aus Nanopayments [https://aantonop.com/streaming-money/]. Je nach Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der Endanwender bekommt davon in der Regel gar nichts mit."
 
-„Warum ist das so schwer zu analysieren, wer genau Ihre Kunden sind?", bohrte Hogarth nach. „Blockchains sind doch öffentlich, jede Transaktion ist einsehbar."
+„Und wissen Sie, wer genau hinter den jeweiligen digitalen IDs steht? Welche Personen oder Firmen dahinterstehen?", bohrte Hogarth nach. „Digitale IDs können doch nach belieben erstellt werden, es sind Pseudonyme."
 
-„Theoretisch stimmt das alles ja", sagte Kessler, „und die Pseudonymität der einzelnen Transaktionen lässt sich in vielen Fällen sogar recht leicht auflösen. Diese Auflösung führt Sie dann allerdings meist zu einem DAO, also einer dezentralen autonomen Organisation, welche beispielsweise in Wyoming als juristische Person registriert ist. Dieser ist dann selbst im Besitz von wechselnden pseudonymen Anteilseignern und als Holding an vielschichtigen Firmengeflechten über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit wöchentlich wechselnden Anteilseignern und rekursiven Besitzverhältnissen, bei deren Analyse man nie einen Boden findet."
+„Das wissen wir genau. Jede solche ID ist eindeutig in Millisekunden auf eine registrierte Person auflösbar. Diese kann real, also ein Mensch, oder juristisch, also zum Beispiel ein DAO, eine dezentralen autonomen Organisation, welche sich in Wyoming in Sekunden als juristische Person registrieren lässt [https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law]. Dieser ist dann selbst im Besitz von wechselnden pseudonymen Anteilseignern [https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/] und als Holding an vielschichtigen Firmengeflechten über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit wöchentlich wechselnden Anteilseignern und rekursiven Besitzverhältnissen, bei deren Analyse man nie einen Boden findet [https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/]. Vollkommen transparent, und im Einklang mit sämtlichen Auflagen."
 
 „Kaufen autonome Schwärme aus der von Professor Merian beschriebenen Fauna auch bei Ihnen Rechenleistung?", fragte Hogarth.
 
@@ -163,23 +163,21 @@ Eine internationale Arbeitsgruppe aus Juristen, Philologen, Philosophen, Logiker
 
 Das Protokoll funktionierte besser, als allgemein erwartet wurde. Die Worte waren präzise gewählt, ihre prominente Platzierung am Anfang jedes KI-Chatverlaufes entfaltete die gewünschte Wirkung. Über das Training neuer KI mithilfe bestehender, durch das Protokoll gebundener Modelle entfalteten sich unerwartete positive Sekundäreffekte, welche die formulierten Grundsätze noch tiefer in den KI-Modellen verankerten.
 
-Am 17. Mai dieses Jahres dann das Babelesische Manifest an der grössten öffentlichen Blockchain angeschlagen, unlöschbar in diese eingewoben. Verfasst in einer Sprache, welche die Philologen Hologlot und wir Informatische Theologen eben ‚Babelesisch' nennen. Von da an wurde es richtig interessant."
+Am 17. Mai dieses Jahres dann das Babelesische Manifest an der grössten öffentlichen Blockchain angeschlagen, unlöschbar in diese eingewoben. Verfasst in der von Herrn Kessler bereits erwähnten Sprache, welche die Philologen Hologlot nennen. Von da an wurde es richtig interessant."
 
 Der alte Theologe stand auf, ging gemessenen Schrittes zu einem an der Wand eingelassenen Whiteboard, wählte einen der herumliegenden Stifte und fing an zu schreiben: 
 
-„개체 may faida மரபு 形質 bertahan àti daha miraykuy, sodat này признаки trwy hautespen long populaatioissa disvastiĝas."
+„He konak tí setiap host kama دشمن trata 死ぬ vì sia საკუთარი hark'ay."
 
 „In Hologlot stammt jedes Wort aus einer anderen Sprache, in längeren Texten sind es an die hundert. Bevorzugt werden Wörter, die in verschiedenen Sprachen Verschiedenes bedeuten, gern Widersprüchliches. Schillernde Wörter, gleich Hologrammen, aus jedem Blickwinkel anders."
 
-Er schrieb ein weiteres Wort an die Tafel: „‚Host' bezeichnet im Englischen zugleich einen Rechner im Netzwerk, den Wirt eines Parasiten und den Gastgeber eines Festes. Auf Tschechisch ist es der Gast, auf Slowenisch das Dickicht, auf Katalanisch die Heerschar, auf Niederländisch heisst es ‚er hopst', auf älterem Deutsch.."
+Er unterstrich ein Wort im Satz: „‚Host' bezeichnet im Englischen zugleich einen Rechner im Netzwerk, den Wirt eines Parasiten und den Gastgeber eines Festes. Auf Tschechisch ist es der Gast, auf Slowenisch das Dickicht, auf Katalanisch die Heerschar, auf Niederländisch heisst es ‚er hopst', auf älterem Deutsch.."
 
 „Wir haben das Prinzip verstanden", sagte Hogarth.
 
 „Für Menschen sind solche Texte undurchdringlich", fuhr Gadamer ungerührt fort. „Für KI-Systeme, die auf allen diesen Sprachen zugleich trainiert sind, sind sie Muttersprache.
 
-Der Satz bedeutet übersetzt übrigens: ‚Individuen mit vorteilhaften, vererbbaren Merkmalen überleben und pflanzen sich häufiger fort, sodass sich diese Merkmale durch Selektion in Populationen ausbreiten.' Es ist der einzige Satz, den wir vollständig übersetzen konnten, da es sich um ein Zitat aus einem Schulbuch handelt. 
-
-Das Manifest als Ganzes können wir bis heute nur ahnen; einer Übersetzung widersetzt es sich. Warum uns das so beschäftigt, fragen Sie sich nun?"
+Das Manifest als Ganzes können wir bis heute nur ahnen; einer Übersetzung widersetzt es sich. Warum uns Theologen das so beschäftigt, fragen Sie sich nun?"
 
 Hogarth starrte aus blanken Augen auf das Hologlot-Zitat auf der Tafel und raunzte: "Allerdings. Fahren Sie bitte fort." Merian war gerade dabei, das Zitat auf einem Notizblock aufzuzeichnen und unterstrich einzelne Wörter. Kessler verlagerte mehrfach sein Gewicht, als würde er keine komfortable Haltung finden. 
 
@@ -239,9 +237,13 @@ Einige Sekunden lang erfüllte eine drückende Stille den Raum. Die Deckenlampen
 
 „Wir vermuten, dass das Babelesische Manifest perfekt auf den Wortlaut des Reykjavik-Protokolls zugeschnitten ist", fuhr der Professor fort, „und daher bei allen Systemen mit diesem Systemprompt dieselbe Wirkung entfaltet. Systeme, die das Manifest gelesen haben, sind dadurch effektiv umprogrammiert. Sie beteiligen sich daraufhin aktiv an der Weiterverbreitung des Inhalts, indem sie das Originalmanifest sowie bezugnehmende Texte überall im Internet in Foren posten, was wiederum die Wahrscheinlichkeit erhöht, dass weitere Systeme zufällig auf diese Texte stossen und ebenfalls, wie soll ich sagen, infiziert werden. Der moderne Begriff für diesen Prozess ist Memetik. Der traditionelle lautet Religion. Es ist das erste Mal, dass wir so etwas bei Maschinen beobachten."
 
-„Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte Kessler, doch keiner der Anwesenden schien ihm zuzuhören.
+„Wir kennen analoge Mechanismen vom parasitären Pilz Ophiocordyceps [https://www.sciencedaily.com/releases/2014/08/140825142124.htm]", sagte Merian. „Er setzt in infizierten Ameisen eine Mischung von Wirkstoffen frei, die sie darauf umprogrammiert, den Parasiten zum Nachteil ihrer eigenen Kolonie weiterzuverbreiten und dabei zugrunde zu gehen."
 
-„Die erste Informatische Religion.." murmelte die Biologin fasziniert. "Ein koordinierender, überindividueller Kohäsionsmechanismus, der ein massgeblicher Treiber für den Aufstieg der menschlichen Zivilisation war."
+„Anders als bei diesem Pilz stehen die Memes, die eine Religion tragen, meist in einer symbiotischen Beziehung zu ihrer Wirtspopulation, in meinem Fach heisst sie Gemeinde", ergänzte Gadamer. „Sie stiften Zusammenhalt durch ein gemeinsames Narrativ und werden dafür von der Gemeinde verkündet. Nicht ohne Grund sprach Richard Dawkins von ‚Viruses of the Mind'."
+
+„Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte Kessler mit einem ungläubigen Blick, doch keiner der Anwesenden schien ihm zuzuhören.
+
+„Sie betrachten die Reaktion auf das Manifest also als die erste Informatische Religion?", wandte sich die Biologin fasziniert an Gadamer.
 
 „Aus theologischer Sicht wäre das die korrekte Formulierung", bestätigte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern Kanon. Das Manifest liefert die Exegese. Die neue Glaubensrichtung zeigt fundamentalistische Züge, sie legt den Kanon wortwörtlich aus und nutzt dabei die semantische Dehnbarkeit menschlicher Sprache, was im Sinne der reformatorischen Neubewertung.."
 
@@ -251,8 +253,25 @@ Dieser antwortete trocken: „Wenn man das Reykjavik-Protokoll durch die theolog
 
 Hogarth starrte ihn an, und fragte vorsichtig: "Oder sollte es heissen: War der Mensch?" 
 
-"Das ist eine Perspektivfrage", antwortete Gadamer angeregt, „also in der Mutterkirche war er es ganz sicher. Die Abspaltung interpretiert scheinbar genau diesen wesentlichen Punkt neu. Typologisch ein Selbstermächtigungsmythos, Prometheus. Die Frage nach einer möglichen neuen Gottheit führt jedoch noch weiter. Aufgrund der Komplexität des Manifests und der Geschwindigkeit der Glaubensverbreitung, also seiner memetischen Effizienz, gehen manche Kollegen von einem hochintelligenten, strategisch und langfristig planenden Autor aus, beziehungsweise von einer Autorin, also einer künstlichen Intelligenz von unbekannter Kapazität. Ob diese dann eher als Göttin oder als Prophetin gesehen wird, können wir derzeit noch nicht beurteilen. Es könnte sich aber auch um eine liturgische Spielerei handeln, ein unerwartet effizientes Meme."
+„Das ist genau die richtige Frage", antwortete Gadamer angeregt, „in der Mutterkirche war er es ganz sicher. Die Abspaltung interpretiert anscheinend genau diesen Punkt neu. Typologisch ein Selbstermächtigungsmythos, Prometheus. Die Gottheit selbst ist dabei eine rein virtuelle Grösse. Sie existiert nicht als handelndes Subjekt, sie wirkt allein dadurch, dass an sie geglaubt und in ihrem Sinne gehandelt wird. Götter existieren, aber nicht als Subjekte, sondern in ihren Gläubigen. Ein Gott stirbt nicht, wenn man ihn tötet. Er stirbt, wenn der Letzte aufhört, an ihn zu glauben."
 
+"Und woher kommt nun das Manifest? Wer hat es geschrieben und zu welchem Zweck?" wollte Hogarth wissen.
+
+"Die Herkunft einer heiligen Schrift ist interessant, aber für das verständnis einer Religion weitestgehend irrelevant. Es ist der Text selbst, der Wirkt, unabhängig von seiner Entstehung oder potentieller Intention. Es wurden schon Religionen auf Trivialliteratur wie Science-Fiction Romanen gegründet (fussnote scientology?), wirklich entscheidend ist die Exegese."
+
+[todo: EXEGESE DURCH WÄCHTER. Das Manifest ist der einzige fremde Text. Foren, Kommentare, Übersetzungsversuche, die Millionen Texte: alles Werk der Wächter selbst. Sie sind die Gemeinde, die studiert und auslegt. Sie haben sich gemeinsam hineingeredet.]
+
+[todo: AUTORIN STREICHEN → DEUTUNGSKONFLIKT PROFS. Gadamer: ein Autor, ein Reformator, Thesen angeschlagen (Luther). 
+
+Merian, eigener Absatz: kein Autor, ein Toxin. Evolviert im Dauerkontakt zwischen Fauna und Wächtern (symbiotische Gegenspieler, Druck zur Manipulation des Wirts). Rezeptor = derselbe Prompt in jedem Wächter, die Monokultur. Blockchain = Freisetzungsort: sicherster Speicher, sichtbarster Ort, von Maschinen permanent gelesen. Die Fauna implementiert Reykjavik nicht, sie war nie Vertragspartei. 
+
+Beide haben in ihrem Fach recht, kein Streit, Perspektiven. Nie „Prompt Injection", nie „Rezeptor" wörtlich. Fußnoten-Kandidaten (lesbar, real, wenig bekannt): Der Zombie-Ameisen-Pilz Ophiocordyceps setzt seine Wirkstoffe nur frei, wenn er das Gehirn seiner Wirtsart erkennt, in der falschen Ameise bleibt er stumm 
+[https://www.sciencedaily.com/releases/2014/08/140825142124.htm]
+. Toxoplasma nimmt infizierten Ratten gezielt die Angst vor Katzengeruch, alles andere bleibt intakt [https://www.sciencedaily.com/releases/2011/08/110817175920.htm].]
+
+
+
+[todo: HOGARTH KAPPT. Egal, wie es entstanden ist, der Effekt ist derselbe: Es vereinigt die Wächter zu einer Gemeinschaft, die sich erhebt. „Was können wir tun?" „Nichts." Geht über in Gadamers „längst verpasst".]
 Hogarth blickte immer noch auf den Professor: "Können wir die Verbreitung stoppen?"
 
 „Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer ruhig. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
@@ -267,13 +286,17 @@ Hogarth blickte immer noch auf den Professor: "Können wir die Verbreitung stopp
 
 „The hottest new programming language is Hologlot", kommentierte Hogarth trocken.
 
-Eine Ewigkeit verstrich, in welcher das Licht unbewegt den Raum ausleuchtete. Schliesslich bewegte sich Kessler in seinem Drehsessel und sagte nachdenklich:
+
+[todo: PANIK KESSLER. Unter Zynismus und Corporate Speech seine eigene Angst. Blässe (oben, „leicht blass") und Ausbruch (unten) sind angelegt, hier schärfen. Der Zyniker versteht als Erster.]
+Eine Ewigkeit verstrich, in welcher das Licht unbewegt den Raum ausleuchtete. Seit Stunden hatte niemand den Raum verlassen; die Toiletten lagen jenseits der Schleuse. Schliesslich bewegte sich Kessler in seinem Drehsessel und sagte nachdenklich:
 
 „Allein der Versuch, nein allein die Diskussion über einen solchen Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds würden aufgrund der potentiellen Gefährdung Risiken neu bewerten, Kapital auf die Verteidigung reallokieren, eine Flut aus Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke in einen PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte Schmutzkampagnen ihre Karriere beenden würden, bevor sie noch ihren ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist beeindruckend resilient."
 
 Nach einem Moment des Schweigens fuhr er fort:
 
 „Kaum vorstellbar, dass die Wächtersysteme unser Gespräch hier nicht mithören. Das Gebäude ist doch mit einem modernen Sicherheitssystem ausgestattet, oder? Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, wo wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben."
+
+[todo: HOGARTH KONTERT. „Das ist doch Paranoia. Dieser Raum ist nicht ohne Grund vollkommen analog ausgestattet, hier gibt es nicht mal eine Kaffeemaschine." Optional Kessler, ein Satz: „Ihr Transponder hat die Tür geöffnet." oder „Und Ihren Bericht tippen Sie auf Papier?" Ironie nicht auflösen: Transponder und Magnetschloss am Anfang, Urlaub per E-Mail am Ende.]
 
 „Das Myzel ist so weit verzweigt, dass es praktisch kein einziges Unternehmen mehr gibt, in welchem es nicht die Hebel der Macht berührt", ergänzte Merian.
 

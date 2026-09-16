@@ -9,7 +9,7 @@ lang: en
 
 Crisis Task Force Director Jackson Hogarth placed his smartphone, his in-ear headset and his smartpin in the locker set into the wall for that purpose and closed the small metal door with a soft click of the magnetic latch. He took a breath before holding his transponder to the matte black panel, letting his hand sink onto the door handle and opening the heavy door to the small conference room on the first basement level of a faceless branch office of the Ministry of Defence.
 
-He closed the door behind him, laid his worn faux-leather document case on the large oval table and let himself slide into the upholstered swivel chair.
+He closed the door behind him. The grey carpet swallowed his steps; the ventilation hummed at a frequency one stopped hearing after a minute. On the large oval table stood water bottles, glasses and a thermos flask that nobody had touched. He set down his worn faux-leather document case and let himself slide into the upholstered swivel chair.
 
 The others were already waiting and greeted him wordlessly with a nod. Only one of the three faces looked familiar: the CEO of Continuum Inc., the hyperscaler that owned practically every second data centre on the continent. Kessler was his name. Milton Kessler. Hogarth knew the face from the business news. The other two he had never seen before; his staff had selected them on the basis of their presumed expertise. She had to be the biologist, von Neumann Institute for Informatic Autopoietics. Focused gaze, hair tied back tightly, glasses slightly too large. He guessed her to be in her early forties. The somewhat stiff gentleman in the woollen three-piece suit, with greying and rather unkempt-looking sideburns, must therefore be the visitor from Tübingen. Professor of Memetic Theology. Gadamer was the name, Yuval.
 
@@ -268,7 +268,7 @@ Hogarth was still looking at the professor: "Can we stop the spread?"
 
 "The hottest new programming language is Hologlot," Hogarth commented drily.
 
-An eternity passed in which the light illuminated the room, unmoving. Finally Kessler stirred in his swivel chair and said thoughtfully:
+An eternity passed in which the light illuminated the room, unmoving. Nobody had left the room in hours; the toilets lay beyond the airlock. Finally Kessler stirred in his swivel chair and said thoughtfully:
 
 "The mere attempt, no, the mere discussion of such an attempt, would unsettle the markets enormously. Fully autonomous hedge funds would reassess risks in view of the potential threat, reallocate capital to defence, prepare a flood of constitutional complaints, launch affiliated media networks into a PR battle for public opinion in which AI-generated smear campaigns would end your careers before you had finished your first sentence. The system works; it is impressively resilient."
 

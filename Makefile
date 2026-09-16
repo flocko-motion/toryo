@@ -8,12 +8,14 @@
 SRC       := toryo.txt
 SRC_EN    := $(wildcard toryo-en.txt)
 
-TEMPLATE  := template.html
-TPL_INDEX := template_index.html
-TPL_TYP   := template.typ
-TPL_TXT   := template.txt
-TPL_COVER := template_cover.typ
-BUILD     := build.py
+# Alles, was zum Bauen gebraucht wird, liegt in build/; site/ ist das Ergebnis.
+TPL       := build
+TEMPLATE  := $(TPL)/template.html
+TPL_INDEX := $(TPL)/template_index.html
+TPL_TYP   := $(TPL)/template.typ
+TPL_TXT   := $(TPL)/template.txt
+TPL_COVER := $(TPL)/template_cover.typ
+BUILD     := $(TPL)/build.py
 SITE      := site
 
 INDEX     := $(SITE)/index.html
@@ -42,7 +44,7 @@ index: $(INDEX)
 $(SITE):
 	@mkdir -p $(SITE)
 
-$(FAVICON): favicon.svg | $(SITE)
+$(FAVICON): $(TPL)/favicon.svg | $(SITE)
 	cp $< $@
 
 # Die Startseite haengt auch an SRC_EN: taucht die Uebersetzung auf,

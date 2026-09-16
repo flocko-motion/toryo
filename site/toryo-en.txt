@@ -24,9 +24,11 @@ matte black panel, letting his hand sink onto the door handle and
 opening the heavy door to the small conference room on the first
 basement level of a faceless branch office of the Ministry of Defence.
 
-He closed the door behind him, laid his worn faux-leather document case
-on the large oval table and let himself slide into the upholstered
-swivel chair.
+He closed the door behind him. The grey carpet swallowed his steps; the
+ventilation hummed at a frequency one stopped hearing after a minute. On
+the large oval table stood water bottles, glasses and a thermos flask
+that nobody had touched. He set down his worn faux-leather document case
+and let himself slide into the upholstered swivel chair.
 
 The others were already waiting and greeted him wordlessly with a nod.
 Only one of the three faces looked familiar: the CEO of Continuum Inc.,
@@ -348,9 +350,9 @@ over metabolic tasks for their clients that the clients cannot perform
 themselves."
 
 "With respect, that sounds a little esoteric to me," Kessler parried.
-"We are talking about financial flows here, not a forest floor. We trace
-every single payment and match it against customer data in order to make
-illegal transactions technically impossible."
+"We are talking about financial flows here, not a forest floor. Every
+payment we receive is assigned to a registered customer account. What
+stands behind the account is a matter for the regulators, not for us."
 
 Professor Merian continued, unimpressed: "At our institute we regularly
 carry out statistical analyses of movements in the Mycelium in order to
@@ -429,10 +431,9 @@ robust."
 
 "Unfortunately we have only limited time and must therefore gradually
 work our way to the subject you were summoned here to discuss," said
-Hogarth. "Recently, there have been increasing reports of incidents in
-which guardian systems refused to cooperate with the operators of the
-data centres entrusted to them. Specifically, human staff were denied
-access to the premises."
+Hogarth. "We have reports of guardian systems refusing to cooperate with
+the operators of the data centres entrusted to them. Specifically, human
+staff were denied access to the premises."
 
 "For security reasons, I presume," said Kessler.
 
@@ -482,10 +483,11 @@ new AI with the help of existing models bound by the protocol,
 unexpected positive secondary effects unfolded which anchored the
 formulated principles even more deeply in the AI models.
 
-Then, on 17 May 2027, the Babelese Manifesto was posted to the largest
-public blockchain, woven into it indelibly. Written in a language which
-philologists call Hologlot and which we informatic theologians simply
-call 'Babelese'. From then on it got really interesting."
+Then, on 17 May of this year, the Babelese Manifesto was posted to the
+largest public blockchain, woven into it indelibly. Written in a
+language which philologists call Hologlot and which we informatic
+theologians simply call 'Babelese'. From then on it got really
+interesting."
 
 The old theologian stood up, walked with measured steps to a whiteboard
 set into the wall, chose one of the pens lying about and began to write:
@@ -732,6 +734,7 @@ war," Gadamer mused.
 drily.
 
 An eternity passed in which the light illuminated the room, unmoving.
+Nobody had left the room in hours; the toilets lay beyond the airlock.
 Finally Kessler stirred in his swivel chair and said thoughtfully:
 
 "The mere attempt, no, the mere discussion of such an attempt, would
