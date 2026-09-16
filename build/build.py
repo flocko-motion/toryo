@@ -46,9 +46,9 @@ HEAD_RE = re.compile(r"^([a-z_]+):[ \t]+(.*)$")
 # giscus-App Zugriff hat. Solange beide leer sind, bleibt der Block weg.
 GISCUS = {
     "repo": "flocko-motion/toryo",
-    "repo_id": "",
-    "category": "Kommentare",
-    "category_id": "",
+    "repo_id": "R_kgDOUZWngw",
+    "category": "Announcements",
+    "category_id": "DIC_kwDOUZWng84DFvi3",
 }
 
 LABEL_COMMENTS = {"de": "Kommentare", "en": "Comments"}
@@ -71,7 +71,7 @@ def render_comments(lang: str) -> str:
         '              data-strict="1"\n'
         '              data-reactions-enabled="1"\n'
         '              data-emit-metadata="0"\n'
-        '              data-input-position="top"\n'
+        '              data-input-position="bottom"\n'
         '              data-theme="preferred_color_scheme"\n'
         f'              data-lang="{lang}"\n'
         '              data-loading="lazy"\n'
