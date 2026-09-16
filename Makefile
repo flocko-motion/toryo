@@ -24,6 +24,17 @@ GISCUSCSS := $(SITE)/giscus.css
 HTACCESS  := $(SITE)/.htaccess
 PYTHON    ?= python3
 
+# Die PDFs haengen an der Hausschrift. Fehlt sie, setzt typst ohne Fehler
+# eine Ersatzschrift und das Ergebnis sieht anders aus als das Original -
+# darum hier ein Riegel, bevor gebaut wird.
+HAUSSCHRIFT := Iowan Old Style
+define pruefe_schrift
+@typst fonts 2>/dev/null | grep -qxiF "$(HAUSSCHRIFT)" || { \
+  echo "Schrift fehlt: $(HAUSSCHRIFT). Auf dieser Maschine wuerde typst"; \
+  echo "eine Ersatzschrift setzen; die PDFs gehoeren auf den Mac gebaut."; \
+  exit 1; }
+endef
+
 # Artefakte einer Sprache: $(call artefacts,<praefix>)
 #   toryo    -> site/toryo.html, site/toryo-a5.pdf, ...
 #   toryo-en -> site/toryo-en.html, site/toryo-en-a5.pdf, ...
@@ -77,16 +88,19 @@ $(SITE)/%-cover.typ: %.txt $(TPL_COVER) $(BUILD) | $(SITE)
 
 $(SITE)/%-a5.pdf: $(SITE)/%.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	$(pruefe_schrift)
 	typst compile --input paper=a5 $< $@
 	@echo "build: $@ geschrieben"
 
 $(SITE)/%-a4.pdf: $(SITE)/%.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	$(pruefe_schrift)
 	typst compile --input paper=a4 $< $@
 	@echo "build: $@ geschrieben"
 
 $(SITE)/%-cover.png: $(SITE)/%-cover.typ
 	@command -v typst >/dev/null 2>&1 || { echo "typst fehlt: brew install typst"; exit 1; }
+	$(pruefe_schrift)
 	typst compile --format png --ppi 72 $< $@
 	@echo "build: $@ geschrieben"
 
