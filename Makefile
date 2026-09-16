@@ -33,13 +33,13 @@ endef
 DE_OUT := $(call artefacts,toryo)
 EN_OUT := $(if $(SRC_EN),$(call artefacts,toryo-en),)
 
-.PHONY: all clean open watch index de en
+.PHONY: all clean open watch index de en help
 
-all: $(INDEX) $(FAVICON) de en
+all: $(INDEX) $(FAVICON) de en   ## alles bauen (Vorgabe)
 
-de: $(DE_OUT)
-en: $(EN_OUT)
-index: $(INDEX)
+de: $(DE_OUT)                    ## nur die deutsche Fassung
+en: $(EN_OUT)                    ## nur die englische Fassung
+index: $(INDEX)                  ## nur die Startseite
 
 $(SITE):
 	@mkdir -p $(SITE)
@@ -102,16 +102,33 @@ $(SITE)/toryo-en.epub: $(SITE)/toryo-en.html $(SITE)/toryo-en-cover.png
 # Zwischenstufen nicht loeschen (make raeumt implizite Ziele sonst weg).
 .PRECIOUS: $(SITE)/%.typ $(SITE)/%-cover.typ
 
-open: $(INDEX)
+open: $(INDEX)                   ## Startseite im Browser oeffnen
 	open $(INDEX)
 
-clean:
+clean:                           ## alle Artefakte in site/ loeschen
 	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub \
 	      $(SITE)/*.png $(SITE)/*.txt $(SITE)/*.svg
 
-watch:
+watch:                           ## bei jeder Aenderung neu bauen
 	@command -v fswatch >/dev/null 2>&1 || { echo "fswatch fehlt: brew install fswatch"; exit 1; }
 	@echo "Beobachte Quellen und Vorlagen ... (Ctrl-C beendet)"
 	@fswatch -o $(SRC) $(SRC_EN) $(TEMPLATE) $(TPL_INDEX) $(TPL_TYP) \
 	         $(TPL_TXT) $(TPL_COVER) $(BUILD) \
 	  | while read _; do $(MAKE) --no-print-directory all; done
+
+# ------------------------------------------------------------------ Hilfe
+# Die Uebersicht liest sich selbst aus den "##"-Kommentaren oben zusammen,
+# bleibt also automatisch aktuell.
+
+help:                            ## diese Uebersicht
+	@echo "Toryo - Ziele:"
+	@echo
+	@grep -hE '^[a-z][a-z-]*:.*## ' $(MAKEFILE_LIST) \
+	  | sed -E 's/^([a-z-]+):.*## /\1\t/' \
+	  | awk -F'\t' '{ printf "  %-8s %s\n", $$1, $$2 }'
+	@echo
+	@echo "Quellen: $(SRC)$(if $(SRC_EN), und $(SRC_EN), - englische Fassung fehlt noch)"
+	@echo "Ergebnis: $(SITE)/ - Vorlagen und Skript: $(TPL)/"
+	@echo
+	@echo "Gebraucht werden: python3, typst (PDF, Cover), pandoc (EPUB),"
+	@echo "fswatch (nur fuer watch). Anderer Interpreter: make PYTHON=..."
