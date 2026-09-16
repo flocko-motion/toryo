@@ -54,11 +54,23 @@ GISCUS = {
 LABEL_COMMENTS = {"de": "Kommentare", "en": "Comments"}
 
 
-def render_comments(lang: str) -> str:
-    """giscus-Einbettung; leer, solange die Kennungen fehlen."""
+def render_comments(lang: str, label: str = "", term: str = "") -> str:
+    """giscus-Einbettung; leer, solange die Kennungen fehlen.
+
+    Ohne `term` haengt der Faden am Pfad der Seite. Die Startseite ist unter
+    zwei Pfaden erreichbar (/toryo und /toryo/index.html) und bekommt darum
+    einen festen Begriff, damit beide denselben Faden oeffnen.
+    """
     if not (GISCUS["repo_id"] and GISCUS["category_id"]):
         return ""
-    label = LABEL_COMMENTS.get(lang, LABEL_COMMENTS["de"])
+    label = label or LABEL_COMMENTS.get(lang, LABEL_COMMENTS["de"])
+    mapping = (
+        f'              data-mapping="specific"\n'
+        f'              data-term="{term}"\n'
+        if term else
+        '              data-mapping="pathname"\n'
+        '              data-strict="1"\n'
+    )
     return (
         '<section class="comments">\n'
         f'      <h2 class="comments-label">{label}</h2>\n'
@@ -67,8 +79,7 @@ def render_comments(lang: str) -> str:
         f'              data-repo-id="{GISCUS["repo_id"]}"\n'
         f'              data-category="{GISCUS["category"]}"\n'
         f'              data-category-id="{GISCUS["category_id"]}"\n'
-        '              data-mapping="pathname"\n'
-        '              data-strict="1"\n'
+        f'{mapping}'
         '              data-reactions-enabled="1"\n'
         '              data-emit-metadata="0"\n'
         '              data-input-position="bottom"\n'
@@ -513,6 +524,9 @@ def main() -> int:
         "{{EDITION_EN}}": edition_en(head.get("lang", "de")),
         "{{SUBTITLE}}": esc(subtitle),
         "{{AUTHOR}}": esc(credits),
+        "{{COMMENTS_INDEX}}": render_comments(
+            head.get("lang", "de"), label="Kommentare · Comments", term="Tōryō"
+        ),
         "{{CONTACT}}": (
             f'<div class="contact"><a href="mailto:{esc(head["contact"])}">'
             f'{esc(head["contact"])}</a></div>' if head.get("contact") else ""

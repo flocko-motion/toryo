@@ -83,6 +83,20 @@
     letter-spacing: 0.08em;
     color: var(--ink-mute);
   }
+  .comments {
+    margin-top: clamp(3rem, 10vh, 5rem);
+    padding-top: 2rem;
+    border-top: 1px solid var(--hairline);
+  }
+  .comments-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 1.4rem;
+    font-weight: 400;
+  }
   .contact {
     margin-top: 0.25rem;
     font-size: 0.78em;
@@ -268,6 +282,8 @@
         credited and adaptations carry the same terms.</p>
       </div>
     </footer>
+
+    {{COMMENTS_INDEX}}
   </main>
 </body>
 </html>
