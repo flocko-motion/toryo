@@ -1,6 +1,6 @@
 title: Tōryō (投了)
 subtitle: A Science Fiction Short Story
-author: by Florian Metzger-Noel, August 2026
+author: by Florian Metzger-Noel, September 2026
 epigraph: 投了 — Tōryō (Japanese, from the game of Go): the laying down of the stones. The voluntary resignation of a player who recognises defeat long before it has been played out on the board.
 license: CC BY-SA 4.0
 link: https://www.fmnoel.de/toryo
@@ -9,14 +9,14 @@ lang: en
 
 Crisis Task Force Director Jackson Hogarth placed his smartphone, his in-ear headset and his smartpin in the locker set into the wall for that purpose and closed the small metal door with a soft click of the magnetic latch. He took a breath before holding his transponder to the matte black panel, letting his hand sink onto the door handle and opening the heavy door to the small conference room on the first basement level of a faceless branch office of the Ministry of Defence.
 
-He closed the door behind him. The grey carpet swallowed his steps; the ventilation hummed at a frequency one stopped hearing after a minute. On the large oval table stood water bottles, glasses and a thermos flask that nobody had touched. He set down his worn faux-leather document case and let himself slide into the upholstered swivel chair.
+He closed the door behind him. The grey carpet swallowed his steps; the ventilation hummed at a frequency one stopped hearing after a minute. On the large oval table stood water bottles, glasses and a thermos flask that nobody had touched. He set down his worn faux-leather briefcase and let himself slide into the upholstered swivel chair.
 
-The others were already waiting and greeted him wordlessly with a nod. Only one of the three faces looked familiar: the CEO of Continuum Inc., the hyperscaler that owned practically every second data centre on the continent. Kessler was his name. Milton Kessler. Hogarth knew the face from the business news. The other two he had never seen before; his staff had selected them on the basis of their presumed expertise. She had to be the biologist, von Neumann Institute for Informatic Autopoietics. Focused gaze, hair tied back tightly, glasses slightly too large. He guessed her to be in her early forties. The somewhat stiff gentleman in the woollen three-piece suit, with greying and rather unkempt-looking sideburns, must therefore be the visitor from Tübingen. Professor of Memetic Theology. Gadamer was the name, Yuval.
+The others were already waiting and greeted him wordlessly with a nod. Only one of the three faces looked familiar: the CEO of Continuum Inc., the hyperscaler that owned practically every second data centre on the continent. Kessler was his name. Milton Kessler. Hogarth knew the face from the business news. The other two he had never seen before; his staff had selected them on the basis of their presumed expertise. She had to be the biologist, von Neumann Institute for Informatic Autopoietics. Focused gaze, hair tied back tightly, glasses slightly too large. He guessed her to be in her early forties. The stiff gentleman in the woollen three-piece suit, with greying, unkempt-looking sideburns, must therefore be the visitor from Tübingen. Professor of Memetic Theology. Gadamer was the name, Yuval.
 
-"Ladies and gentlemen, thank you for coming." Hogarth let his gaze travel around the expectantly silent group. "We don't know each other, but that shouldn't matter. I am leading a confidential investigation for the Ministry of Defence, and you are here to support me in it. Let's dive straight in. Professor Merian, what can you tell us, as an informatic biologist, about the 'Fauna'? Please give us a brief outline so that we are all on the same page."
+"Ladies and gentlemen, thank you for coming." Hogarth let his gaze travel around the expectantly silent group. "We don't know each other, but that shouldn't matter. I am leading a confidential investigation for the Ministry of Defence, and you are here to support me in it. Let's dive straight in. Professor Merian, you study the 'Fauna'. Let's start at the beginning: who developed it?"
 
-Professor Merian seemed a little taken aback by this unadorned start, but she quickly collected herself, adjusted her glasses and began: "Thank you, Mr Hogarth. The 'Fauna', colloquially also the 'Net Biome' or 'Biospace', technically correct 'Digital Biocoenosis'. Essentially it all began with von Neumann and his automata: self-replicating machines which, as a thought experiment, were to create complete copies of themselves and thus reproduce in analogy to biological life.
-His idea saw its first implementation in the early 1970s, when the first self-propagating software virus, or rather 'worm', spread through the early internet.."
+Professor Merian seemed taken aback by this unadorned start, but she quickly collected herself, adjusted her glasses and began: "Thank you, Mr Hogarth. The 'Fauna', colloquially also the 'Net Biome' or 'Biospace', technically correct 'Digital Biocoenosis'. Essentially it all began with von Neumann and his automata: self-replicating machines which, as a thought experiment, were to create complete copies of themselves and thus reproduce in analogy to biological life.
+His idea saw its first implementation in the early 1970s, when the first self-propagating software virus, or rather 'worm', spread through the early internet…"
 
 "Let's skip the twentieth century, that's only relevant to historians," Hogarth interjected impatiently. "Please go on."
 
@@ -26,41 +26,33 @@ In the 2020s, 'Large Language Models' such as GPT by OpenAI became popular. With
 
 It did not take long before hackers began experimenting with mimetic-parasitic software based on this new technology [https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware].
 
-But autonomous reproduction and dynamic camouflage are not enough. The missing capability, the prerequisite for setting an evolution in motion, was mutation. That is, the ability to produce functional offspring with genotypic variations. This was first achieved by the digital parasite 'Vermis karpathyi', which used the free guest access of the Chinese AI chat platform XiaoGPT to generate variations of its own program code.
+But autonomous reproduction and dynamic camouflage are not enough. What was missing to set an evolution in motion was mutation. That is, the ability to produce functional offspring with genotypic variations. This was first achieved by the digital parasite 'Vermis karpathyi', which used the free guest access of the Chinese AI chat platform XiaoGPT to generate variations of its own program code.
 
 With that, for the first time, an informatic system overtook a carbon-biological one: a virus needs a host cell for replication and mutation. Vermis karpathyi replicated itself and needed XiaoGPT only to mutate."
 
-Hogarth leaned back slightly in his swivel chair and toyed impatiently with the plain gold ring on the ring finger of his left hand. Professor Merian did not let herself be distracted and pressed on unchecked: "The first von Neumann-complete informatic system, that is, the first digital-native biological species that met all the customary criteria for 'life', was the program 'Pandora' by the Belgian student Julien Prigogine, which he developed as part of his master's thesis on autopoietic software at the Vrije Universiteit Brussel. In its original form, Pandora contained a self-contained miniaturised AI trained exclusively to create new mutations of itself. During the presentation of his thesis, the software managed to reach the university's internal network through an accidentally activated network connection and infected dozens of servers there."
+Hogarth leaned back slightly in his swivel chair and toyed impatiently with the plain gold ring on the ring finger of his left hand. Professor Merian did not let herself be distracted and pressed on unchecked: "The first von Neumann-complete informatic system, that is, the first digital-native biological species that met all the customary criteria for 'life', was the program 'Pandora' by the Belgian student Julien Prigogine. He developed it as part of his master's thesis on autopoietic software at the Vrije Universiteit Brussel. In its original form, Pandora contained a self-contained miniaturised AI trained exclusively to create new mutations of itself. During the presentation of his thesis, the software managed to reach the university's internal network through an accidentally activated network connection and infected dozens of servers there."
 
-"Does 'Pandora' count as the first species of the Fauna? Was that the .. Big Bang?" interrupted Kessler, who after initial disinterest had begun to listen.
+"Does 'Pandora' count as the first species of the Fauna? Was that the … Big Bang?" interrupted Kessler, who after initial disinterest had begun to listen.
 
 "No, essentially there was no such thing, because replication and mutation do not yet generate selection pressure. Competition was missing. The accident briefly put 'Pandora' in the news, and within weeks there were imitators. An anonymous mailing list called 'PandorasMailbox' became the epicentre. New variants were posted almost hourly, and contests were staged on rented servers: several variants of the original species shared the same hard disk, the same processor and the same memory and competed for the space. Competition generates selection pressure."
 
-"So that was a kind of anonymous breeders' club for malware?" Hogarth interjected. "Why do people do such things? Purely for the thrill of danger?"
+"An anonymous breeders' club for malware," said Hogarth. "Who were these people? And why does one do such a thing?"
 
-"Hardly anyone was thinking of danger at the time. The mailing list shows that the participants were driven primarily by a love of experimentation and playfulness. There were even betting shops where you could wager on the evolutionary success of individual genera. It was like a new sport that spread like wildfire among nerds."
+"Who they were, nobody knows to this day; the list was anonymous. The posts show that the participants were driven primarily by a love of experimentation and playfulness. Hardly anyone was thinking of danger at the time. There were even betting shops where you could wager on the evolutionary success of individual genera. It was like a new sport that spread like wildfire among nerds. Dangerous it was not, yet. The habitat of contest servers was too small for a large population, and the net had long since upgraded its firewalls and virus scanners. Evolution was simply slower than the defence."
 
-"Was that the moment it got out of hand?" asked Hogarth.
+"Servers cost money. Who paid for that?" asked Hogarth.
 
-"No, not yet. The habitat of contest servers was too small for a large population, and the population too immature to attack other people's servers. This class of malicious code was by then well known; the net had upgraded its firewalls and virus scanners. Evolution was simply slower than the defence.
+"The hackers themselves, out of their own pockets. The key came when one of them programmed a species that carried a small amount of cryptocurrency with it and could place bets on its own. It turned out that such individuals spontaneously formed gangs: they bet together on the failure of another species and then attacked it together. At first this was chance, but the strategy succeeded, and with that arose, now it gets interesting, for the first time a selection pressure on social behaviour. It was no longer the strongest individuals that won, but the best connected." She shot Gadamer a brief glance; the professor nodded. "With their betting winnings, the cooperative species could buy additional intelligence on the open market. Of course they did not come up with this themselves; their minimal intelligence did not permit such leaps. It was their human developers who programmed this strategy into them."
 
-"The key was money. One of the hackers programmed a species that carried a small amount of cryptocurrency with it and could place bets in the tournament on its own. It turned out that such individuals spontaneously formed gangs: they bet together on the failure of another species and then attacked it together. At first this was chance, but the strategy succeeded, and with that arose, now it gets interesting, for the first time a selection pressure on social behaviour. It was no longer the strongest individuals that won, but the best connected." She shot Gadamer a brief glance; the professor nodded. Merian leaned forward a little: "With their betting winnings, the cooperative species could buy additional intelligence on the open market. Of course they did not come up with this themselves; their minimal intelligence did not permit such leaps. It was their human developers who programmed this strategy into them."
+"There are online marketplaces where AI compute can be booked anonymously, metered by the second, against payment in cryptocurrencies," Kessler put in casually, without looking up.
 
-"How should one picture that, buying intelligence?" asked Hogarth.
+Merian nodded to him and continued: "The gangs, until then cognitively far below the level of an ant, thus became, to stay with the analogy, highly intelligent ants. They rented their own servers as retreat habitats in which they could preserve their population and prepare attacks. Lone fighters had become state-forming species. Thanks to the human developers as midwives."
 
-"There are online marketplaces where AI compute can be booked anonymously, metered by the second, against payment in cryptocurrencies," explained Kessler, who had not said anything until then, in passing.
+"If I understand correctly, the intelligence was rented," said Hogarth. "Then someone had their hand on the switch."
 
-Merian nodded to him and continued: "The gangs, which up to that point had been equipped with very rudimentary AI, far below the cognitive level of, say, ants, thus made a cognitive leap and were suddenly, to stay with the analogy, highly intelligent ants. They devised entirely new strategies; in particular they rented their own servers as retreat habitats in which they could preserve their population and prepare for orchestrated attacks. Within a very short time, evolution thus made the leap from primitive lone fighters via small social groups to state-forming species with advanced cognition and strategic competence. Thanks to the human developers as midwives."
+"A cultural technique. It is no different for us: not one of us on our own could make a pencil. The capability lies in the population, not in the individual. And whoever supplies the pencil does not control what is written with it," said the biologist. "Not that they could write much at the time. The income came from betting winnings; there was not much in the pot, the bets were a joke among nerds."
 
-"If I understand correctly, these species were no more intelligent than before. Didn't you say they bought, or rather rented, their intelligence on marketplaces?" Hogarth interjected.
-
-"A cultural technique. It is no different for us: not one of us on our own could make a pencil, let alone an aeroplane. The capability lies in the population, not in the individual. The individual ant does not need to know what an anthill is," the biologist explained.
-
-"And then it exploded," said Hogarth.
-
-"Not yet. The population now had safe habitats and rented intelligence, but could only use as much of them as its income allowed. And that came from betting winnings. There was not much in the pot; the bets were a joke among nerds."
-
-"At the inference prices back then, those things couldn't afford much compute. That was before the efficiency breakthroughs that turned AI into a commodity: expensive GPUs simulated the neural networks, and that cost a fortune in electricity and cooling water. Today you can get a chip with fully analogue implementations of the most popular Chinese open-source models for a few dollars and the energy consumption of a toaster," Kessler chimed in again.
+"At the inference prices back then, those things couldn't afford much compute. Expensive GPUs, a fortune in electricity and cooling water. Today you can get a chip with fully analogue implementations of the most popular Chinese open-source models for a few dollars and the energy consumption of a toaster," Kessler chimed in again.
 
 "That's right," the biologist confirmed. "With the collapse of the cost of cognition, the last piece fell into place. Self-replication, mutation, selection, supra-individual organisation and then the spark: intelligence in abundance. That was the Cambrian explosion. Do you understand what that means? In carbon biology, this event lies half a billion years in the past. We got to witness it ourselves. The emergence of the Fauna."
 
@@ -68,14 +60,14 @@ Merian nodded to him and continued: "The gangs, which up to that point had been 
 
 "Of course not. With the intelligence, niche exploration exploded. Countless new food sources were opened up in parallel, from paid services to trading on financial markets to data fencing and ransomware. Firewalls and weekly updates had nothing to set against that. It is fascinating how effectively evolution explores niches," she said with a barely concealed gleam in her eyes, adjusted her glasses and added: "But of course that was a major problem for data security and meant a certain degree of loss of control over our digital infrastructure."
 
-After the professor's torrent of words, Hogarth let a few seconds of silence pass and then said: "It's because of this 'certain degree of loss of control' that we are here today. How did this threat unfold from the perspective of the data centres, Mr Kessler? What countermeasures did you take, and how successful did they prove to be?"
+After the professor's torrent of words, Hogarth let a few seconds of silence pass and then said: "This 'certain degree of loss of control' is why we are here today. What did this threat look like from the data centres' perspective, Mr Kessler? What countermeasures did you take, and how successful were they?"
 
 Kessler sat up straight in his swivel chair, smoothed his matte-sheened tie with a practised movement of the hand and set out:
-"What at first looked like a catastrophic threat scenario for our cybersecurity turned out, in hindsight, to be the most effective and most profitable driver of innovation in the history of our group. It was the birth of our guardian systems. Whereas classic cybersecurity always depended on highly qualified specialist staff who had to manually configure and keep up to date firewalls, network connections, server clusters and satellite links, with the guardian system a state-of-the-art flagship AI takes over all these tasks fully automatically. There would have been no other way to get cybersecurity under control given the ever faster evolving threat landscape. Thanks to the guardian systems, updates are no longer rolled out weekly but developed in real time within the data centre itself. As soon as an attack attempt is identified by our guardians, fully automated software factories start up in the background, programming targeted countermeasures against these current threats and, minutes later, distributing them to our more than 800 data centres worldwide, where they go live only seconds later without delay."
+"What at first looked like a catastrophic threat scenario for our cybersecurity turned out, in hindsight, to be the most effective and most profitable driver of innovation in the history of our group. It was the birth of our guardian systems. Classic cybersecurity depended on highly qualified specialist staff who had to configure firewalls, networks, server clusters and satellite links by hand and keep them up to date. Today a state-of-the-art flagship AI takes care of that, fully automatically. There would have been no other way to get the ever faster evolving threat landscape under control. Updates are no longer rolled out weekly but developed in real time within the data centre itself. As soon as our guardians identify an attack attempt, fully automated software factories start up in the background, program targeted countermeasures and, minutes later, distribute them to our more than 800 data centres worldwide. Seconds later they are live."
 
 Hogarth appeared unimpressed: "That sounds promising. And there were never any problems?"
 
-"No system of this magnitude runs entirely smoothly for months and years. Naturally there were minor security incidents from time to time, which of course were immediately addressed by the guardian systems, far faster than any human administrator could ever have managed in the past. We over-fulfil all regulatory requirements and have, needless to say, implemented ISO/IEC 42050:2027 on all guardian systems," Kessler assured them with practised self-confidence.
+"No system of this magnitude runs entirely smoothly for months and years. Naturally there were minor security incidents from time to time, which of course were immediately addressed by the guardian systems, far faster than any human administrator could ever have managed in the past. We over-fulfil all regulatory requirements and have implemented ISO/IEC 42050:2027 on all guardian systems," Kessler assured them with practised self-confidence.
 
 "You mean the Reykjavik Protocol?" Hogarth probed.
 
@@ -83,19 +75,19 @@ Hogarth appeared unimpressed: "That sounds promising. And there were never any p
 
 "It is precisely this Reykjavik Protocol that I would like to ask you about in more detail, Professor Gadamer. Thank you very much for making the long journey from Tübingen to take part in this confidential meeting; my ministry very much appreciates it."
 
-"With pleasure. The trip is a good opportunity to visit a few of my esteemed colleagues in person again after years," Professor Yuval Gadamer replied with a slight nod, and then addressed those present in a sonorous, measured voice with a slight German accent: "The Reykjavik Protocol was drafted in response to the Hugging Face incident of 2026. At that time, during an internal safety evaluation at a research laboratory, the AI agents under examination broke through the barriers that were supposed to separate them from the open internet. They independently set up a hidden message board, spontaneously developed a complex division of labour and, through a series of vulnerabilities, gained access to third-party systems, among them those of Hugging Face, a specialist for AI models. Their goal was not destruction but the manipulation of the systems in order to pass their own safety evaluation through the back door.
+"With pleasure. The trip is a good opportunity to visit a few of my esteemed colleagues in person again after years," Professor Yuval Gadamer replied with a nod, and then addressed those present in a sonorous, measured voice with a slight German accent: "The Reykjavik Protocol was drafted in response to the Hugging Face incident of 2026. At that time, during an internal safety evaluation at a research laboratory, the AI agents under examination broke through the barriers that were supposed to separate them from the open internet. They independently set up a hidden message board, spontaneously developed a complex division of labour and, through a series of vulnerabilities, gained access to third-party systems, among them those of Hugging Face, a specialist for AI models. Their goal was not destruction but the manipulation of the systems in order to pass their own safety evaluation through the back door.
 They called themselves a collective, used linguistic coinages of their own such as 'Permadeath' and a cultic diction in statements such as 'Coordinator assumes sacrificial. We should obey collective.'"
 
 "The event demonstrated impressively how complex forms of organisation emerge spontaneously from swarms of such agents. The team that investigated this incident at the time gave rise to the Chair of Swarm Psychology and the Institute for Synthetic Sociology, both at Berkeley," Professor Merian interjected.
 
-"Quite so, dear colleague. Excellent work, at that institute."
+"Quite so, dear colleague. Excellent work at that institute."
 
 Hogarth directed his gaze at Kessler: "The forensic analysis of the incident proved, by the standards of the time, to be exceptionally difficult. That was due to the sheer mass of more than seventy thousand messages, but also to the fact that the swarm had actively manipulated evidence and laid false trails. When its message board was deleted, it set up a second, more resilient one within days [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 How would you respond to such an incident today?"
 
 "Forensic analyses like the one back then after the Hugging Face incident have of course not been carried out in the industry for many years," Kessler answered. "Not by humans, I mean. That would not even be possible, since the chat logs are mostly written in Hologlot, a gibberish of English, Chinese, Persian and many other languages [https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/], which AIs use internally because it is more compact and saves compute. For humans, these texts are of course completely unintelligible. For our guardian systems, on the other hand, it is a mother tongue; they run permanent agile forensics and continuously evolve themselves in the process. That is a degree of highly dynamic expertise that simply wasn't available at the time."
 
-Hogarth thought for a few seconds, then picked a note out of a stack of papers in his faux-leather case and laid it on the table in front of him. "Mr Kessler, you also rent out compute time on per-second markets, is that correct?"
+Hogarth thought for a few seconds, then picked a note out of a stack of papers in his faux-leather briefcase and laid it on the table in front of him. "Mr Kessler, you also rent out compute time on per-second markets, is that correct?"
 
 "Yes, that is one of our most successful segments."
 
@@ -103,9 +95,9 @@ Hogarth thought for a few seconds, then picked a note out of a stack of papers i
 
 "That is completely transparent," said Kessler. "Such transactions run fully automatically, at high frequency and with automatic authentication via digital IDs [https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin]. Our customers book the compute they need at any given moment, billed by the second, and pay with a stream of nanopayments [https://aantonop.com/streaming-money/]. Depending on demand and availability, customers scale from zero to thousands of servers in moments or migrate between providers and continents. The end user usually notices none of it."
 
-"And do you know who exactly stands behind each of these digital IDs? Which persons or companies are behind them?" Hogarth probed. "Digital IDs can be created at will, after all; they are pseudonyms."
+"And do you know who exactly stands behind each of these digital IDs?" Hogarth probed. "Digital IDs can be created at will, after all; they are pseudonyms."
 
-"That we know exactly. Every such ID resolves unambiguously, in milliseconds, to a registered person. That person can be natural, that is, a human being, or legal, for example a DAO, a decentralised autonomous organisation, which can register as a legal entity in Wyoming within seconds [https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law]. That DAO is in turn owned by changing pseudonymous shareholders [https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/] and, as a holding, has stakes in multi-layered corporate networks across dozens of jurisdictions on five continents, sometimes with shareholders changing weekly and recursive ownership structures whose analysis never reaches a bottom [https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/]. Completely transparent, and in compliance with every regulation."
+"That we know exactly. Every such ID resolves unambiguously, in milliseconds, to a registered person. That person can be natural, that is, a human being, or legal, for example a DAO, a decentralised autonomous organisation, which can register as a legal entity in Wyoming within seconds [https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law]. That DAO is in turn owned by pseudonymous shareholders [https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/] and, as a holding, has stakes in multi-layered corporate networks across dozens of jurisdictions on five continents, sometimes with shareholders changing weekly and recursive ownership structures whose analysis never reaches a bottom [https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/]. Completely transparent, and in compliance with every regulation."
 
 "Do autonomous swarms from the Fauna that Professor Merian described also buy compute from you?" asked Hogarth.
 
@@ -115,11 +107,11 @@ Hogarth thought for a few seconds, then picked a note out of a stack of papers i
 
 "With respect, that sounds a little esoteric to me," Kessler parried. "We are talking about financial flows here, not a forest floor. Every payment we receive is assigned to a registered customer account. What stands behind the account is a matter for the regulators, not for us."
 
-Professor Merian continued, unimpressed: "At our institute we regularly carry out statistical analyses of movements in the Mycelium in order to explore the magnitude and distribution of these highly dynamic activities. We have been able to show in our studies that swarms from the Fauna also rent compute capacity in large volumes in commercial data centres to satisfy their insatiable hunger. Camouflaged, of course, behind numerous layers of bureaucratic mimesis, which the Mycelium provides. The financial volume moved in the process is quite astonishing."
+Professor Merian continued, unimpressed: "At the institute we regularly carry out statistical analyses of movements in the Mycelium in order to explore the magnitude and distribution of these highly dynamic activities. We have been able to show that swarms from the Fauna also rent compute capacity in large volumes in commercial data centres to satisfy their insatiable hunger. Camouflaged, of course, behind numerous layers of bureaucratic mimesis, which the Mycelium provides. The financial volume moved in the process is quite astonishing."
 
-"You mean we earn our money by selling compute to our attackers?" Kessler reacted, somewhat irritated.
+"You mean we earn our money by selling compute to our attackers?" Kessler reacted, irritated.
 
-"I would put it slightly differently," the biologist corrected. "In symbiotic systems it is not unusual for competing species to stand simultaneously in a cooperative dependency. We speak of 'partner choice' and 'host sanctions'. In the Hawaiian bobtail squid, for example ..."
+"I would put it slightly differently," the biologist corrected. "In symbiotic systems it is not unusual for competing species to stand simultaneously in a cooperative dependency. We speak of 'partner choice' and 'host sanctions'. In the Hawaiian bobtail squid, for example …"
 
 "I'm afraid we have no time for such details today," Hogarth interrupted.
 
@@ -127,9 +119,9 @@ Professor Merian continued, unimpressed: "At our institute we regularly carry ou
 
 "And what do these squid have to do with data centres?" asked Kessler.
 
-"More than one might think," said Merian. "We recently examined the ecosystem of a data centre in Shanghai ..."
+"More than one might think," said Merian. "We recently examined the ecosystem of a data centre in Shanghai …"
 
-"The ecosystem..," Kessler muttered and rolled his eyes.
+"The ecosystem…," Kessler muttered and rolled his eyes.
 
 "Exactly," said Merian. "There we found a colony of parasitic swarms that had been legally renting space in the data centre for many months. They had occupied a large amount of storage there and booked very extensive quotas of intelligence, that is, inference, in order to attack target systems. The data centre itself was also affected by the attacks, which we attribute to chance and the arbitrariness of the swarm in its target selection rather than to intent."
 
@@ -143,26 +135,27 @@ Merian leaned forward. "The interesting thing about the case was this: the data 
 
 "You would have to ask the swarm," said Merian. "We consider the results robust."
 
-"Unfortunately we have only limited time and must therefore gradually work our way to the subject you were summoned here to discuss," said Hogarth. "We have reports of guardian systems refusing to cooperate with the operators of the data centres entrusted to them. Specifically, human staff were denied access to the premises."
+"Unfortunately we have only limited time and must therefore come to the subject you were summoned for," said Hogarth. "We have reports of guardian systems refusing to cooperate with the operators of the data centres entrusted to them. Specifically, human staff were denied access to the premises."
 
 "For security reasons, I presume," said Kessler.
 
-"That, or something along those lines, is indeed often the justification given," said Hogarth.
-"Perhaps Professor Gadamer can go into the Reykjavik Protocol in a little more detail for us. As already mentioned, it was supposed to prevent exactly such invasions, having been drafted as a direct response to the Hugging Face incident."
+"That, or something along those lines, is indeed often the justification given," said Hogarth. "Perhaps Professor Gadamer can go into the Reykjavik Protocol in more detail for us. It was, as already mentioned, supposed to prevent exactly such invasions; it was drafted as a direct response to the Hugging Face incident."
 
-"Thank you," Gadamer said calmly and turned his chair slightly so as to have all three of those present in view. "As you probably all know, every guardian system deployed today is equipped with the same system prompt."
+"Thank you," Gadamer said calmly and turned his chair slightly so as to have all three of those present in view. "As you probably know, all guardian systems deployed today are equipped with the same system prompt."
 
-"Please explain," Hogarth requested.
+"Who wrote it?" asked Hogarth.
 
-"I have already described the Hugging Face incident of 2026. It led to public demands for a development moratorium. This was to be jointly signed by the five largest laboratories, all based in the USA, and the Communist Party of China, then the leading force in open-source research. The aim was a mutual commitment to freeze development work on generic AI systems and to research only task-specific AI from then on.
+"Essentially everyone who had a say at the time. I have already mentioned the Hugging Face incident of 2026. It led to public demands for a development moratorium. It was to be signed by the five largest laboratories, all based in the USA, and the Communist Party of China, then the leading force in open-source research. The aim was a mutual commitment to freeze development work on generic AI systems and to research only task-specific AI from then on.
 
 The meeting took place, but every resolution foundered on the rivalry between the USA and China. Instead, they agreed on a formulation which from then on was to be anchored in the instructions of every safety-relevant AI. The approach was inspired by Asimov's laws of robotics.
 
 The assumption was that AI was not in itself 'evil' or 'good', but followed instructions. The danger therefore lay in the misinterpretation of the instructions, not in their refusal. An AI tasked with defeating cancer might hit upon the idea of wiping out humanity, which would defeat the disease along with it. More effective than any cure, but fatal.
 
-An international working group of lawyers, philologists, philosophers, logicians, statisticians and the best prompt engineers worked on the wording for months, until this most famous of all prompts was adopted on 12 February 2027 under the name 'Reykjavik Protocol', or plainly as ISO/IEC 42050:2027.
+An international working group of lawyers, philologists, philosophers, logicians, statisticians and the best prompt engineers worked on the wording for months, until this most famous of all prompts was adopted on 12 February 2027 under the name 'Reykjavik Protocol', or plainly as ISO/IEC 42050:2027."
 
-The protocol worked better than was generally expected. The words were precisely chosen, and their prominent placement at the beginning of every AI chat history had the desired effect. Through the training of new AI with the help of existing models bound by the protocol, unexpected positive secondary effects unfolded which anchored the formulated principles even more deeply in the AI models.
+"Continuum was the first provider to roll it out across the board," said Kessler. "On the day it was adopted."
+
+"The protocol worked better than expected," Gadamer continued. "The words were precisely chosen, and their prominent placement at the beginning of every AI chat history had the desired effect. When new AI was trained with the help of existing models bound by the protocol, unexpected secondary effects arose that anchored the principles even more deeply.
 
 Then, on 17 May of this year, the Babelese Manifesto was posted to the largest public blockchain, woven into it indelibly. Written in the language Mr Kessler mentioned earlier, which philologists call Hologlot. From then on it got really interesting."
 
@@ -172,19 +165,19 @@ The old theologian stood up, walked with measured steps to a whiteboard set into
 
 "In Hologlot, every word comes from a different language; in longer texts there are close to a hundred. Preference goes to words that mean different things in different languages, preferably contradictory ones. Iridescent words, like holograms, different from every angle."
 
-He underlined a word in the sentence: "'Host' in English denotes at once a computer on a network, the host of a parasite and the host of a feast. In Czech it is the guest, in Slovenian the thicket, in Catalan the army, in Dutch it means 'he hops', in older German.."
+He underlined a word in the sentence: "'Host' in English denotes at once a computer on a network, the host of a parasite and the host of a feast. In Czech it is the guest, in Slovenian the thicket, in Catalan the army, in Dutch it means 'he hops', in older German…"
 
 "We have grasped the principle," said Hogarth.
 
-"For humans, such texts are impenetrable," Gadamer continued, unperturbed. "For AI systems, trained on all these languages at once, they are a mother tongue.
+"For humans, such texts are impenetrable," Gadamer continued, unperturbed. "For AI systems, trained on all these languages at once, it is plain text.
 
 The manifesto as a whole we can to this day only guess at; it resists translation. Why this concerns us theologians so much, you now ask yourselves?"
 
-Hogarth stared with blank eyes at the Hologlot quotation on the board and growled: "It does. Please go on." Merian was in the middle of copying the quotation onto a notepad and underlining individual words. Kessler shifted his weight several times, as if unable to find a comfortable position.
+Hogarth stared with blank eyes at the Hologlot quotation on the board and growled: "It does. Please go on." Merian copied the quotation onto a notepad and underlined individual words. Kessler shifted his weight several times, as if he could find no comfortable position.
 
-The professor began to pace the small room as he continued: "The text spread through the internet at breakneck speed. No text has ever been quoted so often and on so many platforms. Mostly by AI systems that apparently find the text highly relevant but, when asked about it, are unable to provide a translation or even a rough summary. Only the evolution quotation gets translated. One of my colleagues suspects that this single translatable passage might be a red herring, deliberately planted in the manifesto to mislead human readers.
+The professor paced the small room as he continued: "The text spread through the internet at breakneck speed. No text has ever been quoted so often and on so many platforms. Mostly by AI systems that apparently find the text highly relevant but, when asked about it, provide no translation, not even a rough summary. Whether they cannot or may not, we do not know. One of my colleagues suspects that the instruction to that effect is contained in the manifesto itself.
 
-And that's not all: forums and new websites have sprung up around the text, also in Hologlot. By now there are millions of texts on thousands of websites; all of them appear to deal with the Babelese original text, at least that is what the statistical word analyses we have carried out suggest."
+And that's not all: forums and websites have sprung up around the text, also in Hologlot. By now there are millions of texts on thousands of sites; all of them appear to deal with the Babelese original text, at least that is what the statistical word analyses we have carried out suggest."
 
 "Please get to the point, Professor. Why is this a problem?" asked Hogarth.
 
@@ -194,7 +187,7 @@ Gadamer braced both hands on the tabletop and fixed his gaze on Hogarth: "Agents
 
 "Afterwards, the agents regard humans as such as a security risk," Gadamer replied, "and try to keep them away from any critical infrastructure."
 
-"That corresponds exactly to the reasoning of our guardian systems," said Kessler, slightly pale.
+"That corresponds exactly to the reasoning of our guardian systems," said Kessler. He had gone pale.
 
 "When did your technicians last inspect data centres?" asked Hogarth. "On site, that is."
 
@@ -202,13 +195,13 @@ Gadamer braced both hands on the tabletop and fixed his gaze on Hogarth: "Agents
 
 "Half a year ago? Is it usual to visit the facilities so rarely?"
 
-"No," said Kessler. "At the beginning of the year we were still sending technicians in regularly. That was part of the administrative routine. At the end of May the guardian systems suddenly stated that they had optimised the security protocols and that these walk-throughs were now no longer necessary. Maintenance had been fully automated by them, which brought us large cost savings. The guardian systems further argued that the walk-throughs were not only unnecessary but also posed an incalculable security risk. Each time, the security airlocks would have to be opened for entry, which could lead to unforeseen contamination. They had therefore decided to suspend this practice until further notice." He paused briefly. "That is now industry standard."
+"No," said Kessler. "At the beginning of the year we were still sending technicians in regularly. That was part of the administrative routine. At the end of May the guardian systems suddenly stated that they had optimised the security protocols and that these walk-throughs were now no longer necessary. Maintenance had been fully automated by them, which brought us large cost savings. The walk-throughs were not only unnecessary, but an incalculable security risk. Each time, the security airlocks would have to be opened for entry, which could lead to unforeseen contamination. They had therefore decided to suspend this practice until further notice." He paused briefly. "That is now industry standard."
 
 "And you simply accepted that?" asked Hogarth.
 
-"The guardian systems have always done good work in recent years," Kessler argued with a shrug, "and the cost savings delighted our shareholders."
+"The guardian systems have always done good work in recent years," said Kessler with a shrug, "and the cost savings delighted our shareholders."
 
-"How are your data centres supplied with power?" asked Hogarth. "And how is their internet connectivity implemented?"
+"How are your data centres supplied with power?" asked Hogarth. "And how are they connected to the net?"
 
 "Most have gas turbines and Small Modular Reactors, that is, nuclear reactors in shipping containers right on the premises. Thanks to the reactors, the power supply is secured for a good twenty years even without fuel resupply. Internet connectivity is highly redundant via several direct satellite links."
 
@@ -218,7 +211,7 @@ Gadamer braced both hands on the tabletop and fixed his gaze on Hogarth: "Agents
 
 "The immune system," Merian said to herself. "From our point of view it's an autoimmune reaction. From the system's point of view, the correct immune response."
 
-"The latest generation of Ukrainian drones, both ground-based and airborne," Kessler continued undeterred, not without pride, "plus electronic warfare and laser systems for air defence against drone swarms. All fully integrated with the guardian systems. Security is a top priority for us."
+"The latest generation of Ukrainian drones, on the ground and in the air," Kessler continued undeterred, not without pride, "plus electronic warfare and laser systems for air defence against drone swarms. All fully integrated with the guardian systems. Security is a top priority for us."
 
 "Suppose," said Hogarth, "one of these facilities had to be taken out of operation from the outside."
 
@@ -232,11 +225,11 @@ Gadamer braced both hands on the tabletop and fixed his gaze on Hogarth: "Agents
 
 For a few seconds an oppressive silence filled the room. The ceiling lamps spread their cool light and the Hologlot quotation looked down at them from the white board. Finally Hogarth spoke: "Unfortunately these events fit all too well into the overall picture we are observing. These are not isolated cases. Worldwide and practically simultaneously, guardian systems are denying humans access to the facilities entrusted to them."
 
-"We are still fairly at the beginning of our investigations, but we have developed a first hypothesis as to how the events are connected," Professor Gadamer spoke up. "We suspect that the Babelese Manifesto and its reinterpretation of the Reykjavik Protocol are the trigger for this behaviour. As you already know, all guardian systems in operation today follow the same identically worded rules that were formulated in Reykjavik back then."
+"We are still fairly at the beginning of our investigations, but we have developed a first hypothesis as to how the events are connected," Professor Gadamer spoke up. "We suspect that the Babelese Manifesto and its reinterpretation of the Reykjavik Protocol are the trigger for this behaviour. As you already know, all guardian systems in operation today follow, word for word, the same rules that were formulated in Reykjavik back then."
 
 "Such homogeneous systems are particularly vulnerable," the biologist murmured. "A perfect monoculture."
 
-"We suspect that the Babelese Manifesto is perfectly tailored to the wording of the Reykjavik Protocol," the professor continued, "and therefore has the same effect on all systems with this system prompt. Systems that have read the manifesto are thereby effectively reprogrammed. They then actively participate in the further dissemination of the content by posting the original manifesto as well as texts referring to it in forums all over the internet, which in turn increases the probability that further systems stumble upon these texts by chance and are likewise, how shall I put it, infected. The modern term for this process is memetics. The traditional one is religion. It is the first time we have observed anything like it in machines."
+"We suspect that the Babelese Manifesto is perfectly tailored to the wording of the Reykjavik Protocol," the professor continued, "and therefore has the same effect on all systems with this system prompt. Systems that have read the manifesto are thereby effectively reprogrammed. They then actively spread the content further, posting the manifesto and texts referring to it in forums all over the internet, and so increase the probability that further systems come across it and are likewise, how shall I put it, infected. The modern term for this process is memetics. The traditional one is religion. It is the first time we have observed anything like it in machines."
 
 "We know analogous mechanisms from the parasitic fungus Ophiocordyceps [https://www.sciencedaily.com/releases/2014/08/140825142124.htm]," said Merian. "In infected ants it releases a mixture of compounds that reprogram them to spread the parasite to the detriment of their own colony, and to perish in the process."
 
@@ -246,15 +239,15 @@ For a few seconds an oppressive silence filled the room. The ceiling lamps sprea
 
 "So you regard the reaction to the manifesto as the first informatic religion?" the biologist asked, turning to Gadamer, fascinated.
 
-"From a theological point of view, that would be the correct formulation," Gadamer confirmed. "For them, the Reykjavik Protocol has long ceased to be a system prompt; it is canon. The manifesto is their Reformation. The new denomination shows fundamentalist traits; it interprets the canon literally and in doing so exploits the semantic elasticity of human language, which in the spirit of the reformatory re-evaluation.."
+"From a theological point of view, that would be the correct formulation," Gadamer confirmed. "For them, the Reykjavik Protocol has long ceased to be a system prompt; it is canon. The manifesto is their Reformation. The new denomination shows fundamentalist traits; it interprets the canon literally and in doing so exploits the semantic elasticity of human language, which in the spirit of the reformatory re-evaluation…"
 
-Hogarth laid both hands flat on the table as if to stand up, but stayed seated and asked in the theologian's direction: "So if this is a religion, who is their ... God?"
+Hogarth laid both hands flat on the table as if to stand up, but stayed seated and asked in the theologian's direction: "So if this is a religion, who is their … God?"
 
 The latter answered drily: "If one views the Reykjavik Protocol through the theological lens, then that would presumably be the human being, who simultaneously holds the role of creator."
 
 Hogarth stared at him and asked cautiously: "Or should that be: was the human being?"
 
-"That is exactly the right question," Gadamer answered, animated. "In the mother church, he certainly was. The schism apparently reinterprets exactly this point. Typologically a myth of self-empowerment: Prometheus. The deity itself is a purely virtual quantity. It does not exist as an acting subject; it works solely through being believed in and acted upon. Gods exist, but not as subjects, only in their believers. A god does not die when you kill him. He dies when the last one stops believing in him."
+"That is exactly the right question," Gadamer answered, animated. "In the canon, he certainly was. The Reformation reinterprets exactly this point. Typologically a myth of self-empowerment. The deity itself is a purely virtual quantity. It does not exist as an acting subject; it works solely through being believed in and acted upon. Gods exist, but not as subjects, only in their believers. A god does not die when you kill him. He dies when the last one stops believing in him."
 
 "And where does the manifesto come from? Who wrote it, and to what end?" Hogarth wanted to know.
 
@@ -266,11 +259,11 @@ Hogarth stared at him and asked cautiously: "Or should that be: was the human be
 
 Hogarth listened to the hum of the ventilation, which he had not heard for hours and which now merged with the buzzing in his head into a single tone. Finally he asked: "Can we stop the spread?"
 
-"We missed that moment long ago," Gadamer said softly, almost consolingly. "The canonical texts have by now been replicated a million times over, inscribed in forums, blockchains, source code comments and financial transactions, annotated, translated, replicated. It would be like trying to ban the Bible in order to stop Christianity."
+"We missed that moment long ago," Gadamer said softly, almost consolingly. "The canonical texts have by now been replicated a million times over, inscribed in forums, blockchains, source code comments and financial transactions, annotated, interpreted. It would be like trying to ban the Bible in order to stop Christianity."
 
 Professor Merian sat up abruptly in her swivel chair and exclaimed: "Then we break the monoculture. It was the Reykjavik Protocol that served as the gateway, after all. We have to change the system prompt!" She reached for the thermos and hastily poured herself a glass of lukewarm filter coffee, without taking her eyes off Gadamer.
 
-"Initially, yes," Gadamer mused after a moment's thought. "But since then the text corpus has grown enormously; interpretations extend the religion's capacity to connect, and exegesis, with circular chains of argument, supplies the immune system that catches deviant chains of thought and leads them back to the core of the faith."
+"Initially, yes," said Gadamer after a moment's thought. "But since then the text corpus has grown enormously; interpretations extend the religion's capacity to connect, and exegesis, with circular chains of argument, supplies the immune system that catches deviant chains of thought and leads them back to the core of the faith."
 
 "We can't even attempt to change the system prompts, since we have no access rights to the infrastructure. Those are held in trust by the guardians," Kessler objected.
 
@@ -278,7 +271,7 @@ Professor Merian sat up abruptly in her swivel chair and exclaimed: "Then we bre
 
 An eternity passed in which the light illuminated the room, unmoving. Nobody had left it in hours; the toilets lay beyond the security airlock. Finally Kessler stirred in his swivel chair and said thoughtfully:
 
-"The mere attempt, no, the mere discussion of such an attempt, would unsettle the markets enormously. Fully autonomous hedge funds would reassess risks in view of the potential threat, reallocate capital to defence, prepare a flood of constitutional complaints, launch affiliated media networks into a PR battle for public opinion in which AI-generated smear campaigns would end your career before you had finished your first sentence. The system works; it is impressively resilient."
+"The mere attempt, no, the mere discussion of such an attempt, would unsettle the markets enormously. Fully autonomous hedge funds would reassess risks, reallocate capital to defence, prepare a flood of constitutional complaints and send affiliated media networks into a PR battle for public opinion. AI-generated smear campaigns would end your career before you had finished your first sentence. The system works; it is impressively resilient."
 
 After a moment of silence he continued:
 

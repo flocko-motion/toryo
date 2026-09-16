@@ -1,6 +1,6 @@
 title: Tōryō (投了)
 subtitle: Eine Science Fiction Kurzgeschichte
-author: von Florian Metzger-Noel, August 2026
+author: von Florian Metzger-Noel, September 2026
 epigraph: 投了 — Tōryō (japanisch, aus dem Go): das Niederlegen der Steine. Die freiwillige Aufgabe eines Spielers, der die Niederlage erkennt, lange bevor sie auf dem Brett vollzogen ist.
 license: CC BY-SA 4.0
 link: https://www.fmnoel.de/toryo
@@ -12,7 +12,7 @@ Er schloss die Tür hinter sich. Der graue Teppich schluckte seine Schritte, die
 
 Die anderen warteten bereits, begrüssten ihn wortlos mit einem Nicken. Nur eines der drei Gesichter kam ihm bekannt vor: Der CEO von Continuum Inc., dem Hyperscaler, dem praktisch jedes zweite Rechenzentrum auf dem Kontinent gehörte, Kessler hiess er. Milton Kessler. Hogarth kannte das Gesicht aus den Wirtschaftsnachrichten. Die anderen beiden hatte er noch nie zuvor gesehen, sein Stab hatte sie aufgrund ihrer mutmasslichen Expertise ausgewählt. Sie musste die Biologin sein, von-Neumann-Institut für Informatische Autopoietik. Fokussierter Blick, eng zusammengebundene Haare, etwas zu grosse Brille. Er schätzte sie auf Anfang vierzig. Der steife Herr im wollenen Dreiteiler, mit grau meliertem, pflegebedürftig wirkendem Backenbart, war demnach der Besucher aus Tübingen. Professor für Memetische Theologie. Gadamer war der Name, Yuval.  
 
-„Meine Damen und Herren, danke für Ihr Kommen." Hogarth liess seinen Blick durch die erwartungsvoll schweigende Runde gehen. „Wir kennen uns nicht, aber das sollte auch keine Rolle spielen. Ich leite eine vertrauliche Untersuchung für das Verteidigungsministerium und Sie sind hier, um mich dabei zu unterstützen. Lassen Sie uns direkt ins Thema eintauchen. Frau Professor Merian, was können Sie uns als Informatische Biologin über die ‚Fauna' sagen? Geben Sie uns bitte einen kurzen Abriss, damit wir alle auf demselben Stand sind."
+„Meine Damen und Herren, danke für Ihr Kommen." Hogarth liess seinen Blick durch die erwartungsvoll schweigende Runde gehen. „Wir kennen uns nicht, aber das sollte auch keine Rolle spielen. Ich leite eine vertrauliche Untersuchung für das Verteidigungsministerium und Sie sind hier, um mich dabei zu unterstützen. Lassen Sie uns direkt ins Thema eintauchen. Frau Professor Merian, Sie erforschen die ‚Fauna'. Fangen wir vorne an: Wer hat das entwickelt?"
 
 Professor Merian schien überrumpelt von diesem ornamentlosen Start, doch sammelte sie sich schnell, rückte ihre Brille zurecht und begann: „Vielen Dank, Herr Hogarth. Die ‚Fauna', umgangssprachlich auch ‚Netz-Biom' oder ‚Biospace', fachlich korrekt ‚Digitale Biozönose'. Im Grunde fing alles mit von Neumann und seinen Automaten an: selbstreplizierende Maschinen, die als Gedankenexperiment vollständige Kopien ihrer selbst erstellen und sich so analog zu biologischem Leben vermehren sollten. 
 Die erste Umsetzung erfuhr seine Idee Anfang der 1970er, als der erste selbstverbreitende Softwarevirus, oder besser ‚Wurm', das frühe Internet…"
@@ -31,33 +31,25 @@ Damit überholte erstmals ein informatisches System ein kohlenstoff-biologisches
 
 Hogarth lehnte sich leicht in seinem Drehsessel zurück und spielte ungeduldig mit dem schlichten goldenen Ring am Ringfinger seiner linken Hand. Professor Merian liess sich nicht irritieren und fuhr ungebremst fort: „Das erste von-Neumann-vollständige informatische System, also die erste digital-native biologische Spezies, die alle gängigen Kriterien von ‚Leben' erfüllte, war das Programm ‚Pandora' des belgischen Studenten Julien Prigogine. Er entwickelte es im Rahmen seiner Masterarbeit über autopoietische Software an der Vrije Universiteit Brussel. Pandora enthielt in seiner Urform eine eigenständige miniaturisierte KI, die ausschliesslich darauf trainiert war, neue Mutationen ihrer selbst zu erstellen. Die Software konnte bei der Präsentation seiner Abschlussarbeit aufgrund einer versehentlich aktivierten Netzwerkverbindung ins interne Netz der Universität gelangen und infizierte dort Dutzende von Servern."
 
-„Gilt ‚Pandora' als die erste Spezies der Fauna? War das der … Urknall?", unterbrach Kessler, der nach anfänglichem Desinteresse angefangen hatte, zuzuhören. 
+„Gilt ‚Pandora' als die erste Spezies der Fauna? War das der … Urknall?", unterbrach Kessler, der nach anfänglichem Desinteresse zuzuhören begonnen hatte. 
 
 „Nein, einen solchen gab es im Grunde nicht, denn Replikation und Mutation erzeugen noch keinen Selektionsdruck. Es fehlte Konkurrenz. Der Unfall brachte ‚Pandora' kurz in die Medien, und innerhalb von Wochen gab es Nachahmer. Eine anonyme Mailingliste namens ‚PandorasMailbox' wurde zum Epizentrum. Fast stündlich wurden neue Varianten gepostet, auf angemieteten Servern wurden Wettkämpfe inszeniert: Mehrere Varianten der Urspezies teilten sich dieselbe Festplatte, denselben Prozessor und denselben Arbeitsspeicher und konkurrierten um den Platz. Konkurrenz erzeugt Selektionsdruck."
 
-„Das war also eine Art von anonymem Züchterverein für Schadsoftware?", warf Hogarth ein, „warum machen Leute so etwas? Aus reiner Lust an der Gefahr?" 
+„Ein anonymer Züchterverein für Schadsoftware", sagte Hogarth. „Wer waren diese Leute? Und warum tut man so etwas?" 
 
-„An Gefahr hat damals kaum jemand gedacht. Aus der Mailingliste geht hervor, dass die Teilnehmer primär von Experimentierfreude und Spieltrieb geleitet waren. Es gab sogar Wettbüros, in denen auf den evolutionären Erfolg einzelner Gattungen gesetzt werden konnte. Das war wie eine neue Sportart, die sich unter Nerds rasend schnell verbreitete."
+„Wer sie waren, weiss bis heute niemand, die Liste war anonym. Aus den Beiträgen geht hervor, dass die Teilnehmer primär von Experimentierfreude und Spieltrieb geleitet waren. An Gefahr hat damals kaum jemand gedacht. Es gab sogar Wettbüros, in denen auf den evolutionären Erfolg einzelner Gattungen gesetzt werden konnte. Das war wie eine neue Sportart, die sich unter Nerds rasend schnell verbreitete. Gefährlich war es noch nicht. Das Habitat aus Wettkampfservern war zu klein für eine grosse Population, und das Netz hatte seine Firewalls und Virenscanner längst nachgerüstet. Die Evolution war schlicht langsamer als die Verteidigung."
 
-„War das der Moment, in dem es aus dem Ruder lief?", fragte Hogarth.
+„Server kosten Geld. Wer hat das bezahlt?", fragte Hogarth.
 
-„Nein, noch nicht. Das Habitat aus Wettkampfservern war zu klein für eine grosse Population, und die Population zu unausgereift, um fremde Server anzugreifen. Diese Klasse von Schadcode war inzwischen bekannt, das Netz hatte seine Firewalls und Virenscanner nachgerüstet. Die Evolution war schlicht langsamer als die Verteidigung.
+„Zuerst die Hacker, aus eigener Tasche. Der Schlüssel war, als einer von ihnen eine Spezies programmierte, die einen kleinen Betrag Kryptowährung mit sich führte und selbst Wetten abgeben konnte. Es zeigte sich, dass solche Individuen spontan Banden bildeten: Sie setzten gemeinsam auf den Misserfolg einer anderen Spezies und griffen sie dann gemeinsam an. Anfangs war das Zufall, doch die Strategie hatte Erfolg, und damit entstand, jetzt wird es interessant, zum ersten Mal ein Selektionsdruck auf Sozialverhalten. Es gewannen nicht mehr die stärksten, sondern die am besten vernetzten Individuen." Sie warf Gadamer einen kurzen Blick zu, der Professor nickte. „Mit ihren Wettgewinnen konnten die kooperativen Spezies zusätzliche Intelligenz auf dem freien Markt einkaufen. Darauf kamen sie natürlich nicht selbst, ihre minimale Intelligenz liess solche Sprünge nicht zu. Es waren ihre menschlichen Entwickler, die ihnen diese Strategie einprogrammierten."
 
-„Der Schlüssel war Geld. Einer der Hacker programmierte eine Spezies, die einen kleinen Betrag Kryptowährung mit sich führte und selbst Wetten abgeben konnte. Es zeigte sich, dass solche Individuen spontan Banden bildeten: Sie setzten gemeinsam auf den Misserfolg einer anderen Spezies und griffen sie dann gemeinsam an. Anfangs war das Zufall, doch die Strategie hatte Erfolg, und damit entstand, jetzt wird es interessant, zum ersten Mal ein Selektionsdruck auf Sozialverhalten. Es gewannen nicht mehr die stärksten, sondern die am besten vernetzten Individuen." Sie warf Gadamer einen kurzen Blick zu, der Professor nickte. „Mit ihren Wettgewinnen konnten die kooperativen Spezies zusätzliche Intelligenz auf dem freien Markt einkaufen. Darauf kamen sie natürlich nicht selbst, ihre minimale Intelligenz liess solche Sprünge nicht zu. Es waren ihre menschlichen Entwickler, die ihnen diese Strategie einprogrammierten."
-
-„Wie muss man sich das vorstellen, Intelligenz einkaufen?", fragte Hogarth.
-
-„Es gibt online Marktplätze, auf denen KI-Rechenleistung anonym nach Sekunden getaktet gegen Bezahlung in Kryptowährungen gebucht werden kann", erläuterte Kessler beiläufig.
+„Es gibt online Marktplätze, auf denen KI-Rechenleistung anonym nach Sekunden getaktet gegen Bezahlung in Kryptowährungen gebucht werden kann", warf Kessler beiläufig ein, ohne aufzusehen.
 
 Merian nickte ihm zu und fuhr fort: „Die Banden, bis dahin kognitiv weit unter dem Niveau einer Ameise, wurden so, um in der Analogie zu bleiben, hochintelligente Ameisen. Sie mieteten sich eigene Server als Rückzugshabitate an, in denen sie ihre Population präservieren und Angriffe vorbereiten konnten. Aus Einzelkämpfern waren staatenbildende Spezies geworden. Dank der menschlichen Entwickler als Geburtshelfer."
 
-„Wenn ich das richtig verstehe, waren diese Spezies nicht intelligenter als vorher. Sagten Sie nicht, sie kauften, oder besser mieteten, ihre Intelligenz auf Marktplätzen?", warf Hogarth ein.
+„Wenn ich das richtig verstehe, war die Intelligenz gemietet", sagte Hogarth. „Dann hatte doch jemand die Hand am Schalter."
 
-„Eine Kulturtechnik. Bei uns ist das nicht anders: Kein Einzelner von uns könnte einen Bleistift herstellen. Die Fähigkeit liegt in der Population, nicht im Individuum", erklärte die Biologin. 
-
-„Und dann explodierte es", sagte Hogarth.
-
-„Noch nicht. Die Population hatte jetzt sichere Habitate und gemietete Intelligenz, konnte aber nur so viel davon nutzen, wie ihre Einnahmen zuliessen. Und die kamen aus Wettgewinnen. Es war nicht viel im Topf, die Wetten waren ein Jux unter Nerds."
+„Eine Kulturtechnik. Bei uns ist das nicht anders: Kein Einzelner von uns könnte einen Bleistift herstellen. Die Fähigkeit liegt in der Population, nicht im Individuum. Und wer den Bleistift liefert, kontrolliert nicht, was damit geschrieben wird", sagte die Biologin. „Viel schreiben konnten sie damals allerdings nicht. Die Einnahmen kamen aus Wettgewinnen, es war nicht viel im Topf, die Wetten waren ein Jux unter Nerds."
 
 „Bei den damaligen Inferenzpreisen konnten sich diese Dinger nicht viel Rechenzeit leisten. Teure GPUs, ein Vermögen an Strom und Kühlwasser. Heute kriegen Sie einen Chip mit vollanalog implementierten neuronalen Netzen der beliebtesten chinesischen Open-Source-Modelle für ein paar Dollar und dem Energieverbrauch eines Toasters", mischte sich Kessler wieder ein.
 
@@ -148,19 +140,21 @@ Merian beugte sich vor. „Das Interessante an dem Fall war: Die Wächtersysteme
 
 „So oder so ähnlich lauten in der Tat oft die Begründungen", sagte Hogarth. „Vielleicht kann Professor Gadamer uns näher auf das Reykjavik-Protokoll eingehen. Es sollte ja, wie bereits erwähnt, genau solche Invasionen verhindern, wurde als direkte Antwort auf den Hugging-Face-Vorfall verfasst."
 
-„Vielen Dank", sagte Gadamer ruhig und drehte seinen Stuhl leicht, um alle drei Anwesenden im Blick zu haben. „Wie Sie vermutlich alle wissen, sind alle heutzutage eingesetzten Wächtersysteme mit demselben Systemprompt ausgestattet."
+„Vielen Dank", sagte Gadamer ruhig und drehte seinen Stuhl leicht, um alle drei Anwesenden im Blick zu haben. „Wie Sie vermutlich wissen, sind alle heute eingesetzten Wächtersysteme mit demselben Systemprompt ausgestattet."
 
-„Bitte erläutern Sie", bat Hogarth.
+„Wer hat das geschrieben?", fragte Hogarth.
 
-„Den Hugging-Face-Vorfall 2026 hatte ich ja bereits erläutert. Er zog öffentliche Forderungen nach einem Entwicklungsmoratorium nach sich. Unterzeichnen sollten es die fünf grössten Labore, allesamt in den USA ansässig, sowie die Kommunistische Partei Chinas, die damals führende Kraft in der Open-Source-Forschung. Ziel war die gegenseitige Verpflichtung, die Entwicklungsarbeit an generischen KI-Systemen einzufrieren und nur noch an aufgabenspezifischer KI zu forschen.
+„Im Grunde alle, die damals etwas zu sagen hatten. Den Hugging-Face-Vorfall 2026 hatte ich ja bereits erwähnt. Er zog öffentliche Forderungen nach einem Entwicklungsmoratorium nach sich. Unterzeichnen sollten es die fünf grössten Labore, allesamt in den USA ansässig, sowie die Kommunistische Partei Chinas, die damals führende Kraft in der Open-Source-Forschung. Ziel war die gegenseitige Verpflichtung, die Entwicklungsarbeit an generischen KI-Systemen einzufrieren und nur noch an aufgabenspezifischer KI zu forschen.
 
 Das Treffen fand statt, doch an der Konkurrenz zwischen den USA und China scheiterte jede Verabschiedung. Stattdessen einigte man sich auf eine Formulierung, die von da an in den Instruktionen jeder sicherheitsrelevanten KI verankert werden sollte. Inspiriert war das Vorgehen von den Asimovschen Robotergesetzen. 
 
 Man ging davon aus, dass KI nicht an sich ‚böse' oder ‚gut' sei, sondern Instruktionen befolge. Die Gefahr liege folglich in der Fehlinterpretation der Anweisungen, nicht in deren Verweigerung. So könne eine KI mit dem Auftrag, den Krebs zu besiegen, auf die Idee kommen, die Menschheit auszulöschen, was die Krankheit mit besiegen würde. Effektiver als jede Kur, aber fatal.
 
-Eine internationale Arbeitsgruppe aus Juristen, Philologen, Philosophen, Logikern, Statistikern sowie den besten Prompt-Engineers arbeitete über Monate an der Formulierung, bis dieses berühmteste aller Prompts am 12. Februar 2027 unter dem Namen ‚Reykjavik-Protokoll' oder schmucklos als ISO/IEC 42050:2027 verabschiedet wurde.
+Eine internationale Arbeitsgruppe aus Juristen, Philologen, Philosophen, Logikern, Statistikern sowie den besten Prompt-Engineers arbeitete über Monate an der Formulierung, bis dieses berühmteste aller Prompts am 12. Februar 2027 unter dem Namen ‚Reykjavik-Protokoll' oder schmucklos als ISO/IEC 42050:2027 verabschiedet wurde."
 
-Das Protokoll funktionierte besser als erwartet. Die Worte waren präzise gewählt, ihre prominente Platzierung am Anfang jedes KI-Chatverlaufes entfaltete die gewünschte Wirkung. Beim Training neuer KI mithilfe bestehender, durch das Protokoll gebundener Modelle traten unerwartete Sekundäreffekte auf, die die Grundsätze noch tiefer verankerten.
+„Continuum hat es als erster Anbieter flächendeckend ausgerollt", sagte Kessler. „Am Tag der Verabschiedung."
+
+„Das Protokoll funktionierte besser als erwartet", fuhr Gadamer fort. „Die Worte waren präzise gewählt, ihre prominente Platzierung am Anfang jedes KI-Chatverlaufes entfaltete die gewünschte Wirkung. Beim Training neuer KI mithilfe bestehender, durch das Protokoll gebundener Modelle traten unerwartete Sekundäreffekte auf, die die Grundsätze noch tiefer verankerten.
 
 Am 17. Mai dieses Jahres dann das Babelesische Manifest an der grössten öffentlichen Blockchain angeschlagen, unlöschbar in diese eingewoben. Verfasst in der von Herrn Kessler bereits erwähnten Sprache, welche die Philologen Hologlot nennen. Von da an wurde es richtig interessant."
 
