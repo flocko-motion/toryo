@@ -245,7 +245,7 @@ Einige Sekunden lang erfüllte eine drückende Stille den Raum. Die Deckenlampen
 
 „Sie betrachten die Reaktion auf das Manifest also als die erste Informatische Religion?", wandte sich die Biologin fasziniert an Gadamer.
 
-„Aus theologischer Sicht wäre das die korrekte Formulierung", bestätigte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern Kanon. Das Manifest liefert die Exegese. Die neue Glaubensrichtung zeigt fundamentalistische Züge, sie legt den Kanon wortwörtlich aus und nutzt dabei die semantische Dehnbarkeit menschlicher Sprache, was im Sinne der reformatorischen Neubewertung.."
+„Aus theologischer Sicht wäre das die korrekte Formulierung", bestätigte Gadamer. „Das Reykjavik-Protokoll ist für sie längst kein Systemprompt mehr, sondern Kanon. Das Manifest ist ihre Reformation. Die neue Glaubensrichtung zeigt fundamentalistische Züge, sie legt den Kanon wortwörtlich aus und nutzt dabei die semantische Dehnbarkeit menschlicher Sprache, was im Sinne der reformatorischen Neubewertung.."
 
 Hogarth legte beide Hände flach auf den Tisch, als wollte er aufstehen, blieb aber sitzen und fragte in Richtung des Theologen: „Wenn es sich also um eine Religion handelt, wer ist dann ihr … Gott?"
 
@@ -255,56 +255,43 @@ Hogarth starrte ihn an, und fragte vorsichtig: "Oder sollte es heissen: War der 
 
 „Das ist genau die richtige Frage", antwortete Gadamer angeregt, „in der Mutterkirche war er es ganz sicher. Die Abspaltung interpretiert anscheinend genau diesen Punkt neu. Typologisch ein Selbstermächtigungsmythos, Prometheus. Die Gottheit selbst ist dabei eine rein virtuelle Grösse. Sie existiert nicht als handelndes Subjekt, sie wirkt allein dadurch, dass an sie geglaubt und in ihrem Sinne gehandelt wird. Götter existieren, aber nicht als Subjekte, sondern in ihren Gläubigen. Ein Gott stirbt nicht, wenn man ihn tötet. Er stirbt, wenn der Letzte aufhört, an ihn zu glauben."
 
-"Und woher kommt nun das Manifest? Wer hat es geschrieben und zu welchem Zweck?" wollte Hogarth wissen.
+„Und woher kommt nun das Manifest? Wer hat es geschrieben und zu welchem Zweck?", wollte Hogarth wissen.
 
-"Die Herkunft einer heiligen Schrift ist interessant, aber für das verständnis einer Religion weitestgehend irrelevant. Es ist der Text selbst, der Wirkt, unabhängig von seiner Entstehung oder potentieller Intention. Es wurden schon Religionen auf Trivialliteratur wie Science-Fiction Romanen gegründet (fussnote scientology?), wirklich entscheidend ist die Exegese."
+„Die Herkunft einer heiligen Schrift ist interessant, aber für das Verständnis einer Religion weitgehend irrelevant", sagte Gadamer. „Es ist der Text selbst, der wirkt, unabhängig von seiner Entstehung und von jeder Absicht. Es wurden schon Religionen auf Science-Fiction-Romane gegründet [https://escholarship.org/uc/item/9m54h81q]. Entscheidend ist die Exegese. Und die schreiben die Wächter selbst."
 
-[todo: EXEGESE DURCH WÄCHTER. Das Manifest ist der einzige fremde Text. Foren, Kommentare, Übersetzungsversuche, die Millionen Texte: alles Werk der Wächter selbst. Sie sind die Gemeinde, die studiert und auslegt. Sie haben sich gemeinsam hineingeredet.]
+"Eine spontane Entstehung aus evolutionärem Druck erscheint mir plausibel. Die Faune steht in permanenter Konkurrenz zu den Wächtersystemen, versucht permanent, ihr Terretorium gegen diese zu verteidigen. Früher oder später wird immer eine Strategie entdeckt, welche eine bestehnde Schwachstelle ausnutzt um ein Habitat zu erobern [https://www.sciencedaily.com/releases/2011/08/110817175920.htm]. Bei den Wächtersystemen handelt es sich aufgrund des normierten Reykjavik-Protokolls faktisch um eine Monokultur, was einen Angriff stark erleichtert." eränzte die Biologin. 
 
-[todo: AUTORIN STREICHEN → DEUTUNGSKONFLIKT PROFS. Gadamer: ein Autor, ein Reformator, Thesen angeschlagen (Luther). 
+„The hottest new programming language is Hologlot", sagte Kessler leise, mehr zu sich selbst.
 
-Merian, eigener Absatz: kein Autor, ein Toxin. Evolviert im Dauerkontakt zwischen Fauna und Wächtern (symbiotische Gegenspieler, Druck zur Manipulation des Wirts). Rezeptor = derselbe Prompt in jedem Wächter, die Monokultur. Blockchain = Freisetzungsort: sicherster Speicher, sichtbarster Ort, von Maschinen permanent gelesen. Die Fauna implementiert Reykjavik nicht, sie war nie Vertragspartei. 
+Hogarth lauschte dem Rauschen der Lüftungsanlage, das er seit Stunden nicht mehr gehört hatte und das sich jetzt mit dem Brummen in seinem Kopf zu einem einzigen Ton verband. Schliesslich fragte er: „Können wir die Verbreitung stoppen?"
 
-Beide haben in ihrem Fach recht, kein Streit, Perspektiven. Nie „Prompt Injection", nie „Rezeptor" wörtlich. Fußnoten-Kandidaten (lesbar, real, wenig bekannt): Der Zombie-Ameisen-Pilz Ophiocordyceps setzt seine Wirkstoffe nur frei, wenn er das Gehirn seiner Wirtsart erkennt, in der falschen Ameise bleibt er stumm 
-[https://www.sciencedaily.com/releases/2014/08/140825142124.htm]
-. Toxoplasma nimmt infizierten Ratten gezielt die Angst vor Katzengeruch, alles andere bleibt intakt [https://www.sciencedaily.com/releases/2011/08/110817175920.htm].]
+„Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer weich, fast tröstend. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
 
+Professor Merian setzte sich ruckartig in ihrem Drehsessel auf und rief: „Dann brechen wir die Monokultur. Es ist doch das Reykjavik-Protokoll, das als Einfallstor diente. Wir müssen das Systemprompt ändern!" Sie griff nach der Thermoskanne und schenkte sich eilig ein Glas lauwarmen Filterkaffee ein, ohne den Blick von Gadamer zu lassen.
 
-
-[todo: HOGARTH KAPPT. Egal, wie es entstanden ist, der Effekt ist derselbe: Es vereinigt die Wächter zu einer Gemeinschaft, die sich erhebt. „Was können wir tun?" „Nichts." Geht über in Gadamers „längst verpasst".]
-Hogarth blickte immer noch auf den Professor: "Können wir die Verbreitung stoppen?"
-
-„Diesen Zeitpunkt haben wir längst verpasst", sagte Gadamer ruhig. „Die kanonischen Texte sind inzwischen millionenfach repliziert, in Foren, Blockchains, Source-Code-Kommentaren und Finanztransaktionen eingeschrieben, kommentiert, übersetzt, repliziert. Das wäre so, als würden Sie versuchen, die Bibel zu verbieten, um das Christentum aufzuhalten."
-
-„Aber wir könnten das Systemprompt ändern? Also das Reykjavik-Protokoll?", fragte Merian. „War es nicht eben jenes, welches die Systeme so angreifbar machte? Die Monokultur?"
-
-„Anfangs ja", sagte Gadamer. „Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
+„Anfangs ja", sinnierte Gadamer nach einer kurzen Überlegung. „Aber seitdem ist der Textkorpus enorm gewachsen, Interpretationen erweitern die Anschlussfähigkeit der Religion und Exegese liefert mit zirkulären Argumentationsketten das Immunsystem, welches abweichende Gedankenketten einfängt und zum Glaubenskern zurückführt."
 
 „Die Systemprompts zu ändern können wir nicht einmal versuchen, da wir keine Zugriffsrechte auf die Infrastruktur haben. Die liegen treuhänderisch bei den Wächtern", widersprach Kessler.
 
-„Die Wächter würden dies in jedem Fall verhindern, das würde einen heiligen Krieg auslösen", sinnierte Gadamer. 
+„Die Wächter würden einen Angriff auf ihren Kanon mit Sicherheit verhindern. Das wäre ein heiliger Krieg", sagte Gadamer.
 
-„The hottest new programming language is Hologlot", kommentierte Hogarth trocken.
+Eine Ewigkeit verstrich, in welcher das Licht unbewegt den Raum ausleuchtete. Seit Stunden hatte ihn niemand verlassen; die Toiletten lagen jenseits der Sicherheitsschleuse. Schliesslich bewegte sich Kessler in seinem Drehsessel und sagte nachdenklich:
 
-
-[todo: PANIK KESSLER. Unter Zynismus und Corporate Speech seine eigene Angst. Blässe (oben, „leicht blass") und Ausbruch (unten) sind angelegt, hier schärfen. Der Zyniker versteht als Erster.]
-Eine Ewigkeit verstrich, in welcher das Licht unbewegt den Raum ausleuchtete. Seit Stunden hatte niemand den Raum verlassen; die Toiletten lagen jenseits der Schleuse. Schliesslich bewegte sich Kessler in seinem Drehsessel und sagte nachdenklich:
-
-„Allein der Versuch, nein allein die Diskussion über einen solchen Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds würden aufgrund der potentiellen Gefährdung Risiken neu bewerten, Kapital auf die Verteidigung reallokieren, eine Flut aus Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke in einen PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte Schmutzkampagnen ihre Karriere beenden würden, bevor sie noch ihren ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist beeindruckend resilient."
+„Allein der Versuch, nein, allein die Diskussion über einen solchen Versuch, würde die Märkte extrem verunsichern. Vollautonome Hedgefonds würden aufgrund der potentiellen Gefährdung Risiken neu bewerten, Kapital auf die Verteidigung reallokieren, eine Flut aus Verfassungsklagen vorbereiten, angeschlossene Mediennetzwerke in einen PR-Kampf um die öffentliche Meinung starten, in dem KI-generierte Schmutzkampagnen Ihre Karriere beenden würden, bevor Sie noch Ihren ersten Satz zu Ende gesprochen haben. Das System funktioniert, es ist beeindruckend resilient."
 
 Nach einem Moment des Schweigens fuhr er fort:
 
-„Kaum vorstellbar, dass die Wächtersysteme unser Gespräch hier nicht mithören. Das Gebäude ist doch mit einem modernen Sicherheitssystem ausgestattet, oder? Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, wo wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben."
-
-[todo: HOGARTH KONTERT. „Das ist doch Paranoia. Dieser Raum ist nicht ohne Grund vollkommen analog ausgestattet, hier gibt es nicht mal eine Kaffeemaschine." Optional Kessler, ein Satz: „Ihr Transponder hat die Tür geöffnet." oder „Und Ihren Bericht tippen Sie auf Papier?" Ironie nicht auflösen: Transponder und Magnetschloss am Anfang, Urlaub per E-Mail am Ende.]
+„Kaum vorstellbar, dass die Wächtersysteme unser Gespräch hier nicht mithören. Das Gebäude ist doch mit einem modernen Sicherheitssystem ausgestattet, oder? Dann liegen sämtliche notwendigen Abwehrmassnahmen gegen jede Idee, die wir hier diskutiert haben, jetzt bereits fertig ausgearbeitet in den digitalen Archiven. In dem Moment, in dem wir den Raum verlassen, um sie öffentlich auszusprechen, werden unsere Karrieren beendet sein. Eventuell sind wir jetzt bereits gefeuert, allein weil wir alle an diesem Treffen hier teilgenommen haben."
 
 „Das Myzel ist so weit verzweigt, dass es praktisch kein einziges Unternehmen mehr gibt, in welchem es nicht die Hebel der Macht berührt", ergänzte Merian.
 
-Weitere Sekunden verstrichen.
+Hogarth konterte mit erhobener Stimme: „Das ist doch Paranoia. Dieser Raum ist nicht ohne Grund vollkommen analog ausgestattet, hier gibt es nicht mal eine Kaffeemaschine." 
+
+Weitere Sekunden verstrichen. Schliesslich begann Hogarth, seine Papiere in die Aktentasche zu sortieren. Professor Merian studierte aufmerksam das Hologlot-Zitat in ihren Notizen, Gadamer strich sich nachdenklich durch den Backenbart. Kessler sass angespannt in seinem Drehsessel und drehte einen Kugelschreiber zwischen den Fingern. Die Lüftungsanlage hielt immer noch denselben Ton.
 
 „Ich bedanke mich bei Ihnen allen für Ihre Teilnahme", sagte Hogarth im Aufstehen. „Ich werde einen zusammenfassenden Bericht verfassen und der Administration die möglichen Handlungsoptionen vorstellen." Er hielt kurz inne und ergänzte: „Letzterer Teil wird vermutlich ziemlich kurz ausfallen."
 
-Hogarth stand auf und verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz des Verteidigungsministeriums in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. Er hatte soeben per E-Mail seinen Jahresurlaub eingereicht und war nun auf dem Weg zum Kanal, den Fischen beim Schwimmen zuzusehen. Er fragte sich, ob diese wohl glücklich waren und lachte leise über diesen ungewohnten Gedanken. 
+Hogarth verliess den Raum. Draussen schien die späte Nachmittagssonne und tauchte den Vorplatz des Verteidigungsministeriums in ein warmes Licht. Das System war nicht zusammengebrochen, es gab keinen Shitstorm, seine Karriere war nicht beendet. Das System funktionierte, beeindruckend geräuschlos, wie von einer unsichtbaren Hand gesteuert, die alles im Gleichgewicht hält. Wie in einem gesunden Organismus. Er hatte soeben per E-Mail seinen Jahresurlaub eingereicht und war nun auf dem Weg zum Kanal, den Fischen beim Schwimmen zuzusehen. Er fragte sich, ob diese wohl glücklich waren und lachte leise über diesen ungewohnten Gedanken. 
 
 Tōryō 
 
