@@ -21,6 +21,7 @@ SITE      := site
 INDEX     := $(SITE)/index.html
 FAVICON   := $(SITE)/favicon.svg
 GISCUSCSS := $(SITE)/giscus.css
+HTACCESS  := $(SITE)/.htaccess
 PYTHON    ?= python3
 
 # Artefakte einer Sprache: $(call artefacts,<praefix>)
@@ -36,7 +37,7 @@ EN_OUT := $(if $(SRC_EN),$(call artefacts,toryo-en),)
 
 .PHONY: all clean open watch index de en help
 
-all: $(INDEX) $(FAVICON) $(GISCUSCSS) de en   ## alles bauen (Vorgabe)
+all: $(INDEX) $(FAVICON) $(GISCUSCSS) $(HTACCESS) de en   ## alles bauen (Vorgabe)
 
 de: $(DE_OUT)                    ## nur die deutsche Fassung
 en: $(EN_OUT)                    ## nur die englische Fassung
@@ -49,6 +50,9 @@ $(FAVICON): $(TPL)/favicon.svg | $(SITE)
 	cp $< $@
 
 $(GISCUSCSS): $(TPL)/giscus.css | $(SITE)
+	cp $< $@
+
+$(HTACCESS): $(TPL)/htaccess | $(SITE)
 	cp $< $@
 
 # Die Startseite haengt auch an SRC_EN: taucht die Uebersetzung auf,

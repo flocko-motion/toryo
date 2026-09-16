@@ -1,0 +1,10 @@
+# giscus laedt das Thema als crossorigin-Stylesheet. Ohne diesen Kopf
+# blockiert der Browser die Datei und faellt auf GitHub-Blau zurueck.
+#
+# Die Huelle prueft erst, ob mod_headers ueberhaupt geladen ist; fehlt es,
+# wird der Block uebersprungen statt die Anfrage mit 500 zu beenden.
+<IfModule mod_headers.c>
+  <FilesMatch "\.css$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
