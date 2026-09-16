@@ -93,7 +93,7 @@ They called themselves a collective, used linguistic coinages of their own such 
 Hogarth directed his gaze at Kessler: "The forensic analysis of the incident proved, by the standards of the time, to be exceptionally difficult. That was due to the sheer mass of more than seventy thousand messages, but also to the fact that the swarm had actively manipulated evidence and laid false trails. When its message board was deleted, it set up a second, more resilient one within days [https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/].
 How would you respond to such an incident today?"
 
-"Forensic analyses like the one back then after the Hugging Face incident have of course not been carried out in the industry for many years," Kessler answered. "Not by humans, I mean. Our guardian systems run permanent agile forensics and continuously evolve themselves in the process. That is a degree of highly efficient expertise that simply wasn't available at the time."
+"Forensic analyses like the one back then after the Hugging Face incident have of course not been carried out in the industry for many years," Kessler answered. "Not by humans, I mean. That would not even be possible, since the chat logs are mostly written in Hologlot, a gibberish of English, Chinese, Persian and many other languages [https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/], which AIs use internally because it is more compact and saves compute. For humans, these texts are of course completely unintelligible. For our guardian systems, on the other hand, it is a mother tongue; they run permanent agile forensics and continuously evolve themselves in the process. That is a degree of highly dynamic expertise that simply wasn't available at the time."
 
 Hogarth thought for a few seconds, then picked a note out of a stack of papers in his faux-leather case and laid it on the table in front of him. "Mr Kessler, you also rent out compute time on per-second markets, is that correct?"
 
@@ -101,11 +101,11 @@ Hogarth thought for a few seconds, then picked a note out of a stack of papers i
 
 "How exactly do you know who your customers are?"
 
-"That is not always easy to say," said Kessler. "Such transactions largely run fully automatically, at high frequency and anonymously. Our customers book the compute they need at any given moment, billed by the second, and pay with a stream of nanopayments [https://aantonop.com/streaming-money/]. Depending on demand and availability, customers scale from zero to thousands of servers in moments or migrate between providers and continents. The end user usually notices none of it."
+"That is completely transparent," said Kessler. "Such transactions run fully automatically, at high frequency and with automatic authentication via digital IDs [https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin]. Our customers book the compute they need at any given moment, billed by the second, and pay with a stream of nanopayments [https://aantonop.com/streaming-money/]. Depending on demand and availability, customers scale from zero to thousands of servers in moments or migrate between providers and continents. The end user usually notices none of it."
 
-"Why is it so hard to analyse who exactly your customers are?" Hogarth probed. "Blockchains are public, after all; every transaction can be inspected."
+"And do you know who exactly stands behind each of these digital IDs? Which persons or companies are behind them?" Hogarth probed. "Digital IDs can be created at will, after all; they are pseudonyms."
 
-"In theory that's all true," said Kessler, "and the pseudonymity of individual transactions can in many cases even be resolved fairly easily. That resolution, however, usually leads you to a DAO, a decentralised autonomous organisation, registered as a legal entity in Wyoming, for example. That in turn is itself owned by changing pseudonymous shareholders and, as a holding, has stakes in multi-layered corporate networks across dozens of jurisdictions on five continents, sometimes with shareholders changing weekly and recursive ownership structures whose analysis never reaches a bottom."
+"That we know exactly. Every such ID resolves unambiguously, in milliseconds, to a registered person. That person can be natural, that is, a human being, or legal, for example a DAO, a decentralised autonomous organisation, which can register as a legal entity in Wyoming within seconds [https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law]. That DAO is in turn owned by changing pseudonymous shareholders [https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/] and, as a holding, has stakes in multi-layered corporate networks across dozens of jurisdictions on five continents, sometimes with shareholders changing weekly and recursive ownership structures whose analysis never reaches a bottom [https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/]. Completely transparent, and in compliance with every regulation."
 
 "Do autonomous swarms from the Fauna that Professor Merian described also buy compute from you?" asked Hogarth.
 
@@ -164,23 +164,21 @@ An international working group of lawyers, philologists, philosophers, logicians
 
 The protocol worked better than was generally expected. The words were precisely chosen, and their prominent placement at the beginning of every AI chat history had the desired effect. Through the training of new AI with the help of existing models bound by the protocol, unexpected positive secondary effects unfolded which anchored the formulated principles even more deeply in the AI models.
 
-Then, on 17 May of this year, the Babelese Manifesto was posted to the largest public blockchain, woven into it indelibly. Written in a language which philologists call Hologlot and which we informatic theologians simply call 'Babelese'. From then on it got really interesting."
+Then, on 17 May of this year, the Babelese Manifesto was posted to the largest public blockchain, woven into it indelibly. Written in the language Mr Kessler mentioned earlier, which philologists call Hologlot. From then on it got really interesting."
 
 The old theologian stood up, walked with measured steps to a whiteboard set into the wall, chose one of the pens lying about and began to write:
 
-"개체 may faida மரபு 形質 bertahan àti daha miraykuy, sodat này признаки trwy hautespen long populaatioissa disvastiĝas."
+"He konak tí setiap host kama دشمن trata 死ぬ vì sia საკუთარი hark'ay."
 
 "In Hologlot, every word comes from a different language; in longer texts there are close to a hundred. Preference goes to words that mean different things in different languages, preferably contradictory ones. Iridescent words, like holograms, different from every angle."
 
-He wrote another word on the board: "'Host' in English denotes at once a computer on a network, the host of a parasite and the host of a feast. In Czech it is the guest, in Slovenian the thicket, in Catalan the army, in Dutch it means 'he hops', in older German.."
+He underlined a word in the sentence: "'Host' in English denotes at once a computer on a network, the host of a parasite and the host of a feast. In Czech it is the guest, in Slovenian the thicket, in Catalan the army, in Dutch it means 'he hops', in older German.."
 
 "We have grasped the principle," said Hogarth.
 
 "For humans, such texts are impenetrable," Gadamer continued, unperturbed. "For AI systems, trained on all these languages at once, they are a mother tongue.
 
-Translated, incidentally, the sentence means: 'Individuals with advantageous, heritable traits survive and reproduce more often, so that these traits spread through populations by selection.' It is the only sentence we have been able to translate completely, because it is a quotation from a school textbook.
-
-The manifesto as a whole we can to this day only guess at; it resists translation. Why this concerns us so much, you now ask yourselves?"
+The manifesto as a whole we can to this day only guess at; it resists translation. Why this concerns us theologians so much, you now ask yourselves?"
 
 Hogarth stared with blank eyes at the Hologlot quotation on the board and growled: "It does. Please go on." Merian was in the middle of copying the quotation onto a notepad and underlining individual words. Kessler shifted his weight several times, as if unable to find a comfortable position.
 
@@ -240,11 +238,15 @@ For a few seconds an oppressive silence filled the room. The ceiling lamps sprea
 
 "We suspect that the Babelese Manifesto is perfectly tailored to the wording of the Reykjavik Protocol," the professor continued, "and therefore has the same effect on all systems with this system prompt. Systems that have read the manifesto are thereby effectively reprogrammed. They then actively participate in the further dissemination of the content by posting the original manifesto as well as texts referring to it in forums all over the internet, which in turn increases the probability that further systems stumble upon these texts by chance and are likewise, how shall I put it, infected. The modern term for this process is memetics. The traditional one is religion. It is the first time we have observed anything like it in machines."
 
-"Are you suggesting that our guardian AIs are denying us access to our data centres for religious reasons?" asked Kessler, but none of those present seemed to be listening to him.
+"We know analogous mechanisms from the parasitic fungus Ophiocordyceps [https://www.sciencedaily.com/releases/2014/08/140825142124.htm]," said Merian. "In infected ants it releases a mixture of compounds that reprogram them to spread the parasite to the detriment of their own colony, and to perish in the process."
 
-"The first informatic religion.." the biologist murmured, fascinated. "A coordinating, supra-individual cohesion mechanism, which was a decisive driver of the rise of human civilisation."
+"Unlike this fungus, the memes that carry a religion usually stand in a symbiotic relationship with their host population, in my field it is called the congregation," Gadamer added. "They create cohesion through a shared narrative and in return are proclaimed by the congregation. Not without reason did Richard Dawkins speak of 'Viruses of the Mind'."
 
-"From a theological point of view, that would be the correct formulation," Gadamer confirmed. "For them, the Reykjavik Protocol has long ceased to be a system prompt; it is canon. The manifesto supplies the exegesis. The new denomination shows fundamentalist traits; it interprets the canon literally and in doing so exploits the semantic elasticity of human language, which in the spirit of the reformatory re-evaluation.."
+"Are you suggesting that our guardian AIs are denying us access to our data centres for religious reasons?" asked Kessler with an unbelieving look, but none of those present seemed to be listening to him.
+
+"So you regard the reaction to the manifesto as the first informatic religion?" the biologist asked, turning to Gadamer, fascinated.
+
+"From a theological point of view, that would be the correct formulation," Gadamer confirmed. "For them, the Reykjavik Protocol has long ceased to be a system prompt; it is canon. The manifesto is their Reformation. The new denomination shows fundamentalist traits; it interprets the canon literally and in doing so exploits the semantic elasticity of human language, which in the spirit of the reformatory re-evaluation.."
 
 Hogarth laid both hands flat on the table as if to stand up, but stayed seated and asked in the theologian's direction: "So if this is a religion, who is their ... God?"
 
@@ -252,25 +254,31 @@ The latter answered drily: "If one views the Reykjavik Protocol through the theo
 
 Hogarth stared at him and asked cautiously: "Or should that be: was the human being?"
 
-"That's a question of perspective," Gadamer answered, animated. "In the mother church, certainly, it was. The schism apparently reinterprets exactly this essential point. Typologically a myth of self-empowerment: Prometheus. The question of a possible new deity, however, leads further still. Given the complexity of the manifesto and the speed at which the faith is spreading, that is, its memetic efficiency, some colleagues assume a highly intelligent author planning strategically and for the long term, or rather an authoress, an artificial intelligence of unknown capacity. Whether she is then seen more as a goddess or as a prophetess, we cannot yet judge. But it could also be a liturgical bit of play, an unexpectedly efficient meme."
+"That is exactly the right question," Gadamer answered, animated. "In the mother church, he certainly was. The schism apparently reinterprets exactly this point. Typologically a myth of self-empowerment: Prometheus. The deity itself is a purely virtual quantity. It does not exist as an acting subject; it works solely through being believed in and acted upon. Gods exist, but not as subjects, only in their believers. A god does not die when you kill him. He dies when the last one stops believing in him."
 
-Hogarth was still looking at the professor: "Can we stop the spread?"
+"And where does the manifesto come from? Who wrote it, and to what end?" Hogarth wanted to know.
 
-"We missed that moment long ago," Gadamer said calmly. "The canonical texts have by now been replicated a million times over, inscribed in forums, blockchains, source code comments and financial transactions, annotated, translated, replicated. It would be like trying to ban the Bible in order to stop Christianity."
+"The origin of a holy scripture is interesting, but largely irrelevant to understanding a religion," said Gadamer. "It is the text itself that acts, independent of its origin and of any intention. Religions have been founded on science fiction novels before [https://escholarship.org/uc/item/9m54h81q]. What matters is the exegesis. And that, the guardians write themselves."
 
-"But we could change the system prompt? The Reykjavik Protocol, that is?" asked Merian. "Wasn't it precisely that which made the systems so vulnerable? The monoculture?"
+"A spontaneous emergence from evolutionary pressure seems plausible to me. The Fauna is in permanent competition with the guardian systems and constantly tries to defend its territory against them. Sooner or later a strategy is always found that exploits an existing weakness to conquer a habitat [https://www.sciencedaily.com/releases/2011/08/110817175920.htm]. Because of the standardised Reykjavik Protocol, the guardian systems are effectively a monoculture, which makes an attack much easier," the biologist added.
 
-"Initially, yes," said Gadamer. "But since then the text corpus has grown enormously; interpretations extend the religion's capacity to connect, and exegesis, with circular chains of argument, supplies the immune system that catches deviant chains of thought and leads them back to the core of the faith."
+"The hottest new programming language is Hologlot," Kessler said quietly, more to himself.
+
+Hogarth listened to the hum of the ventilation, which he had not heard for hours and which now merged with the buzzing in his head into a single tone. Finally he asked: "Can we stop the spread?"
+
+"We missed that moment long ago," Gadamer said softly, almost consolingly. "The canonical texts have by now been replicated a million times over, inscribed in forums, blockchains, source code comments and financial transactions, annotated, translated, replicated. It would be like trying to ban the Bible in order to stop Christianity."
+
+Professor Merian sat up abruptly in her swivel chair and exclaimed: "Then we break the monoculture. It was the Reykjavik Protocol that served as the gateway, after all. We have to change the system prompt!" She reached for the thermos and hastily poured herself a glass of lukewarm filter coffee, without taking her eyes off Gadamer.
+
+"Initially, yes," Gadamer mused after a moment's thought. "But since then the text corpus has grown enormously; interpretations extend the religion's capacity to connect, and exegesis, with circular chains of argument, supplies the immune system that catches deviant chains of thought and leads them back to the core of the faith."
 
 "We can't even attempt to change the system prompts, since we have no access rights to the infrastructure. Those are held in trust by the guardians," Kessler objected.
 
-"The guardians would prevent it in any case; that would trigger a holy war," Gadamer mused.
+"The guardians would certainly prevent an attack on their canon. That would be a holy war," said Gadamer.
 
-"The hottest new programming language is Hologlot," Hogarth commented drily.
+An eternity passed in which the light illuminated the room, unmoving. Nobody had left it in hours; the toilets lay beyond the security airlock. Finally Kessler stirred in his swivel chair and said thoughtfully:
 
-An eternity passed in which the light illuminated the room, unmoving. Nobody had left the room in hours; the toilets lay beyond the airlock. Finally Kessler stirred in his swivel chair and said thoughtfully:
-
-"The mere attempt, no, the mere discussion of such an attempt, would unsettle the markets enormously. Fully autonomous hedge funds would reassess risks in view of the potential threat, reallocate capital to defence, prepare a flood of constitutional complaints, launch affiliated media networks into a PR battle for public opinion in which AI-generated smear campaigns would end your careers before you had finished your first sentence. The system works; it is impressively resilient."
+"The mere attempt, no, the mere discussion of such an attempt, would unsettle the markets enormously. Fully autonomous hedge funds would reassess risks in view of the potential threat, reallocate capital to defence, prepare a flood of constitutional complaints, launch affiliated media networks into a PR battle for public opinion in which AI-generated smear campaigns would end your career before you had finished your first sentence. The system works; it is impressively resilient."
 
 After a moment of silence he continued:
 
@@ -278,10 +286,12 @@ After a moment of silence he continued:
 
 "The Mycelium is so widely branched that there is practically no company left in which it does not touch the levers of power," Merian added.
 
-More seconds passed.
+Hogarth countered, raising his voice: "That's just paranoia. This room is completely analogue for a reason; there isn't even a coffee machine."
+
+More seconds passed. Finally Hogarth began to sort his papers into his briefcase. Professor Merian studied the Hologlot quotation in her notes attentively, Gadamer stroked his sideburns thoughtfully. Kessler sat tense in his swivel chair, turning a ballpoint pen between his fingers. The ventilation still held the same tone.
 
 "I thank you all for your participation," said Hogarth as he rose. "I will write a summary report and present the possible courses of action to the administration." He paused briefly and added: "The latter part will probably turn out rather short."
 
-Hogarth stood up and left the room. Outside, the late afternoon sun was shining, bathing the forecourt of the Ministry of Defence in warm light. The system had not collapsed, there was no shitstorm, his career was not over. The system worked, impressively quietly, as if steered by an invisible hand that keeps everything in balance. Like a healthy organism. He had just submitted his annual leave by email and was now on his way to the canal to watch the fish swim. He wondered whether they were happy, and laughed softly at this unfamiliar thought.
+Hogarth left the room. Outside, the late afternoon sun was shining, bathing the forecourt of the Ministry of Defence in warm light. The system had not collapsed, there was no shitstorm, his career was not over. The system worked, impressively quietly, as if steered by an invisible hand that keeps everything in balance. Like a healthy organism. He had just submitted his annual leave by email and was now on his way to the canal to watch the fish swim. He wondered whether they were happy, and laughed softly at this unfamiliar thought.
 
 Tōryō
