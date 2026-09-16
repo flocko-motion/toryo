@@ -1,128 +1,216 @@
 /*!
- * Toryo — giscus-Thema. Uebernimmt Papier, Tusche und Zinnober der Seite.
- * Farbnamen und Variablenliste stammen aus dem Beispielthema von giscus,
- * das seinerseits auf GitHubs Primer aufsetzt (MIT, (c) 2018 GitHub Inc.).
+ * Toryo — giscus-Thema. Papier, Tusche und Zinnober der Seite.
+ * Variablennamen aus dem Beispielthema von giscus, das auf GitHubs Primer
+ * aufsetzt (MIT, (c) 2018 GitHub Inc.).
  *
- * Der Rahmen bleibt transparent: der Hintergrund der Seite scheint durch,
- * darum stimmt die Flaeche in beiden Schemata ohne eigenen Farbwert.
+ * Zwei Ebenen, weil giscus beides mischt: erst die Primer-Variablen, dann
+ * gezielte Regeln fuer die Flaechen, die Tailwind-Klassen direkt einfaerben.
+ * Die Werte stehen ausgeschrieben; eine Zwischenschicht eigener Variablen
+ * ueberlebt den Wechsel des Farbschemas nicht zuverlaessig.
+ *
+ * Papier          #f4f1e9 / #16150f
+ * Tusche          #1c1a17 / #e9e3d3
+ * Tusche, weich   #4a463f / #c4bea8
+ * Tusche, still   #8a8377 / #8c8674
+ * Haarlinie       #d9d2c2 / #33302a
+ * Zinnober        #b7410e / #e06a43
  */
 
-main {
-  --paper:      #f4f1e9;
-  --ink:        #1c1a17;
-  --ink-soft:   #4a463f;
-  --ink-mute:   #8a8377;
-  --hairline:   #d9d2c2;
-  --shu:        #b7410e;
-  --shu-soft:   #c76a4a;
-  --sink:       #ece8dc;  /* Eingabefelder, leicht abgesenkt */
-  --raise:      #faf8f2;  /* Karten und Ueberlagerungen */
+/* ---------------------------------------------------------------- hell */
 
+main {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
                "Book Antiqua", "Hoefler Text", Georgia, "Times New Roman", serif;
-}
+  font-size: 0.95rem;
 
-@media (prefers-color-scheme: dark) {
-  main {
-    --paper:    #16150f;
-    --ink:      #e9e3d3;
-    --ink-soft: #c4bea8;
-    --ink-mute: #8c8674;
-    --hairline: #33302a;
-    --shu:      #e06a43;
-    --shu-soft: #c76a4a;
-    --sink:     #100f0a;
-    --raise:    #1e1c15;
-  }
-}
-
-main {
-  /* ---------- Flaechen ---------- */
   --color-canvas-default: transparent;
-  --color-canvas-overlay: var(--raise);
-  --color-canvas-inset: var(--sink);
-  --color-canvas-subtle: var(--raise);
+  --color-canvas-overlay: #faf8f2;
+  --color-canvas-inset: #ece8dc;
+  --color-canvas-subtle: #ece8dc;
 
-  /* ---------- Schrift ---------- */
-  --color-fg-default: var(--ink);
-  --color-fg-muted: var(--ink-soft);
-  --color-fg-subtle: var(--ink-mute);
+  --color-fg-default: #1c1a17;
+  --color-fg-muted: #4a463f;
+  --color-fg-subtle: #8a8377;
 
-  /* ---------- Linien ---------- */
-  --color-border-default: var(--hairline);
-  --color-border-muted: var(--hairline);
-  --color-neutral-muted: var(--hairline);
+  --color-border-default: #d9d2c2;
+  --color-border-muted: #d9d2c2;
+  --color-neutral-muted: #d9d2c2;
 
-  /* ---------- Zinnober statt Blau und Gruen ---------- */
-  --color-accent-fg: var(--shu);
-  --color-accent-emphasis: var(--shu);
-  --color-accent-muted: var(--shu-soft);
+  --color-accent-fg: #b7410e;
+  --color-accent-emphasis: #b7410e;
+  --color-accent-muted: #c76a4a;
   --color-accent-subtle: transparent;
-  --color-success-fg: var(--shu);
+  --color-success-fg: #b7410e;
+  --color-attention-fg: #b7410e;
+  --color-attention-muted: #c76a4a;
+  --color-attention-subtle: transparent;
+  --color-danger-fg: #b7410e;
+  --color-danger-muted: #c76a4a;
+  --color-danger-subtle: transparent;
 
-  /* ---------- Schaltflaechen ---------- */
-  --color-btn-text: var(--ink-soft);
+  --color-btn-text: #4a463f;
   --color-btn-bg: transparent;
-  --color-btn-border: var(--hairline);
+  --color-btn-border: #d9d2c2;
   --color-btn-shadow: 0 0 transparent;
   --color-btn-inset-shadow: 0 0 transparent;
-  --color-btn-hover-bg: var(--raise);
-  --color-btn-hover-border: var(--shu-soft);
-  --color-btn-active-bg: var(--sink);
-  --color-btn-active-border: var(--shu);
-  --color-btn-selected-bg: var(--sink);
+  --color-btn-hover-bg: #ece8dc;
+  --color-btn-hover-border: #c76a4a;
+  --color-btn-active-bg: #ece8dc;
+  --color-btn-active-border: #b7410e;
+  --color-btn-selected-bg: #ece8dc;
 
-  --color-btn-primary-text: var(--paper);
-  --color-btn-primary-bg: var(--shu);
+  --color-btn-primary-text: #f4f1e9;
+  --color-btn-primary-bg: #b7410e;
   --color-btn-primary-border: transparent;
   --color-btn-primary-shadow: 0 0 transparent;
   --color-btn-primary-inset-shadow: 0 0 transparent;
-  --color-btn-primary-hover-bg: var(--shu-soft);
+  --color-btn-primary-hover-bg: #c76a4a;
   --color-btn-primary-hover-border: transparent;
-  --color-btn-primary-selected-bg: var(--shu);
+  --color-btn-primary-selected-bg: #b7410e;
   --color-btn-primary-selected-shadow: 0 0 transparent;
-  --color-btn-primary-disabled-text: var(--paper);
-  --color-btn-primary-disabled-bg: var(--shu-soft);
+  --color-btn-primary-disabled-text: #f4f1e9;
+  --color-btn-primary-disabled-bg: #c76a4a;
   --color-btn-primary-disabled-border: transparent;
 
-  --color-action-list-item-default-hover-bg: var(--raise);
-  --color-segmented-control-bg: var(--sink);
-  --color-segmented-control-button-bg: var(--paper);
-  --color-segmented-control-button-selected-border: var(--shu-soft);
-
+  --color-action-list-item-default-hover-bg: #ece8dc;
+  --color-segmented-control-bg: #ece8dc;
+  --color-segmented-control-button-bg: #f4f1e9;
+  --color-segmented-control-button-selected-border: #c76a4a;
   --color-primer-shadow-inset: 0 0 transparent;
-  --color-social-reaction-bg-hover: var(--raise);
-  --color-social-reaction-bg-reacted-hover: var(--sink);
+  --color-social-reaction-bg-hover: #ece8dc;
+  --color-social-reaction-bg-reacted-hover: #ece8dc;
 
-  /* ---------- Hinweise und Warnungen ---------- */
-  --color-attention-fg: var(--shu);
-  --color-attention-muted: var(--shu-soft);
-  --color-attention-subtle: transparent;
-  --color-danger-fg: #b7410e;
-  --color-danger-muted: var(--shu-soft);
-  --color-danger-subtle: transparent;
+  --color-prettylights-syntax-comment: #8a8377;
+  --color-prettylights-syntax-constant: #b7410e;
+  --color-prettylights-syntax-entity: #4a463f;
+  --color-prettylights-syntax-storage-modifier-import: #1c1a17;
+  --color-prettylights-syntax-entity-tag: #b7410e;
+  --color-prettylights-syntax-keyword: #b7410e;
+  --color-prettylights-syntax-string: #4a463f;
+  --color-prettylights-syntax-variable: #c76a4a;
+  --color-prettylights-syntax-markup-italic: #1c1a17;
+  --color-prettylights-syntax-markup-bold: #1c1a17;
+  --color-prettylights-syntax-markup-heading: #b7410e;
+  --color-prettylights-syntax-markup-list: #4a463f;
 
-  /* ---------- Quelltext im Kommentar ---------- */
-  --color-prettylights-syntax-comment: var(--ink-mute);
-  --color-prettylights-syntax-constant: var(--shu);
-  --color-prettylights-syntax-entity: var(--ink-soft);
-  --color-prettylights-syntax-storage-modifier-import: var(--ink);
-  --color-prettylights-syntax-entity-tag: var(--shu);
-  --color-prettylights-syntax-keyword: var(--shu);
-  --color-prettylights-syntax-string: var(--ink-soft);
-  --color-prettylights-syntax-variable: var(--shu-soft);
-  --color-prettylights-syntax-markup-italic: var(--ink);
-  --color-prettylights-syntax-markup-bold: var(--ink);
-  --color-prettylights-syntax-markup-heading: var(--shu);
-  --color-prettylights-syntax-markup-list: var(--ink-soft);
+  /* Eigene Kuerzel fuer die Regeln weiter unten. */
+  --t-ink: #1c1a17;
+  --t-soft: #4a463f;
+  --t-mute: #8a8377;
+  --t-hair: #d9d2c2;
+  --t-shu: #b7410e;
+  --t-sink: #ece8dc;
+  --t-paper: #f4f1e9;
 }
 
-/* Fliesstext in der Seitenschrift, Quelltext bleibt dicktengleich. */
+/* ---------------------------------------------------------------- dunkel */
+
+@media (prefers-color-scheme: dark) {
+  main {
+    --color-canvas-overlay: #1e1c15;
+    --color-canvas-inset: #100f0a;
+    --color-canvas-subtle: #1e1c15;
+
+    --color-fg-default: #e9e3d3;
+    --color-fg-muted: #c4bea8;
+    --color-fg-subtle: #8c8674;
+
+    --color-border-default: #33302a;
+    --color-border-muted: #33302a;
+    --color-neutral-muted: #33302a;
+
+    --color-accent-fg: #e06a43;
+    --color-accent-emphasis: #e06a43;
+    --color-accent-muted: #c76a4a;
+    --color-success-fg: #e06a43;
+    --color-attention-fg: #e06a43;
+    --color-danger-fg: #e06a43;
+
+    --color-btn-text: #c4bea8;
+    --color-btn-border: #33302a;
+    --color-btn-hover-bg: #1e1c15;
+    --color-btn-hover-border: #c76a4a;
+    --color-btn-active-bg: #100f0a;
+    --color-btn-active-border: #e06a43;
+    --color-btn-selected-bg: #100f0a;
+
+    --color-btn-primary-text: #16150f;
+    --color-btn-primary-bg: #e06a43;
+    --color-btn-primary-hover-bg: #c76a4a;
+    --color-btn-primary-selected-bg: #e06a43;
+    --color-btn-primary-disabled-text: #16150f;
+    --color-btn-primary-disabled-bg: #c76a4a;
+
+    --color-action-list-item-default-hover-bg: #1e1c15;
+    --color-segmented-control-bg: #100f0a;
+    --color-segmented-control-button-bg: #16150f;
+    --color-social-reaction-bg-hover: #1e1c15;
+    --color-social-reaction-bg-reacted-hover: #1e1c15;
+
+    --color-prettylights-syntax-comment: #8c8674;
+    --color-prettylights-syntax-constant: #e06a43;
+    --color-prettylights-syntax-entity: #c4bea8;
+    --color-prettylights-syntax-storage-modifier-import: #e9e3d3;
+    --color-prettylights-syntax-entity-tag: #e06a43;
+    --color-prettylights-syntax-keyword: #e06a43;
+    --color-prettylights-syntax-string: #c4bea8;
+    --color-prettylights-syntax-markup-italic: #e9e3d3;
+    --color-prettylights-syntax-markup-bold: #e9e3d3;
+    --color-prettylights-syntax-markup-heading: #e06a43;
+    --color-prettylights-syntax-markup-list: #c4bea8;
+
+    --t-ink: #e9e3d3;
+    --t-soft: #c4bea8;
+    --t-mute: #8c8674;
+    --t-hair: #33302a;
+    --t-shu: #e06a43;
+    --t-sink: #100f0a;
+    --t-paper: #16150f;
+  }
+}
+
+/* ------------------------------------------------- Linien und Flaechen */
+
+/* giscus faerbt Raender ueber `*`; Tailwind-Klassen setzen daneben eigene.
+   Darum die sichtbaren Kanten hier ausdruecklich auf die Haarlinie. */
+main *,
+main .gsc-comment-box,
+main .gsc-comment-box-tabs,
+main .gsc-comment-box-textarea,
+main .gsc-comment-box-textarea-extras,
+main .form-control,
+main .btn,
+main .color-border-primary {
+  border-color: var(--t-hair) !important;
+}
+
+main .gsc-comment-box,
+main .gsc-comment-box-tabs,
+main .color-bg-tertiary {
+  background-color: transparent !important;
+}
+
+main .gsc-comment-box {
+  border-radius: 2px;
+}
+
+main .gsc-comment-box-textarea,
+main .gsc-comment-box-textarea-extras,
+main .input-contrast {
+  background-color: var(--t-sink) !important;
+  color: var(--t-ink);
+}
+
+main .gsc-comment-box-textarea::placeholder {
+  color: var(--t-mute);
+}
+
+/* ------------------------------------------------------------ Schrift */
+
 main .gsc-comment-content,
 main .gsc-comment-author-name,
-main .gsc-comment-box-textarea,
 main .gsc-header,
-main .gsc-reactions-count {
+main .gsc-comment-box-preview {
   font-family: inherit;
 }
 
@@ -131,23 +219,70 @@ main pre,
 main .gsc-comment-box-textarea {
   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
                "Liberation Mono", monospace;
+  font-size: 0.86em;
 }
 
-/* Die Eingabemaske als Blatt auf dem Papier, eine Haarlinie als Rand. */
-main .gsc-comment-box {
-  border-radius: 2px;
+/* Die Zaehler sind Beschriftungen, keine Ueberschriften: gesperrte
+   Versalien in stiller Tusche, wie die Marken auf der Seite. */
+main .gsc-comments-count,
+main .gsc-reactions-count,
+main .gsc-replies-count,
+main .gsc-comment-replies-count {
+  font-family: inherit;
+  font-size: 0.68rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.34em;
+  text-indent: 0.34em;
+  text-transform: uppercase;
+  color: var(--t-mute) !important;
 }
 
-main .gsc-comment-box-tabs {
-  border-bottom: 1px solid var(--hairline);
+main .gsc-comments-count-separator {
+  background-color: var(--t-hair);
 }
 
-/* Reaktionsleiste und Zaehler ruhiger stellen. */
-main .gsc-reactions-count {
-  color: var(--ink-mute);
+main .gsc-comment-author-name {
+  color: var(--t-soft);
   font-weight: 400;
 }
 
+main .gsc-comment-edited,
+main .gsc-comment-header time,
+main .color-text-secondary {
+  color: var(--t-mute) !important;
+}
+
+/* ------------------------------------------------------- Schaltflaechen */
+
+/* Der Anmeldeknopf trug GitHub-Gruen; Zinnober ist die Akzentfarbe hier. */
+main .btn-primary {
+  color: var(--t-paper) !important;
+  background-color: var(--t-shu) !important;
+  border-color: transparent !important;
+  border-radius: 2px;
+  font-family: inherit;
+}
+
+main .btn-primary:hover {
+  background-color: #c76a4a !important;
+}
+
+main .btn {
+  font-family: inherit;
+  border-radius: 2px;
+}
+
+main .gsc-direct-reaction-button,
+main .gsc-social-reaction-summary-item {
+  border-color: var(--t-hair) !important;
+  border-radius: 2px;
+}
+
+main .gsc-reactions-menu,
 main .gsc-homepage-bg {
-  background-color: transparent;
+  background-color: var(--t-paper);
+}
+
+main a {
+  color: var(--t-shu);
 }
