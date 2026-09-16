@@ -20,6 +20,7 @@ SITE      := site
 
 INDEX     := $(SITE)/index.html
 FAVICON   := $(SITE)/favicon.svg
+GISCUSCSS := $(SITE)/giscus.css
 PYTHON    ?= python3
 
 # Artefakte einer Sprache: $(call artefacts,<praefix>)
@@ -35,7 +36,7 @@ EN_OUT := $(if $(SRC_EN),$(call artefacts,toryo-en),)
 
 .PHONY: all clean open watch index de en help
 
-all: $(INDEX) $(FAVICON) de en   ## alles bauen (Vorgabe)
+all: $(INDEX) $(FAVICON) $(GISCUSCSS) de en   ## alles bauen (Vorgabe)
 
 de: $(DE_OUT)                    ## nur die deutsche Fassung
 en: $(EN_OUT)                    ## nur die englische Fassung
@@ -45,6 +46,9 @@ $(SITE):
 	@mkdir -p $(SITE)
 
 $(FAVICON): $(TPL)/favicon.svg | $(SITE)
+	cp $< $@
+
+$(GISCUSCSS): $(TPL)/giscus.css | $(SITE)
 	cp $< $@
 
 # Die Startseite haengt auch an SRC_EN: taucht die Uebersetzung auf,
@@ -107,7 +111,7 @@ open: $(INDEX)                   ## Startseite im Browser oeffnen
 
 clean:                           ## alle Artefakte in site/ loeschen
 	rm -f $(SITE)/*.html $(SITE)/*.typ $(SITE)/*.pdf $(SITE)/*.epub \
-	      $(SITE)/*.png $(SITE)/*.txt $(SITE)/*.svg
+	      $(SITE)/*.png $(SITE)/*.txt $(SITE)/*.svg $(SITE)/*.css
 
 watch:                           ## bei jeder Aenderung neu bauen
 	@command -v fswatch >/dev/null 2>&1 || { echo "fswatch fehlt: brew install fswatch"; exit 1; }

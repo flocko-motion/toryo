@@ -1,0 +1,153 @@
+/*!
+ * Toryo — giscus-Thema. Uebernimmt Papier, Tusche und Zinnober der Seite.
+ * Farbnamen und Variablenliste stammen aus dem Beispielthema von giscus,
+ * das seinerseits auf GitHubs Primer aufsetzt (MIT, (c) 2018 GitHub Inc.).
+ *
+ * Der Rahmen bleibt transparent: der Hintergrund der Seite scheint durch,
+ * darum stimmt die Flaeche in beiden Schemata ohne eigenen Farbwert.
+ */
+
+main {
+  --paper:      #f4f1e9;
+  --ink:        #1c1a17;
+  --ink-soft:   #4a463f;
+  --ink-mute:   #8a8377;
+  --hairline:   #d9d2c2;
+  --shu:        #b7410e;
+  --shu-soft:   #c76a4a;
+  --sink:       #ece8dc;  /* Eingabefelder, leicht abgesenkt */
+  --raise:      #faf8f2;  /* Karten und Ueberlagerungen */
+
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+               "Book Antiqua", "Hoefler Text", Georgia, "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  main {
+    --paper:    #16150f;
+    --ink:      #e9e3d3;
+    --ink-soft: #c4bea8;
+    --ink-mute: #8c8674;
+    --hairline: #33302a;
+    --shu:      #e06a43;
+    --shu-soft: #c76a4a;
+    --sink:     #100f0a;
+    --raise:    #1e1c15;
+  }
+}
+
+main {
+  /* ---------- Flaechen ---------- */
+  --color-canvas-default: transparent;
+  --color-canvas-overlay: var(--raise);
+  --color-canvas-inset: var(--sink);
+  --color-canvas-subtle: var(--raise);
+
+  /* ---------- Schrift ---------- */
+  --color-fg-default: var(--ink);
+  --color-fg-muted: var(--ink-soft);
+  --color-fg-subtle: var(--ink-mute);
+
+  /* ---------- Linien ---------- */
+  --color-border-default: var(--hairline);
+  --color-border-muted: var(--hairline);
+  --color-neutral-muted: var(--hairline);
+
+  /* ---------- Zinnober statt Blau und Gruen ---------- */
+  --color-accent-fg: var(--shu);
+  --color-accent-emphasis: var(--shu);
+  --color-accent-muted: var(--shu-soft);
+  --color-accent-subtle: transparent;
+  --color-success-fg: var(--shu);
+
+  /* ---------- Schaltflaechen ---------- */
+  --color-btn-text: var(--ink-soft);
+  --color-btn-bg: transparent;
+  --color-btn-border: var(--hairline);
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: var(--raise);
+  --color-btn-hover-border: var(--shu-soft);
+  --color-btn-active-bg: var(--sink);
+  --color-btn-active-border: var(--shu);
+  --color-btn-selected-bg: var(--sink);
+
+  --color-btn-primary-text: var(--paper);
+  --color-btn-primary-bg: var(--shu);
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: var(--shu-soft);
+  --color-btn-primary-hover-border: transparent;
+  --color-btn-primary-selected-bg: var(--shu);
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: var(--paper);
+  --color-btn-primary-disabled-bg: var(--shu-soft);
+  --color-btn-primary-disabled-border: transparent;
+
+  --color-action-list-item-default-hover-bg: var(--raise);
+  --color-segmented-control-bg: var(--sink);
+  --color-segmented-control-button-bg: var(--paper);
+  --color-segmented-control-button-selected-border: var(--shu-soft);
+
+  --color-primer-shadow-inset: 0 0 transparent;
+  --color-social-reaction-bg-hover: var(--raise);
+  --color-social-reaction-bg-reacted-hover: var(--sink);
+
+  /* ---------- Hinweise und Warnungen ---------- */
+  --color-attention-fg: var(--shu);
+  --color-attention-muted: var(--shu-soft);
+  --color-attention-subtle: transparent;
+  --color-danger-fg: #b7410e;
+  --color-danger-muted: var(--shu-soft);
+  --color-danger-subtle: transparent;
+
+  /* ---------- Quelltext im Kommentar ---------- */
+  --color-prettylights-syntax-comment: var(--ink-mute);
+  --color-prettylights-syntax-constant: var(--shu);
+  --color-prettylights-syntax-entity: var(--ink-soft);
+  --color-prettylights-syntax-storage-modifier-import: var(--ink);
+  --color-prettylights-syntax-entity-tag: var(--shu);
+  --color-prettylights-syntax-keyword: var(--shu);
+  --color-prettylights-syntax-string: var(--ink-soft);
+  --color-prettylights-syntax-variable: var(--shu-soft);
+  --color-prettylights-syntax-markup-italic: var(--ink);
+  --color-prettylights-syntax-markup-bold: var(--ink);
+  --color-prettylights-syntax-markup-heading: var(--shu);
+  --color-prettylights-syntax-markup-list: var(--ink-soft);
+}
+
+/* Fliesstext in der Seitenschrift, Quelltext bleibt dicktengleich. */
+main .gsc-comment-content,
+main .gsc-comment-author-name,
+main .gsc-comment-box-textarea,
+main .gsc-header,
+main .gsc-reactions-count {
+  font-family: inherit;
+}
+
+main code,
+main pre,
+main .gsc-comment-box-textarea {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+               "Liberation Mono", monospace;
+}
+
+/* Die Eingabemaske als Blatt auf dem Papier, eine Haarlinie als Rand. */
+main .gsc-comment-box {
+  border-radius: 2px;
+}
+
+main .gsc-comment-box-tabs {
+  border-bottom: 1px solid var(--hairline);
+}
+
+/* Reaktionsleiste und Zaehler ruhiger stellen. */
+main .gsc-reactions-count {
+  color: var(--ink-mute);
+  font-weight: 400;
+}
+
+main .gsc-homepage-bg {
+  background-color: transparent;
+}

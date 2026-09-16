@@ -45,6 +45,10 @@ HEAD_RE = re.compile(r"^([a-z_]+):[ \t]+(.*)$")
 # sobald das Repository oeffentlich ist, Discussions aktiv sind und die
 # giscus-App Zugriff hat. Solange beide leer sind, bleibt der Block weg.
 GISCUS = {
+    # Eigenes Thema; die Datei muss mit "Access-Control-Allow-Origin: *"
+    # ausgeliefert werden, weil giscus sie als crossorigin-Stylesheet laedt.
+    # Ohne den Kopf faellt die Darstellung auf GitHub-Blau zurueck.
+    "theme": "https://www.fmnoel.de/toryo/giscus.css",
     "repo": "flocko-motion/toryo",
     "repo_id": "R_kgDOUZWngw",
     "category": "Announcements",
@@ -83,7 +87,7 @@ def render_comments(lang: str, label: str = "", term: str = "") -> str:
         '              data-reactions-enabled="1"\n'
         '              data-emit-metadata="0"\n'
         '              data-input-position="bottom"\n'
-        '              data-theme="preferred_color_scheme"\n'
+        f'              data-theme="{GISCUS["theme"]}"\n'
         f'              data-lang="{lang}"\n'
         '              data-loading="lazy"\n'
         '              crossorigin="anonymous"\n'
