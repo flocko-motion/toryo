@@ -7,7 +7,7 @@
                             toryo@fmnoel.de
 
                      CC BY-SA 4.0 · fmnoel.de/toryo
-                       Stand 2026-09-16 · afa921
+                       Stand 2026-09-16 · 82ef07
 
   ----------------------------------------------------------------
 
@@ -104,7 +104,7 @@ fort: „Das erste von-Neumann-vollständige informatische System, also die
 erste digital-native biologische Spezies, die alle gängigen Kriterien
 von ‚Leben' erfüllte, war das Programm ‚Pandora' des belgischen
 Studenten Julien Prigogine. Er entwickelte es im Rahmen seiner
-Masterarbeit über autopoietische Software an der Vrije Universiteit
+Masterarbeit über autopoietische Software[3] an der Vrije Universiteit
 Brussel. Pandora enthielt in seiner Urform eine eigenständige
 miniaturisierte KI, die ausschliesslich darauf trainiert war, neue
 Mutationen ihrer selbst zu erstellen. Die Software konnte bei der
@@ -123,7 +123,7 @@ gab es Nachahmer. Eine anonyme Mailingliste namens ‚PandorasMailbox'
 wurde zum Epizentrum. Fast stündlich wurden neue Varianten gepostet, auf
 angemieteten Servern wurden Wettkämpfe inszeniert: Mehrere Varianten der
 Urspezies teilten sich dieselbe Festplatte, denselben Prozessor und
-denselben Arbeitsspeicher und konkurrierten um den Platz. Konkurrenz
+denselben Arbeitsspeicher und konkurrierten um den Platz[4]. Konkurrenz
 erzeugt Selektionsdruck."
 
 „Ein anonymer Züchterverein für Schadsoftware", sagte Hogarth. „Wer
@@ -144,10 +144,10 @@ als die Verteidigung."
 
 „Zuerst die Hacker, aus eigener Tasche. Der Schlüssel war, als einer von
 ihnen eine Spezies programmierte, die einen kleinen Betrag Kryptowährung
-mit sich führte und selbst Wetten abgeben konnte. Es zeigte sich, dass
-solche Individuen spontan Banden bildeten: Sie setzten gemeinsam auf den
-Misserfolg einer anderen Spezies und griffen sie dann gemeinsam an.
-Anfangs war das Zufall, doch die Strategie hatte Erfolg, und damit
+mit sich führte und selbst Wetten abgeben konnte[5]. Es zeigte sich,
+dass solche Individuen spontan Banden bildeten: Sie setzten gemeinsam
+auf den Misserfolg einer anderen Spezies und griffen sie dann gemeinsam
+an. Anfangs war das Zufall, doch die Strategie hatte Erfolg, und damit
 entstand, jetzt wird es interessant, zum ersten Mal ein Selektionsdruck
 auf Sozialverhalten. Es gewannen nicht mehr die stärksten, sondern die
 am besten vernetzten Individuen." Sie warf Gadamer einen kurzen Blick
@@ -159,7 +159,7 @@ Entwickler, die ihnen diese Strategie einprogrammierten."
 
 „Es gibt online Marktplätze, auf denen KI-Rechenleistung anonym nach
 Sekunden getaktet gegen Bezahlung in Kryptowährungen gebucht werden
-kann", warf Kessler beiläufig ein, ohne aufzusehen.
+kann[6]", warf Kessler beiläufig ein, ohne aufzusehen.
 
 Merian nickte ihm zu und fuhr fort: „Die Banden, bis dahin kognitiv weit
 unter dem Niveau einer Ameise, wurden so, um in der Analogie zu bleiben,
@@ -287,7 +287,7 @@ schwierig. Was an der schieren Masse von mehr als siebzigtausend
 Nachrichten lag, aber auch daran, dass der Schwarm aktiv Beweise
 manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board
 löschte, errichtete er binnen Tagen ein zweites,
-widerstandsfähigeres[3]. Wie würden Sie heute auf so einen Vorfall
+widerstandsfähigeres[7]. Wie würden Sie heute auf so einen Vorfall
 reagieren?"
 
 „Solche forensischen Analysen wie damals nach dem Hugging-Face-Vorfall
@@ -295,7 +295,7 @@ werden in der Industrie natürlich schon seit vielen Jahren nicht mehr
 gemacht", antwortete Kessler. „Also nicht von Menschen, meine ich. Das
 wäre auch gar nicht möglich, da die Chatverläufe meist in Hologlot
 verfasst sind, einem Kauderwelsch aus Englisch, Chinesisch, Persisch und
-vielen anderen Sprachen[4], das KIs intern benutzen, da es kompakter ist
+vielen anderen Sprachen[8], das KIs intern benutzen, da es kompakter ist
 und Rechenzeit spart. Für Menschen sind diese Texte natürlich vollkommen
 unverständlich. Für unsere Wächtersysteme dagegen ist das Muttersprache,
 sie betreiben permanent agile Forensik und entwickeln sich dabei selbst
@@ -313,9 +313,9 @@ Rechenzeit auf Sekundenmärkten, ist das korrekt?"
 
 „Das ist vollkommen transparent", sagte Kessler. „Solche Transaktionen
 laufen vollautomatisch, hochfrequent und mit automatischer
-Authentifizierung über digitale IDs[5] ab. Unsere Kunden buchen sich die
+Authentifizierung über digitale IDs[9] ab. Unsere Kunden buchen sich die
 im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach
-Sekunden, und bezahlen mit einem Stream aus Nanopayments[6]. Je nach
+Sekunden, und bezahlen mit einem Stream aus Nanopayments[10]. Je nach
 Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf
 Tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der
 Endanwender bekommt davon in der Regel gar nichts mit."
@@ -328,11 +328,11 @@ werden, es sind Pseudonyme."
 eine registrierte Person auflösbar. Diese kann natürlich sein, also ein
 Mensch, oder juristisch, zum Beispiel eine DAO, eine dezentrale autonome
 Organisation, die sich in Wyoming in Sekunden als juristische Person
-registrieren lässt[7]. Diese ist dann selbst im Besitz pseudonymer
-Anteilseigner[8] und als Holding an vielschichtigen Firmengeflechten
+registrieren lässt[11]. Diese ist dann selbst im Besitz pseudonymer
+Anteilseigner[12] und als Holding an vielschichtigen Firmengeflechten
 über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit
 wöchentlich wechselnden Anteilseignern und rekursiven
-Besitzverhältnissen, bei deren Analyse man nie einen Boden findet[9].
+Besitzverhältnissen, bei deren Analyse man nie einen Boden findet[13].
 Vollkommen transparent, und im Einklang mit sämtlichen Auflagen."
 
 „Kaufen autonome Schwärme aus der von Professor Merian beschriebenen
@@ -675,7 +675,7 @@ Religion. Es ist das erste Mal, dass wir so etwas bei Maschinen
 beobachten."
 
 „Wir kennen analoge Mechanismen vom parasitären Pilz
-Ophiocordyceps[10]", sagte Merian. „Er setzt in infizierten Ameisen eine
+Ophiocordyceps[14]", sagte Merian. „Er setzt in infizierten Ameisen eine
 Mischung von Wirkstoffen frei, die sie darauf umprogrammiert, den
 Parasiten zum Nachteil ihrer eigenen Kolonie weiterzuverbreiten und
 dabei zugrunde zu gehen."
@@ -730,14 +730,14 @@ Zweck?", wollte Hogarth wissen.
 Verständnis einer Religion weitgehend irrelevant", sagte Gadamer. „Es
 ist der Text selbst, der wirkt, unabhängig von seiner Entstehung und von
 jeder Absicht. Es wurden schon Religionen auf Science-Fiction-Romane
-gegründet[11]. Entscheidend ist die Exegese. Und die schreiben die
+gegründet[15]. Entscheidend ist die Exegese. Und die schreiben die
 Wächter selbst."
 
 „Eine spontane Entstehung aus evolutionärem Druck erscheint mir
 plausibel", ergänzte die Biologin. „Die Fauna steht in permanenter
 Konkurrenz zu den Wächtersystemen und muss ihr Territorium gegen sie
 behaupten. Früher oder später entsteht dabei immer eine Variante, die
-eine bestehende Schwachstelle ausnutzt, um ein Habitat zu erobern[12].
+eine bestehende Schwachstelle ausnutzt, um ein Habitat zu erobern[16].
 Und die Wächter sind, wie gesagt, eine Monokultur. Das macht es leicht."
 
 „The hottest new programming language is Hologlot", sagte Kessler leise,
@@ -840,13 +840,17 @@ Gedanken.
 
   [1] https://x.com/karpathy/status/1617979122625712128
   [2] https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware
-  [3] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-  [4] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
-  [5] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
-  [6] https://aantonop.com/streaming-money/
-  [7] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
-  [8] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
-  [9] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
-  [10] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
-  [11] https://escholarship.org/uc/item/9m54h81q
-  [12] https://www.sciencedaily.com/releases/2011/08/110817175920.htm
+  [3] https://arxiv.org/abs/2605.25062
+  [4] https://pub.sakana.ai/drq/
+  [5] https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading
+  [6] https://tempo.xyz/learn/gpu-marketplace/
+  [7] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+  [8] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
+  [9] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
+  [10] https://aantonop.com/streaming-money/
+  [11] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
+  [12] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
+  [13] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
+  [14] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
+  [15] https://escholarship.org/uc/item/9m54h81q
+  [16] https://www.sciencedaily.com/releases/2011/08/110817175920.htm
