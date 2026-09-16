@@ -93,6 +93,31 @@
     font-size: 0.9em;
     letter-spacing: 0.08em;
   }
+  .comments {
+    margin-top: clamp(3.5rem, 12vh, 6rem);
+    padding-top: 2rem;
+    border-top: 1px solid var(--hairline);
+  }
+  .comments-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 1.4rem;
+    font-weight: 400;
+  }
+  .contact {
+    margin-top: 0.2rem;
+    font-size: 0.78em;
+    letter-spacing: 0.06em;
+  }
+  .contact a {
+    color: var(--ink-mute);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .contact a:hover { color: var(--shu); border-bottom-color: var(--shu-soft); }
   .license {
     margin-top: 1.5rem;
     font-size: 0.72rem;
@@ -338,6 +363,8 @@
     </nav>
 
     <div class="stamp">{{VERSION}}</div>
+
+    {{COMMENTS}}
   </main>
 </body>
 </html>

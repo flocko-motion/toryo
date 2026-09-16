@@ -40,7 +40,50 @@ TAG_LINE_RE = re.compile(r"(?m)^[ \t]*\[[A-Za-zÀ-ÿ_-]+\][ \t]*\n?")
 
 # Kopfzeile "schluessel: wert". Der Wert darf weitere Doppelpunkte enthalten.
 HEAD_RE = re.compile(r"^([a-z_]+):[ \t]+(.*)$")
-HEAD_KEYS = ("title", "subtitle", "author", "epigraph", "license", "link", "lang")
+# Kommentare unter dem Text (giscus, gestuetzt auf GitHub Discussions).
+# repo_id und category_id stehen im Konfigurator auf https://giscus.app,
+# sobald das Repository oeffentlich ist, Discussions aktiv sind und die
+# giscus-App Zugriff hat. Solange beide leer sind, bleibt der Block weg.
+GISCUS = {
+    "repo": "flocko-motion/toryo",
+    "repo_id": "",
+    "category": "Kommentare",
+    "category_id": "",
+}
+
+LABEL_COMMENTS = {"de": "Kommentare", "en": "Comments"}
+
+
+def render_comments(lang: str) -> str:
+    """giscus-Einbettung; leer, solange die Kennungen fehlen."""
+    if not (GISCUS["repo_id"] and GISCUS["category_id"]):
+        return ""
+    label = LABEL_COMMENTS.get(lang, LABEL_COMMENTS["de"])
+    return (
+        '<section class="comments">\n'
+        f'      <h2 class="comments-label">{label}</h2>\n'
+        '      <script src="https://giscus.app/client.js"\n'
+        f'              data-repo="{GISCUS["repo"]}"\n'
+        f'              data-repo-id="{GISCUS["repo_id"]}"\n'
+        f'              data-category="{GISCUS["category"]}"\n'
+        f'              data-category-id="{GISCUS["category_id"]}"\n'
+        '              data-mapping="pathname"\n'
+        '              data-strict="1"\n'
+        '              data-reactions-enabled="1"\n'
+        '              data-emit-metadata="0"\n'
+        '              data-input-position="top"\n'
+        '              data-theme="preferred_color_scheme"\n'
+        f'              data-lang="{lang}"\n'
+        '              data-loading="lazy"\n'
+        '              crossorigin="anonymous"\n'
+        '              async>\n'
+        '      </script>\n'
+        '    </section>'
+    )
+
+
+HEAD_KEYS = ("title", "subtitle", "author", "contact", "epigraph", "license",
+             "link", "lang")
 
 # Ein Absatz, der nur aus einem dieser Woerter besteht, wird als Schlussmarke
 # gesetzt (zentriert, gesperrt) statt als Fliesstext.
@@ -268,7 +311,9 @@ def build_text(tpl, out, head, title, title_main, title_seal,
             lines_.append(f"  [{i}] {url}")
         notes_txt = "\n".join(lines_)
 
-    tagline = "\n".join(centre(x) for x in (subtitle, credits) if x)
+    tagline = "\n".join(
+        centre(x) for x in (subtitle, credits, head.get("contact", "")) if x
+    )
     lic = " · ".join(x for x in (
         head.get("license", ""),
         link_label(head["link"]) if head.get("link") else "",
@@ -329,6 +374,11 @@ def build_typst(tpl, out, head, title, title_main, title_seal,
         tagline.append(f"#emph[{esc_typ(subtitle)}]")
     if credits:
         tagline.append(f"#v(0.3em)\n#text(size: 9pt)[{esc_typ(credits)}]")
+    if head.get("contact"):
+        c = head["contact"]
+        tagline.append(
+            f'#v(0.2em)\n#text(size: 8pt)[#link("mailto:{c}")[#text(fill: mute)[{esc_typ(c)}]]]'
+        )
 
     lic_parts = []
     if head.get("license"):
@@ -401,10 +451,16 @@ def main() -> int:
 
     # Untertitel / Credits.
     tagline_html = "\n      ".join(
-        f'<div class="{"author" if ln.lower().startswith("von ") else "subtitle"}">'
-        f"{esc(ln)}</div>"
-        for ln in (subtitle, credits) if ln
+        f'<div class="{cls}">{esc(ln)}</div>'
+        for cls, ln in (("subtitle", subtitle), ("author", credits)) if ln
     )
+
+    if head.get("contact"):
+        c = head["contact"]
+        tagline_html += (
+            f'\n      <div class="contact">'
+            f'<a href="mailto:{esc(c)}">{esc(c)}</a></div>'
+        )
 
     license_html = render_license(head.get("license", ""), head.get("link", ""))
 
@@ -457,6 +513,10 @@ def main() -> int:
         "{{EDITION_EN}}": edition_en(head.get("lang", "de")),
         "{{SUBTITLE}}": esc(subtitle),
         "{{AUTHOR}}": esc(credits),
+        "{{CONTACT}}": (
+            f'<div class="contact"><a href="mailto:{esc(head["contact"])}">'
+            f'{esc(head["contact"])}</a></div>' if head.get("contact") else ""
+        ),
         "{{EPIGRAPH_PLAIN}}": esc(epigraph_text),
         "{{SUBTITLE_EN}}": esc(head_en().get("subtitle", "")),
         "{{EPIGRAPH_EN}}": esc(head_en().get("epigraph", "")),
@@ -464,6 +524,7 @@ def main() -> int:
         "{{VERSION}}": esc(version),
         "{{BODY}}": body_html,
         "{{FOOTNOTES}}": notes_html,
+        "{{COMMENTS}}": render_comments(head.get("lang", "de")),
     }
     for k, v in repl.items():
         page = page.replace(k, v)

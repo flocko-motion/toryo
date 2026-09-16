@@ -83,6 +83,17 @@
     letter-spacing: 0.08em;
     color: var(--ink-mute);
   }
+  .contact {
+    margin-top: 0.25rem;
+    font-size: 0.78em;
+    letter-spacing: 0.06em;
+  }
+  .contact a {
+    color: var(--ink-mute);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .contact a:hover { color: var(--shu); border-bottom-color: var(--shu-soft); }
 
   /* ---------- Zweispaltig: links deutsch, rechts englisch ---------- */
   .bilingual {
@@ -207,6 +218,7 @@
         <span lang="de">{{SUBTITLE}}</span><span class="sep">·</span><span lang="en">{{SUBTITLE_EN}}</span>
       </div>
       <div class="author">{{AUTHOR}}</div>
+      {{CONTACT}}
     </header>
 
     <div class="bilingual epigraphs">

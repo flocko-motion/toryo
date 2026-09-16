@@ -1,6 +1,7 @@
 title: Tōryō (投了)
 subtitle: A Science Fiction Short Story
 author: by Florian Metzger-Noel, September 2026
+contact: toryo@fmnoel.de
 epigraph: 投了 — Tōryō (Japanese, from the game of Go): the laying down of the stones. The voluntary resignation of a player who recognises defeat long before it has been played out on the board.
 license: CC BY-SA 4.0
 link: https://www.fmnoel.de/toryo

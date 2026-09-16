@@ -3,3 +3,6 @@
 .worktrees/
 .todos/
 site/*.typ
+
+# macOS
+.DS_Store
