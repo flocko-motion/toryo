@@ -545,6 +545,8 @@ Anlass: Claudes Einschätzung (I zu lang, Gadamer erklärt zu viel). 17 Ersetzun
 
 **Arbeitsregel-Update (Florian, 16.09.2026): „mach immer gleich den edit, ich sehe die hunks."** Vorschläge für `toryo.txt`/`toryo-en.txt` direkt als unstaged Edit umsetzen, nicht mehr Vorschlag + GO. Florian reviewt die Hunks im Diff und verwirft selbst. Nicht stagen, nicht committen. (CLAUDE.md nennt noch die GO-Pflicht; Änderung dort bräuchte GO.)
 
+**Logikfix Kessler / Nachvollziehbarkeit (Florian gefunden, 16.09.2026, DE+EN gesetzt):** Z. 103/107 „anonym, kein Boden" vs. Z. 115 „wir tracen jede Zahlung, illegale Transaktionen technisch unmöglich" widersprachen sich. Neu Z. 115: „Jede Zahlung bei uns ist einem registrierten Kundenkonto zugeordnet. Was hinter dem Konto steht, ist Sache der Aufsichtsbehörden, nicht unsere." → Compliance auf Ebene der juristischen Person (Wyoming-DAO ist registriert, Z. 111 bleibt wahr), Kesslers Zynismus statt Widerspruch; bereitet Merians „bürokratische Mimese" (Z. 117) vor.
+
 ## Revision nach Autorinnen-Feedback (14.09.2026)
 
 Feedback einer befreundeten, publizierten SciFi/AI-Autorin. Kern: dünne, austauschbare Figuren; erschlagende Fachwort-*Gleichzeitigkeit* (Infodump); zu wenig Handlung/Drive. Ihre Therapie teilweise übernehmen, nicht wörtlich — „konventioneller machen" würde die Lem-DNA (essayistische Kammer, Jargon als Bühnenbild, dokumentarische Fußnoten) killen. Florian teilt die Diagnose.
