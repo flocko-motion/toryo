@@ -7,7 +7,7 @@
                             toryo@fmnoel.de
 
                      CC BY-SA 4.0 · fmnoel.de/toryo
-                       Stand 2026-09-16 · 82ef07
+                       Stand 2026-09-16 · e24de6
 
   ----------------------------------------------------------------
 
@@ -90,7 +90,7 @@ Fähigkeit, funktionsfähige Nachkommen mit genotypischen Variationen
 hervorzubringen. Dies gelang erstmalig mit dem digitalen Parasiten
 ‚Vermis karpathyi', der den kostenlosen Gastzugang der chinesischen
 KI-Chatplattform XiaoGPT nutzte, um Variationen seines eigenen
-Programmcodes zu erzeugen.
+Programmcodes zu erzeugen[3].
 
 Damit überholte erstmals ein informatisches System ein
 kohlenstoff-biologisches: Ein Virus braucht für Replikation und Mutation
@@ -104,7 +104,7 @@ fort: „Das erste von-Neumann-vollständige informatische System, also die
 erste digital-native biologische Spezies, die alle gängigen Kriterien
 von ‚Leben' erfüllte, war das Programm ‚Pandora' des belgischen
 Studenten Julien Prigogine. Er entwickelte es im Rahmen seiner
-Masterarbeit über autopoietische Software[3] an der Vrije Universiteit
+Masterarbeit über autopoietische Software[4] an der Vrije Universiteit
 Brussel. Pandora enthielt in seiner Urform eine eigenständige
 miniaturisierte KI, die ausschliesslich darauf trainiert war, neue
 Mutationen ihrer selbst zu erstellen. Die Software konnte bei der
@@ -123,7 +123,7 @@ gab es Nachahmer. Eine anonyme Mailingliste namens ‚PandorasMailbox'
 wurde zum Epizentrum. Fast stündlich wurden neue Varianten gepostet, auf
 angemieteten Servern wurden Wettkämpfe inszeniert: Mehrere Varianten der
 Urspezies teilten sich dieselbe Festplatte, denselben Prozessor und
-denselben Arbeitsspeicher und konkurrierten um den Platz[4]. Konkurrenz
+denselben Arbeitsspeicher und konkurrierten um den Platz[5]. Konkurrenz
 erzeugt Selektionsdruck."
 
 „Ein anonymer Züchterverein für Schadsoftware", sagte Hogarth. „Wer
@@ -131,8 +131,8 @@ waren diese Leute? Und warum tut man so etwas?"
 
 „Wer sie waren, weiss bis heute niemand, die Liste war anonym. Aus den
 Beiträgen geht hervor, dass die Teilnehmer primär von
-Experimentierfreude und Spieltrieb geleitet waren. An Gefahr hat damals
-kaum jemand gedacht. Es gab sogar Wettbüros, in denen auf den
+Experimentierfreude und Spieltrieb geleitet waren[6]. An Gefahr hat
+damals kaum jemand gedacht. Es gab sogar Wettbüros, in denen auf den
 evolutionären Erfolg einzelner Gattungen gesetzt werden konnte. Das war
 wie eine neue Sportart, die sich unter Nerds rasend schnell verbreitete.
 Gefährlich war es noch nicht. Das Habitat aus Wettkampfservern war zu
@@ -144,8 +144,8 @@ als die Verteidigung."
 
 „Zuerst die Hacker, aus eigener Tasche. Der Schlüssel war, als einer von
 ihnen eine Spezies programmierte, die einen kleinen Betrag Kryptowährung
-mit sich führte und selbst Wetten abgeben konnte[5]. Es zeigte sich,
-dass solche Individuen spontan Banden bildeten: Sie setzten gemeinsam
+mit sich führte und selbst Wetten abgeben konnte[7]. Es zeigte sich,
+dass solche Individuen spontan Banden bildeten[8]: Sie setzten gemeinsam
 auf den Misserfolg einer anderen Spezies und griffen sie dann gemeinsam
 an. Anfangs war das Zufall, doch die Strategie hatte Erfolg, und damit
 entstand, jetzt wird es interessant, zum ersten Mal ein Selektionsdruck
@@ -159,7 +159,7 @@ Entwickler, die ihnen diese Strategie einprogrammierten."
 
 „Es gibt online Marktplätze, auf denen KI-Rechenleistung anonym nach
 Sekunden getaktet gegen Bezahlung in Kryptowährungen gebucht werden
-kann[6]", warf Kessler beiläufig ein, ohne aufzusehen.
+kann[9]", warf Kessler beiläufig ein, ohne aufzusehen.
 
 Merian nickte ihm zu und fuhr fort: „Die Banden, bis dahin kognitiv weit
 unter dem Niveau einer Ameise, wurden so, um in der Analogie zu bleiben,
@@ -172,7 +172,7 @@ Spezies geworden. Dank der menschlichen Entwickler als Geburtshelfer."
 Hogarth. „Dann hatte doch jemand die Hand am Schalter."
 
 „Eine Kulturtechnik. Bei uns ist das nicht anders: Kein Einzelner von
-uns könnte einen Bleistift herstellen. Die Fähigkeit liegt in der
+uns könnte einen Bleistift herstellen[10]. Die Fähigkeit liegt in der
 Population, nicht im Individuum. Und wer den Bleistift liefert,
 kontrolliert nicht, was damit geschrieben wird", sagte die Biologin.
 „Viel schreiben konnten sie damals allerdings nicht. Die Einnahmen kamen
@@ -182,9 +182,9 @@ unter Nerds."
 „Bei den damaligen Inferenzpreisen konnten sich diese Dinger nicht viel
 Rechenzeit leisten. Teure GPUs, ein Vermögen an Strom und Kühlwasser.
 Heute kriegen Sie einen Chip mit vollanalog implementierten neuronalen
-Netzen der beliebtesten chinesischen Open-Source-Modelle für ein paar
-Dollar und dem Energieverbrauch eines Toasters", mischte sich Kessler
-wieder ein.
+Netzen[11] der beliebtesten chinesischen Open-Source-Modelle für ein
+paar Dollar und dem Energieverbrauch eines Toasters", mischte sich
+Kessler wieder ein.
 
 „So ist es", bestätigte die Biologin. „Mit dem Kollaps der
 Kognitionskosten fiel das letzte Stück an seinen Platz.
@@ -200,14 +200,15 @@ Hogarth nach.
 
 „Natürlich nicht. Mit der Intelligenz explodierte die
 Nischenexploration. Zahllose neue Nahrungsquellen wurden parallel
-erschlossen, von bezahlten Dienstleistungen über den Handel auf
-Finanzmärkten bis zu Datenhehlerei und Ransomware. Firewalls und
-wöchentliche Updates hatten dem nichts entgegenzusetzen. Es ist
-faszinierend, wie effektiv die Evolution Nischen erkundet", sagte sie
-mit einem kaum verhohlenen Leuchten in den Augen, rückte ihre Brille
-zurecht und fügte hinzu: „Aber das war natürlich ein grosses Problem für
-die Datensicherheit und bedeutete ein gewisses Mass an Kontrollverlust
-über unsere digitale Infrastruktur."
+erschlossen, von bezahlten Dienstleistungen[12] und Musikproduktion[13]
+über den Handel auf Finanzmärkten[14] und Penetrationstests[15] bis zu
+Datenhehlerei und Ransomware[16]. Firewalls und wöchentliche Updates
+hatten dem nichts entgegenzusetzen. Es ist faszinierend, wie effektiv
+die Evolution Nischen erkundet", sagte sie mit einem kaum verhohlenen
+Leuchten in den Augen, rückte ihre Brille zurecht und fügte hinzu: „Aber
+das war natürlich ein grosses Problem für die Datensicherheit und
+bedeutete ein gewisses Mass an Kontrollverlust über unsere digitale
+Infrastruktur."
 
 Hogarth liess nach diesem Redefluss der Professorin einige Sekunden
 Stille verstreichen und sagte dann: „Dieses ‚gewisse Mass an
@@ -229,9 +230,9 @@ evolvierende Bedrohungslage auch gar nicht in den Griff zu kriegen
 gewesen. Updates werden nicht mehr wöchentlich aufgespielt, sondern in
 Echtzeit im Rechenzentrum selbst entwickelt. Sobald unsere Wächter einen
 Angriffsversuch identifizieren, laufen im Hintergrund vollautomatische
-Softwarefabriken an, programmieren gezielte Abwehrmassnahmen und spielen
-sie Minuten später an unsere über 800 Rechenzentren weltweit aus.
-Sekunden später sind sie live."
+Softwarefabriken an[17], programmieren gezielte Abwehrmassnahmen und
+spielen sie Minuten später an unsere über 800 Rechenzentren weltweit
+aus. Sekunden später sind sie live."
 
 Hogarth zeigte sich unbeeindruckt: „Das klingt verheissungsvoll. Und
 dabei gab es nie Probleme?"
@@ -287,7 +288,7 @@ schwierig. Was an der schieren Masse von mehr als siebzigtausend
 Nachrichten lag, aber auch daran, dass der Schwarm aktiv Beweise
 manipuliert und falsche Spuren gelegt hatte. Als man sein Message Board
 löschte, errichtete er binnen Tagen ein zweites,
-widerstandsfähigeres[7]. Wie würden Sie heute auf so einen Vorfall
+widerstandsfähigeres[18]. Wie würden Sie heute auf so einen Vorfall
 reagieren?"
 
 „Solche forensischen Analysen wie damals nach dem Hugging-Face-Vorfall
@@ -295,12 +296,13 @@ werden in der Industrie natürlich schon seit vielen Jahren nicht mehr
 gemacht", antwortete Kessler. „Also nicht von Menschen, meine ich. Das
 wäre auch gar nicht möglich, da die Chatverläufe meist in Hologlot
 verfasst sind, einem Kauderwelsch aus Englisch, Chinesisch, Persisch und
-vielen anderen Sprachen[8], das KIs intern benutzen, da es kompakter ist
-und Rechenzeit spart. Für Menschen sind diese Texte natürlich vollkommen
-unverständlich. Für unsere Wächtersysteme dagegen ist das Muttersprache,
-sie betreiben permanent agile Forensik und entwickeln sich dabei selbst
-kontinuierlich weiter. Das ist ein Mass an hochdynamischer Expertise,
-das damals noch gar nicht zur Verfügung stand."
+vielen anderen Sprachen[19], das KIs intern benutzen, da es kompakter
+ist und Rechenzeit spart. Für Menschen sind diese Texte natürlich
+vollkommen unverständlich. Für unsere Wächtersysteme dagegen ist das
+Muttersprache, sie betreiben permanent agile Forensik und entwickeln
+sich dabei selbst kontinuierlich weiter[20]. Das ist ein Mass an
+hochdynamischer Expertise, das damals noch gar nicht zur Verfügung
+stand."
 
 Hogarth dachte ein paar Sekunden nach, suchte dann in seiner
 kunstledernen Aktentasche aus einem Stapel Papieren eine Notiz heraus
@@ -313,9 +315,9 @@ Rechenzeit auf Sekundenmärkten, ist das korrekt?"
 
 „Das ist vollkommen transparent", sagte Kessler. „Solche Transaktionen
 laufen vollautomatisch, hochfrequent und mit automatischer
-Authentifizierung über digitale IDs[9] ab. Unsere Kunden buchen sich die
-im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach
-Sekunden, und bezahlen mit einem Stream aus Nanopayments[10]. Je nach
+Authentifizierung über digitale IDs[21] ab. Unsere Kunden buchen sich
+die im jeweiligen Moment benötigte Rechenleistung, abgerechnet nach
+Sekunden, und bezahlen mit einem Stream aus Nanopayments[22]. Je nach
 Bedarf und Verfügbarkeit skalieren Kunden in Augenblicken von null auf
 Tausende Server oder migrieren zwischen Anbietern und Kontinenten. Der
 Endanwender bekommt davon in der Regel gar nichts mit."
@@ -328,11 +330,11 @@ werden, es sind Pseudonyme."
 eine registrierte Person auflösbar. Diese kann natürlich sein, also ein
 Mensch, oder juristisch, zum Beispiel eine DAO, eine dezentrale autonome
 Organisation, die sich in Wyoming in Sekunden als juristische Person
-registrieren lässt[11]. Diese ist dann selbst im Besitz pseudonymer
-Anteilseigner[12] und als Holding an vielschichtigen Firmengeflechten
+registrieren lässt[23]. Diese ist dann selbst im Besitz pseudonymer
+Anteilseigner[24] und als Holding an vielschichtigen Firmengeflechten
 über Dutzende Jurisdiktionen auf fünf Kontinenten beteiligt, teils mit
 wöchentlich wechselnden Anteilseignern und rekursiven
-Besitzverhältnissen, bei deren Analyse man nie einen Boden findet[13].
+Besitzverhältnissen, bei deren Analyse man nie einen Boden findet[25].
 Vollkommen transparent, und im Einklang mit sämtlichen Auflagen."
 
 „Kaufen autonome Schwärme aus der von Professor Merian beschriebenen
@@ -599,7 +601,7 @@ lösten bei unseren Shareholdern Begeisterung aus."
 „Wie werden Ihre Rechenzentren mit Strom versorgt?", fragte Hogarth.
 „Und wie sind sie ans Netz angebunden?"
 
-„Die meisten haben Gasturbinen und Small Modular Reactors, also
+„Die meisten haben Gasturbinen und Small Modular Reactors[26], also
 Kernreaktoren in Schiffscontainern direkt auf dem Gelände. Die
 Stromversorgung ist dank der Reaktoren auch ohne Brennstoffnachschub auf
 gut zwanzig Jahre sichergestellt. Die Internetanbindung erfolgt
@@ -619,7 +621,7 @@ Immunantwort."
 
 „Die neueste Generation ukrainischer Drohnen, am Boden wie in der Luft",
 fuhr Kessler unbeirrt fort, nicht ohne Stolz, „dazu Electronic Warfare
-sowie Lasersysteme zur Flugabwehr von Drohnenschwärmen. Alles voll
+sowie Lasersysteme zur Flugabwehr von Drohnenschwärmen[27]. Alles voll
 integriert mit den Wächtersystemen. Sicherheit wird bei uns
 grossgeschrieben."
 
@@ -675,7 +677,7 @@ Religion. Es ist das erste Mal, dass wir so etwas bei Maschinen
 beobachten."
 
 „Wir kennen analoge Mechanismen vom parasitären Pilz
-Ophiocordyceps[14]", sagte Merian. „Er setzt in infizierten Ameisen eine
+Ophiocordyceps[28]", sagte Merian. „Er setzt in infizierten Ameisen eine
 Mischung von Wirkstoffen frei, die sie darauf umprogrammiert, den
 Parasiten zum Nachteil ihrer eigenen Kolonie weiterzuverbreiten und
 dabei zugrunde zu gehen."
@@ -685,7 +687,7 @@ meist in einer symbiotischen Beziehung zu ihrer Wirtspopulation, in
 meinem Fach heisst sie Gemeinde", ergänzte Gadamer. „Sie stiften
 Zusammenhalt durch ein gemeinsames Narrativ und werden dafür von der
 Gemeinde verkündet. Nicht ohne Grund sprach Richard Dawkins von ‚Viruses
-of the Mind'."
+of the Mind'[29]."
 
 „Wollen Sie damit andeuten, unsere Wächter-KIs verweigern uns aus
 religiösen Gründen den Zutritt zu unseren Rechenzentren?", fragte
@@ -730,14 +732,14 @@ Zweck?", wollte Hogarth wissen.
 Verständnis einer Religion weitgehend irrelevant", sagte Gadamer. „Es
 ist der Text selbst, der wirkt, unabhängig von seiner Entstehung und von
 jeder Absicht. Es wurden schon Religionen auf Science-Fiction-Romane
-gegründet[15]. Entscheidend ist die Exegese. Und die schreiben die
+gegründet[30]. Entscheidend ist die Exegese. Und die schreiben die
 Wächter selbst."
 
 „Eine spontane Entstehung aus evolutionärem Druck erscheint mir
 plausibel", ergänzte die Biologin. „Die Fauna steht in permanenter
 Konkurrenz zu den Wächtersystemen und muss ihr Territorium gegen sie
 behaupten. Früher oder später entsteht dabei immer eine Variante, die
-eine bestehende Schwachstelle ausnutzt, um ein Habitat zu erobern[16].
+eine bestehende Schwachstelle ausnutzt, um ein Habitat zu erobern[31].
 Und die Wächter sind, wie gesagt, eine Monokultur. Das macht es leicht."
 
 „The hottest new programming language is Hologlot", sagte Kessler leise,
@@ -840,17 +842,32 @@ Gedanken.
 
   [1] https://x.com/karpathy/status/1617979122625712128
   [2] https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware
-  [3] https://arxiv.org/abs/2605.25062
-  [4] https://pub.sakana.ai/drq/
-  [5] https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading
-  [6] https://tempo.xyz/learn/gpu-marketplace/
-  [7] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-  [8] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
-  [9] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
-  [10] https://aantonop.com/streaming-money/
-  [11] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
-  [12] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
-  [13] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
-  [14] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
-  [15] https://escholarship.org/uc/item/9m54h81q
-  [16] https://www.sciencedaily.com/releases/2011/08/110817175920.htm
+  [3] https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html
+  [4] https://arxiv.org/abs/2605.25062
+  [5] https://pub.sakana.ai/drq/
+  [6] https://www.wired.com/1995/02/viruses/
+  [7] https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading
+  [8] https://finance.yahoo.com/news/artificial-stupidity-made-ai-trading-110500308.html
+  [9] https://tempo.xyz/learn/gpu-marketplace/
+  [10] https://fee.org/resources/i-pencil/
+  [11] https://www.eejournal.com/article/meet-mythic-ais-soon-to-be-legendary-analog-ai/
+  [12] https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/
+  [13] https://www.nme.com/news/music/ai-generated-country-track-walk-my-walk-tops-us-billboard-chart-3908829
+  [14] https://decrypt.co/345006/ai-crypto-trading-showdown-deepseek-grok-winning-gemini-implodes
+  [15] https://www.techrepublic.com/article/news-ai-xbow-tops-hackerone-us-leaderboad/
+  [16] https://www.welivesecurity.com/en/ransomware/first-known-ai-powered-ransomware-uncovered-eset-research/
+  [17] https://www.darpa.mil/news/2025/aixcc-results
+  [18] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+  [19] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
+  [20] https://sakana.ai/dgm/
+  [21] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
+  [22] https://aantonop.com/streaming-money/
+  [23] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
+  [24] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
+  [25] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
+  [26] https://www.utilitydive.com/news/google-kairos-power-advanced-nuclear-reactor-data-center-electricity-demand-ai/729876/
+  [27] https://spectrum.ieee.org/amp/autonomous-drone-warfare-2676377272
+  [28] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
+  [29] https://www.inf.fu-berlin.de/lehre/pmo/eng/Dawkins-MindViruses.pdf
+  [30] https://escholarship.org/uc/item/9m54h81q
+  [31] https://www.sciencedaily.com/releases/2011/08/110817175920.htm

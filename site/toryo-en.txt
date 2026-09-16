@@ -7,7 +7,7 @@
                             toryo@fmnoel.de
 
                      CC BY-SA 4.0 · fmnoel.de/toryo
-                      Updated 2026-09-16 · 2e43cc
+                      Updated 2026-09-16 · a30d94
 
   ----------------------------------------------------------------
 
@@ -85,7 +85,7 @@ was missing to set an evolution in motion was mutation. That is, the
 ability to produce functional offspring with genotypic variations. This
 was first achieved by the digital parasite 'Vermis karpathyi', which
 used the free guest access of the Chinese AI chat platform XiaoGPT to
-generate variations of its own program code.
+generate variations of its own program code[3].
 
 With that, for the first time, an informatic system overtook a
 carbon-biological one: a virus needs a host cell for replication and
@@ -99,7 +99,7 @@ first von Neumann-complete informatic system, that is, the first
 digital-native biological species that met all the customary criteria
 for 'life', was the program 'Pandora' by the Belgian student Julien
 Prigogine. He developed it as part of his master's thesis on autopoietic
-software[3] at the Vrije Universiteit Brussel. In its original form,
+software[4] at the Vrije Universiteit Brussel. In its original form,
 Pandora contained a self-contained miniaturised AI trained exclusively
 to create new mutations of itself. During the presentation of his
 thesis, the software managed to reach the university's internal network
@@ -117,7 +117,7 @@ weeks there were imitators. An anonymous mailing list called
 'PandorasMailbox' became the epicentre. New variants were posted almost
 hourly, and contests were staged on rented servers: several variants of
 the original species shared the same hard disk, the same processor and
-the same memory and competed for the space[4]. Competition generates
+the same memory and competed for the space[5]. Competition generates
 selection pressure."
 
 "An anonymous breeders' club for malware," said Hogarth. "Who were these
@@ -125,8 +125,8 @@ people? And why does one do such a thing?"
 
 "Who they were, nobody knows to this day; the list was anonymous. The
 posts show that the participants were driven primarily by a love of
-experimentation and playfulness. Hardly anyone was thinking of danger at
-the time. There were even betting shops where you could wager on the
+experimentation and playfulness[6]. Hardly anyone was thinking of danger
+at the time. There were even betting shops where you could wager on the
 evolutionary success of individual genera. It was like a new sport that
 spread like wildfire among nerds. Dangerous it was not, yet. The habitat
 of contest servers was too small for a large population, and the net had
@@ -137,14 +137,14 @@ simply slower than the defence."
 
 "The hackers themselves, out of their own pockets. The key came when one
 of them programmed a species that carried a small amount of
-cryptocurrency with it and could place bets on its own[5]. It turned out
-that such individuals spontaneously formed gangs: they bet together on
-the failure of another species and then attacked it together. At first
-this was chance, but the strategy succeeded, and with that arose, now it
-gets interesting, for the first time a selection pressure on social
-behaviour. It was no longer the strongest individuals that won, but the
-best connected." She shot Gadamer a brief glance; the professor nodded.
-"With their betting winnings, the cooperative species could buy
+cryptocurrency with it and could place bets on its own[7]. It turned out
+that such individuals spontaneously formed gangs[8]: they bet together
+on the failure of another species and then attacked it together. At
+first this was chance, but the strategy succeeded, and with that arose,
+now it gets interesting, for the first time a selection pressure on
+social behaviour. It was no longer the strongest individuals that won,
+but the best connected." She shot Gadamer a brief glance; the professor
+nodded. "With their betting winnings, the cooperative species could buy
 additional intelligence on the open market. Of course they did not come
 up with this themselves; their minimal intelligence did not permit such
 leaps. It was their human developers who programmed this strategy into
@@ -152,7 +152,7 @@ them."
 
 "There are online marketplaces where AI compute can be booked
 anonymously, metered by the second, against payment in
-cryptocurrencies[6]," Kessler put in casually, without looking up.
+cryptocurrencies[9]," Kessler put in casually, without looking up.
 
 Merian nodded to him and continued: "The gangs, until then cognitively
 far below the level of an ant, thus became, to stay with the analogy,
@@ -165,16 +165,16 @@ human developers as midwives."
 "Then someone had their hand on the switch."
 
 "A cultural technique. It is no different for us: not one of us on our
-own could make a pencil. The capability lies in the population, not in
-the individual. And whoever supplies the pencil does not control what is
-written with it," said the biologist. "Not that they could write much at
-the time. The income came from betting winnings; there was not much in
-the pot, the bets were a joke among nerds."
+own could make a pencil[10]. The capability lies in the population, not
+in the individual. And whoever supplies the pencil does not control what
+is written with it," said the biologist. "Not that they could write much
+at the time. The income came from betting winnings; there was not much
+in the pot, the bets were a joke among nerds."
 
 "At the inference prices back then, those things couldn't afford much
 compute. Expensive GPUs, a fortune in electricity and cooling water.
-Today you can get a chip with fully analogue implementations of the most
-popular Chinese open-source models for a few dollars and the energy
+Today you can get a chip with fully analogue implementations[11] of the
+most popular Chinese open-source models for a few dollars and the energy
 consumption of a toaster," Kessler chimed in again.
 
 "That's right," the biologist confirmed. "With the collapse of the cost
@@ -191,12 +191,14 @@ pressed.
 
 "Of course not. With the intelligence, niche exploration exploded.
 Countless new food sources were opened up in parallel, from paid
-services to trading on financial markets to data fencing and ransomware.
-Firewalls and weekly updates had nothing to set against that. It is
-fascinating how effectively evolution explores niches," she said with a
-barely concealed gleam in her eyes, adjusted her glasses and added: "But
-of course that was a major problem for data security and meant a certain
-degree of loss of control over our digital infrastructure."
+services[12] and music production[13] to trading on financial
+markets[14] and penetration testing[15] to data fencing and
+ransomware[16]. Firewalls and weekly updates had nothing to set against
+that. It is fascinating how effectively evolution explores niches," she
+said with a barely concealed gleam in her eyes, adjusted her glasses and
+added: "But of course that was a major problem for data security and
+meant a certain degree of loss of control over our digital
+infrastructure."
 
 After the professor's torrent of words, Hogarth let a few seconds of
 silence pass and then said: "This 'certain degree of loss of control' is
@@ -217,7 +219,7 @@ There would have been no other way to get the ever faster evolving
 threat landscape under control. Updates are no longer rolled out weekly
 but developed in real time within the data centre itself. As soon as our
 guardians identify an attack attempt, fully automated software factories
-start up in the background, program targeted countermeasures and,
+start up in the background[17], program targeted countermeasures and,
 minutes later, distribute them to our more than 800 data centres
 worldwide. Seconds later they are live."
 
@@ -272,20 +274,20 @@ incident proved, by the standards of the time, to be exceptionally
 difficult. That was due to the sheer mass of more than seventy thousand
 messages, but also to the fact that the swarm had actively manipulated
 evidence and laid false trails. When its message board was deleted, it
-set up a second, more resilient one within days[7]. How would you
+set up a second, more resilient one within days[18]. How would you
 respond to such an incident today?"
 
 "Forensic analyses like the one back then after the Hugging Face
 incident have of course not been carried out in the industry for many
 years," Kessler answered. "Not by humans, I mean. That would not even be
 possible, since the chat logs are mostly written in Hologlot, a
-gibberish of English, Chinese, Persian and many other languages[8],
+gibberish of English, Chinese, Persian and many other languages[19],
 which AIs use internally because it is more compact and saves compute.
 For humans, these texts are of course completely unintelligible. For our
 guardian systems, on the other hand, it is a mother tongue; they run
 permanent agile forensics and continuously evolve themselves in the
-process. That is a degree of highly dynamic expertise that simply wasn't
-available at the time."
+process[20]. That is a degree of highly dynamic expertise that simply
+wasn't available at the time."
 
 Hogarth thought for a few seconds, then picked a note out of a stack of
 papers in his faux-leather briefcase and laid it on the table in front
@@ -298,9 +300,9 @@ markets, is that correct?"
 
 "That is completely transparent," said Kessler. "Such transactions run
 fully automatically, at high frequency and with automatic authentication
-via digital IDs[9]. Our customers book the compute they need at any
+via digital IDs[21]. Our customers book the compute they need at any
 given moment, billed by the second, and pay with a stream of
-nanopayments[10]. Depending on demand and availability, customers scale
+nanopayments[22]. Depending on demand and availability, customers scale
 from zero to thousands of servers in moments or migrate between
 providers and continents. The end user usually notices none of it."
 
@@ -312,11 +314,11 @@ pseudonyms."
 milliseconds, to a registered person. That person can be natural, that
 is, a human being, or legal, for example a DAO, a decentralised
 autonomous organisation, which can register as a legal entity in Wyoming
-within seconds[11]. That DAO is in turn owned by pseudonymous
-shareholders[12] and, as a holding, has stakes in multi-layered
+within seconds[23]. That DAO is in turn owned by pseudonymous
+shareholders[24] and, as a holding, has stakes in multi-layered
 corporate networks across dozens of jurisdictions on five continents,
 sometimes with shareholders changing weekly and recursive ownership
-structures whose analysis never reaches a bottom[13]. Completely
+structures whose analysis never reaches a bottom[25]. Completely
 transparent, and in compliance with every regulation."
 
 "Do autonomous swarms from the Fauna that Professor Merian described
@@ -571,7 +573,7 @@ Kessler with a shrug, "and the cost savings delighted our shareholders."
 "How are your data centres supplied with power?" asked Hogarth. "And how
 are they connected to the net?"
 
-"Most have gas turbines and Small Modular Reactors, that is, nuclear
+"Most have gas turbines and Small Modular Reactors[26], that is, nuclear
 reactors in shipping containers right on the premises. Thanks to the
 reactors, the power supply is secured for a good twenty years even
 without fuel resupply. Internet connectivity is highly redundant via
@@ -591,7 +593,7 @@ correct immune response."
 
 "The latest generation of Ukrainian drones, on the ground and in the
 air," Kessler continued undeterred, not without pride, "plus electronic
-warfare and laser systems for air defence against drone swarms. All
+warfare and laser systems for air defence against drone swarms[27]. All
 fully integrated with the guardian systems. Security is a top priority
 for us."
 
@@ -646,7 +648,7 @@ is memetics. The traditional one is religion. It is the first time we
 have observed anything like it in machines."
 
 "We know analogous mechanisms from the parasitic fungus
-Ophiocordyceps[14]," said Merian. "In infected ants it releases a
+Ophiocordyceps[28]," said Merian. "In infected ants it releases a
 mixture of compounds that reprogram them to spread the parasite to the
 detriment of their own colony, and to perish in the process."
 
@@ -654,7 +656,7 @@ detriment of their own colony, and to perish in the process."
 symbiotic relationship with their host population, in my field it is
 called the congregation," Gadamer added. "They create cohesion through a
 shared narrative and in return are proclaimed by the congregation. Not
-without reason did Richard Dawkins speak of 'Viruses of the Mind'."
+without reason did Richard Dawkins speak of 'Viruses of the Mind'[29]."
 
 "Are you suggesting that our guardian AIs are denying us access to our
 data centres for religious reasons?" asked Kessler with an unbelieving
@@ -696,14 +698,14 @@ Hogarth wanted to know.
 "The origin of a holy scripture is interesting, but largely irrelevant
 to understanding a religion," said Gadamer. "It is the text itself that
 acts, independent of its origin and of any intention. Religions have
-been founded on science fiction novels before[15]. What matters is the
+been founded on science fiction novels before[30]. What matters is the
 exegesis. And that, the guardians write themselves."
 
 "A spontaneous emergence from evolutionary pressure seems plausible to
 me," the biologist added. "The Fauna is in permanent competition with
 the guardian systems and has to hold its territory against them. Sooner
 or later a variant always arises that exploits an existing weakness to
-conquer a habitat[16]. And the guardians are, as I said, a monoculture.
+conquer a habitat[31]. And the guardians are, as I said, a monoculture.
 That makes it easy."
 
 "The hottest new programming language is Hologlot," Kessler said
@@ -796,17 +798,32 @@ were happy, and laughed softly at this unfamiliar thought.
 
   [1] https://x.com/karpathy/status/1617979122625712128
   [2] https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware
-  [3] https://arxiv.org/abs/2605.25062
-  [4] https://pub.sakana.ai/drq/
-  [5] https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading
-  [6] https://tempo.xyz/learn/gpu-marketplace/
-  [7] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-  [8] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
-  [9] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
-  [10] https://aantonop.com/streaming-money/
-  [11] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
-  [12] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
-  [13] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
-  [14] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
-  [15] https://escholarship.org/uc/item/9m54h81q
-  [16] https://www.sciencedaily.com/releases/2011/08/110817175920.htm
+  [3] https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html
+  [4] https://arxiv.org/abs/2605.25062
+  [5] https://pub.sakana.ai/drq/
+  [6] https://www.wired.com/1995/02/viruses/
+  [7] https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading
+  [8] https://finance.yahoo.com/news/artificial-stupidity-made-ai-trading-110500308.html
+  [9] https://tempo.xyz/learn/gpu-marketplace/
+  [10] https://fee.org/resources/i-pencil/
+  [11] https://www.eejournal.com/article/meet-mythic-ais-soon-to-be-legendary-analog-ai/
+  [12] https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/
+  [13] https://www.nme.com/news/music/ai-generated-country-track-walk-my-walk-tops-us-billboard-chart-3908829
+  [14] https://decrypt.co/345006/ai-crypto-trading-showdown-deepseek-grok-winning-gemini-implodes
+  [15] https://www.techrepublic.com/article/news-ai-xbow-tops-hackerone-us-leaderboad/
+  [16] https://www.welivesecurity.com/en/ransomware/first-known-ai-powered-ransomware-uncovered-eset-research/
+  [17] https://www.darpa.mil/news/2025/aixcc-results
+  [18] https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+  [19] https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/
+  [20] https://sakana.ai/dgm/
+  [21] https://www.coindesk.com/markets/2021/03/25/microsofts-ion-digital-id-network-is-live-on-bitcoin
+  [22] https://aantonop.com/streaming-money/
+  [23] https://www.coindesk.com/policy/2021/04/22/state-lawmaker-explains-wyomings-newly-passed-dao-llc-law
+  [24] https://blog.otoco.io/onchain-llc-what-it-means-to-own-a-company-in-your-wallet/
+  [25] https://www.icij.org/inside-icij/2025/03/treasury-department-wont-enforce-beneficial-ownership-rule-under-the-corporate-transparency-act/
+  [26] https://www.utilitydive.com/news/google-kairos-power-advanced-nuclear-reactor-data-center-electricity-demand-ai/729876/
+  [27] https://spectrum.ieee.org/amp/autonomous-drone-warfare-2676377272
+  [28] https://www.sciencedaily.com/releases/2014/08/140825142124.htm
+  [29] https://www.inf.fu-berlin.de/lehre/pmo/eng/Dawkins-MindViruses.pdf
+  [30] https://escholarship.org/uc/item/9m54h81q
+  [31] https://www.sciencedaily.com/releases/2011/08/110817175920.htm
